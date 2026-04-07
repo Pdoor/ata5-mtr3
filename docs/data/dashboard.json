@@ -1,1 +1,150 @@
-{"comuni":{},"meta":{},"scadenze":{"termine_arera_mtr3":"2026-07-31","termine_ata_gestori":"2026-05-31","termine_ata_comuni":"2026-05-31"}}
+{
+  "comuni": {
+    "25": {
+      "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
+      "content_fingerprint": "8e64573ad8730a5150e3f79b698b40a762a3cdc9a8a12a5f16f1038b202e2385",
+      "last_scan": "2026-04-07T09:19:31.823610+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "received",
+          "current_hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "current_size": 3990511,
+          "file_count": 4,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+              "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+              "size": 3990511
+            },
+            {
+              "name": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+              "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+              "size": 307435
+            },
+            {
+              "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+              "hash": "008382d356e112127661b6bcc71baeb7c644df325588a6bc408b000186249d66",
+              "size": 230613
+            },
+            {
+              "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+              "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
+              "size": 260457
+            }
+          ],
+          "first_upload": "2026-04-07T09:19:31.823610+00:00",
+          "last_upload": "2026-04-07T09:19:31.823610+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T09:19:31.823610+00:00",
+              "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "path": "Pef Validato 2026/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+          "size": 3990511,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "path": "Pef Validato 2026/Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+          "size": 307435,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+          "path": "Pef Validato 2026/Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+          "hash": "008382d356e112127661b6bcc71baeb7c644df325588a6bc408b000186249d66",
+          "size": 230613,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+          "path": "Pef Validato 2026/Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+          "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
+          "size": 260457,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T09:19:31.823610+00:00",
+          "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Monteprandone",
+        "gestore": "Picenambiente",
+        "advisor": "CSEL",
+        "url": "https://drive.atarifiuti.ap.it/32oexo7tpupd",
+        "id": 25
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    }
+  },
+  "meta": {
+    "last_scan": "2026-04-07T09:19:31.823610+00:00",
+    "results": {
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
+      "errori": 0,
+      "vuoti": 0
+    },
+    "total_comuni": 33,
+    "scadenze": {
+      "termine_arera_mtr3": "2026-07-31",
+      "termine_ata_gestori": "2026-05-31",
+      "termine_ata_comuni": "2026-05-31"
+    },
+    "scan_in_progress": true
+  },
+  "scadenze": {
+    "termine_arera_mtr3": "2026-07-31",
+    "termine_ata_gestori": "2026-05-31",
+    "termine_ata_comuni": "2026-05-31"
+  }
+}
