@@ -1568,16 +1568,191 @@
       },
       "last_scan_error": false,
       "processabile": "no"
+    },
+    "27": {
+      "zip_hash": "c6aa1301f6f2c75d2345bb0816b6f2daba062f19f904b528e620f591af2c0da3",
+      "content_fingerprint": "72ed67f955b3eac3282e0e4489beda57fc30bf3c6808a95cc80c304b394d09eb",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+          "current_file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3987262,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+              "size": 3987262
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+              "file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+          "current_file": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+          "current_size": 347236,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+              "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+              "size": 347236
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+              "file": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "current_size": 195668,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+              "size": 195668
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+          "size": 3987262,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+          "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+          "size": 347236,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+          "size": 195668,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "c6aa1301f6f2c75d2345bb0816b6f2daba062f19f904b528e620f591af2c0da3",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Palmiano",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/1jtt30ncwd1x",
+        "id": 27
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "28": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Ripatransone",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/6fu3rb2xseri"
+      }
+    },
+    "29": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Roccafluvione",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/hi39rprd6y3"
+      }
+    },
+    "30": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Rotella",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/kpjfqcsu5pf"
+      }
     }
   },
   "meta": {
     "last_scan": "2026-04-07T10:52:45.015321+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 8,
+      "scansionati": 11,
+      "aggiornati": 9,
       "invariati": 2,
       "errori": 0,
-      "vuoti": 16
+      "vuoti": 19
     },
     "total_comuni": 33,
     "scadenze": {
