@@ -865,16 +865,216 @@
       },
       "last_scan_error": false,
       "processabile": "no"
+    },
+    "11": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Comunanza",
+        "gestore": "Soeco -> Ecofil",
+        "url": "https://drive.atarifiuti.ap.it/12jvbbmux0ln"
+      }
+    },
+    "12": {
+      "zip_hash": "1fa3ebd2d706e8fcfa10ed29223df2964eb5fa4f1ee8eddd372717bd0043dddb",
+      "content_fingerprint": "2184db5c87bb49ed2b32ded54f87496ebcbfa4bc9fb87e4bbdcdb513f138312d",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "55d3f9653bd4cbb8ee329c7996ea95ed2ee75e5289f119993bc6d2774c4f4c44",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3980332,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "55d3f9653bd4cbb8ee329c7996ea95ed2ee75e5289f119993bc6d2774c4f4c44",
+              "size": 3980332
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "55d3f9653bd4cbb8ee329c7996ea95ed2ee75e5289f119993bc6d2774c4f4c44",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "2ffbb6b760455708db1ca132396313bdbd75a108cac2c2cb7307cbefa2548e55",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
+          "current_size": 727279,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
+              "hash": "2ffbb6b760455708db1ca132396313bdbd75a108cac2c2cb7307cbefa2548e55",
+              "size": 727279
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "2ffbb6b760455708db1ca132396313bdbd75a108cac2c2cb7307cbefa2548e55",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "77ef31d125e29f570ceca1904e925cc2ee57a85f0e2377d706768ce9082c7553",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "current_size": 286522,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+              "hash": "77ef31d125e29f570ceca1904e925cc2ee57a85f0e2377d706768ce9082c7553",
+              "size": 286522
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "77ef31d125e29f570ceca1904e925cc2ee57a85f0e2377d706768ce9082c7553",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "55d3f9653bd4cbb8ee329c7996ea95ed2ee75e5289f119993bc6d2774c4f4c44",
+          "size": 3980332,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
+          "hash": "2ffbb6b760455708db1ca132396313bdbd75a108cac2c2cb7307cbefa2548e55",
+          "size": 727279,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "hash": "77ef31d125e29f570ceca1904e925cc2ee57a85f0e2377d706768ce9082c7553",
+          "size": 286522,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "documenti giustificativi.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/documenti giustificativi.rar",
+          "hash": "fe17e1d2eaabd438b570a7c14cc1169203741ddd7fcb654c8b51907c7cf647de",
+          "size": 5531443,
+          "doc_key": null,
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "1fa3ebd2d706e8fcfa10ed29223df2964eb5fa4f1ee8eddd372717bd0043dddb",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [
+        {
+          "name": "documenti giustificativi.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/documenti giustificativi.rar",
+          "source": "comune",
+          "size": 5531443
+        }
+      ],
+      "info": {
+        "comune": "Cossignano",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r",
+        "id": 12
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "13": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Cupra Marittima",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr"
+      }
+    },
+    "14": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Folignano",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/4ovv7a5f2dzk"
+      }
+    },
+    "15": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Force",
+        "gestore": "Force",
+        "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir"
+      }
     }
   },
   "meta": {
     "last_scan": "2026-04-07T10:52:45.015321+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 4,
+      "scansionati": 6,
+      "aggiornati": 5,
       "invariati": 1,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 9
     },
     "total_comuni": 33,
     "scadenze": {
