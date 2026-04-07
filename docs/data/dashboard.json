@@ -1109,7 +1109,7 @@
       }
     },
     "16": {
-      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan": "2026-04-07T11:52:00.391111+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1119,7 +1119,7 @@
       }
     },
     "17": {
-      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan": "2026-04-07T11:52:00.391111+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1129,7 +1129,7 @@
       }
     },
     "18": {
-      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan": "2026-04-07T11:52:00.391111+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1139,7 +1139,7 @@
       }
     },
     "19": {
-      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan": "2026-04-07T11:52:00.391111+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1149,7 +1149,7 @@
       }
     },
     "20": {
-      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan": "2026-04-07T11:52:00.391111+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1966,7 +1966,7 @@
       "aggiornati": 0,
       "invariati": 6,
       "errori": 0,
-      "vuoti": 9
+      "vuoti": 14
     },
     "total_comuni": 33,
     "scadenze": {
