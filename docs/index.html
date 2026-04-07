@@ -171,49 +171,42 @@ tbody tr:hover{background:var(--s2)}
 <div id="app"></div>
 <script>
 // ═══════════════════════════════════════════════════════════
-//  40 COMUNI — scheletro sempre visibile, JSON sovrapposto
+//  33 COMUNI — scheletro sempre visibile, JSON sovrapposto
 // ═══════════════════════════════════════════════════════════
 const COMUNI=[
-  {id:1, comune:"Altidona",                   gestore:"RIECO",             advisor:"NEOPA",url:"https://www.provincia.fm.it/drive/9v3mdoy6ti2"},
-  {id:2, comune:"Amandola",                   gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/7cfl6rwmfexi"},
-  {id:3, comune:"Belmonte Piceno",            gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/72j0e9z4772d"},
-  {id:4, comune:"Campofilone",                gestore:"RIECO",             advisor:"NEOPA",url:"https://www.provincia.fm.it/drive/61jpijnphm7e"},
-  {id:5, comune:"Falerone",                   gestore:"PIN.ECO",           advisor:"",    url:"https://www.provincia.fm.it/drive/71ma4xgfc4br"},
-  {id:6, comune:"Fermo",                      gestore:"ASITE SURL",        advisor:"",    url:"https://www.provincia.fm.it/drive/5kjjqgjp52bm"},
-  {id:7, comune:"Francavilla d'Ete",          gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/2vxelssno0pf"},
-  {id:8, comune:"Grottazzolina",              gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/3ahoqjicoqlx"},
-  {id:9, comune:"Lapedona",                   gestore:"SOECO→ECOINNOVA",   advisor:"",    url:"https://www.provincia.fm.it/drive/777cf7yak6om"},
-  {id:10,comune:"Magliano di Tenna",          gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/1vz0zkp2tqev"},
-  {id:11,comune:"Massa Fermana",              gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/1ev2qj0yvrx9"},
-  {id:12,comune:"Monsampietro Morico",        gestore:"PIN.ECO",           advisor:"",    url:"https://www.provincia.fm.it/drive/73nl638n4sp0"},
-  {id:13,comune:"Montappone",                 gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/396z4nzv4y99"},
-  {id:14,comune:"Monte Giberto",              gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/7fg582zhd3t5"},
-  {id:15,comune:"Monte Rinaldo",              gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/4pkotlmc0c79"},
-  {id:16,comune:"Monte San Pietrangeli",      gestore:"ECO ELPIDIENSE",    advisor:"",    url:"https://www.provincia.fm.it/drive/3f5d1ahwmas"},
-  {id:17,comune:"Monte Urano",                gestore:"ECO ELPIDIENSE",    advisor:"",    url:"https://www.provincia.fm.it/drive/4bfxoupe20oz"},
-  {id:18,comune:"Monte Vidon Combatte",       gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/dqu9khjlx77"},
-  {id:19,comune:"Monte Vidon Corrado",        gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6vl3xqxodq94"},
-  {id:20,comune:"Montefalcone Appennino",     gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6hcaeqftrsla"},
-  {id:21,comune:"Montefortino",               gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/5dwl3bv05h9x"},
-  {id:22,comune:"Montegiorgio",               gestore:"RIECO",             advisor:"",    url:"https://www.provincia.fm.it/drive/tlw4r2r9hau"},
-  {id:23,comune:"Montegranaro",               gestore:"TEKNEKO",           advisor:"",    url:"https://www.provincia.fm.it/drive/3gku6o5lz661"},
-  {id:24,comune:"Monteleone di Fermo",        gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/3e8e8w57qh10"},
-  {id:25,comune:"Montelparo",                 gestore:"SOECO→ECOINNOVA",   advisor:"",    url:"https://www.provincia.fm.it/drive/nypzmc5ct79"},
-  {id:26,comune:"Monterubbiano",              gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6o5i523jjoxk"},
-  {id:27,comune:"Montottone",                 gestore:"PIN.ECO",           advisor:"",    url:"https://www.provincia.fm.it/drive/71b5l2mf2m8z"},
-  {id:28,comune:"Moresco",                    gestore:"SOECO→ECOINNOVA",   advisor:"",    url:"https://www.provincia.fm.it/drive/7c7tieb5szm0"},
-  {id:29,comune:"Ortezzano",                  gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/7s5e5627fjs"},
-  {id:30,comune:"Pedaso",                     gestore:"RIECO",             advisor:"",    url:"https://www.provincia.fm.it/drive/47bsbtq69ims"},
-  {id:31,comune:"Petritoli",                  gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/7gyyk7h9omge"},
-  {id:32,comune:"Ponzano di Fermo",           gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/3739lu5r8gjy"},
-  {id:33,comune:"Porto San Giorgio",          gestore:"SGDS Multiservizi", advisor:"",    url:"https://www.provincia.fm.it/drive/4ze5yejrap67"},
-  {id:34,comune:"Porto Sant'Elpidio",         gestore:"ECO ELPIDIENSE",    advisor:"",    url:"https://www.provincia.fm.it/drive/ga22vc27tw6"},
-  {id:35,comune:"Rapagnano",                  gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6mqqhoebiss7"},
-  {id:36,comune:"Santa Vittoria in Matenano", gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/2ct8ban7t8x2"},
-  {id:37,comune:"Sant'Elpidio a Mare",        gestore:"IMPREGICO",         advisor:"",    url:"https://www.provincia.fm.it/drive/7fb7murgsuiw"},
-  {id:38,comune:"Servigliano",                gestore:"SERVIGLIANO",       advisor:"",    url:"https://www.provincia.fm.it/drive/2wwqssmufmhx"},
-  {id:39,comune:"Smerillo",                   gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/4gjc20z8zkch"},
-  {id:40,comune:"Torre San Patrizio",         gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6jwk5gepq0gw"},
+  {id:1, comune:"Acquasanta Terme", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/31vxgad4m5f4"},
+  {id:2, comune:"Acquaviva Picena", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/2d7j066ewobm"},
+  {id:3, comune:"Appignano del Tronto", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/40nen4anvbji"},
+  {id:4, comune:"Arquata del Tronto", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/4g5saz8wvr38"},
+  {id:5, comune:"Ascoli Piceno", gestore:"Ascoli Servizi Comunali Surl", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/6wyxwu6hv08g"},
+  {id:6, comune:"Carassai", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/fcu3h2oxyfg"},
+  {id:7, comune:"Castel di Lama", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/1xhgus68wjyq"},
+  {id:8, comune:"Castignano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/6grrc6lri5y2"},
+  {id:9, comune:"Castorano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/44vdw5enzlfl"},
+  {id:10, comune:"Colli del Tronto", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/4erjsosymi1a"},
+  {id:11, comune:"Comunanza", gestore:"Soeco -> Ecofil", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/12jvbbmux0ln"},
+  {id:12, comune:"Cossignano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/4tnw5kqz3z5r"},
+  {id:13, comune:"Cupra Marittima", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/2qudpjf8dcpr"},
+  {id:14, comune:"Folignano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/4ovv7a5f2dzk"},
+  {id:15, comune:"Force", gestore:"Force", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/6pdf2tr6iwir"},
+  {id:16, comune:"Grottammare", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/48cxe2jovjd6"},
+  {id:17, comune:"Maltignano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/5hlzt8h43rzh"},
+  {id:18, comune:"Massignano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/54cx0eyho8d7"},
+  {id:19, comune:"Monsampolo del Tronto", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/5hq88fqxu1de"},
+  {id:20, comune:"Montalto delle Marche", gestore:"La Splendente -> Ecofil", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/2swti7h6yfbe"},
+  {id:21, comune:"Montedinove", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/2gz5haf8wphh"},
+  {id:22, comune:"Montefiore dell'Aso", gestore:"La Splendente -> Ecofil", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/62u8dymude0p"},
+  {id:23, comune:"Montegallo", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/1b1trurpyqdq"},
+  {id:24, comune:"Montemonaco", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/5yfcar6bd5g9"},
+  {id:25, comune:"Monteprandone", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/32oexo7tpupd"},
+  {id:26, comune:"Offida", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/5ucvjuighfmo"},
+  {id:27, comune:"Palmiano", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/1jtt30ncwd1x"},
+  {id:28, comune:"Ripatransone", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/6fu3rb2xseri"},
+  {id:29, comune:"Roccafluvione", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/hi39rprd6y3"},
+  {id:30, comune:"Rotella", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/kpjfqcsu5pf"},
+  {id:31, comune:"San Benedetto del Tronto", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/1gz5q9rif938"},
+  {id:32, comune:"Spinetoli", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/57x5mtyjyoz3"},
+  {id:33, comune:"Venarotta", gestore:"Picenambiente", advisor:"CSEL", url:"https://drive.atarifiuti.ap.it/789myhtwbtjg"},
 ];
 
 const DOC_G=[
@@ -686,7 +679,7 @@ function render(){
       h("div",{className:"logo"},"A4"),
       h("div",null,
         h("div",{className:"hdr-t"},"ATA5 — Cruscotto MTR3"),
-        h("div",{className:"hdr-s"},"Biennio 2026-2027 · Provincia di Fermo · "+COMUNI.length+" comuni")
+        h("div",{className:"hdr-s"},"Annualità 2026 · Provincia di Ascoli Piceno · "+COMUNI.length+" comuni")
       )
     ),
     h("div",{style:{display:"flex",gap:"6px",flexWrap:"wrap"}},
@@ -718,7 +711,7 @@ function render(){
   // PROGRESS BAR (scan in corso)
   if(inProg){
     const done=(JDATA.meta.results?.scansionati||0)+(JDATA.meta.results?.errori||0);
-    const tot=JDATA.meta.total_comuni||40;
+    const tot=JDATA.meta.total_comuni||33;
     const pp=Math.round(done/tot*100);
     main.appendChild(h("div",{className:"prog-banner"},
       h("span",null,"Scansione in corso: "+done+"/"+tot+" comuni"),
@@ -791,7 +784,7 @@ function render(){
   // KPI
   const kg=h("div",{className:"kpi-g"});
   [
-    {l:"Comuni",      v:st.total,   c:"var(--blue)", s:"ATA5 Fermo"},
+    {l:"Comuni",      v:st.total,   c:"var(--blue)", s:"ATA5 Ascoli Piceno"},
     {l:"Completi",    v:st.comp,    c:"var(--green)",s:Math.round(st.comp/st.total*100)+"%"},
     {l:"Parziali",    v:st.parz,    c:"var(--yel)",  s:"in lavorazione"},
     {l:"Nessun doc",  v:st.vuoti,   c:"var(--red)",  s:"da sollecitare"},
