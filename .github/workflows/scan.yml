@@ -1,0 +1,81 @@
+name: Scansione Dataroom ATA5
+
+on:
+  # Ogni ora dalle 9:00 alle 20:00 ora italiana (CET = UTC+1)
+  # Adeguare a '0 7-18 * * *' quando scatta l'ora legale (CEST = UTC+2)
+  schedule:
+    - cron: '0 8-19 * * *'
+  # Manuale dal tab Actions
+  workflow_dispatch:
+    inputs:
+      comuni_filter:
+        description: 'Filtra per comune (vuoto = tutti)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+# Evita run paralleli: se uno scan è ancora in corso, il successivo aspetta
+concurrency:
+  group: scan-dataroom-ata5
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Setup ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Install dependencies
+        run: pip install selenium
+
+      - name: Decode credentials
+        run: |
+          mkdir -p data
+          echo "${{ secrets.CREDENTIALS_JSON }}" | base64 -d > data/credentials.json
+
+      - name: Configure git
+        run: |
+          git config user.name "ATA5 Scanner Bot"
+          git config user.email "scanner@ata5.local"
+
+      - name: Run scanner
+        run: python scripts/scanner.py --credentials data/credentials.json --output docs/data/dashboard.json --filter "${{ github.event.inputs.comuni_filter || '' }}"
+        env:
+          DISPLAY: ':99'
+          GITHUB_ACTIONS: 'true'
+
+      - name: Remove credentials
+        if: always()
+        run: rm -f data/credentials.json
+
+      - name: Commit finale (se rimaste modifiche non ancora pushate)
+        run: |
+          git add docs/data/dashboard.json
+          if git diff --cached --quiet; then
+            echo "Nessun cambiamento residuo."
+          else
+            TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
+            git commit -m "Scansione completata ${TIMESTAMP}"
+            git push
+          fi
