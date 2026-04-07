@@ -356,16 +356,525 @@
         "gestore": "Ascoli Servizi Comunali Surl",
         "url": "https://drive.atarifiuti.ap.it/6wyxwu6hv08g"
       }
+    },
+    "6": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Carassai",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/fcu3h2oxyfg"
+      }
+    },
+    "7": {
+      "zip_hash": "9de14c024b98a5bba9eaaa643c6535c6dd7f693d91d97b635130aeb0214917b8",
+      "content_fingerprint": "7c9789a06950c64caddb16a2ec088be71efff8a46804b3fbb6da5280bf5d1c6c",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+          "path": "Comune 2026/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+          "hash": "0249b8fdacb980247d6697a326c1aab11fbac587232d4e5e5c55d1fa24971fb9",
+          "size": 3980747,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+          "path": "Comune 2026/Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+          "hash": "04cd98fecb4df3c592f6627beb61e766ea41379c8e09845c136d4e37e518cd43",
+          "size": 34373,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Relazione SR sullo stato di attuazione interventi finanziati dal PNRR Rifiuti M2C.1.1 I 1.1 del 29.1.2026.pdf",
+          "path": "Comune 2026/Relazione SR sullo stato di attuazione interventi finanziati dal PNRR Rifiuti M2C.1.1 I 1.1 del 29.1.2026.pdf",
+          "hash": "99168248934d6474a920a618d2fc6a0d6fdebaa224bf0e0753f32ae9b6835913",
+          "size": 341729,
+          "doc_key": null,
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "9de14c024b98a5bba9eaaa643c6535c6dd7f693d91d97b635130aeb0214917b8",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+          "path": "Comune 2026/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+          "source": "comune",
+          "size": 3980747
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+          "path": "Comune 2026/Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+          "source": "comune",
+          "size": 34373
+        },
+        {
+          "name": "Relazione SR sullo stato di attuazione interventi finanziati dal PNRR Rifiuti M2C.1.1 I 1.1 del 29.1.2026.pdf",
+          "path": "Comune 2026/Relazione SR sullo stato di attuazione interventi finanziati dal PNRR Rifiuti M2C.1.1 I 1.1 del 29.1.2026.pdf",
+          "source": "comune",
+          "size": 341729
+        }
+      ],
+      "info": {
+        "comune": "Castel di Lama",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/1xhgus68wjyq",
+        "id": 7
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "8": {
+      "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
+      "content_fingerprint": "287ad6ea7de1ffc2d32b00c84f5a126000e4c76b35110e3706964c2a35fbf2dc",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "received",
+          "current_hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
+          "current_file": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3983247,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
+              "size": 3983247
+            },
+            {
+              "name": "Dichiarazione di veridicità-signed.pdf",
+              "hash": "115fd46889da4628bdc098fd84ccb614b7dbc709b24f6389bb30d72edd5fe56c",
+              "size": 671277
+            },
+            {
+              "name": "relazione castignano.pdf",
+              "hash": "6ea3ee07464e4f479a473cbd97d2771dbbb6dc19e0b4506dcb082cccd5a18df7",
+              "size": 815010
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
+              "file": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        }
+      },
+      "all_files": [
+        {
+          "name": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Pef Validato 2026/Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
+          "size": 3983247,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Dichiarazione di veridicità-signed.pdf",
+          "path": "Pef Validato 2026/Dichiarazione di veridicità-signed.pdf",
+          "hash": "115fd46889da4628bdc098fd84ccb614b7dbc709b24f6389bb30d72edd5fe56c",
+          "size": 671277,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "relazione castignano.pdf",
+          "path": "Pef Validato 2026/relazione castignano.pdf",
+          "hash": "6ea3ee07464e4f479a473cbd97d2771dbbb6dc19e0b4506dcb082cccd5a18df7",
+          "size": 815010,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Castignano",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/6grrc6lri5y2",
+        "id": 8
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "9": {
+      "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
+      "content_fingerprint": "d718dbb6d78ae2b7f47f0f13e4e818dd77a0c0cf43915a2f7d82a263201fcffb",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "f5c63f01b581800b6d1dfc40c821bf9ce3497170d559e42f268ebc16908b77b3",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+          "current_size": 3982402,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+              "hash": "f5c63f01b581800b6d1dfc40c821bf9ce3497170d559e42f268ebc16908b77b3",
+              "size": 3982402
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "f5c63f01b581800b6d1dfc40c821bf9ce3497170d559e42f268ebc16908b77b3",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "1f070e35d331d26a35a7ca70e85bfb500c4178009d229a6544df9069d23b3e98",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+          "current_size": 207122,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+              "hash": "1f070e35d331d26a35a7ca70e85bfb500c4178009d229a6544df9069d23b3e98",
+              "size": 207122
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "1f070e35d331d26a35a7ca70e85bfb500c4178009d229a6544df9069d23b3e98",
+              "file": "Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "220caf30ce75d7542affa244262277ee93fb074a640a218b14400b656afe293e",
+          "current_file": "Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+          "current_size": 181554,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+              "hash": "220caf30ce75d7542affa244262277ee93fb074a640a218b14400b656afe293e",
+              "size": 181554
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "220caf30ce75d7542affa244262277ee93fb074a640a218b14400b656afe293e",
+              "file": "Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+          "hash": "f5c63f01b581800b6d1dfc40c821bf9ce3497170d559e42f268ebc16908b77b3",
+          "size": 3982402,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+          "hash": "1f070e35d331d26a35a7ca70e85bfb500c4178009d229a6544df9069d23b3e98",
+          "size": 207122,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+          "hash": "220caf30ce75d7542affa244262277ee93fb074a640a218b14400b656afe293e",
+          "size": 181554,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Castorano",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/44vdw5enzlfl",
+        "id": 9
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "10": {
+      "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
+      "content_fingerprint": "4b0ebfdcdbda88aca4a8736d3f50d99945ed34fa73c9f09106c9e29ca7190551",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "103826745a66e47477e224ffb53e93c743e131742c2752a7a7d8614a7fca8af4",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
+          "current_size": 3981890,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
+              "hash": "103826745a66e47477e224ffb53e93c743e131742c2752a7a7d8614a7fca8af4",
+              "size": 3981890
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "103826745a66e47477e224ffb53e93c743e131742c2752a7a7d8614a7fca8af4",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "6b6eb1bd096084407869bfec860dcca41151784ee2a095be72da290aa981c285",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
+          "current_size": 281190,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
+              "hash": "6b6eb1bd096084407869bfec860dcca41151784ee2a095be72da290aa981c285",
+              "size": 281190
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "6b6eb1bd096084407869bfec860dcca41151784ee2a095be72da290aa981c285",
+              "file": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "016cf99546334f2fd24bc0960bf45372a5634593421272b9ad7445121c77ec41",
+          "current_file": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
+          "current_size": 31166,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
+              "hash": "016cf99546334f2fd24bc0960bf45372a5634593421272b9ad7445121c77ec41",
+              "size": 31166
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "016cf99546334f2fd24bc0960bf45372a5634593421272b9ad7445121c77ec41",
+              "file": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
+          "hash": "103826745a66e47477e224ffb53e93c743e131742c2752a7a7d8614a7fca8af4",
+          "size": 3981890,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
+          "hash": "6b6eb1bd096084407869bfec860dcca41151784ee2a095be72da290aa981c285",
+          "size": 281190,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
+          "hash": "016cf99546334f2fd24bc0960bf45372a5634593421272b9ad7445121c77ec41",
+          "size": 31166,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Colli del Tronto",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/4erjsosymi1a",
+        "id": 10
+      },
+      "last_scan_error": false,
+      "processabile": "no"
     }
   },
   "meta": {
     "last_scan": "2026-04-07T10:52:45.015321+00:00",
     "results": {
-      "scansionati": 1,
-      "aggiornati": 0,
+      "scansionati": 5,
+      "aggiornati": 4,
       "invariati": 1,
       "errori": 0,
-      "vuoti": 4
+      "vuoti": 5
     },
     "total_comuni": 33,
     "scadenze": {
