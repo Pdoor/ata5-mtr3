@@ -1065,6 +1065,56 @@
         "gestore": "Force",
         "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir"
       }
+    },
+    "16": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Grottammare",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6"
+      }
+    },
+    "17": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Maltignano",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh"
+      }
+    },
+    "18": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Massignano",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/54cx0eyho8d7"
+      }
+    },
+    "19": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Monsampolo del Tronto",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/5hq88fqxu1de"
+      }
+    },
+    "20": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Montalto delle Marche",
+        "gestore": "La Splendente -> Ecofil",
+        "url": "https://drive.atarifiuti.ap.it/2swti7h6yfbe"
+      }
     }
   },
   "meta": {
@@ -1074,7 +1124,7 @@
       "aggiornati": 5,
       "invariati": 1,
       "errori": 0,
-      "vuoti": 9
+      "vuoti": 14
     },
     "total_comuni": 33,
     "scadenze": {
