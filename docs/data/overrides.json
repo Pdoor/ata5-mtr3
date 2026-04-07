@@ -1,5 +1,11 @@
 {
-  "docs": {},
+  "docs": {
+    "25_pef_validato": {
+      "status": "missing",
+      "date": "2026-04-07",
+      "note": ""
+    }
+  },
   "scadenze": {},
-  "notes_encrypted": "QWlYIPjFhArwld+kRyFOMHK/LwZkIprceuxzQ5QY3+D03DyZjNJBLBfvFG2hEA7bSpCtpk75+WQlrcpVWqwvp3JsGaNc+0zG6hCc7E4pd5TUfclY6pbASd+B7NW7gWi3m/6YfZ8MgsNn+47W6MWY0Xs+YmuZzCNwR5fS7vYz9sBCXYXrEKzzmt4I9GST9XN0NtWU59SVtsm3GagoKx6w9uAXOsY7J/CK+HT2W2NnnO8JUSNUp1kDIgQYdkew12TlEI/Q3wwnumAfBt+NnTckIanLzD5jL29AHr4OVTptW1/tFrMEeG8prjd9391UHQEdLKkr4nDL20QlO04/vk5un8gmKPw4EmY3WSRaGtcvuqVLSsnw+U+KlA=="
+  "notes_encrypted": "ZMC8Vs3pX2d2a7EnjfyrtuDgHnICyXPjG7o8xRmfhuBEWqLtOhug1f3AeaqRFb95dAdwfhHm0t1Dix8hYTKa2e2Ku+QBoLcQ8Ia02Zu6ikRrEcGmwDuIZmA4LCbZ8ldhTGUwtxgIE/ue2pxFhR+HerEtMH+Qta4oXQO4jjXtcZSWlpEptk9WRl/BAya5PDjGz1OsRHsX1Aa7PH8ln74BRXjhPgt1VJNbBej6RmGNMNVBxG9ryq7auTE8a9k/tFRY6FqIqStmef/uOJsOFGU/trKDqilXW0qgqwgskD5fKt41cM+i/L7MMq2YGg6qsiDrWnUw7LVEwfczDar0tJGxND57lPd20K8ELPAC3p4Sw98eCFs95yZ3wQ=="
 }
