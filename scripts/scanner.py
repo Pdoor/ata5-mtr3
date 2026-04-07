@@ -242,8 +242,27 @@ MAX_RETRIES = 2          # Tentativi extra per ogni comune fallito
 PAGE_LOAD_TIMEOUT = 40   # Timeout caricamento pagina (secondi)
 
 
-def _wait_download_complete(download_dir, timeout=120, ignore=None):
-    """Aspetta che compaia un nuovo file .zip nella directory di download."""
+EMPTY_MARKERS = ("Nessun files in questa pagina", "No files in this page")
+
+
+def _page_is_empty(driver):
+    """True se la pagina mostra l'avviso 'Nessun files in questa pagina'."""
+    if driver is None:
+        return False
+    try:
+        src = driver.page_source
+        return any(m in src for m in EMPTY_MARKERS)
+    except Exception:
+        return False
+
+
+def _wait_download_complete(download_dir, timeout=120, ignore=None, driver=None):
+    """
+    Aspetta che compaia un nuovo file .zip nella directory di download.
+    Se `driver` è fornito, interrompe subito l'attesa quando la pagina
+    mostra 'Nessun files in questa pagina' (cartella vuota, nessun zip in arrivo),
+    restituendo la sentinella "EMPTY".
+    """
     ignore = ignore or set()
     start = time.time()
     while time.time() - start < timeout:
@@ -254,6 +273,10 @@ def _wait_download_complete(download_dir, timeout=120, ignore=None):
         if not crdowns and zips:
             time.sleep(1)
             return os.path.join(download_dir, zips[0])
+        # Short-circuit: se non ci sono download in corso e la pagina
+        # dichiara esplicitamente che non ci sono file, esci subito.
+        if not crdowns and _page_is_empty(driver):
+            return "EMPTY"
     return None
 
 
@@ -380,20 +403,23 @@ def download_zips(url, password, download_dir, timeout=120):
             time.sleep(3)
 
             # 2) se la sottocartella è vuota, skip
-            try:
-                if "Nessun files in questa pagina" in driver.page_source:
-                    log_debug(f"    Cartella '{label}' vuota")
-                    continue
-            except Exception:
-                pass
+            if _page_is_empty(driver):
+                log_debug(f"    Cartella '{label}' vuota (nessun file)")
+                continue
 
             # 3) clicca "Scarica tutto"
             if not _click_scarica_tutto(driver):
                 log_debug(f"    ERRORE: pulsante Scarica tutto non trovato in '{label}'")
                 continue
 
-            # 4) aspetta completamento download
-            zpath = _wait_download_complete(download_dir, timeout=timeout, ignore=already_present)
+            # 4) aspetta completamento download (short-circuit se la pagina
+            #    mostra 'Nessun files in questa pagina' dopo il click)
+            zpath = _wait_download_complete(
+                download_dir, timeout=timeout, ignore=already_present, driver=driver
+            )
+            if zpath == "EMPTY":
+                log_debug(f"    Cartella '{label}' vuota dopo click (skip senza attendere timeout)")
+                continue
             if not zpath:
                 log_debug(f"    ERRORE: timeout download '{label}'")
                 continue
