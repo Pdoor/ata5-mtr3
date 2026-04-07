@@ -342,7 +342,7 @@
       }
     },
     "5": {
-      "last_scan": "2026-04-07T09:46:49.391297+00:00",
+      "last_scan": "2026-04-07T10:24:21.376929+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -353,13 +353,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-04-07T09:46:49.391297+00:00",
+    "last_scan": "2026-04-07T10:24:21.376929+00:00",
     "results": {
-      "scansionati": 1,
-      "aggiornati": 1,
+      "scansionati": 0,
+      "aggiornati": 0,
       "invariati": 0,
       "errori": 0,
-      "vuoti": 4
+      "vuoti": 1
     },
     "total_comuni": 33,
     "scadenze": {
