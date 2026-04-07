@@ -3,8 +3,8 @@
     "25": {
       "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
       "content_fingerprint": "8e64573ad8730a5150e3f79b698b40a762a3cdc9a8a12a5f16f1038b202e2385",
-      "last_scan": "2026-04-07T09:19:31.823610+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -111,13 +111,19 @@
           "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
       "info": {
         "comune": "Monteprandone",
         "gestore": "Picenambiente",
-        "advisor": "CSEL",
+        "advisor": "",
         "url": "https://drive.atarifiuti.ap.it/32oexo7tpupd",
         "id": 25
       },
@@ -1115,16 +1121,463 @@
         "gestore": "La Splendente -> Ecofil",
         "url": "https://drive.atarifiuti.ap.it/2swti7h6yfbe"
       }
+    },
+    "21": {
+      "zip_hash": "5cd81cd45ecfb8b23961528586ebe4bab4c1c94a0805e7a76e7d689b4049f385",
+      "content_fingerprint": "d80548fe8d16416ca1df894f9af8b1bd464dc0c880ead9b3ed1035f0c2d4ff44",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "received",
+          "current_hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3981013,
+          "file_count": 4,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+              "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+              "size": 281111
+            },
+            {
+              "name": "Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
+              "hash": "f715c7cbcfd69d742907f052735f570e9d7c39b575721c5e04e7530dbdf5d111",
+              "size": 15342
+            },
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+              "size": 3981013
+            },
+            {
+              "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+              "hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
+              "size": 37920
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "path": "Pef Validato 2026/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+          "size": 281111,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
+          "path": "Pef Validato 2026/Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
+          "hash": "f715c7cbcfd69d742907f052735f570e9d7c39b575721c5e04e7530dbdf5d111",
+          "size": 15342,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Pef Validato 2026/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+          "size": 3981013,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "path": "Pef Validato 2026/Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
+          "size": 37920,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "5cd81cd45ecfb8b23961528586ebe4bab4c1c94a0805e7a76e7d689b4049f385",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Montedinove",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/2gz5haf8wphh",
+        "id": 21
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "22": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Montefiore dell'Aso",
+        "gestore": "La Splendente -> Ecofil",
+        "url": "https://drive.atarifiuti.ap.it/62u8dymude0p"
+      }
+    },
+    "23": {
+      "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
+      "content_fingerprint": "3b26c25a9e838be4860e0086d2eef8edd3de45d8186085db7b645de7b6e0b4be",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "2cd1e8ceb8268e8caf98043977c8489019da14a5370953fce684be7f71a0d186",
+          "current_file": "Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3981596,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "2cd1e8ceb8268e8caf98043977c8489019da14a5370953fce684be7f71a0d186",
+              "size": 3981596
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "2cd1e8ceb8268e8caf98043977c8489019da14a5370953fce684be7f71a0d186",
+              "file": "Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "70a460ac86ef89df1e96840c09eba1d23a282b8093707024da492b6512892d4a",
+          "current_file": "Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+          "current_size": 664804,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+              "hash": "70a460ac86ef89df1e96840c09eba1d23a282b8093707024da492b6512892d4a",
+              "size": 664804
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "70a460ac86ef89df1e96840c09eba1d23a282b8093707024da492b6512892d4a",
+              "file": "Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "e58cc281217951bd0ea990cf5fcf62aa969cc3b944779f413e4b041a7ed11f68",
+          "current_file": "Dichiarazione di veridicita_signed.pdf",
+          "current_size": 523920,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione di veridicita_signed.pdf",
+              "hash": "e58cc281217951bd0ea990cf5fcf62aa969cc3b944779f413e4b041a7ed11f68",
+              "size": 523920
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "e58cc281217951bd0ea990cf5fcf62aa969cc3b944779f413e4b041a7ed11f68",
+              "file": "Dichiarazione di veridicita_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "2cd1e8ceb8268e8caf98043977c8489019da14a5370953fce684be7f71a0d186",
+          "size": 3981596,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+          "hash": "70a460ac86ef89df1e96840c09eba1d23a282b8093707024da492b6512892d4a",
+          "size": 664804,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di veridicita_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di veridicita_signed.pdf",
+          "hash": "e58cc281217951bd0ea990cf5fcf62aa969cc3b944779f413e4b041a7ed11f68",
+          "size": 523920,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Montegallo",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/1b1trurpyqdq",
+        "id": 23
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "24": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Montemonaco",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/5yfcar6bd5g9"
+      }
+    },
+    "26": {
+      "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
+      "content_fingerprint": "4dcee61548f2bde96221dcd737f1b287133a279cb53bdc8b10e49d8abb8d8125",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "b36200ed246b202ee2fd385696fbc684f1c4e19f84320065cb78e0ed6b462032",
+          "current_file": "OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+          "current_size": 3981313,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+              "hash": "b36200ed246b202ee2fd385696fbc684f1c4e19f84320065cb78e0ed6b462032",
+              "size": 3981313
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "b36200ed246b202ee2fd385696fbc684f1c4e19f84320065cb78e0ed6b462032",
+              "file": "OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "95b87217333dc2bae02096d7d1d058b397000daa04b1705b691c8d49a237550f",
+          "current_file": "RELAZIONE PEF 2026.pdf.p7m",
+          "current_size": 352863,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE PEF 2026.pdf.p7m",
+              "hash": "95b87217333dc2bae02096d7d1d058b397000daa04b1705b691c8d49a237550f",
+              "size": 352863
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "95b87217333dc2bae02096d7d1d058b397000daa04b1705b691c8d49a237550f",
+              "file": "RELAZIONE PEF 2026.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "1688498654bafb53bc86f964809e6029954e6afb1856684933ff8b4ef963495e",
+          "current_file": "C. I. MASSA.pdf",
+          "current_size": 491552,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Dichiarazione di veridicità pef.pdf.p7m",
+              "hash": "de6bf1f7407d1dbb7b5ff1a953b0ad34c0a5aa9fd2508cdd5910223f738a0d4a",
+              "size": 155819
+            },
+            {
+              "name": "C. I. MASSA.pdf",
+              "hash": "1688498654bafb53bc86f964809e6029954e6afb1856684933ff8b4ef963495e",
+              "size": 491552
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "1688498654bafb53bc86f964809e6029954e6afb1856684933ff8b4ef963495e",
+              "file": "C. I. MASSA.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+          "hash": "b36200ed246b202ee2fd385696fbc684f1c4e19f84320065cb78e0ed6b462032",
+          "size": 3981313,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE PEF 2026.pdf.p7m",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF 2026.pdf.p7m",
+          "hash": "95b87217333dc2bae02096d7d1d058b397000daa04b1705b691c8d49a237550f",
+          "size": 352863,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di veridicità pef.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità pef.pdf.p7m",
+          "hash": "de6bf1f7407d1dbb7b5ff1a953b0ad34c0a5aa9fd2508cdd5910223f738a0d4a",
+          "size": 155819,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "C. I. MASSA.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/C. I. MASSA.pdf",
+          "hash": "1688498654bafb53bc86f964809e6029954e6afb1856684933ff8b4ef963495e",
+          "size": 491552,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Offida",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/5ucvjuighfmo",
+        "id": 26
+      },
+      "last_scan_error": false,
+      "processabile": "no"
     }
   },
   "meta": {
     "last_scan": "2026-04-07T10:52:45.015321+00:00",
     "results": {
-      "scansionati": 6,
-      "aggiornati": 5,
-      "invariati": 1,
+      "scansionati": 10,
+      "aggiornati": 8,
+      "invariati": 2,
       "errori": 0,
-      "vuoti": 14
+      "vuoti": 16
     },
     "total_comuni": 33,
     "scadenze": {
