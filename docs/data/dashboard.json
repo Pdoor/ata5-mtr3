@@ -1743,16 +1743,194 @@
         "gestore": "Picenambiente",
         "url": "https://drive.atarifiuti.ap.it/kpjfqcsu5pf"
       }
+    },
+    "31": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "San Benedetto del Tronto",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938"
+      }
+    },
+    "32": {
+      "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+      "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
+          "current_size": 3978594,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
+              "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
+              "size": 3978594
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
+          "current_size": 239742,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
+              "hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
+              "size": 239742
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
+          "current_file": "DOCUMENTO SINDACO.pdf",
+          "current_size": 8210218,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
+              "hash": "7e89b26584dc5d300dfb938f2b7b68b5f0e9eba2c4f39d7a54b622501e746343",
+              "size": 73965
+            },
+            {
+              "name": "DOCUMENTO SINDACO.pdf",
+              "hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
+              "size": 8210218
+            }
+          ],
+          "first_upload": "2026-04-07T10:52:45.015321+00:00",
+          "last_upload": "2026-04-07T10:52:45.015321+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-07T10:52:45.015321+00:00",
+              "hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
+              "file": "DOCUMENTO SINDACO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
+          "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
+          "size": 3978594,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
+          "hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
+          "size": 239742,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
+          "hash": "7e89b26584dc5d300dfb938f2b7b68b5f0e9eba2c4f39d7a54b622501e746343",
+          "size": 73965,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "DOCUMENTO SINDACO.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/DOCUMENTO SINDACO.pdf",
+          "hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
+          "size": 8210218,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-07T10:52:45.015321+00:00",
+          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Spinetoli",
+        "gestore": "Picenambiente",
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3",
+        "id": 32
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "33": {
+      "last_scan": "2026-04-07T10:52:45.015321+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Venarotta",
+        "gestore": "Picenambiente",
+        "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg"
+      }
     }
   },
   "meta": {
     "last_scan": "2026-04-07T10:52:45.015321+00:00",
     "results": {
-      "scansionati": 11,
-      "aggiornati": 9,
+      "scansionati": 12,
+      "aggiornati": 10,
       "invariati": 2,
       "errori": 0,
-      "vuoti": 19
+      "vuoti": 21
     },
     "total_comuni": 33,
     "scadenze": {
