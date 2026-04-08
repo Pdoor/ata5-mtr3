@@ -1,10 +1,10 @@
 {
   "comuni": {
     "25": {
-      "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
-      "content_fingerprint": "8e64573ad8730a5150e3f79b698b40a762a3cdc9a8a12a5f16f1038b202e2385",
-      "last_scan": "2026-04-08T10:11:01.890324+00:00",
-      "zip_changed": false,
+      "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
+      "content_fingerprint": "176e82a63071d48d6e3245729f9641974ae081e015c6dcca593414b9e3091b11",
+      "last_scan": "2026-04-08T11:52:41.566992+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -19,19 +19,95 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "current_size": 3990511,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+              "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+              "size": 3990511
+            }
+          ],
+          "first_upload": "2026-04-08T11:52:41.566992+00:00",
+          "last_upload": "2026-04-08T11:52:41.566992+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
+          "current_file": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+          "current_size": 260457,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+              "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
+              "size": 260457
+            }
+          ],
+          "first_upload": "2026-04-08T11:52:41.566992+00:00",
+          "last_upload": "2026-04-08T11:52:41.566992+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
+              "file": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+          "current_file": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "current_size": 307435,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+              "hash": "008382d356e112127661b6bcc71baeb7c644df325588a6bc408b000186249d66",
+              "size": 230613
+            },
+            {
+              "name": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+              "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+              "size": 307435
+            },
+            {
+              "name": "Dichiarazione di Veridicità 12.03.2026.pdf",
+              "hash": "87bf30129eb9e8a1543ca60b27ec361442faed08df7dd4c39bbed1dffec39650",
+              "size": 227816
+            }
+          ],
+          "first_upload": "2026-04-08T11:52:41.566992+00:00",
+          "last_upload": "2026-04-08T11:52:41.566992+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+              "file": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
           "current_size": 3990511,
@@ -67,42 +143,57 @@
               "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-04-08T11:52:41.566992+00:00"
         }
       },
       "all_files": [
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
-          "path": "Pef Validato 2026/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
           "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
           "size": 3990511,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
-          "path": "Pef Validato 2026/Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
-          "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
-          "size": 307435,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
-          "path": "Pef Validato 2026/Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
-          "hash": "008382d356e112127661b6bcc71baeb7c644df325588a6bc408b000186249d66",
-          "size": 230613,
-          "doc_key": "pef_validato",
-          "source": "ata5"
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
         },
         {
           "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
-          "path": "Pef Validato 2026/Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
           "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
           "size": 260457,
-          "doc_key": "pef_validato",
-          "source": "ata5"
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+          "hash": "008382d356e112127661b6bcc71baeb7c644df325588a6bc408b000186249d66",
+          "size": 230613,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+          "size": 307435,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 12.03.2026.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 12.03.2026.pdf",
+          "hash": "87bf30129eb9e8a1543ca60b27ec361442faed08df7dd4c39bbed1dffec39650",
+          "size": 227816,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -171,6 +262,12 @@
           "zip_hash": "d73f9e8d4f78b3718eee13af338a991ed40c11f1ed80ca7f8114ed97661ca3e4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-08T11:52:41.566992+00:00",
+          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
+          "changed": true,
+          "file_count": 5
         }
       ],
       "unclassified_files": [],
@@ -1715,10 +1812,10 @@
       }
     },
     "21": {
-      "zip_hash": "5cd81cd45ecfb8b23961528586ebe4bab4c1c94a0805e7a76e7d689b4049f385",
-      "content_fingerprint": "d80548fe8d16416ca1df894f9af8b1bd464dc0c880ead9b3ed1035f0c2d4ff44",
-      "last_scan": "2026-04-08T10:11:01.890324+00:00",
-      "zip_changed": false,
+      "zip_hash": "5ae2ebb3312a29fd803b3bc292cb58eef44edfa16cad2075cbec1a11bd16b697",
+      "content_fingerprint": "296a097b866ecd6ecaeafb2fb320edbee62f5aead65580544f19194fd562242b",
+      "last_scan": "2026-04-08T11:52:41.566992+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -1733,19 +1830,85 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3981013,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+              "size": 3981013
+            }
+          ],
+          "first_upload": "2026-04-08T11:52:41.566992+00:00",
+          "last_upload": "2026-04-08T11:52:41.566992+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
+          "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "current_size": 37920,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+              "hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
+              "size": 37920
+            }
+          ],
+          "first_upload": "2026-04-08T11:52:41.566992+00:00",
+          "last_upload": "2026-04-08T11:52:41.566992+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
+              "file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "current_size": 281111,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+              "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+              "size": 281111
+            }
+          ],
+          "first_upload": "2026-04-08T11:52:41.566992+00:00",
+          "last_upload": "2026-04-08T11:52:41.566992+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 3981013,
@@ -1781,42 +1944,41 @@
               "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-04-08T11:52:41.566992+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-04-08T11:52:41.566992+00:00"
         }
       },
       "all_files": [
         {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
-          "path": "Pef Validato 2026/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
-          "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
-          "size": 281111,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
-          "path": "Pef Validato 2026/Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
-          "hash": "f715c7cbcfd69d742907f052735f570e9d7c39b575721c5e04e7530dbdf5d111",
-          "size": 15342,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "path": "Pef Validato 2026/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
           "size": 3981013,
-          "doc_key": "pef_validato",
-          "source": "ata5"
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
         },
         {
           "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
-          "path": "Pef Validato 2026/Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
           "hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
           "size": 37920,
-          "doc_key": "pef_validato",
-          "source": "ata5"
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+          "size": 281111,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -1879,6 +2041,12 @@
           "zip_hash": "5cd81cd45ecfb8b23961528586ebe4bab4c1c94a0805e7a76e7d689b4049f385",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-08T11:52:41.566992+00:00",
+          "zip_hash": "5ae2ebb3312a29fd803b3bc292cb58eef44edfa16cad2075cbec1a11bd16b697",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -1893,7 +2061,7 @@
       "processabile": "no"
     },
     "22": {
-      "last_scan": "2026-04-08T10:11:01.890324+00:00",
+      "last_scan": "2026-04-08T11:52:41.566992+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1905,7 +2073,7 @@
     "23": {
       "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
       "content_fingerprint": "3b26c25a9e838be4860e0086d2eef8edd3de45d8186085db7b645de7b6e0b4be",
-      "last_scan": "2026-04-08T10:11:01.890324+00:00",
+      "last_scan": "2026-04-08T11:52:41.566992+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2088,6 +2256,12 @@
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-08T11:52:41.566992+00:00",
+          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -2102,7 +2276,7 @@
       "processabile": "no"
     },
     "24": {
-      "last_scan": "2026-04-08T10:11:01.890324+00:00",
+      "last_scan": "2026-04-08T11:52:41.566992+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2777,11 +2951,11 @@
   "meta": {
     "last_scan": "2026-04-08T11:52:41.566992+00:00",
     "results": {
-      "scansionati": 7,
-      "aggiornati": 0,
-      "invariati": 7,
+      "scansionati": 10,
+      "aggiornati": 2,
+      "invariati": 8,
       "errori": 0,
-      "vuoti": 13
+      "vuoti": 15
     },
     "total_comuni": 33,
     "scadenze": {
