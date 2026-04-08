@@ -339,6 +339,15 @@ function _getNotes(id){
   // ONLINE vince se presente, altrimenti LOCAL
   return Array.isArray(online)&&online.length?online:Array.isArray(local)&&local.length?local:[];
 }
+// Ricerca ricorsiva nel testo delle note (incluse children). q già lowercase.
+function _noteTextMatches(notes,q){
+  if(!Array.isArray(notes))return false;
+  for(const n of notes){
+    if(n&&typeof n.text==="string"&&n.text.toLowerCase().includes(q))return true;
+    if(n&&Array.isArray(n.children)&&_noteTextMatches(n.children,q))return true;
+  }
+  return false;
+}
 
 function jsProcessabilita(s){
   if(!s?.docs)return null;
@@ -641,7 +650,14 @@ function pct(s){if(!s)return 0;return Math.round(DOC_MANDATORY.filter(d=>getDocS
 function getGestori(){return[...new Set(COMUNI.map(c=>c.gestore))].sort()}
 function getFiltered(){
   return COMUNI.filter(c=>{
-    if(search&&!c.comune.toLowerCase().includes(search.toLowerCase())&&!c.gestore.toLowerCase().includes(search.toLowerCase()))return false;
+    if(search){
+      const _q=search.toLowerCase();
+      const _inC=c.comune.toLowerCase().includes(_q);
+      const _inG=c.gestore.toLowerCase().includes(_q);
+      // Nelle note si cerca solo se già decifrate in RAM (o comunque disponibili in LOCAL_NOTES)
+      const _inN=!_inC&&!_inG?_noteTextMatches(_getNotes(c.id),_q):false;
+      if(!_inC&&!_inG&&!_inN)return false;
+    }
     if(fGest!=="all"&&c.gestore!==fGest)return false;
     const s=getEffectiveState(c.id),p=pct(s);
     if(fStat==="completo"&&p<100)return false;
@@ -654,7 +670,15 @@ function getFiltered(){
     if(fStat==="wfstart"&&getWorkflowProgress(s)===0)return false;
     if(fStat==="wfpending"){const _p=getWorkflowProgress(s);if(_p===0||_p===WORKFLOW_STEPS.length)return false;}
     if(fStat==="wfdelib"&&getWorkflowProgress(s)!==WORKFLOW_STEPS.length)return false;
-    if(fStat==="odko"){const hasReceived=s&&ALL_DOCS.some(d=>getDocSt(s,d.key).status==="received");if(!hasReceived||s?.cart_ondrive===true)return false;}
+    if(fStat==="odko"){
+      // "Disponibile su ONEDRIVE": mostra i comuni marcati su OneDrive, sia via checkbox OD
+      // sia tramite Fase 1 del Workflow validazione PEF (pef_grezzi_od) con data valorizzata.
+      const _onOd=s?.cart_ondrive===true;
+      const _stepOD=WORKFLOW_STEPS.find(st=>st.key==="pef_grezzi_od");
+      const _wOD=_stepOD?getWorkflowStep(s,_stepOD):null;
+      const _wfDone=!!(_wOD&&_wOD.date);
+      if(!_onOd&&!_wfDone)return false;
+    }
     return true;
   });
 }
@@ -849,20 +873,26 @@ function render(){
   main.appendChild(kg);
 
   // FILTRI
-  const si=h("input",{className:"fi",placeholder:"Cerca comune o gestore…",value:search,style:{width:"240px"},onInput:e=>{
+  const si=h("input",{className:"fi",placeholder:"Cerca comune, gestore o testo nota…",value:search,style:{width:"260px"},onInput:e=>{
     search=e.target.value;
     const sel=e.target.selectionStart;
     render();
     const inp=document.querySelector('input.fi');
     if(inp){inp.focus();try{inp.setSelectionRange(sel,sel);}catch(x){}}
   }});
+  // Hint: note ancora cifrate -> ricerca testo non disponibile
+  const _searchLocked=!!(search&&_encNotesRaw&&!_notesKey);
+  const siWrap=h("div",{style:{display:"flex",flexDirection:"column",gap:"2px"}},
+    si,
+    _searchLocked?h("span",{style:{fontSize:"9px",color:"var(--yd)",fontStyle:"italic"}},"🔒 Sblocca la dataroom per cercare anche nel testo delle note cifrate"):null
+  );
   const gs=h("select",{className:"fi",onChange:e=>{fGest=e.target.value;render()}});
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
   [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wfstart",l:"WF: Avviato"},{v:"wfpending",l:"WF: In corso"},{v:"wfdelib",l:"WF: Deliberati"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
-  main.appendChild(h("div",{className:"fil"},si,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
+  main.appendChild(h("div",{className:"fil"},siWrap,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
   // DETAIL
   if(selId){main.appendChild(renderDetail(selId));return;}
