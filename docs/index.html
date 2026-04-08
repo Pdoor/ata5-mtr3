@@ -239,6 +239,11 @@ const WORKFLOW_STEPS=[
 ];
 function getWorkflowStep(s,step){
   if(step.source==="scanner"){
+    // Override workflow manuale: può forzare Pending (cleared) o Fatto (con data)
+    const wov=s&&s.workflow?s.workflow[step.key]:null;
+    if(wov&&(wov.cleared||wov.date)){
+      return {date:wov.date||null,by:wov.by||null,at:wov.at||null,done:!!wov.date&&!wov.cleared,_manual:true};
+    }
     const ds=getDocSt(s,step.docKey);
     return {date:ds.first_upload?ds.first_upload.slice(0,10):null,by:null,at:null,done:ds.status==="received"};
   }
@@ -360,10 +365,11 @@ function applyOverrides(id,s){
     // Flag OneDrive: boolean manuale, non è un documento
     if(docKey==="ondrive"){base.cart_ondrive=ov.ondrive===true;base.cart_ondrive_by=ov.by||null;base.cart_ondrive_at=ov.at||null;return;}
     // Workflow validazione PEF: date manuali per step non-scanner
-    if(docKey.indexOf("wf_")===0){const wfKey=docKey.slice(3);if(!base.workflow)base.workflow={};base.workflow[wfKey]={date:ov.date||null,by:ov.by||null,at:ov.at||null};return;}
-    // Lo scanner vince sempre: l'override vale solo come tappabuchi
-    // quando lo script non ha trovato il documento (missing/removed/assente)
-    if(base.docs[docKey]?.status==="received")return;
+    if(docKey.indexOf("wf_")===0){const wfKey=docKey.slice(3);if(!base.workflow)base.workflow={};base.workflow[wfKey]={date:ov.date||null,by:ov.by||null,at:ov.at||null,cleared:!!ov.cleared};return;}
+    // Lo scanner vince solo se l'override NON sta degradando lo stato.
+    // Un override esplicito (es. "missing") riflette una decisione manuale
+    // successiva allo scan e deve prevalere.
+    if(base.docs[docKey]?.status==="received" && ov.status==="received")return;
     base.docs[docKey]={...(base.docs[docKey]||{}),status:ov.status,
       first_upload:ov.date||base.docs[docKey]?.first_upload||null,
       last_upload:ov.date||base.docs[docKey]?.last_upload||null,
@@ -1302,25 +1308,23 @@ function makeWorkflowPanel(s,comuneId){
     const row=h("div",{className:"dr"});
     const left=h("div",null,
       h("span",{style:{fontSize:"12px",color:"#cbd5e1"}},(i+1)+". "+step.label),
-      step.source==="scanner"?h("span",{className:"ov-badge",style:{background:"#1e3a8a",color:"#bfdbfe",marginLeft:"6px"}},"auto"):null
+      step.source==="scanner"?h("span",{className:"ov-badge",style:{background:w._manual?"#78350f":"#1e3a8a",color:w._manual?"#fde68a":"#bfdbfe",marginLeft:"6px"},title:w._manual?"Override manuale attivo":"Stato derivato automaticamente dallo scanner"},w._manual?"manuale":"auto"):null
     );
     if(w.date)left.appendChild(h("div",{style:{fontSize:"10px",color:"var(--t4)",fontFamily:"var(--m)",marginTop:"2px"}},"Data: "+fmtDate(w.date)+(w.by?" · "+w.by:"")));
     row.appendChild(left);
     const right=h("div",{className:"dr-st"});
     right.appendChild(h("span",{className:"dr-badge",style:{background:w.done?"#f0fdf4":"#fef2f2",color:w.done?"var(--gd)":"var(--rd)"}},w.done?"✓ Fatto":"○ Pending"));
-    if(step.source==="manual"){
-      right.appendChild(h("button",{
-        className:"ov-btn"+(w.done?" active":""),
-        title:_userRole==="admin"?(w.done?"Modifica data":"Inserisci data"):"Sola lettura",
-        onClick:async e=>{
-          e.stopPropagation();
-          if(!await _requireUnlock())return;
-          if(_userRole!=="admin"){alert("Accesso in sola lettura.");return;}
-          editingWf=isEd?null:{id:comuneId,key:step.key};
-          render();
-        }
-      },"✏"));
-    }
+    right.appendChild(h("button",{
+      className:"ov-btn"+(w.done?" active":""),
+      title:_userRole==="admin"?(step.source==="scanner"?"Forza stato manuale":(w.done?"Modifica data":"Inserisci data")):"Sola lettura",
+      onClick:async e=>{
+        e.stopPropagation();
+        if(!await _requireUnlock())return;
+        if(_userRole!=="admin"){alert("Accesso in sola lettura.");return;}
+        editingWf=isEd?null:{id:comuneId,key:step.key};
+        render();
+      }
+    },"✏"));
     row.appendChild(right);
     pan.appendChild(row);
     if(isEd&&step.source==="manual"){
@@ -1353,6 +1357,44 @@ function makeWorkflowPanel(s,comuneId){
       form.appendChild(btnRow);
       pan.appendChild(form);
     }
+    if(isEd&&step.source==="scanner"){
+      const form=h("div",{className:"ov-form"});
+      form.appendChild(h("div",{style:{fontSize:"10px",color:"var(--yd)",marginBottom:"7px",fontWeight:"600"}},"✏ Workflow — "+step.label));
+      form.appendChild(h("div",{style:{fontSize:"9px",color:"var(--t4)",marginBottom:"5px"}},"Stato derivato dallo scanner. Puoi forzare manualmente Fatto o Pending, oppure ripristinare il comportamento automatico."));
+      form.appendChild(h("div",{style:{fontSize:"9px",color:_ghToken?"var(--gd)":"var(--t4)",marginBottom:"5px"}},
+        _ghToken?"☁ Sincronizzazione GitHub attiva":"⚠ Solo locale — configura ⚙ Token GH per condividere"));
+      const dateRow=h("div",{className:"ov-row"});
+      dateRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Data (solo se Fatto):"));
+      const di=h("input",{className:"ov-inp",type:"date",value:w.date||""});
+      dateRow.appendChild(di);
+      dateRow.appendChild(h("button",{className:"ov-st",onClick:()=>{di.value=new Date().toISOString().slice(0,10);}},"Oggi"));
+      form.appendChild(dateRow);
+      const btnRow=h("div",{className:"ov-row"});
+      btnRow.appendChild(h("button",{className:"ov-save",onClick:()=>{
+        if(!di.value){alert("Seleziona una data per forzare Fatto.");return;}
+        const ovKey=comuneId+"_wf_"+step.key;
+        const v={date:di.value,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+        saveOverrides();saveOverrideOnline();
+        editingWf=null;render();
+      }},"✓ Forza Fatto"));
+      btnRow.appendChild(h("button",{className:"ov-st",style:{background:"#78350f",color:"#fde68a",borderColor:"#92400e"},onClick:()=>{
+        const ovKey=comuneId+"_wf_"+step.key;
+        const v={cleared:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+        saveOverrides();saveOverrideOnline();
+        editingWf=null;render();
+      }},"○ Forza Pending"));
+      btnRow.appendChild(h("button",{className:"ov-del",onClick:()=>{
+        const ovKey=comuneId+"_wf_"+step.key;
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+        saveOverrides();saveOverrideOnline();
+        editingWf=null;render();
+      }},"↩ Ripristina automatico"));
+      btnRow.appendChild(h("button",{className:"ov-del",onClick:()=>{editingWf=null;render();}},"Chiudi"));
+      form.appendChild(btnRow);
+      pan.appendChild(form);
+    }
   });
   return pan;
 }
@@ -1360,7 +1402,7 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1387,27 +1429,8 @@ function renderTable(fil){
     if(pc)ptd.appendChild(h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label));
     else ptd.appendChild(h("span",{style:{color:"var(--t4)",fontSize:"10px"}},"—"));
     tr.appendChild(ptd);
-    // Colonna OneDrive: checkbox modificabile da admin
-    const odtd=h("td",{style:{textAlign:"center"}});
-    const odChk=h("input",{type:"checkbox"});
-    odChk.checked=s?.cart_ondrive===true;
-    odChk.disabled=_userRole!=="admin";
-    if(s?.cart_ondrive_by||s?.cart_ondrive_at){
-      odtd.title="Segnato da "+(s.cart_ondrive_by||"?")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"");
-    }
-    odChk.addEventListener("click",e=>e.stopPropagation());
-    odChk.addEventListener("change",e=>{
-      if(_userRole!=="admin")return;
-      const ovKey=c.id+"_ondrive";
-      if(e.target.checked){
-        const v={ondrive:true,by:_currentUser||null,at:new Date().toISOString()};
-        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
-      }else{
-        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
-      }
-      saveOverrides();saveOverrideOnline();render();
-    });
-    odtd.appendChild(odChk);tr.appendChild(odtd);
+    // Colonna OneDrive rimossa da ATA5: sostituita dalla fase 1 del Workflow validazione PEF.
+    // L'override `_ondrive` resta gestito in applyOverrides e nel badge card, per retrocompatibilità.
     const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
     const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
