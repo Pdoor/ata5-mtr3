@@ -667,9 +667,12 @@ function getFiltered(){
     if(fStat==="empty"&&!s?.last_scan_empty)return false;
     if(fStat==="nodata"&&s!==null)return false;
     if(fStat==="pefvalid"&&getDocSt(s,"pef_validato").status!=="received")return false;
-    if(fStat==="wfstart"&&getWorkflowProgress(s)===0)return false;
-    if(fStat==="wfpending"){const _p=getWorkflowProgress(s);if(_p===0||_p===WORKFLOW_STEPS.length)return false;}
-    if(fStat==="wfdelib"&&getWorkflowProgress(s)!==WORKFLOW_STEPS.length)return false;
+    if(fStat==="wf1"){if(!getWorkflowStep(s,WORKFLOW_STEPS[0]).done)return false;}
+    if(fStat==="wf2"){if(!getWorkflowStep(s,WORKFLOW_STEPS[1]).done)return false;}
+    if(fStat==="wf3"){if(!getWorkflowStep(s,WORKFLOW_STEPS[2]).done)return false;}
+    if(fStat==="wf4"){if(!getWorkflowStep(s,WORKFLOW_STEPS[3]).done)return false;}
+    if(fStat==="wf5"){if(!getWorkflowStep(s,WORKFLOW_STEPS[4]).done)return false;}
+    if(fStat==="wf6"){if(!getWorkflowStep(s,WORKFLOW_STEPS[5]).done)return false;}
     if(fStat==="odko"){
       // "Disponibile su ONEDRIVE": mostra i comuni marcati su OneDrive, sia via checkbox OD
       // sia tramite Fase 1 del Workflow validazione PEF (pef_grezzi_od) con data valorizzata.
@@ -890,7 +893,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wfstart",l:"WF: Avviato"},{v:"wfpending",l:"WF: In corso"},{v:"wfdelib",l:"WF: Deliberati"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wf1",l:"WF1 - PEF Grezzi su Onedrive"},{v:"wf2",l:"WF2 - Avvio interlocuzioni"},{v:"wf3",l:"WF3 - PEF trasmesso al Comune"},{v:"wf4",l:"WF4 - PEF confermato / attestazione rinunce"},{v:"wf5",l:"WF5 - PEF Caricato per validazione"},{v:"wf6",l:"WF6 - PEF deliberato"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},siWrap,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
