@@ -337,6 +337,8 @@ function applyOverrides(id,s){
   keys.forEach(k=>{
     const docKey=k.slice(sid.length+1);
     const ov=merged[k];
+    // Flag OneDrive: boolean manuale, non è un documento
+    if(docKey==="ondrive"){base.cart_ondrive=ov.ondrive===true;base.cart_ondrive_by=ov.by||null;base.cart_ondrive_at=ov.at||null;return;}
     // Lo scanner vince sempre: l'override vale solo come tappabuchi
     // quando lo script non ha trovato il documento (missing/removed/assente)
     if(base.docs[docKey]?.status==="received")return;
@@ -621,6 +623,7 @@ function getFiltered(){
     if(fStat==="empty"&&!s?.last_scan_empty)return false;
     if(fStat==="nodata"&&s!==null)return false;
     if(fStat==="pefvalid"&&getDocSt(s,"pef_validato").status!=="received")return false;
+    if(fStat==="odko"){const hasReceived=s&&ALL_DOCS.some(d=>getDocSt(s,d.key).status==="received");if(!hasReceived||s?.cart_ondrive===true)return false;}
     return true;
   });
 }
@@ -643,7 +646,7 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -656,6 +659,7 @@ function exportCSV(){
       p+"%",s?.processabile?PR[s.processabile]?.label||"":"-",
       fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
       s?.last_scan_error?"SI":"",
+      s?.cart_ondrive===true?"SI":"",
       (function flatNotes(arr,depth){return arr.map(n=>(" ".repeat(depth))+n.author+" ["+n.cat+"] "+n.date+": "+n.text+(n.children?.length?"\n"+flatNotes(n.children,depth+1):"")).join("\n");}(_getNotes(c.id),0)).replace(/[\n\r]+/g," | ")
     ]);
   });
@@ -818,7 +822,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"odko",l:"OneDrive da copiare"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},si,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
@@ -849,7 +853,8 @@ function renderCard(c){
       h("div",null,h("div",{className:"cd-n"},c.comune),h("div",{className:"cd-g"},c.gestore+(c.advisor?" · "+c.advisor:""))),
       h("div",{style:{display:"flex",alignItems:"center",gap:"6px"}},
         h("span",{className:"cd-pct",style:{color:col}},s!==null?p+"%":"—"),
-        pc?h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label):null
+        pc?h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label):null,
+        s?.cart_ondrive===true?h("span",{className:"badge",style:{background:"#14532d",color:"#86efac"},title:"Copiato su OneDrive"+(s.cart_ondrive_by?" da "+s.cart_ondrive_by:"")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"")},"☁ OD"):null
       )
     ),
     h("div",{style:{display:"flex",gap:"14px"}},makeDots("Gestore",DOC_G,s),makeDots("Comune",DOC_C,s),makeDots("ATA5",DOC_ATA5,s)),
@@ -1254,7 +1259,7 @@ function makeDocPanel(title,docs,s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","1° Upload","Ultimo G","Ultimo C","Drive","OD"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1288,6 +1293,27 @@ function renderTable(fil){
     const a=h("a",{href:c.url,target:"_blank",className:"drive-lnk"},"↗");
     a.addEventListener("click",e=>e.stopPropagation());
     dtd.appendChild(a);tr.appendChild(dtd);
+    // Colonna OneDrive: checkbox modificabile da admin
+    const odtd=h("td",{style:{textAlign:"center"}});
+    const odChk=h("input",{type:"checkbox"});
+    odChk.checked=s?.cart_ondrive===true;
+    odChk.disabled=_userRole!=="admin";
+    if(s?.cart_ondrive_by||s?.cart_ondrive_at){
+      odtd.title="Segnato da "+(s.cart_ondrive_by||"?")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"");
+    }
+    odChk.addEventListener("click",e=>e.stopPropagation());
+    odChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_ondrive";
+      if(e.target.checked){
+        const v={ondrive:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odtd.appendChild(odChk);tr.appendChild(odtd);
     tbody.appendChild(tr);
   });
   tb.appendChild(tbody);tw.appendChild(tb);return tw;
