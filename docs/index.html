@@ -229,6 +229,25 @@ const ALL_DOCS=[...DOC_G,...DOC_C,...DOC_ATA5];
 // "Altre Comunicazioni" e "PEF Validato" escluse dal calcolo processabilità
 const DOC_MANDATORY=ALL_DOCS.filter(d=>!["altre_com","altre_com_c","pef_validato"].includes(d.key));
 
+const WORKFLOW_STEPS=[
+  {key:"pef_grezzi_od",  label:"PEF Grezzi caricati su ONEDRIVE",                 short:"Grezzi OD",   source:"manual"},
+  {key:"avvio_interloc", label:"Avvio interlocuzione e validazione",              short:"Avvio",       source:"manual"},
+  {key:"comune_visione", label:"PEF trasmesso al Comune in visione",              short:"→ Comune",    source:"manual"},
+  {key:"conferma_com",   label:"Conferma COMUNE validazione / Attestazione rinunce", short:"Conferma",    source:"manual"},
+  {key:"pef_drive_prov", label:"PEF da validare su Drive provincia",              short:"Drive prov.", source:"scanner", docKey:"pef_validato"},
+  {key:"delibera",       label:"Data delibera di approvazione",                   short:"Delibera",    source:"manual"},
+];
+function getWorkflowStep(s,step){
+  if(step.source==="scanner"){
+    const ds=getDocSt(s,step.docKey);
+    return {date:ds.first_upload?ds.first_upload.slice(0,10):null,by:null,at:null,done:ds.status==="received"};
+  }
+  const w=s&&s.workflow?s.workflow[step.key]:null;
+  return {date:w?.date||null,by:w?.by||null,at:w?.at||null,done:!!(w&&w.date)};
+}
+function getWorkflowProgress(s){return WORKFLOW_STEPS.reduce((n,st)=>n+(getWorkflowStep(s,st).done?1:0),0);}
+
+
 const SCADENZE_DEFAULT={
   termine_arera_mtr3:"2026-07-31",
   termine_ata_gestori:"2026-05-31",
@@ -278,6 +297,7 @@ let ONLINE_NOTES={};      // note condivise da overrides.json
 let _ghToken=null;         // PAT GitHub (in memoria per la sessione)
 let _sessionPass=null;     // master password (in memoria per la sessione)
 let editingOv=null;        // {id, key} del documento in modifica
+let editingWf=null;        // {id, key} step workflow in modifica
 let _ovSaving=false;       // flag UI durante salvataggio remoto
 let _notesSaveTimer=null;  // debounce timer per salvataggio note online
 let editingNote=null;      // {comuneId, idx} nota in modifica, oppure {comuneId, idx:-1} per nuova
@@ -339,6 +359,8 @@ function applyOverrides(id,s){
     const ov=merged[k];
     // Flag OneDrive: boolean manuale, non è un documento
     if(docKey==="ondrive"){base.cart_ondrive=ov.ondrive===true;base.cart_ondrive_by=ov.by||null;base.cart_ondrive_at=ov.at||null;return;}
+    // Workflow validazione PEF: date manuali per step non-scanner
+    if(docKey.indexOf("wf_")===0){const wfKey=docKey.slice(3);if(!base.workflow)base.workflow={};base.workflow[wfKey]={date:ov.date||null,by:ov.by||null,at:ov.at||null};return;}
     // Lo scanner vince sempre: l'override vale solo come tappabuchi
     // quando lo script non ha trovato il documento (missing/removed/assente)
     if(base.docs[docKey]?.status==="received")return;
@@ -623,12 +645,15 @@ function getFiltered(){
     if(fStat==="empty"&&!s?.last_scan_empty)return false;
     if(fStat==="nodata"&&s!==null)return false;
     if(fStat==="pefvalid"&&getDocSt(s,"pef_validato").status!=="received")return false;
+    if(fStat==="wfstart"&&getWorkflowProgress(s)===0)return false;
+    if(fStat==="wfpending"){const _p=getWorkflowProgress(s);if(_p===0||_p===WORKFLOW_STEPS.length)return false;}
+    if(fStat==="wfdelib"&&getWorkflowProgress(s)!==WORKFLOW_STEPS.length)return false;
     if(fStat==="odko"){const hasReceived=s&&ALL_DOCS.some(d=>getDocSt(s,d.key).status==="received");if(!hasReceived||s?.cart_ondrive===true)return false;}
     return true;
   });
 }
 function getStats(){
-  let comp=0,parz=0,vuoti=0,timeout=0,empty=0,nodata=0,gC=0,cC=0,pefC=0,proc=0,procR=0;
+  let comp=0,parz=0,vuoti=0,timeout=0,empty=0,nodata=0,gC=0,cC=0,pefC=0,proc=0,procR=0,delib=0,wfStart=0,wfPending=0;
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     if(getState(c.id)===null&&s===null)nodata++;
@@ -640,13 +665,17 @@ function getStats(){
     DOC_ATA5.forEach(d=>{if(getDocSt(s,d.key).status==="received")pefC++;});
     if(s?.processabile==="si")proc++;
     if(s?.processabile==="si_riserva")procR++;
+    const _wp=getWorkflowProgress(s);
+    if(_wp>0)wfStart++;
+    if(_wp>0&&_wp<WORKFLOW_STEPS.length)wfPending++;
+    if(_wp===WORKFLOW_STEPS.length)delib++;
   });
-  return{total:COMUNI.length,comp,parz,vuoti,timeout,empty,nodata,gC,cC,pefC,proc,procR};
+  return{total:COMUNI.length,comp,parz,vuoti,timeout,empty,nodata,gC,cC,pefC,proc,procR,delib,wfStart,wfPending};
 }
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","WF Fase","WF Grezzi OD","WF Avvio","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -660,6 +689,8 @@ function exportCSV(){
       fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
       s?.last_scan_error?"SI":"",
       s?.cart_ondrive===true?"SI":"",
+      getWorkflowProgress(s)+"/"+WORKFLOW_STEPS.length,
+      ...WORKFLOW_STEPS.map(st=>{const w=getWorkflowStep(s,st);return w.date||"";}),
       (function flatNotes(arr,depth){return arr.map(n=>(" ".repeat(depth))+n.author+" ["+n.cat+"] "+n.date+": "+n.text+(n.children?.length?"\n"+flatNotes(n.children,depth+1):"")).join("\n");}(_getNotes(c.id),0)).replace(/[\n\r]+/g," | ")
     ]);
   });
@@ -798,6 +829,7 @@ function render(){
     {l:"Doc Gestori", v:st.gC,      c:"var(--cyan)", s:"/ "+(st.total*4)},
     {l:"Doc Comuni",  v:st.cC,      c:"var(--pink)", s:"/ "+(st.total*4)},
     {l:"PEF da validare",v:st.pefC,    c:"#f97316",     s:"/ "+st.total},
+    {l:"Deliberati",  v:st.delib,   c:"var(--green)",s:"/ "+st.total},
     {l:"Timeout",     v:st.timeout, c:"var(--rd)",   s:"ultimo scan"},
     {l:"Cart. vuote", v:st.empty,   c:"var(--yel)",  s:"nessun file"},
   ].forEach(k=>{
@@ -822,7 +854,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wfstart",l:"WF: Avviato"},{v:"wfpending",l:"WF: In corso"},{v:"wfdelib",l:"WF: Deliberati"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},si,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
@@ -854,7 +886,8 @@ function renderCard(c){
       h("div",{style:{display:"flex",alignItems:"center",gap:"6px"}},
         h("span",{className:"cd-pct",style:{color:col}},s!==null?p+"%":"—"),
         pc?h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label):null,
-        s?.cart_ondrive===true?h("span",{className:"badge",style:{background:"#14532d",color:"#86efac"},title:"Copiato su OneDrive"+(s.cart_ondrive_by?" da "+s.cart_ondrive_by:"")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"")},"☁ OD"):null
+        s?.cart_ondrive===true?h("span",{className:"badge",style:{background:"#14532d",color:"#86efac"},title:"Copiato su OneDrive"+(s.cart_ondrive_by?" da "+s.cart_ondrive_by:"")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"")},"☁ OD"):null,
+        (function(){const _p=getWorkflowProgress(s),_t=WORKFLOW_STEPS.length;if(_p===0)return null;const _bg=_p===_t?"#14532d":"#78350f",_fg=_p===_t?"#86efac":"#fde68a";return h("span",{className:"badge",style:{background:_bg,color:_fg},title:"Workflow: "+_p+"/"+_t+" fasi completate"},"⚙ "+_p+"/"+_t);})()
       )
     ),
     h("div",{style:{display:"flex",gap:"14px"}},makeDots("Gestore",DOC_G,s),makeDots("Comune",DOC_C,s),makeDots("ATA5",DOC_ATA5,s)),
@@ -1014,6 +1047,8 @@ function renderDetail(id){
   cols.appendChild(makeDocPanel("Documenti Gestore (MTR3)",DOC_G,s,id));
   cols.appendChild(makeDocPanel("Documenti Comune (MTR3)",DOC_C,s,id));
   det.appendChild(cols);
+  // Workflow validazione PEF (6 fasi)
+  det.appendChild(makeWorkflowPanel(s,id));
   // Pannello ATA5 / PEF Validato (larghezza piena)
   det.appendChild(makeDocPanel("PEF Validato — ATA5",DOC_ATA5,s,id));
 
@@ -1256,10 +1291,76 @@ function makeDocPanel(title,docs,s,comuneId){
   return pan;
 }
 
+
+function makeWorkflowPanel(s,comuneId){
+  const pan=h("div",{className:"dp"},h("div",{className:"dp-t"},"Workflow validazione PEF"));
+  const progress=getWorkflowProgress(s);
+  pan.appendChild(h("div",{style:{fontSize:"11px",color:"var(--t3)",marginBottom:"8px",fontFamily:"var(--m)"}},"Avanzamento: "+progress+"/"+WORKFLOW_STEPS.length));
+  WORKFLOW_STEPS.forEach((step,i)=>{
+    const w=getWorkflowStep(s,step);
+    const isEd=editingWf?.id===comuneId&&editingWf?.key===step.key;
+    const row=h("div",{className:"dr"});
+    const left=h("div",null,
+      h("span",{style:{fontSize:"12px",color:"#cbd5e1"}},(i+1)+". "+step.label),
+      step.source==="scanner"?h("span",{className:"ov-badge",style:{background:"#1e3a8a",color:"#bfdbfe",marginLeft:"6px"}},"auto"):null
+    );
+    if(w.date)left.appendChild(h("div",{style:{fontSize:"10px",color:"var(--t4)",fontFamily:"var(--m)",marginTop:"2px"}},"Data: "+fmtDate(w.date)+(w.by?" · "+w.by:"")));
+    row.appendChild(left);
+    const right=h("div",{className:"dr-st"});
+    right.appendChild(h("span",{className:"dr-badge",style:{background:w.done?"#f0fdf4":"#fef2f2",color:w.done?"var(--gd)":"var(--rd)"}},w.done?"✓ Fatto":"○ Pending"));
+    if(step.source==="manual"){
+      right.appendChild(h("button",{
+        className:"ov-btn"+(w.done?" active":""),
+        title:_userRole==="admin"?(w.done?"Modifica data":"Inserisci data"):"Sola lettura",
+        onClick:async e=>{
+          e.stopPropagation();
+          if(!await _requireUnlock())return;
+          if(_userRole!=="admin"){alert("Accesso in sola lettura.");return;}
+          editingWf=isEd?null:{id:comuneId,key:step.key};
+          render();
+        }
+      },"✏"));
+    }
+    row.appendChild(right);
+    pan.appendChild(row);
+    if(isEd&&step.source==="manual"){
+      const form=h("div",{className:"ov-form"});
+      form.appendChild(h("div",{style:{fontSize:"10px",color:"var(--yd)",marginBottom:"7px",fontWeight:"600"}},"✏ Workflow — "+step.label));
+      form.appendChild(h("div",{style:{fontSize:"9px",color:_ghToken?"var(--gd)":"var(--t4)",marginBottom:"5px"}},
+        _ghToken?"☁ Sincronizzazione GitHub attiva":"⚠ Solo locale — configura ⚙ Token GH per condividere"));
+      const dateRow=h("div",{className:"ov-row"});
+      dateRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Data:"));
+      const di=h("input",{className:"ov-inp",type:"date",value:w.date||""});
+      dateRow.appendChild(di);
+      dateRow.appendChild(h("button",{className:"ov-st",onClick:()=>{di.value=new Date().toISOString().slice(0,10);}},"Oggi"));
+      form.appendChild(dateRow);
+      const btnRow=h("div",{className:"ov-row"});
+      btnRow.appendChild(h("button",{className:"ov-save",onClick:()=>{
+        if(!di.value){alert("Seleziona una data.");return;}
+        const ovKey=comuneId+"_wf_"+step.key;
+        const v={date:di.value,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+        saveOverrides();saveOverrideOnline();
+        editingWf=null;render();
+      }},"✓ Salva"));
+      btnRow.appendChild(h("button",{className:"ov-del",onClick:()=>{
+        const ovKey=comuneId+"_wf_"+step.key;
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+        saveOverrides();saveOverrideOnline();
+        editingWf=null;render();
+      }},"↩ Cancella"));
+      btnRow.appendChild(h("button",{className:"ov-del",onClick:()=>{editingWf=null;render();}},"Chiudi"));
+      form.appendChild(btnRow);
+      pan.appendChild(form);
+    }
+  });
+  return pan;
+}
+
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1307,6 +1408,9 @@ function renderTable(fil){
       saveOverrides();saveOverrideOnline();render();
     });
     odtd.appendChild(odChk);tr.appendChild(odtd);
+    const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
+    const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(firstUp)));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastG)));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastC)));
