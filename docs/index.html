@@ -797,7 +797,7 @@ function render(){
     {l:"Processabili",v:st.proc,    c:"var(--pur)",  s:"+ "+st.procR+" riserva"},
     {l:"Doc Gestori", v:st.gC,      c:"var(--cyan)", s:"/ "+(st.total*4)},
     {l:"Doc Comuni",  v:st.cC,      c:"var(--pink)", s:"/ "+(st.total*4)},
-    {l:"PEF Validato",v:st.pefC,    c:"#f97316",     s:"/ "+st.total},
+    {l:"PEF da validare",v:st.pefC,    c:"#f97316",     s:"/ "+st.total},
     {l:"Timeout",     v:st.timeout, c:"var(--rd)",   s:"ultimo scan"},
     {l:"Cart. vuote", v:st.empty,   c:"var(--yel)",  s:"nessun file"},
   ].forEach(k=>{
@@ -822,7 +822,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"odko",l:"OneDrive da copiare"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},si,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
@@ -1259,7 +1259,7 @@ function makeDocPanel(title,docs,s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","1° Upload","Ultimo G","Ultimo C","Drive","OD"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1286,13 +1286,6 @@ function renderTable(fil){
     if(pc)ptd.appendChild(h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label));
     else ptd.appendChild(h("span",{style:{color:"var(--t4)",fontSize:"10px"}},"—"));
     tr.appendChild(ptd);
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(firstUp)));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastG)));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastC)));
-    const dtd=h("td",{style:{textAlign:"center"}});
-    const a=h("a",{href:c.url,target:"_blank",className:"drive-lnk"},"↗");
-    a.addEventListener("click",e=>e.stopPropagation());
-    dtd.appendChild(a);tr.appendChild(dtd);
     // Colonna OneDrive: checkbox modificabile da admin
     const odtd=h("td",{style:{textAlign:"center"}});
     const odChk=h("input",{type:"checkbox"});
@@ -1314,6 +1307,13 @@ function renderTable(fil){
       saveOverrides();saveOverrideOnline();render();
     });
     odtd.appendChild(odChk);tr.appendChild(odtd);
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(firstUp)));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastG)));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastC)));
+    const dtd=h("td",{style:{textAlign:"center"}});
+    const a=h("a",{href:c.url,target:"_blank",className:"drive-lnk"},"↗");
+    a.addEventListener("click",e=>e.stopPropagation());
+    dtd.appendChild(a);tr.appendChild(dtd);
     tbody.appendChild(tr);
   });
   tb.appendChild(tbody);tw.appendChild(tb);return tw;
