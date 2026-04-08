@@ -1402,7 +1402,7 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1429,8 +1429,27 @@ function renderTable(fil){
     if(pc)ptd.appendChild(h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label));
     else ptd.appendChild(h("span",{style:{color:"var(--t4)",fontSize:"10px"}},"—"));
     tr.appendChild(ptd);
-    // Colonna OneDrive rimossa da ATA5: sostituita dalla fase 1 del Workflow validazione PEF.
-    // L'override `_ondrive` resta gestito in applyOverrides e nel badge card, per retrocompatibilità.
+    // Colonna OneDrive: checkbox modificabile da admin
+    const odtd=h("td",{style:{textAlign:"center"}});
+    const odChk=h("input",{type:"checkbox"});
+    odChk.checked=s?.cart_ondrive===true;
+    odChk.disabled=_userRole!=="admin";
+    if(s?.cart_ondrive_by||s?.cart_ondrive_at){
+      odtd.title="Segnato da "+(s.cart_ondrive_by||"?")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"");
+    }
+    odChk.addEventListener("click",e=>e.stopPropagation());
+    odChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_ondrive";
+      if(e.target.checked){
+        const v={ondrive:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odtd.appendChild(odChk);tr.appendChild(odtd);
     const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
     const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
