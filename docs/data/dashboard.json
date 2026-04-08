@@ -173,7 +173,7 @@
       "processabile": "no"
     },
     "1": {
-      "last_scan": "2026-04-08T08:08:56.045864+00:00",
+      "last_scan": "2026-04-08T08:34:29.067157+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -183,7 +183,7 @@
       }
     },
     "2": {
-      "last_scan": "2026-04-08T08:08:56.045864+00:00",
+      "last_scan": "2026-04-08T08:34:29.067157+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -195,7 +195,7 @@
     "3": {
       "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
       "content_fingerprint": "972acf18894f2c39cbdf2e4b686e402c008fe71c496bf91582d82609274354b9",
-      "last_scan": "2026-04-08T08:08:56.045864+00:00",
+      "last_scan": "2026-04-08T08:34:29.067157+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -401,6 +401,12 @@
           "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-04-08T08:34:29.067157+00:00",
+          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [
@@ -428,7 +434,7 @@
       "processabile": "no"
     },
     "4": {
-      "last_scan": "2026-04-08T08:08:56.045864+00:00",
+      "last_scan": "2026-04-08T08:34:29.067157+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -438,7 +444,7 @@
       }
     },
     "5": {
-      "last_scan": "2026-04-08T08:08:56.045864+00:00",
+      "last_scan": "2026-04-08T08:34:29.067157+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2577,13 +2583,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-04-08T08:08:56.045864+00:00",
+    "last_scan": "2026-04-08T08:34:29.067157+00:00",
     "results": {
-      "scansionati": 12,
+      "scansionati": 1,
       "aggiornati": 0,
-      "invariati": 12,
+      "invariati": 1,
       "errori": 0,
-      "vuoti": 18
+      "vuoti": 4
     },
     "total_comuni": 33,
     "scadenze": {
