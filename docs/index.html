@@ -589,9 +589,22 @@ async function loadOverrides(){
   }catch(e){}
 }
 
-// ── Salva overrides su GitHub via API ──
+// ── Salva overrides su GitHub via API (con coda e retry) ──
+let _ovQueue=null;  // pending save promise
+let _ovDirty=false; // true se arriva un nuovo salvataggio mentre uno è in corso
 async function saveOverrideOnline(){
   if(!_ghToken)return false;
+  // Se un salvataggio è già in corso, segna dirty e attendi la fine della coda
+  if(_ovQueue){_ovDirty=true;return _ovQueue;}
+  _ovQueue=_doSaveOverrideOnline();
+  const result=await _ovQueue;
+  _ovQueue=null;
+  // Se nel frattempo è arrivato un altro salvataggio, riesegui con dati freschi
+  if(_ovDirty){_ovDirty=false;return saveOverrideOnline();}
+  return result;
+}
+async function _doSaveOverrideOnline(retries){
+  if(retries===undefined)retries=2;
   _ovSaving=true;
   try{
     const apiUrl="https://api.github.com/repos/"+GH_REPO.owner+"/"+GH_REPO.repo+"/contents/"+GH_REPO.path;
@@ -600,7 +613,6 @@ async function saveOverrideOnline(){
     let sha=null;
     const getR=await fetch(apiUrl,{headers});
     if(getR.ok){const gd=await getR.json();sha=gd.sha||null;}
-    // Prepara contenuto (base64 UTF-8)
     // Cifra le note prima di salvare
     let notesEnc=null;
     if(_notesKey){try{notesEnc=await _encryptNotes(ONLINE_NOTES);}catch(e){}}
@@ -615,9 +627,14 @@ async function saveOverrideOnline(){
     const putR=await fetch(apiUrl,{method:"PUT",headers,body:JSON.stringify(body)});
     _ovSaving=false;
     if(putR.ok)return true;
+    // Conflitto SHA (409) o rate limit (429): retry con backoff
+    if((putR.status===409||putR.status===422||putR.status===429)&&retries>0){
+      await new Promise(r=>setTimeout(r,1500));
+      return _doSaveOverrideOnline(retries-1);
+    }
     console.warn("GitHub API PUT:",putR.status);
     return false;
-  }catch(e){_ovSaving=false;console.warn("saveOverrideOnline:",e);return false;}
+  }catch(e){_ovSaving=false;console.warn("saveOverrideOnline:",e);if(retries>0){await new Promise(r=>setTimeout(r,1500));return _doSaveOverrideOnline(retries-1);}return false;}
 }
 
 async function loadJSON(){
