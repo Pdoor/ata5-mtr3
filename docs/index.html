@@ -619,9 +619,7 @@ async function _doSaveOverrideOnline(retries){
     const payload={docs:ONLINE_OVERRIDES,scadenze:ONLINE_SCADENZE};
     if(notesEnc){payload.notes_encrypted=notesEnc;}else{payload.notes=ONLINE_NOTES;}
     const json=JSON.stringify(payload,null,2);
-    const bytes=new TextEncoder().encode(json);
-    let b64="";const chunk=8192;
-    for(let i=0;i<bytes.length;i+=chunk){b64+=btoa(String.fromCharCode(...bytes.slice(i,i+chunk)));}
+    const b64=btoa(unescape(encodeURIComponent(json)));
     const body={message:"Override "+new Date().toISOString().slice(0,16).replace("T"," "),content:b64};
     if(sha)body.sha=sha;
     const putR=await fetch(apiUrl,{method:"PUT",headers,body:JSON.stringify(body)});
