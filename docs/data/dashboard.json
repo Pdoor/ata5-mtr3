@@ -3,7 +3,7 @@
     "25": {
       "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
       "content_fingerprint": "176e82a63071d48d6e3245729f9641974ae081e015c6dcca593414b9e3091b11",
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -295,6 +295,12 @@
         },
         {
           "time": "2026-04-08T19:57:18.318764+00:00",
+          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
+          "changed": false,
+          "file_count": 5
+        },
+        {
+          "time": "2026-04-09T09:03:51.809736+00:00",
           "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
           "changed": false,
           "file_count": 5
@@ -2778,7 +2784,7 @@
       "processabile": "no"
     },
     "24": {
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2790,7 +2796,7 @@
     "26": {
       "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
       "content_fingerprint": "4dcee61548f2bde96221dcd737f1b287133a279cb53bdc8b10e49d8abb8d8125",
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3022,6 +3028,12 @@
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-09T09:03:51.809736+00:00",
+          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -3036,10 +3048,10 @@
       "processabile": "no"
     },
     "27": {
-      "zip_hash": "c6aa1301f6f2c75d2345bb0816b6f2daba062f19f904b528e620f591af2c0da3",
-      "content_fingerprint": "72ed67f955b3eac3282e0e4489beda57fc30bf3c6808a95cc80c304b394d09eb",
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
-      "zip_changed": false,
+      "zip_hash": "7679ca61cd5bf9f60da57a6685cd46b49e9ce9c141b0c4f0375b3bfd89bdc578",
+      "content_fingerprint": "5eb1439d4577baa8bef7c25bd33300c388b6ff6432596f2286e4f2280f022a51",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -3120,13 +3132,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+          "current_file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3987262,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+              "size": 3987262
+            }
+          ],
+          "first_upload": "2026-04-09T09:03:51.809736+00:00",
+          "last_upload": "2026-04-09T09:03:51.809736+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-09T09:03:51.809736+00:00",
+              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+              "file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+          "current_file": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+          "current_size": 347236,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+              "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+              "size": 347236
+            }
+          ],
+          "first_upload": "2026-04-09T09:03:51.809736+00:00",
+          "last_upload": "2026-04-09T09:03:51.809736+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-09T09:03:51.809736+00:00",
+              "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+              "file": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "current_size": 195668,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+              "size": 195668
+            }
+          ],
+          "first_upload": "2026-04-09T09:03:51.809736+00:00",
+          "last_upload": "2026-04-09T09:03:51.809736+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-09T09:03:51.809736+00:00",
+              "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -3159,6 +3237,30 @@
           "size": 195668,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+          "size": 3987262,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
+          "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
+          "size": 347236,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
+          "size": 195668,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -3257,6 +3359,12 @@
           "zip_hash": "c6aa1301f6f2c75d2345bb0816b6f2daba062f19f904b528e620f591af2c0da3",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-09T09:03:51.809736+00:00",
+          "zip_hash": "7679ca61cd5bf9f60da57a6685cd46b49e9ce9c141b0c4f0375b3bfd89bdc578",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -3268,10 +3376,10 @@
         "id": 27
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "28": {
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3281,7 +3389,7 @@
       }
     },
     "29": {
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3291,7 +3399,7 @@
       }
     },
     "30": {
-      "last_scan": "2026-04-08T19:57:18.318764+00:00",
+      "last_scan": "2026-04-09T09:03:51.809736+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3561,11 +3669,11 @@
   "meta": {
     "last_scan": "2026-04-09T09:03:51.809736+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 2,
-      "invariati": 8,
+      "scansionati": 13,
+      "aggiornati": 3,
+      "invariati": 10,
       "errori": 0,
-      "vuoti": 13
+      "vuoti": 17
     },
     "total_comuni": 33,
     "scadenze": {
