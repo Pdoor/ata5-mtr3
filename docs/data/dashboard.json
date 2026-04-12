@@ -6309,7 +6309,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-04-12T15:33:29.436148+00:00",
+      "last_scan": "2026-04-12T16:34:54.164385+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -6321,7 +6321,7 @@
     "32": {
       "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
       "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
-      "last_scan": "2026-04-12T15:33:29.436148+00:00",
+      "last_scan": "2026-04-12T16:34:54.164385+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -6727,20 +6727,28 @@
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-12T16:34:54.164385+00:00",
+          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
       "info": {
         "comune": "Spinetoli",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3",
+        "id": 32
       },
       "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-04-12T15:33:29.436148+00:00",
+      "last_scan": "2026-04-12T16:34:54.164385+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -6753,11 +6761,11 @@
   "meta": {
     "last_scan": "2026-04-12T16:34:54.164385+00:00",
     "results": {
-      "scansionati": 12,
+      "scansionati": 13,
       "aggiornati": 0,
-      "invariati": 12,
+      "invariati": 13,
       "errori": 0,
-      "vuoti": 18
+      "vuoti": 20
     },
     "total_comuni": 33,
     "scadenze": {
