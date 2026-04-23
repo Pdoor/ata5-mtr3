@@ -10149,7 +10149,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-04-23T15:50:00.595540+00:00",
+      "last_scan": "2026-04-23T17:17:07.517911+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -10161,7 +10161,7 @@
     "32": {
       "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
       "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
-      "last_scan": "2026-04-23T15:50:00.595540+00:00",
+      "last_scan": "2026-04-23T17:17:07.517911+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10298,12 +10298,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-10T19:41:26.803591+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-11T08:39:25.784977+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -10897,13 +10891,21 @@
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-23T17:17:07.517911+00:00",
+          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
       "info": {
         "comune": "Spinetoli",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3",
+        "id": 32
       },
       "last_scan_error": false,
       "processabile": "no",
@@ -10923,11 +10925,11 @@
   "meta": {
     "last_scan": "2026-04-23T17:17:07.517911+00:00",
     "results": {
-      "scansionati": 14,
+      "scansionati": 15,
       "aggiornati": 0,
-      "invariati": 14,
+      "invariati": 15,
       "errori": 0,
-      "vuoti": 16
+      "vuoti": 17
     },
     "total_comuni": 33,
     "scadenze": {
