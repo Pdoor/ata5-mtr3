@@ -810,7 +810,7 @@
       "processabile": "no"
     },
     "1": {
-      "last_scan": "2026-04-24T13:51:11.461878+00:00",
+      "last_scan": "2026-04-24T15:05:27.655267+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -822,7 +822,7 @@
       },
       "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
       "content_fingerprint": "c2039ec03bd1b3f5ec49e3eba33c9d8f2ccd8045aa9ab71b18f355930ab07115",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -868,6 +868,12 @@
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
           "changed": true,
           "file_count": 1
+        },
+        {
+          "time": "2026-04-24T15:05:27.655267+00:00",
+          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
+          "changed": false,
+          "file_count": 1
         }
       ],
       "unclassified_files": [
@@ -881,7 +887,7 @@
       "processabile": "no"
     },
     "2": {
-      "last_scan": "2026-04-24T13:16:29.061858+00:00",
+      "last_scan": "2026-04-24T15:05:27.655267+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1016,12 +1022,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-12T11:31:54.635544+00:00",
-          "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-12T12:55:16.264726+00:00",
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
@@ -1615,6 +1615,12 @@
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-24T15:05:27.655267+00:00",
+          "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -1623,7 +1629,7 @@
     "3": {
       "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
       "content_fingerprint": "972acf18894f2c39cbdf2e4b686e402c008fe71c496bf91582d82609274354b9",
-      "last_scan": "2026-04-24T13:16:29.061858+00:00",
+      "last_scan": "2026-04-24T15:05:27.655267+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2394,16 +2400,14 @@
       "info": {
         "comune": "Appignano del Tronto",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/40nen4anvbji",
-        "id": 3
+        "url": "https://drive.atarifiuti.ap.it/40nen4anvbji"
       },
       "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": true
     },
     "4": {
-      "last_scan": "2026-04-24T13:16:29.061858+00:00",
+      "last_scan": "2026-04-24T15:05:27.655267+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2413,7 +2417,7 @@
       }
     },
     "5": {
-      "last_scan": "2026-04-24T13:16:29.061858+00:00",
+      "last_scan": "2026-04-24T15:05:27.655267+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11008,13 +11012,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-04-24T13:51:11.461878+00:00",
+    "last_scan": "2026-04-24T15:05:27.655267+00:00",
     "results": {
-      "scansionati": 1,
-      "aggiornati": 1,
-      "invariati": 0,
+      "scansionati": 2,
+      "aggiornati": 0,
+      "invariati": 2,
       "errori": 0,
-      "vuoti": 0
+      "vuoti": 3
     },
     "total_comuni": 33,
     "scadenze": {
