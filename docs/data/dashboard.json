@@ -810,14 +810,75 @@
       "processabile": "no"
     },
     "1": {
-      "last_scan": "2026-04-24T13:16:29.061858+00:00",
+      "last_scan": "2026-04-24T13:51:11.461878+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Acquasanta Terme",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/31vxgad4m5f4"
-      }
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/31vxgad4m5f4",
+        "id": 1
+      },
+      "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
+      "content_fingerprint": "c2039ec03bd1b3f5ec49e3eba33c9d8f2ccd8045aa9ab71b18f355930ab07115",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "test.xlsx",
+          "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/test.xlsx",
+          "hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
+          "size": 8846,
+          "doc_key": null,
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-24T13:51:11.461878+00:00",
+          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
+          "changed": true,
+          "file_count": 1
+        }
+      ],
+      "unclassified_files": [
+        {
+          "name": "test.xlsx",
+          "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/test.xlsx",
+          "source": "comune",
+          "size": 8846
+        }
+      ],
+      "processabile": "no"
     },
     "2": {
       "last_scan": "2026-04-24T13:16:29.061858+00:00",
@@ -10947,13 +11008,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-04-24T13:16:29.061858+00:00",
+    "last_scan": "2026-04-24T13:51:11.461878+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
-      "vuoti": 18
+      "vuoti": 0
     },
     "total_comuni": 33,
     "scadenze": {
