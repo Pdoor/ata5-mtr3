@@ -79,3 +79,34 @@ jobs:
             git commit -m "Scansione completata ${TIMESTAMP}"
             git push
           fi
+
+      # ────────────────────────────────────────────────────────────────────
+      #  Storicizzazione cartelle "Eventuali - Comunicazioni supplementari"
+      #  Step additivo: NON tocca dashboard.json, solo eventuali_history.json
+      #  continue-on-error: true → un fallimento qui non blocca il workflow
+      # ────────────────────────────────────────────────────────────────────
+      - name: Aggiorna storico cartelle Eventuali
+        continue-on-error: true
+        run: |
+          # Allinea il working tree al remote, in caso lo step "Commit finale"
+          # abbia appena pushato (evita reject su push successivo)
+          git pull --rebase --autostash || true
+          python scripts/history_tracker.py \
+            --dashboard docs/data/dashboard.json \
+            --history docs/data/eventuali_history.json
+          git add docs/data/eventuali_history.json
+          if git diff --cached --quiet; then
+            echo "Nessuna variazione storica."
+          else
+            TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
+            git commit -m "Aggiorna storico Eventuali ${TIMESTAMP}"
+            # Retry leggero: se il push collide con un altro job, ribase e ritenta
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push fallito, retry ${i}…"
+              git pull --rebase --autostash || true
+              sleep 2
+            done
+          fi
