@@ -213,13 +213,13 @@ const DOC_G=[
   {key:"tool_mtr3",       label:"Tool MTR3",           short:"Tool"},
   {key:"relazione",       label:"Relazione",           short:"Rel."},
   {key:"dich_veridicita", label:"Dich. Veridicità",    short:"Dich."},
-  {key:"altre_com",       label:"Altre Comunicazioni", short:"Altre"},
+  {key:"altre_com",       label:"Altre comunicazioni - Prosp. riconciliazione (Gestore)", short:"Altre"},
 ];
 const DOC_C=[
   {key:"tool_mtr3_c",       label:"Tool MTR3",           short:"Tool"},
   {key:"relazione_c",       label:"Relazione",           short:"Rel."},
   {key:"dich_veridicita_c", label:"Dich. Veridicità",    short:"Dich."},
-  {key:"altre_com_c",       label:"Altre Comunicazioni", short:"Altre"},
+  {key:"altre_com_c",       label:"Altre comunicazioni", short:"Altre"},
 ];
 const DOC_ATA5=[
   {key:"pef_validato", label:"PEF Validato", short:"PEF"},
@@ -230,12 +230,13 @@ const ALL_DOCS=[...DOC_G,...DOC_C,...DOC_ATA5];
 const DOC_MANDATORY=ALL_DOCS.filter(d=>!["altre_com","altre_com_c","pef_validato"].includes(d.key));
 
 const WORKFLOW_STEPS=[
-  {key:"pef_grezzi_od",  label:"PEF Grezzi caricati su ONEDRIVE",                 short:"Grezzi OD",   source:"manual"},
-  {key:"avvio_interloc", label:"Avvio interlocuzione e validazione",              short:"Avvio",       source:"manual"},
-  {key:"comune_visione", label:"PEF trasmesso al Comune in visione",              short:"→ Comune",    source:"manual"},
-  {key:"conferma_com",   label:"Conferma COMUNE validazione / Attestazione rinunce", short:"Conferma",    source:"manual"},
-  {key:"pef_drive_prov", label:"PEF da validare su Drive provincia",              short:"Drive prov.", source:"scanner", docKey:"pef_validato"},
-  {key:"delibera",       label:"Data delibera di approvazione",                   short:"Delibera",    source:"manual"},
+  {key:"pef_grezzi_od",        label:"PEF Grezzi caricati su ONEDRIVE",                    short:"Grezzi OD",   source:"manual"},
+  {key:"avvio_interloc",       label:"Avvio interlocuzione e validazione",                 short:"Avvio",       source:"manual"},
+  {key:"prospetto_riconciliaz",label:"Prospetto di riconciliazione (Gestore)",             short:"Riconc.",     source:"manual"},
+  {key:"comune_visione",       label:"PEF trasmesso al Comune in visione",                 short:"→ Comune",    source:"manual"},
+  {key:"conferma_com",         label:"Conferma COMUNE validazione / Attestazione rinunce", short:"Conferma",    source:"manual"},
+  {key:"pef_drive_prov",       label:"PEF da validare su Drive provincia",                 short:"Drive prov.", source:"scanner", docKey:"pef_validato"},
+  {key:"delibera",             label:"Data delibera di approvazione",                      short:"Delibera",    source:"manual"},
 ];
 function getWorkflowStep(s,step){
   if(step.source==="scanner"){
@@ -387,7 +388,22 @@ function applyOverrides(id,s){
   base.processabile=jsProcessabilita(base);
   return base;
 }
-function getEffectiveState(id){return applyOverrides(id,getState(id));}
+function getEffectiveState(id){
+  const original=getState(id);
+  let base=applyOverrides(id,original);
+  // Iniezione vista virtuale per altre_com / altre_com_c da eventuali_history.json
+  // (avviene DOPO gli override, così un override manuale prevale sempre)
+  const hasEvHist=ENABLE_EVENTUALI_HISTORY&&EVENTUALI_HISTORY?.comuni?.[String(id)];
+  if(!hasEvHist)return base;
+  // Se applyOverrides non ha clonato (assenza di override), cloniamo prima di mutare
+  if(base===original){
+    base=original?JSON.parse(JSON.stringify(original)):{docs:{},last_scan:null,last_scan_error:false,last_scan_empty:false};
+  }
+  _injectEventualiAggregate(id,base);
+  // jsProcessabilita esclude già altre_com/altre_com_c — il ricalcolo è no-op rispetto a oggi
+  if(!base.processabile)base.processabile=jsProcessabilita(base);
+  return base;
+}
 
 // ── Stato globale ──
 let JDATA=null;
@@ -641,6 +657,101 @@ async function loadJSON(){
   }
 }
 
+// ── Storico cartelle "Eventuali - Comunicazioni supplementari" ──
+// Caricato dal file generato dallo script history_tracker.py (read-only).
+// Alimenta la riga "Altre comunicazioni - Prosp. riconciliazione" dei pannelli MTR3
+// senza modificare dashboard.json né overrides.json. Per disabilitare la feature
+// in fretta è sufficiente impostare ENABLE_EVENTUALI_HISTORY=false: la riga torna
+// a leggere da s.docs.altre_com (che è sempre missing perché Allegato 4 non esiste).
+const ENABLE_EVENTUALI_HISTORY=true;
+const HISTORY_URL="https://pdoor.github.io/ata5-mtr3/data/eventuali_history.json";
+let EVENTUALI_HISTORY={meta:{},comuni:{}};
+async function loadEventualiHistory(){
+  if(!ENABLE_EVENTUALI_HISTORY)return;
+  try{
+    const r=await fetch(HISTORY_URL+"?t="+Date.now());
+    if(r.ok){
+      const d=await r.json();
+      if(d&&typeof d==="object"&&d.comuni)EVENTUALI_HISTORY=d;
+    }
+  }catch(e){/* file assente o non leggibile: la riga resta come oggi (missing) */}
+}
+// Costruisce un oggetto "doc state" virtuale (compatibile con la forma di s.docs[key])
+// aggregando i record di EVENTUALI_HISTORY[id][src] in un'unica vista per la riga MTR3.
+function _buildEventualiAggregate(records){
+  if(!Array.isArray(records)||!records.length)return null;
+  const presents=records.filter(r=>r&&r.status==="presente");
+  if(!presents.length){
+    const removed=records.filter(r=>r&&r.status==="rimosso");
+    if(!removed.length)return null;
+    const removedAts=removed.map(r=>r.removed_at).filter(Boolean).sort();
+    const firstSeens=removed.map(r=>r.first_seen).filter(Boolean).sort();
+    const lastSeens=removed.map(r=>r.last_seen).filter(Boolean).sort();
+    return {
+      status:"removed",
+      first_upload:firstSeens[0]||null,
+      last_upload:lastSeens[lastSeens.length-1]||null,
+      removed_at:removedAts[removedAts.length-1]||null,
+      file_count:0,
+      upload_history:[],
+      _virtual:true
+    };
+  }
+  // Almeno un file presente
+  // Main file: il più grande, fallback al più recentemente caricato
+  const main=presents.slice().sort((a,b)=>(b.current_size||0)-(a.current_size||0))[0];
+  const firstSeens=presents.map(r=>r.first_seen).filter(Boolean).sort();
+  const lastSeens=presents.map(r=>r.last_seen).filter(Boolean).sort();
+  // Aggrega gli eventi: tutti i record (anche quelli rimossi storici), ordinati per tempo
+  const allEvents=[];
+  records.forEach(r=>{
+    (Array.isArray(r.history)?r.history:[]).forEach(ev=>{
+      allEvents.push({
+        time:ev.time||null,
+        hash:ev.hash||null,
+        file:r.filename||null,
+        event:ev.event||null,
+        previous_hash:ev.previous_hash||null,
+        size:ev.size||null
+      });
+    });
+  });
+  allEvents.sort((a,b)=>(a.time||"").localeCompare(b.time||""));
+  const replaced=allEvents.some(e=>e.event==="sostituzione");
+  return {
+    status:"received",
+    current_hash:main.current_hash||"",
+    current_file:main.filename||"",
+    current_size:main.current_size||0,
+    file_count:presents.length,
+    all_files:presents.map(r=>({name:r.filename,hash:r.current_hash,size:r.current_size})),
+    first_upload:firstSeens[0]||null,
+    last_upload:lastSeens[lastSeens.length-1]||null,
+    replaced:replaced,
+    upload_history:allEvents.slice(-50),
+    _virtual:true
+  };
+}
+// Inietta in `base` la vista virtuale per altre_com / altre_com_c.
+// Rispetta override manuali esistenti (_manual flag) e non li sovrascrive.
+function _injectEventualiAggregate(id,base){
+  if(!ENABLE_EVENTUALI_HISTORY)return;
+  const cm=(EVENTUALI_HISTORY?.comuni||{})[String(id)];
+  if(!cm||typeof cm!=="object")return;
+  if(!base.docs)base.docs={};
+  const mapping=[["gestore","altre_com"],["comune","altre_com_c"]];
+  mapping.forEach(([src,docKey])=>{
+    // Se l'utente ha già un override manuale su questa riga, non lo tocchiamo.
+    if(base.docs[docKey]&&base.docs[docKey]._manual)return;
+    const records=Array.isArray(cm[src])?cm[src]:[];
+    const agg=_buildEventualiAggregate(records);
+    if(agg){
+      base.docs[docKey]={...(base.docs[docKey]||{}),...agg};
+    }
+    // Se agg è null (nessun record) lasciamo la riga com'era (missing dallo scanner).
+  });
+}
+
 // ── Helpers ──
 function h(t,a,...ch){
   const e=document.createElement(t);
@@ -688,6 +799,7 @@ function getFiltered(){
     if(fStat==="wf4"){if(!getWorkflowStep(s,WORKFLOW_STEPS[3]).done)return false;}
     if(fStat==="wf5"){if(!getWorkflowStep(s,WORKFLOW_STEPS[4]).done)return false;}
     if(fStat==="wf6"){if(!getWorkflowStep(s,WORKFLOW_STEPS[5]).done)return false;}
+    if(fStat==="wf7"){if(!getWorkflowStep(s,WORKFLOW_STEPS[6]).done)return false;}
     if(fStat==="odko"){
       // "Disponibile su ONEDRIVE": mostra i comuni marcati su OneDrive, sia via checkbox OD
       // sia tramite Fase 1 del Workflow validazione PEF (pef_grezzi_od) con data valorizzata.
@@ -723,7 +835,7 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","WF Fase","WF Grezzi OD","WF Avvio","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -908,7 +1020,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wf1",l:"WF1 - PEF Grezzi su Onedrive"},{v:"wf2",l:"WF2 - Avvio interlocuzioni"},{v:"wf3",l:"WF3 - PEF trasmesso al Comune"},{v:"wf4",l:"WF4 - PEF confermato / attestazione rinunce"},{v:"wf5",l:"WF5 - PEF Caricato per validazione"},{v:"wf6",l:"WF6 - PEF deliberato"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wf1",l:"WF1 - PEF Grezzi su Onedrive"},{v:"wf2",l:"WF2 - Avvio interlocuzioni"},{v:"wf3",l:"WF3 - Prosp. riconciliazione (Gestore)"},{v:"wf4",l:"WF4 - PEF trasmesso al Comune"},{v:"wf5",l:"WF5 - PEF confermato / attestazione rinunce"},{v:"wf6",l:"WF6 - PEF Caricato per validazione"},{v:"wf7",l:"WF7 - PEF deliberato"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},siWrap,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
@@ -1516,12 +1628,12 @@ function renderTable(fil){
 // ── BOOT ──
 (async()=>{
   render();                                          // mostra subito i 40 comuni con stato "In attesa"
-  await Promise.all([loadJSON(),loadOverrides()]);   // carica dashboard.json e overrides.json in parallelo
+  await Promise.all([loadJSON(),loadOverrides(),loadEventualiHistory()]);   // carica dashboard.json, overrides.json e eventuali_history.json in parallelo
   // Auto-login da localStorage (silenzioso, senza prompt)
   await _tryAutoLogin();
   render();                                          // aggiorna con i dati reali + override condivisi + sessione
 })();
-setInterval(async()=>{await Promise.all([loadJSON(),loadOverrides()]);render();},180000); // refresh ogni 3 minuti
+setInterval(async()=>{await Promise.all([loadJSON(),loadOverrides(),loadEventualiHistory()]);render();},180000); // refresh ogni 3 minuti
 </script>
 </body>
 </html>
