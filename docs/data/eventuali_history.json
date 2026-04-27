@@ -1,9 +1,97 @@
 {
   "meta": {
     "version": 1,
-    "last_update": null,
-    "dashboard_last_scan": null,
-    "files_tracked": 0
+    "last_update": "2026-04-27T10:56:18.900352+00:00",
+    "dashboard_last_scan": "2026-04-27T10:28:04.083304+00:00",
+    "files_tracked": 4
   },
-  "comuni": {}
+  "comuni": {
+    "1": {
+      "gestore": [
+        {
+          "filename": "test.xlsx",
+          "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/test.xlsx",
+          "current_hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
+          "current_size": 8846,
+          "first_seen": "2026-04-27T10:28:04.083304+00:00",
+          "last_seen": "2026-04-27T10:28:04.083304+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T10:28:04.083304+00:00",
+              "hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
+              "size": 8846
+            }
+          ]
+        }
+      ],
+      "comune": []
+    },
+    "3": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "_Aggio_Richiesta costi 2024_AGG PEF 2026 2029_Appignano del tronto.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/_Aggio_Richiesta costi 2024_AGG PEF 2026 2029_Appignano del tronto.xlsx",
+          "current_hash": "fc4c22f054759e5bc28129be3425131e334fd171b3c8493a69595fbc06146e21",
+          "current_size": 19728,
+          "first_seen": "2026-04-27T10:28:04.083304+00:00",
+          "last_seen": "2026-04-27T10:28:04.083304+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T10:28:04.083304+00:00",
+              "hash": "fc4c22f054759e5bc28129be3425131e334fd171b3c8493a69595fbc06146e21",
+              "size": 19728
+            }
+          ]
+        },
+        {
+          "filename": "documentazione comune.zip",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/documentazione comune.zip",
+          "current_hash": "b883b6b991abdc3ef282a1ce83173993f09a0be099fcaaa587305fe00001426e",
+          "current_size": 3543965,
+          "first_seen": "2026-04-27T10:28:04.083304+00:00",
+          "last_seen": "2026-04-27T10:28:04.083304+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T10:28:04.083304+00:00",
+              "hash": "b883b6b991abdc3ef282a1ce83173993f09a0be099fcaaa587305fe00001426e",
+              "size": 3543965
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "documenti giustificativi.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/documenti giustificativi.rar",
+          "current_hash": "fe17e1d2eaabd438b570a7c14cc1169203741ddd7fcb654c8b51907c7cf647de",
+          "current_size": 5531443,
+          "first_seen": "2026-04-27T10:28:04.083304+00:00",
+          "last_seen": "2026-04-27T10:28:04.083304+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T10:28:04.083304+00:00",
+              "hash": "fe17e1d2eaabd438b570a7c14cc1169203741ddd7fcb654c8b51907c7cf647de",
+              "size": 5531443
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
