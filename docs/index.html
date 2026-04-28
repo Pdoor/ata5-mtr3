@@ -601,6 +601,13 @@ async function loadOverrides(){
       }else{
         ONLINE_OVERRIDES=d||{};
       }
+      // ── Assorbi in LOCAL le scritture fatte da altre sessioni/device ──
+      // Solo chiavi MANCANTI: non sovrascrive override locali in attesa di sync.
+      let _absorbedAny=false;
+      for(const _k in ONLINE_OVERRIDES){
+        if(!(_k in LOCAL_OVERRIDES)){LOCAL_OVERRIDES[_k]=ONLINE_OVERRIDES[_k];_absorbedAny=true;}
+      }
+      if(_absorbedAny)saveOverrides();
     }
   }catch(e){}
 }
@@ -617,7 +624,34 @@ async function saveOverrideOnline(){
   _ovQueue=null;
   // Se nel frattempo è arrivato un altro salvataggio, riesegui con dati freschi
   if(_ovDirty){_ovDirty=false;return saveOverrideOnline();}
+  // ── Feedback visibile su esito sync + auto-retry su fallimento ──
+  if(result===false)_onSyncFailure();
+  else if(result===true)_onSyncSuccess();
   return result;
+}
+// ── Helpers UI per stato sincronizzazione GitHub ──
+let _syncRetryTimer=null;
+function _onSyncFailure(){
+  let el=document.getElementById("sync-error-banner");
+  if(!el){
+    el=document.createElement("div");
+    el.id="sync-error-banner";
+    el.style.cssText="position:fixed;top:0;left:0;right:0;background:#7f1d1d;color:#fecaca;padding:8px 14px;font-size:12px;z-index:9999;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #b91c1c;font-family:system-ui,sans-serif";
+    const msg=document.createElement("span");
+    msg.textContent="\u26a0 Sincronizzazione GitHub fallita \u2014 le ultime modifiche restano solo locali. Verr\u00e0 ritentata automaticamente. Se persiste, controlla il PAT.";
+    const btn=document.createElement("button");
+    btn.textContent="Chiudi";
+    btn.style.cssText="background:none;border:1px solid #fecaca;color:#fecaca;padding:2px 10px;border-radius:4px;cursor:pointer;font-size:11px;margin-left:10px";
+    btn.onclick=()=>el.remove();
+    el.appendChild(msg);el.appendChild(btn);
+    document.body.appendChild(el);
+  }
+  if(!_syncRetryTimer)_syncRetryTimer=setTimeout(()=>{_syncRetryTimer=null;saveOverrideOnline();},60000);
+}
+function _onSyncSuccess(){
+  const el=document.getElementById("sync-error-banner");
+  if(el)el.remove();
+  if(_syncRetryTimer){clearTimeout(_syncRetryTimer);_syncRetryTimer=null;}
 }
 async function _doSaveOverrideOnline(retries){
   if(retries===undefined)retries=2;
