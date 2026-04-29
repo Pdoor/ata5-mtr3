@@ -56,6 +56,9 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .fi{padding:7px 12px;border-radius:7px;border:1px solid var(--b2);background:var(--b);color:var(--t);font-size:12px;outline:0}
 .fi:focus{border-color:var(--blue)}
 .fc{font-size:11px;color:var(--t3);font-family:var(--m)}
+.fp{padding:6px 11px;border-radius:7px;border:1px solid var(--b2);background:0;color:var(--t2);font-size:11px;font-weight:600;cursor:pointer;transition:.15s;user-select:none}
+.fp:hover{border-color:var(--blue);color:var(--t)}
+.fp.on{background:#14532d;border-color:var(--gd);color:#86efac}
 .cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px}
 .cd{background:var(--s);border:1px solid var(--b);border-radius:11px;padding:14px 16px;cursor:pointer;transition:.15s;position:relative;overflow:hidden}
 .cd:hover{border-color:var(--blue);background:var(--s2)}
@@ -374,6 +377,8 @@ function applyOverrides(id,s){
     const ov=merged[k];
     // Flag OneDrive: boolean manuale, non è un documento
     if(docKey==="ondrive"){base.cart_ondrive=ov.ondrive===true;base.cart_ondrive_by=ov.by||null;base.cart_ondrive_at=ov.at||null;return;}
+    if(docKey==="odg"){base.cart_odg=ov.odg===true;base.cart_odg_by=ov.by||null;base.cart_odg_at=ov.at||null;return;}
+    if(docKey==="odc"){base.cart_odc=ov.odc===true;base.cart_odc_by=ov.by||null;base.cart_odc_at=ov.at||null;return;}
     // Workflow validazione PEF: date manuali per step non-scanner
     if(docKey.indexOf("wf_")===0){const wfKey=docKey.slice(3);if(!base.workflow)base.workflow={};base.workflow[wfKey]={date:ov.date||null,by:ov.by||null,at:ov.at||null,cleared:!!ov.cleared};return;}
     // Lo scanner vince solo se l'override NON sta degradando lo stato.
@@ -409,6 +414,7 @@ function getEffectiveState(id){
 let JDATA=null;
 let view="dashboard",selId=null;
 let search="",fGest="all",fStat="all";
+let fOd=false,fOdg=false,fOdc=false;  // filtri combinabili: OD completo, OD Gestore, OD Comune
 let openHist={};
 const DATA_URLS = ["https://pdoor.github.io/ata5-mtr3/data/dashboard.json"];
 const GH_REPO={owner:"Pdoor",repo:"ata5-mtr3",path:"docs/data/overrides.json"};
@@ -548,6 +554,15 @@ async function showPwd(id,url,container){
     countdown--;timer.textContent=countdown+"s";
     if(countdown<=0){clearInterval(_pwdTimers[id]);delete _pwdTimers[id];box.remove();}
   },1000);
+}
+
+// ── Copia rapida password (scorciatoia da tabella) ──
+async function copyPwdQuick(c){
+  if(!_currentUser)return;
+  if(!await _requireUnlock())return;
+  const pwd=_pwdMap?.[_urlKey(c.url)];
+  if(!pwd){alert("Password non configurata per "+c.comune);return;}
+  await navigator.clipboard.writeText(pwd);
 }
 
 // ── Setup token GitHub ──
@@ -843,6 +858,10 @@ function getFiltered(){
       const _wfDone=!!(_wOD&&_wOD.date);
       if(!_onOd&&!_wfDone)return false;
     }
+    // Filtri OD combinabili (AND su tutti quelli attivi). fStat="odko" resta indipendente.
+    if(fOd  && s?.cart_ondrive!==true) return false;
+    if(fOdg && s?.cart_odg!==true)     return false;
+    if(fOdc && s?.cart_odc!==true)     return false;
     return true;
   });
 }
@@ -869,7 +888,7 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -883,6 +902,8 @@ function exportCSV(){
       fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
       s?.last_scan_error?"SI":"",
       s?.cart_ondrive===true?"SI":"",
+      s?.cart_odg===true?"SI":"",
+      s?.cart_odc===true?"SI":"",
       getWorkflowProgress(s)+"/"+WORKFLOW_STEPS.length,
       ...WORKFLOW_STEPS.map(st=>{const w=getWorkflowStep(s,st);return w.date||"";}),
       (function flatNotes(arr,depth){return arr.map(n=>(" ".repeat(depth))+n.author+" ["+n.cat+"] "+n.date+": "+n.text+(n.children?.length?"\n"+flatNotes(n.children,depth+1):"")).join("\n");}(_getNotes(c.id),0)).replace(/[\n\r]+/g," | ")
@@ -1056,7 +1077,14 @@ function render(){
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
   [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"pefvalid",l:"PEF Validato"},{v:"wf1",l:"WF1 - PEF Grezzi su Onedrive"},{v:"wf2",l:"WF2 - Avvio interlocuzioni"},{v:"wf3",l:"WF3 - Prosp. riconciliazione (Gestore)"},{v:"wf4",l:"WF4 - PEF trasmesso al Comune"},{v:"wf5",l:"WF5 - PEF confermato / attestazione rinunce"},{v:"wf6",l:"WF6 - PEF Caricato per validazione"},{v:"wf7",l:"WF7 - PEF deliberato"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
-  main.appendChild(h("div",{className:"fil"},siWrap,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
+  // Pill filtro OD combinabili (AND)
+  const _mkOdPill=(label,active,toggle)=>h("button",{className:"fp"+(active?" on":""),onClick:()=>{toggle();render();}},label);
+  const odPills=h("div",{style:{display:"flex",gap:"6px"}},
+    _mkOdPill("OD completo",fOd, ()=>{fOd =!fOd;}),
+    _mkOdPill("OD Gestore",fOdg,()=>{fOdg=!fOdg;}),
+    _mkOdPill("OD Comune", fOdc,()=>{fOdc=!fOdc;})
+  );
+  main.appendChild(h("div",{className:"fil"},siWrap,gs,ss,odPills,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
   // DETAIL
   if(selId){main.appendChild(renderDetail(selId));return;}
@@ -1087,6 +1115,8 @@ function renderCard(c){
         h("span",{className:"cd-pct",style:{color:col}},s!==null?p+"%":"—"),
         pc?h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label):null,
         s?.cart_ondrive===true?h("span",{className:"badge",style:{background:"#14532d",color:"#86efac"},title:"Copiato su OneDrive"+(s.cart_ondrive_by?" da "+s.cart_ondrive_by:"")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"")},"☁ OD"):null,
+        s?.cart_odg===true?h("span",{className:"badge",style:{background:"#1e3a5f",color:"#93c5fd"},title:"Dossier Gestore su dataroom"+(s.cart_odg_by?" da "+s.cart_odg_by:"")+(s.cart_odg_at?" il "+fmtDate(s.cart_odg_at):"")},"📋 ODG"):null,
+        s?.cart_odc===true?h("span",{className:"badge",style:{background:"#581c87",color:"#d8b4fe"},title:"Dossier Comune su dataroom"+(s.cart_odc_by?" da "+s.cart_odc_by:"")+(s.cart_odc_at?" il "+fmtDate(s.cart_odc_at):"")},"📋 ODC"):null,
         (function(){const _p=getWorkflowProgress(s),_t=WORKFLOW_STEPS.length;if(_p===0)return null;const _bg=_p===_t?"#14532d":"#78350f",_fg=_p===_t?"#86efac":"#fde68a";return h("span",{className:"badge",style:{background:_bg,color:_fg},title:"Workflow: "+_p+"/"+_t+" fasi completate"},"⚙ "+_p+"/"+_t);})()
       )
     ),
@@ -1596,7 +1626,7 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1614,8 +1644,50 @@ function renderTable(fil){
     tr.appendChild(h("td",{style:{color:"var(--t2)"}},c.gestore));
     DOC_G.forEach(d=>{const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
       tr.appendChild(h("td",{style:{textAlign:"center",color:cfg.color,fontWeight:"600"},title:d.label+(ds.first_upload?"\nPrimo: "+fmtDate(ds.first_upload):"")+(ds.last_upload?"\nUltimo: "+fmtDate(ds.last_upload):"")},cfg.icon))});
+    // ── ODG: dossier Gestore copiato su dataroom
+    const odgtd=h("td",{style:{textAlign:"center"}});
+    const odgChk=h("input",{type:"checkbox"});
+    odgChk.checked=s?.cart_odg===true;
+    odgChk.disabled=_userRole!=="admin";
+    if(s?.cart_odg_by||s?.cart_odg_at){
+      odgtd.title="Segnato da "+(s.cart_odg_by||"?")+(s.cart_odg_at?" il "+fmtDate(s.cart_odg_at):"");
+    }
+    odgChk.addEventListener("click",e=>e.stopPropagation());
+    odgChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_odg";
+      if(e.target.checked){
+        const v={odg:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odgtd.appendChild(odgChk);tr.appendChild(odgtd);
     DOC_C.forEach(d=>{const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
       tr.appendChild(h("td",{style:{textAlign:"center",color:cfg.color,fontWeight:"600"},title:d.label+(ds.first_upload?"\nPrimo: "+fmtDate(ds.first_upload):"")+(ds.last_upload?"\nUltimo: "+fmtDate(ds.last_upload):"")},cfg.icon))});
+    // ── ODC: dossier Comune copiato su dataroom
+    const odctd=h("td",{style:{textAlign:"center"}});
+    const odcChk=h("input",{type:"checkbox"});
+    odcChk.checked=s?.cart_odc===true;
+    odcChk.disabled=_userRole!=="admin";
+    if(s?.cart_odc_by||s?.cart_odc_at){
+      odctd.title="Segnato da "+(s.cart_odc_by||"?")+(s.cart_odc_at?" il "+fmtDate(s.cart_odc_at):"");
+    }
+    odcChk.addEventListener("click",e=>e.stopPropagation());
+    odcChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_odc";
+      if(e.target.checked){
+        const v={odc:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odctd.appendChild(odcChk);tr.appendChild(odctd);
     DOC_ATA5.forEach(d=>{const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
       tr.appendChild(h("td",{style:{textAlign:"center",color:cfg.color,fontWeight:"600"},title:d.label+(ds.first_upload?"\nPrimo: "+fmtDate(ds.first_upload):"")+(ds.last_upload?"\nUltimo: "+fmtDate(ds.last_upload):"")},cfg.icon))});
     tr.appendChild(h("td",{style:{textAlign:"center",fontWeight:"700",color:col,fontFamily:"var(--m)"}},s!==null?String(p):"—"));
@@ -1653,7 +1725,15 @@ function renderTable(fil){
     const dtd=h("td",{style:{textAlign:"center"}});
     const a=h("a",{href:c.url,target:"_blank",className:"drive-lnk"},"↗");
     a.addEventListener("click",e=>e.stopPropagation());
-    dtd.appendChild(a);tr.appendChild(dtd);
+    dtd.appendChild(a);
+    if(_currentUser){
+      const cp=h("button",{className:"drive-lnk",title:"Copia password",style:{marginLeft:"4px"},onClick:e=>{
+        e.stopPropagation();
+        copyPwdQuick(c).then(()=>{cp.textContent="\u2713";setTimeout(()=>{cp.textContent="\ud83d\udccb";},1200);});
+      }},"\ud83d\udccb");
+      dtd.appendChild(cp);
+    }
+    tr.appendChild(dtd);
     tbody.appendChild(tr);
   });
   tb.appendChild(tbody);tw.appendChild(tb);return tw;
