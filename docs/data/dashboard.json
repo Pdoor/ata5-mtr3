@@ -7875,7 +7875,7 @@
       "processabile": "no"
     },
     "16": {
-      "last_scan": "2026-05-02T16:55:00.787560+00:00",
+      "last_scan": "2026-05-02T17:50:01.473204+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7885,7 +7885,7 @@
       }
     },
     "17": {
-      "last_scan": "2026-05-02T16:55:00.787560+00:00",
+      "last_scan": "2026-05-02T17:50:01.473204+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7895,7 +7895,7 @@
       }
     },
     "18": {
-      "last_scan": "2026-05-02T16:55:00.787560+00:00",
+      "last_scan": "2026-05-02T17:50:01.473204+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7905,7 +7905,7 @@
       }
     },
     "19": {
-      "last_scan": "2026-05-02T16:55:00.787560+00:00",
+      "last_scan": "2026-05-02T17:50:01.473204+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7915,7 +7915,7 @@
       }
     },
     "20": {
-      "last_scan": "2026-05-02T16:55:00.787560+00:00",
+      "last_scan": "2026-05-02T17:50:01.473204+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11743,7 +11743,7 @@
       "aggiornati": 0,
       "invariati": 10,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 10
     },
     "total_comuni": 33,
     "scadenze": {
