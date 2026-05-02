@@ -3,7 +3,7 @@
     "25": {
       "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
       "content_fingerprint": "176e82a63071d48d6e3245729f9641974ae081e015c6dcca593414b9e3091b11",
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -197,12 +197,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-18T15:34:35.034151+00:00",
-          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
-          "changed": false,
-          "file_count": 5
-        },
         {
           "time": "2026-04-18T16:35:44.590427+00:00",
           "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
@@ -793,6 +787,12 @@
         },
         {
           "time": "2026-05-01T20:07:11.820656+00:00",
+          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
+          "changed": false,
+          "file_count": 5
+        },
+        {
+          "time": "2026-05-02T09:11:46.145294+00:00",
           "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
           "changed": false,
           "file_count": 5
@@ -7843,7 +7843,7 @@
     "21": {
       "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
       "content_fingerprint": "d80548fe8d16416ca1df894f9af8b1bd464dc0c880ead9b3ed1035f0c2d4ff44",
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7981,12 +7981,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-18T15:34:35.034151+00:00",
-          "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-18T16:35:44.590427+00:00",
           "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
           "changed": false,
@@ -8579,6 +8573,12 @@
           "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-02T09:11:46.145294+00:00",
+          "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -8593,7 +8593,7 @@
       "processabile": "no"
     },
     "22": {
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8605,7 +8605,7 @@
     "23": {
       "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
       "content_fingerprint": "3b26c25a9e838be4860e0086d2eef8edd3de45d8186085db7b645de7b6e0b4be",
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8730,12 +8730,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-18T15:34:35.034151+00:00",
-          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-18T16:35:44.590427+00:00",
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
           "changed": false,
@@ -9328,6 +9322,12 @@
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-02T09:11:46.145294+00:00",
+          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -9342,7 +9342,7 @@
       "processabile": "no"
     },
     "24": {
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -9354,7 +9354,7 @@
     "26": {
       "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
       "content_fingerprint": "4dcee61548f2bde96221dcd737f1b287133a279cb53bdc8b10e49d8abb8d8125",
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9492,12 +9492,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-18T15:34:35.034151+00:00",
-          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-18T16:35:44.590427+00:00",
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
           "changed": false,
@@ -10090,6 +10084,12 @@
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-02T09:11:46.145294+00:00",
+          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -10104,132 +10104,51 @@
       "processabile": "no"
     },
     "27": {
-      "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
-      "content_fingerprint": "72ed67f955b3eac3282e0e4489beda57fc30bf3c6808a95cc80c304b394d09eb",
-      "last_scan": "2026-05-01T20:07:11.820656+00:00",
-      "zip_changed": false,
+      "zip_hash": "7c44d863bc1f57618d71647290c4f617d8f7a0ae8772d249391a21481bb2b665",
+      "content_fingerprint": "1abbb723318b4ed7b9f6a08829eafb88e576191fa7c70818f0aa5871bb8eced7",
+      "last_scan": "2026-05-02T09:11:46.145294+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
-          "current_hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
-          "current_file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3987262,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
-              "size": 3987262
-            }
-          ],
-          "first_upload": "2026-04-07T10:52:45.015321+00:00",
-          "last_upload": "2026-04-07T10:52:45.015321+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-04-07T10:52:45.015321+00:00",
-              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
-              "file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-04-09T10:56:13.560509+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-04-09T10:56:13.560509+00:00"
+          "status": "missing"
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
-          "current_file": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
-          "current_size": 347236,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
-              "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
-              "size": 347236
-            }
-          ],
-          "first_upload": "2026-04-07T10:52:45.015321+00:00",
-          "last_upload": "2026-04-07T10:52:45.015321+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-04-07T10:52:45.015321+00:00",
-              "hash": "2fa42318c4cd00a5e55225fbd84db8823359f09dc4d11b3c63709f7f5328bfc5",
-              "file": "Relazione PEF 2026_2029 Gestore Comune palmiano_signed.pdf",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-04-09T10:56:13.560509+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-04-09T10:56:13.560509+00:00"
+          "status": "missing"
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
-          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
-          "current_size": 195668,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
-              "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
-              "size": 195668
-            }
-          ],
-          "first_upload": "2026-04-07T10:52:45.015321+00:00",
-          "last_upload": "2026-04-07T10:52:45.015321+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-04-07T10:52:45.015321+00:00",
-              "hash": "cb29e0acfc36dbd4e99214fc6f112ec167ce602b697acea74023944d966cfb27",
-              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-04-09T10:56:13.560509+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-04-09T10:56:13.560509+00:00"
+          "status": "missing"
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
+          "current_hash": "399c697b6fe857b2f3e926646eff2d5889d6925c61de5db3dad06a9ca4ccd0b5",
           "current_file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3987262,
+          "current_size": 3986155,
           "file_count": 1,
           "all_files": [
             {
               "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
-              "size": 3987262
+              "hash": "399c697b6fe857b2f3e926646eff2d5889d6925c61de5db3dad06a9ca4ccd0b5",
+              "size": 3986155
             }
           ],
           "first_upload": "2026-04-09T09:03:51.809736+00:00",
-          "last_upload": "2026-04-09T09:03:51.809736+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-02T09:11:46.145294+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-09T09:03:51.809736+00:00",
               "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
               "file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-02T09:11:46.145294+00:00",
+              "hash": "399c697b6fe857b2f3e926646eff2d5889d6925c61de5db3dad06a9ca4ccd0b5",
+              "file": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -10294,8 +10213,8 @@
         {
           "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "4a6ccb7f4cca9023a3cd156bec5cdb3e70bf2bfeabb05f466d18af7db40b8afa",
-          "size": 3987262,
+          "hash": "399c697b6fe857b2f3e926646eff2d5889d6925c61de5db3dad06a9ca4ccd0b5",
+          "size": 3986155,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -10317,12 +10236,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-18T15:34:35.034151+00:00",
-          "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-18T16:35:44.590427+00:00",
           "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
@@ -10915,6 +10828,12 @@
           "time": "2026-05-01T20:07:11.820656+00:00",
           "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
           "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-02T09:11:46.145294+00:00",
+          "zip_hash": "7c44d863bc1f57618d71647290c4f617d8f7a0ae8772d249391a21481bb2b665",
+          "changed": true,
           "file_count": 3
         }
       ],
@@ -11736,11 +11655,11 @@
   "meta": {
     "last_scan": "2026-05-02T09:11:46.145294+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 0,
-      "invariati": 10,
+      "scansionati": 15,
+      "aggiornati": 1,
+      "invariati": 14,
       "errori": 0,
-      "vuoti": 10
+      "vuoti": 12
     },
     "total_comuni": 33,
     "scadenze": {
