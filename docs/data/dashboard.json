@@ -11443,7 +11443,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-05-05T12:06:11.231675+00:00",
+      "last_scan": "2026-05-05T17:28:17.552693+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11455,7 +11455,7 @@
     "32": {
       "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
       "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
-      "last_scan": "2026-05-05T12:06:11.231675+00:00",
+      "last_scan": "2026-05-05T17:28:17.552693+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11592,12 +11592,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-19T16:36:19.789954+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-19T17:33:13.313525+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -12191,6 +12185,12 @@
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-05T17:28:17.552693+00:00",
+          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -12206,7 +12206,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-05T12:06:11.231675+00:00",
+      "last_scan": "2026-05-05T17:28:17.552693+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12219,11 +12219,11 @@
   "meta": {
     "last_scan": "2026-05-05T17:28:17.552693+00:00",
     "results": {
-      "scansionati": 18,
+      "scansionati": 19,
       "aggiornati": 0,
-      "invariati": 18,
+      "invariati": 19,
       "errori": 0,
-      "vuoti": 12
+      "vuoti": 14
     },
     "total_comuni": 33,
     "scadenze": {
