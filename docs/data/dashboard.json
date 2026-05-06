@@ -1,13 +1,13 @@
 {
   "comuni": {
     "25": {
-      "zip_hash": "2f870fb01e02b73aeece926ca75e91b6318cdec491012913cfb16d35f07ebe43",
-      "content_fingerprint": "fae5ee8059844972ff5475912ac9f8aab4c9b74f403ae28ac007ac27c4ef215c",
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
-      "zip_changed": false,
+      "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
+      "content_fingerprint": "176e82a63071d48d6e3245729f9641974ae081e015c6dcca593414b9e3091b11",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "6bc6d0e9b48acd2cf1944a0515ab1fb466c272601e562c0d205337ef83ea9a72",
           "current_file": "Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "current_size": 4874793,
@@ -28,11 +28,18 @@
               "hash": "6bc6d0e9b48acd2cf1944a0515ab1fb466c272601e562c0d205337ef83ea9a72",
               "file": "Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-06T17:45:24.181173+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-06T17:45:24.181173+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "c3e6be23a2c0a0a0136f7414710fd71fbf21d0c0800993f2d1d5755dc7ae6887",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monteprandone.pdf.p7m",
           "current_size": 4647860,
@@ -53,11 +60,18 @@
               "hash": "c3e6be23a2c0a0a0136f7414710fd71fbf21d0c0800993f2d1d5755dc7ae6887",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monteprandone.pdf.p7m",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-06T17:45:24.181173+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-06T17:45:24.181173+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "7a38b908e33795293d3845b6afd6c660ba491c67bb898f674233ec5ba25b76bb",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Monteprandone 6.5.2026_signed.pdf",
           "current_size": 608950,
@@ -78,8 +92,15 @@
               "hash": "7a38b908e33795293d3845b6afd6c660ba491c67bb898f674233ec5ba25b76bb",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Monteprandone 6.5.2026_signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-06T17:45:24.181173+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-06T17:45:24.181173+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -178,30 +199,6 @@
       },
       "all_files": [
         {
-          "name": "Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
-          "hash": "6bc6d0e9b48acd2cf1944a0515ab1fb466c272601e562c0d205337ef83ea9a72",
-          "size": 4874793,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monteprandone.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monteprandone.pdf.p7m",
-          "hash": "c3e6be23a2c0a0a0136f7414710fd71fbf21d0c0800993f2d1d5755dc7ae6887",
-          "size": 4647860,
-          "doc_key": "relazione",
-          "source": "gestore"
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Monteprandone 6.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Monteprandone 6.5.2026_signed.pdf",
-          "hash": "7a38b908e33795293d3845b6afd6c660ba491c67bb898f674233ec5ba25b76bb",
-          "size": 608950,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
           "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
@@ -243,12 +240,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-21T19:23:56.044611+00:00",
-          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
-          "changed": false,
-          "file_count": 5
-        },
         {
           "time": "2026-04-22T09:17:23.364324+00:00",
           "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
@@ -842,6 +833,12 @@
           "zip_hash": "2f870fb01e02b73aeece926ca75e91b6318cdec491012913cfb16d35f07ebe43",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-06T17:45:24.181173+00:00",
+          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
+          "changed": true,
+          "file_count": 5
         }
       ],
       "unclassified_files": [],
@@ -853,7 +850,7 @@
         "id": 25
       },
       "last_scan_error": false,
-      "processabile": "si"
+      "processabile": "no"
     },
     "1": {
       "last_scan": "2026-05-06T17:45:24.181173+00:00",
@@ -8367,7 +8364,7 @@
     "21": {
       "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
       "content_fingerprint": "d80548fe8d16416ca1df894f9af8b1bd464dc0c880ead9b3ed1035f0c2d4ff44",
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8505,12 +8502,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-21T19:23:56.044611+00:00",
-          "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-22T09:17:23.364324+00:00",
           "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
           "changed": false,
@@ -9103,6 +9094,12 @@
           "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-06T17:45:24.181173+00:00",
+          "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -9117,7 +9114,7 @@
       "processabile": "no"
     },
     "22": {
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -9233,6 +9230,12 @@
           "zip_hash": "720cf78830af8f613b1826aee851b0f487b7350ee558c05b1f9702647d9bd785",
           "changed": false,
           "file_count": 1
+        },
+        {
+          "time": "2026-05-06T17:45:24.181173+00:00",
+          "zip_hash": "720cf78830af8f613b1826aee851b0f487b7350ee558c05b1f9702647d9bd785",
+          "changed": false,
+          "file_count": 1
         }
       ],
       "unclassified_files": [],
@@ -9241,7 +9244,7 @@
     "23": {
       "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
       "content_fingerprint": "3b26c25a9e838be4860e0086d2eef8edd3de45d8186085db7b645de7b6e0b4be",
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9366,12 +9369,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-21T19:23:56.044611+00:00",
-          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-22T09:17:23.364324+00:00",
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
           "changed": false,
@@ -9964,6 +9961,12 @@
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-06T17:45:24.181173+00:00",
+          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -9978,7 +9981,7 @@
       "processabile": "no"
     },
     "24": {
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12590,11 +12593,11 @@
   "meta": {
     "last_scan": "2026-05-06T17:45:24.181173+00:00",
     "results": {
-      "scansionati": 11,
-      "aggiornati": 0,
-      "invariati": 11,
+      "scansionati": 15,
+      "aggiornati": 1,
+      "invariati": 14,
       "errori": 0,
-      "vuoti": 9
+      "vuoti": 10
     },
     "total_comuni": 33,
     "scadenze": {
