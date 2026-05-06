@@ -11636,7 +11636,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11646,12 +11646,12 @@
         "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
         "id": 31
       },
-      "zip_hash": "b77ff5ca94608b48f38ad89f3e5236d863a88249f1eaeebf9ab77db729fa6044",
-      "content_fingerprint": "d4c0d850e3e8c3e54511607c4540439f156bd3ba276ff4b1495193de50bedb66",
+      "zip_hash": "c159f17f28c17991908dc118611ff955a7b6b2d3c62037b5e8501e283b5902f2",
+      "content_fingerprint": "2376c89e02802017bb510fc24652717e3df1a1a01d9d920f78f04681efb9eb83",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "ee39bff2c8fe1049de3f8338555445c50d5b277977fa87e3c88cb7408003116a",
           "current_file": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "current_size": 5033317,
@@ -11679,11 +11679,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-06T15:29:51.488291+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "15950e5113cb79a8bfc1467534ca470c4f945cc2446dd4b03b22145edee31cfd",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
           "current_size": 9474355,
@@ -11711,11 +11710,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-06T15:29:51.488291+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "01025d2ba83fe2fc72ae4f755032a53b289aad60dd1a197960f57b957c94e1cc",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
           "current_size": 605925,
@@ -11743,8 +11741,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-06T15:29:51.488291+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -11789,6 +11786,30 @@
       },
       "all_files": [
         {
+          "name": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "hash": "ee39bff2c8fe1049de3f8338555445c50d5b277977fa87e3c88cb7408003116a",
+          "size": 5033317,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
+          "hash": "15950e5113cb79a8bfc1467534ca470c4f945cc2446dd4b03b22145edee31cfd",
+          "size": 9474355,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
+          "hash": "01025d2ba83fe2fc72ae4f755032a53b289aad60dd1a197960f57b957c94e1cc",
+          "size": 605925,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "hash": "b96301dab39da47ca6b21a0d985f120d91cc38bc704abcc097843dfcf43714f2",
@@ -11827,6 +11848,12 @@
           "zip_hash": "b77ff5ca94608b48f38ad89f3e5236d863a88249f1eaeebf9ab77db729fa6044",
           "changed": true,
           "file_count": 1
+        },
+        {
+          "time": "2026-05-06T17:45:24.181173+00:00",
+          "zip_hash": "c159f17f28c17991908dc118611ff955a7b6b2d3c62037b5e8501e283b5902f2",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -11835,7 +11862,7 @@
     "32": {
       "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
       "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12577,16 +12604,14 @@
       "info": {
         "comune": "Spinetoli",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3",
-        "id": 32
+        "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3"
       },
       "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-06T15:29:51.488291+00:00",
+      "last_scan": "2026-05-06T17:45:24.181173+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12599,11 +12624,11 @@
   "meta": {
     "last_scan": "2026-05-06T17:45:24.181173+00:00",
     "results": {
-      "scansionati": 18,
-      "aggiornati": 1,
+      "scansionati": 19,
+      "aggiornati": 2,
       "invariati": 17,
       "errori": 0,
-      "vuoti": 12
+      "vuoti": 14
     },
     "total_comuni": 33,
     "scadenze": {
