@@ -13195,7 +13195,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-07T10:28:27.025882+00:00",
+      "last_scan": "2026-05-07T12:59:25.089620+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13212,7 +13212,7 @@
       "aggiornati": 2,
       "invariati": 18,
       "errori": 0,
-      "vuoti": 12
+      "vuoti": 13
     },
     "total_comuni": 33,
     "scadenze": {
