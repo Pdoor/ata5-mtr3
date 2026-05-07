@@ -7747,7 +7747,7 @@
       "last_scan_empty": true
     },
     "13": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7757,7 +7757,7 @@
       }
     },
     "14": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7767,7 +7767,7 @@
       }
     },
     "15": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7926,12 +7926,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T15:09:48.473487+00:00",
-          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-22T16:55:50.762726+00:00",
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
@@ -8525,6 +8519,12 @@
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-07T17:51:24.489606+00:00",
+          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [
@@ -8550,7 +8550,7 @@
       "processabile": "no"
     },
     "16": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8560,7 +8560,7 @@
       }
     },
     "17": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8570,7 +8570,7 @@
       }
     },
     "18": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8580,7 +8580,7 @@
       }
     },
     "19": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8590,7 +8590,7 @@
       }
     },
     "20": {
-      "last_scan": "2026-05-07T15:31:26.595490+00:00",
+      "last_scan": "2026-05-07T17:51:24.489606+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13248,11 +13248,11 @@
   "meta": {
     "last_scan": "2026-05-07T17:51:24.489606+00:00",
     "results": {
-      "scansionati": 10,
+      "scansionati": 11,
       "aggiornati": 0,
-      "invariati": 10,
+      "invariati": 11,
       "errori": 0,
-      "vuoti": 2
+      "vuoti": 9
     },
     "total_comuni": 33,
     "scadenze": {
