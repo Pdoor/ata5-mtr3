@@ -7783,7 +7783,7 @@
       "last_scan_empty": true
     },
     "13": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7793,7 +7793,7 @@
       }
     },
     "14": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7803,7 +7803,7 @@
       }
     },
     "15": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7813,9 +7813,9 @@
         "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir",
         "id": 15
       },
-      "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-      "content_fingerprint": "4921971983cc526823fcb7baaa472542342b71dbaba85b2c82b6d7c486a2e14a",
-      "zip_changed": false,
+      "zip_hash": "934a685fc2b0921a397ec76e67e9ff860ff54a76b4f84825b637b595fc10cf8d",
+      "content_fingerprint": "b407dab94ed9652af9f33a0fafc2ab3f8c8af5db1da5eff3a8df27c4aa911244",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -7905,7 +7905,29 @@
           ]
         },
         "altre_com_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
+          "current_file": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
+          "current_size": 480845,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
+              "hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
+              "size": 480845
+            }
+          ],
+          "first_upload": "2026-05-08T11:21:56.877034+00:00",
+          "last_upload": "2026-05-08T11:21:56.877034+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-08T11:21:56.877034+00:00",
+              "hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
+              "file": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "pef_validato": {
           "status": "missing"
@@ -7959,15 +7981,33 @@
           "size": 747093,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "4e13fddba73e20a8d4ff8c1ff9f5344461ca0200415db43822a1d0641ec0550b",
+          "size": 4002972,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
+          "path": "Comune 2026/DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
+          "hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
+          "size": 480845,
+          "doc_key": "altre_com_c",
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE PEF 2026-2028.pdf",
+          "path": "Comune 2026/RELAZIONE PEF 2026-2028.pdf",
+          "hash": "bb6bc9af49fc87f3b8549b763c859f50dc24aa66c28ee49b106db9373c717724",
+          "size": 747624,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T19:23:56.090980+00:00",
-          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-23T09:24:34.941442+00:00",
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
@@ -8561,6 +8601,12 @@
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-08T11:21:56.877034+00:00",
+          "zip_hash": "934a685fc2b0921a397ec76e67e9ff860ff54a76b4f84825b637b595fc10cf8d",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -8581,12 +8627,24 @@
           "path": "Comune 2026/RELAZIONE PEF 2026-2029.pdf",
           "source": "comune",
           "size": 747093
+        },
+        {
+          "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "source": "comune",
+          "size": 4002972
+        },
+        {
+          "name": "RELAZIONE PEF 2026-2028.pdf",
+          "path": "Comune 2026/RELAZIONE PEF 2026-2028.pdf",
+          "source": "comune",
+          "size": 747624
         }
       ],
       "processabile": "no"
     },
     "16": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8596,7 +8654,7 @@
       }
     },
     "17": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8606,7 +8664,7 @@
       }
     },
     "18": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8616,7 +8674,7 @@
       }
     },
     "19": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -8626,7 +8684,7 @@
       }
     },
     "20": {
-      "last_scan": "2026-05-08T09:27:29.014700+00:00",
+      "last_scan": "2026-05-08T11:21:56.877034+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13340,11 +13398,11 @@
   "meta": {
     "last_scan": "2026-05-08T11:21:56.877034+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 0,
+      "scansionati": 11,
+      "aggiornati": 1,
       "invariati": 10,
       "errori": 0,
-      "vuoti": 2
+      "vuoti": 9
     },
     "total_comuni": 33,
     "scadenze": {
