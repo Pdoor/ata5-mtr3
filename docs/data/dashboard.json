@@ -12596,15 +12596,13 @@
       }
     },
     "31": {
-      "last_scan": "2026-05-10T13:27:28.329336+00:00",
+      "last_scan": "2026-05-10T14:57:06.923573+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "San Benedetto del Tronto",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
-        "id": 31
+        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938"
       },
       "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
       "content_fingerprint": "f1ce54f47e881528c2f23f0a49247bdc4c2d17452169c09344c16872fd80e226",
@@ -13086,7 +13084,7 @@
     "32": {
       "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
       "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
-      "last_scan": "2026-05-10T13:27:28.329336+00:00",
+      "last_scan": "2026-05-10T14:57:06.923573+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -13223,12 +13221,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-23T17:17:07.517911+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-24T11:04:02.496964+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -13822,6 +13814,12 @@
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-10T14:57:06.923573+00:00",
+          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -13837,7 +13835,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-10T13:27:28.329336+00:00",
+      "last_scan": "2026-05-10T14:57:06.923573+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13850,11 +13848,11 @@
   "meta": {
     "last_scan": "2026-05-10T14:57:06.923573+00:00",
     "results": {
-      "scansionati": 16,
+      "scansionati": 17,
       "aggiornati": 1,
-      "invariati": 15,
+      "invariati": 16,
       "errori": 0,
-      "vuoti": 14
+      "vuoti": 16
     },
     "total_comuni": 33,
     "scadenze": {
