@@ -3518,14 +3518,150 @@
       }
     },
     "6": {
-      "last_scan": "2026-05-10T19:10:54.384260+00:00",
+      "last_scan": "2026-05-11T10:37:55.421025+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Carassai",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/fcu3h2oxyfg"
-      }
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/fcu3h2oxyfg",
+        "id": 6
+      },
+      "zip_hash": "5c5d499cc2cdf85e6c2cf10b798e20308fd6c6881817995cd95bcedf9ecc2581",
+      "content_fingerprint": "81cdb337a3b5cdb8f9cf190a7d20fbe88dd2c4743edd6c0bbe1553ecba33fc36",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
+          "current_file": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "current_size": 4862168,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+              "hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
+              "size": 4862168
+            }
+          ],
+          "first_upload": "2026-05-11T10:37:55.421025+00:00",
+          "last_upload": "2026-05-11T10:37:55.421025+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T10:37:55.421025+00:00",
+              "hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
+              "file": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "a17ee0ee5cc5e4671e88d077f320145d82cbee58a3b45e818d6c2a41e3f317f7",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai.pdf.p7m",
+          "current_size": 5751749,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai.pdf.p7m",
+              "hash": "a17ee0ee5cc5e4671e88d077f320145d82cbee58a3b45e818d6c2a41e3f317f7",
+              "size": 5751749
+            }
+          ],
+          "first_upload": "2026-05-11T10:37:55.421025+00:00",
+          "last_upload": "2026-05-11T10:37:55.421025+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T10:37:55.421025+00:00",
+              "hash": "a17ee0ee5cc5e4671e88d077f320145d82cbee58a3b45e818d6c2a41e3f317f7",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "ddf60e2a6d1d847d9893406335d0de5638db73596ef927263ca8e996c4b13a3b",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 11.5.2026_signed.pdf",
+          "current_size": 1032063,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 11.5.2026_signed.pdf",
+              "hash": "ddf60e2a6d1d847d9893406335d0de5638db73596ef927263ca8e996c4b13a3b",
+              "size": 1032063
+            }
+          ],
+          "first_upload": "2026-05-11T10:37:55.421025+00:00",
+          "last_upload": "2026-05-11T10:37:55.421025+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T10:37:55.421025+00:00",
+              "hash": "ddf60e2a6d1d847d9893406335d0de5638db73596ef927263ca8e996c4b13a3b",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 11.5.2026_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
+          "size": 4862168,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai.pdf.p7m",
+          "hash": "a17ee0ee5cc5e4671e88d077f320145d82cbee58a3b45e818d6c2a41e3f317f7",
+          "size": 5751749,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Carassai 11.5.2026_signed.pdf",
+          "hash": "ddf60e2a6d1d847d9893406335d0de5638db73596ef927263ca8e996c4b13a3b",
+          "size": 1032063,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-05-11T10:37:55.421025+00:00",
+          "zip_hash": "5c5d499cc2cdf85e6c2cf10b798e20308fd6c6881817995cd95bcedf9ecc2581",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "7": {
       "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
@@ -13918,13 +14054,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-10T19:10:54.384260+00:00",
+    "last_scan": "2026-05-11T10:37:55.421025+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 0,
-      "invariati": 20,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
-      "vuoti": 13
+      "vuoti": 0
     },
     "total_comuni": 33,
     "scadenze": {
