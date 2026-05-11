@@ -892,7 +892,7 @@
       "processabile": "si"
     },
     "1": {
-      "last_scan": "2026-05-11T15:20:12.561434+00:00",
+      "last_scan": "2026-05-11T17:58:23.441050+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -945,12 +945,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T17:35:06.614948+00:00",
-          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
-          "changed": false,
-          "file_count": 1
-        },
         {
           "time": "2026-04-25T18:44:25.573707+00:00",
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
@@ -1544,6 +1538,12 @@
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
           "changed": false,
           "file_count": 1
+        },
+        {
+          "time": "2026-05-11T17:58:23.441050+00:00",
+          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
+          "changed": false,
+          "file_count": 1
         }
       ],
       "unclassified_files": [
@@ -1557,7 +1557,7 @@
       "processabile": "no"
     },
     "2": {
-      "last_scan": "2026-05-11T15:20:12.561434+00:00",
+      "last_scan": "2026-05-11T17:58:23.441050+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1567,12 +1567,12 @@
         "url": "https://drive.atarifiuti.ap.it/2d7j066ewobm",
         "id": 2
       },
-      "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
-      "content_fingerprint": "438f110c5b918aec21d8981330d5b7d7fbda35a4229b005fc1f3e0c6353415e6",
+      "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
+      "content_fingerprint": "9338ba9053c5afbc6c3a20038a830fc866fa517d4826442f39cbcc4daa7e8bbf",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "5b87c099fcf1233e655cef5b8a658f9fd49dca44f4628bd448d0709653deaeb2",
           "current_file": "Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029 CESP 343.xlsx",
           "current_size": 4865872,
@@ -1606,11 +1606,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-11T15:20:12.561434+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "f490dd64283e999b2cda5f062327f0f57a549dc80dcbd4afe2ae21ba8e01cc64",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena.pdf.p7m",
           "current_size": 3394819,
@@ -1644,11 +1643,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-11T15:20:12.561434+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "162c2e81ac96cd76f10ae301a8aacbfb8adcf72eaa785b082637c0825d31c308",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 6.5.2026_signed.pdf",
           "current_size": 605860,
@@ -1682,8 +1680,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-11T15:20:12.561434+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -1790,6 +1787,30 @@
       },
       "all_files": [
         {
+          "name": "Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029 CESP 343.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029 CESP 343.xlsx",
+          "hash": "5b87c099fcf1233e655cef5b8a658f9fd49dca44f4628bd448d0709653deaeb2",
+          "size": 4865872,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena.pdf.p7m",
+          "hash": "f490dd64283e999b2cda5f062327f0f57a549dc80dcbd4afe2ae21ba8e01cc64",
+          "size": 3394819,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 6.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 6.5.2026_signed.pdf",
+          "hash": "162c2e81ac96cd76f10ae301a8aacbfb8adcf72eaa785b082637c0825d31c308",
+          "size": 605860,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(7).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(7).xlsx",
           "hash": "1024abea03d437e99d2c4afe46738ecd64bd669823b4656ed6a7d241bfaa1b2c",
@@ -1815,12 +1836,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T17:35:06.614948+00:00",
-          "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-25T18:44:25.573707+00:00",
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
@@ -2414,15 +2429,21 @@
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-11T17:58:23.441050+00:00",
+          "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "3": {
       "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
       "content_fingerprint": "972acf18894f2c39cbdf2e4b686e402c008fe71c496bf91582d82609274354b9",
-      "last_scan": "2026-05-11T15:20:12.561434+00:00",
+      "last_scan": "2026-05-11T17:58:23.441050+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2575,12 +2596,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T11:36:03.265468+00:00",
-          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-25T12:57:44.194194+00:00",
           "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
@@ -3174,6 +3189,12 @@
           "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-11T17:58:23.441050+00:00",
+          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [
@@ -3202,7 +3223,7 @@
       "last_scan_empty": true
     },
     "4": {
-      "last_scan": "2026-05-11T15:20:12.561434+00:00",
+      "last_scan": "2026-05-11T17:58:23.441050+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3511,13 +3532,19 @@
           "zip_hash": "6e6ff68c6556930d612fee9fa3c40c164d9ba780f5b42655e2e44a9d514430da",
           "changed": false,
           "file_count": 2
+        },
+        {
+          "time": "2026-05-11T17:58:23.441050+00:00",
+          "zip_hash": "6e6ff68c6556930d612fee9fa3c40c164d9ba780f5b42655e2e44a9d514430da",
+          "changed": false,
+          "file_count": 2
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "5": {
-      "last_scan": "2026-05-11T15:20:12.561434+00:00",
+      "last_scan": "2026-05-11T17:58:23.441050+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -16097,13 +16124,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-11T15:20:12.561434+00:00",
+    "last_scan": "2026-05-11T17:58:23.441050+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 4,
-      "invariati": 26,
+      "scansionati": 4,
+      "aggiornati": 1,
+      "invariati": 3,
       "errori": 0,
-      "vuoti": 3
+      "vuoti": 1
     },
     "total_comuni": 33,
     "scadenze": {
