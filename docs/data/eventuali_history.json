@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": 1,
-    "last_update": "2026-05-11T10:50:39.845604+00:00",
-    "dashboard_last_scan": "2026-05-11T10:50:01.538385+00:00",
+    "last_update": "2026-05-11T10:52:28.034815+00:00",
+    "dashboard_last_scan": "2026-05-11T10:51:41.622654+00:00",
     "files_tracked": 7
   },
   "comuni": {
@@ -79,7 +79,7 @@
           "current_hash": "2ce3d7608eb28af57b83c15bbe4d8970fc433e3b0a9da54e5980c8f6aeeed12f",
           "current_size": 5498402,
           "first_seen": "2026-04-29T10:10:15.919936+00:00",
-          "last_seen": "2026-05-10T19:10:54.384260+00:00",
+          "last_seen": "2026-05-11T10:51:41.622654+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
