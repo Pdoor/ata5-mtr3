@@ -5198,19 +5198,85 @@
       "processabile": "no"
     },
     "9": {
-      "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
-      "content_fingerprint": "d718dbb6d78ae2b7f47f0f13e4e818dd77a0c0cf43915a2f7d82a263201fcffb",
-      "last_scan": "2026-05-10T19:10:54.384260+00:00",
-      "zip_changed": false,
+      "zip_hash": "03ec370229c028bf8adc470b8ea8fb07800ad2f5ce55d841de96bb4bbbe49b0a",
+      "content_fingerprint": "23429479f1cf311713695b72c51958140be39fb40edf60e7213220081e909fa3",
+      "last_scan": "2026-05-11T10:47:53.001618+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "d6d28564226a412df9abaaad756979d581e8510a7ff0338817bb37d48a1268f9",
+          "current_file": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4865903,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "d6d28564226a412df9abaaad756979d581e8510a7ff0338817bb37d48a1268f9",
+              "size": 4865903
+            }
+          ],
+          "first_upload": "2026-05-11T10:47:53.001618+00:00",
+          "last_upload": "2026-05-11T10:47:53.001618+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T10:47:53.001618+00:00",
+              "hash": "d6d28564226a412df9abaaad756979d581e8510a7ff0338817bb37d48a1268f9",
+              "file": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9a737798e9511c76a28028231430da71df1763ad7973b94a3ca3971115500c7a",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano.pdf.p7m",
+          "current_size": 5785600,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano.pdf.p7m",
+              "hash": "9a737798e9511c76a28028231430da71df1763ad7973b94a3ca3971115500c7a",
+              "size": 5785600
+            }
+          ],
+          "first_upload": "2026-05-11T10:47:53.001618+00:00",
+          "last_upload": "2026-05-11T10:47:53.001618+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T10:47:53.001618+00:00",
+              "hash": "9a737798e9511c76a28028231430da71df1763ad7973b94a3ca3971115500c7a",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "8839a43b74c015b11e91205a943b878a80ca007036d5d3869b0e8b291f992458",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Castorano 11.5.2026_signed.pdf",
+          "current_size": 767979,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 11.5.2026_signed.pdf",
+              "hash": "8839a43b74c015b11e91205a943b878a80ca007036d5d3869b0e8b291f992458",
+              "size": 767979
+            }
+          ],
+          "first_upload": "2026-05-11T10:47:53.001618+00:00",
+          "last_upload": "2026-05-11T10:47:53.001618+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T10:47:53.001618+00:00",
+              "hash": "8839a43b74c015b11e91205a943b878a80ca007036d5d3869b0e8b291f992458",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Castorano 11.5.2026_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -5299,6 +5365,30 @@
       },
       "all_files": [
         {
+          "name": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "d6d28564226a412df9abaaad756979d581e8510a7ff0338817bb37d48a1268f9",
+          "size": 4865903,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano.pdf.p7m",
+          "hash": "9a737798e9511c76a28028231430da71df1763ad7973b94a3ca3971115500c7a",
+          "size": 5785600,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castorano 11.5.2026_signed.pdf",
+          "hash": "8839a43b74c015b11e91205a943b878a80ca007036d5d3869b0e8b291f992458",
+          "size": 767979,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
           "hash": "f5c63f01b581800b6d1dfc40c821bf9ce3497170d559e42f268ebc16908b77b3",
@@ -5324,12 +5414,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T15:36:58.220477+00:00",
-          "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-25T16:37:27.684141+00:00",
           "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
@@ -5923,6 +6007,12 @@
           "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-11T10:47:53.001618+00:00",
+          "zip_hash": "03ec370229c028bf8adc470b8ea8fb07800ad2f5ce55d841de96bb4bbbe49b0a",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -5934,7 +6024,7 @@
         "id": 9
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "10": {
       "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
@@ -14144,7 +14234,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-11T10:42:39.209727+00:00",
+    "last_scan": "2026-05-11T10:47:53.001618+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
