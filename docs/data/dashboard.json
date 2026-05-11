@@ -11460,14 +11460,150 @@
       "processabile": "no"
     },
     "24": {
-      "last_scan": "2026-05-10T19:10:54.384260+00:00",
+      "last_scan": "2026-05-11T11:17:53.648258+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Montemonaco",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/5yfcar6bd5g9"
-      }
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/5yfcar6bd5g9",
+        "id": 24
+      },
+      "zip_hash": "695cf7b8d25962c90407e41ab7b7389b8d650df32571a4a27b4c4e6e4b9e67ae",
+      "content_fingerprint": "accc5d3990ef17666acd1f3e3121ba655a17079bdbc470f0c4067c8e93a52aed",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "a526d46fbd051c49c239e4753193778a306756fd7b55c9cc7b9dbb051a932671",
+          "current_file": "Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4868830,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "a526d46fbd051c49c239e4753193778a306756fd7b55c9cc7b9dbb051a932671",
+              "size": 4868830
+            }
+          ],
+          "first_upload": "2026-05-11T11:17:53.648258+00:00",
+          "last_upload": "2026-05-11T11:17:53.648258+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T11:17:53.648258+00:00",
+              "hash": "a526d46fbd051c49c239e4753193778a306756fd7b55c9cc7b9dbb051a932671",
+              "file": "Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "39dded8bbd17c849a1cd18a31b168ae3c3de9f2417d8aace774dbbfed1677873",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montemonaco.pdf.p7m",
+          "current_size": 5939946,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montemonaco.pdf.p7m",
+              "hash": "39dded8bbd17c849a1cd18a31b168ae3c3de9f2417d8aace774dbbfed1677873",
+              "size": 5939946
+            }
+          ],
+          "first_upload": "2026-05-11T11:17:53.648258+00:00",
+          "last_upload": "2026-05-11T11:17:53.648258+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T11:17:53.648258+00:00",
+              "hash": "39dded8bbd17c849a1cd18a31b168ae3c3de9f2417d8aace774dbbfed1677873",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montemonaco.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "d46f870e7a341a66dcbb5d3676a68352c825cf37f6d4deac2a37aa4969d0bbca",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Montemonaco 11.5.2026_signed.pdf",
+          "current_size": 967750,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Montemonaco 11.5.2026_signed.pdf",
+              "hash": "d46f870e7a341a66dcbb5d3676a68352c825cf37f6d4deac2a37aa4969d0bbca",
+              "size": 967750
+            }
+          ],
+          "first_upload": "2026-05-11T11:17:53.648258+00:00",
+          "last_upload": "2026-05-11T11:17:53.648258+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-11T11:17:53.648258+00:00",
+              "hash": "d46f870e7a341a66dcbb5d3676a68352c825cf37f6d4deac2a37aa4969d0bbca",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Montemonaco 11.5.2026_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "a526d46fbd051c49c239e4753193778a306756fd7b55c9cc7b9dbb051a932671",
+          "size": 4868830,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montemonaco.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montemonaco.pdf.p7m",
+          "hash": "39dded8bbd17c849a1cd18a31b168ae3c3de9f2417d8aace774dbbfed1677873",
+          "size": 5939946,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Montemonaco 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Montemonaco 11.5.2026_signed.pdf",
+          "hash": "d46f870e7a341a66dcbb5d3676a68352c825cf37f6d4deac2a37aa4969d0bbca",
+          "size": 967750,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-05-11T11:17:53.648258+00:00",
+          "zip_hash": "695cf7b8d25962c90407e41ab7b7389b8d650df32571a4a27b4c4e6e4b9e67ae",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "26": {
       "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
@@ -14645,11 +14781,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-11T11:05:34.087005+00:00",
+    "last_scan": "2026-05-11T11:17:53.648258+00:00",
     "results": {
       "scansionati": 1,
-      "aggiornati": 0,
-      "invariati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
       "vuoti": 0
     },
