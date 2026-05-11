@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 1,
-    "last_update": "2026-05-11T13:48:41.315367+00:00",
-    "dashboard_last_scan": "2026-05-11T13:47:59.080951+00:00",
-    "files_tracked": 7
+    "last_update": "2026-05-11T15:53:14.873819+00:00",
+    "dashboard_last_scan": "2026-05-11T15:20:12.561434+00:00",
+    "files_tracked": 10
   },
   "comuni": {
     "1": {
@@ -14,7 +14,7 @@
           "current_hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
           "current_size": 8846,
           "first_seen": "2026-04-27T10:28:04.083304+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -38,7 +38,7 @@
           "current_hash": "fc4c22f054759e5bc28129be3425131e334fd171b3c8493a69595fbc06146e21",
           "current_size": 19728,
           "first_seen": "2026-04-27T10:28:04.083304+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -56,7 +56,7 @@
           "current_hash": "b883b6b991abdc3ef282a1ce83173993f09a0be099fcaaa587305fe00001426e",
           "current_size": 3543965,
           "first_seen": "2026-04-27T10:28:04.083304+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -79,7 +79,7 @@
           "current_hash": "2ce3d7608eb28af57b83c15bbe4d8970fc433e3b0a9da54e5980c8f6aeeed12f",
           "current_size": 5498402,
           "first_seen": "2026-04-29T10:10:15.919936+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -125,7 +125,7 @@
           "current_hash": "c38ae82bf3e6ce10c1858f8683e7c5382c95459481e0b1dfaa0356d7002d3e6f",
           "current_size": 1977579,
           "first_seen": "2026-05-07T08:24:17.847480+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -143,7 +143,7 @@
           "current_hash": "5cbe87511a3ea97e87691e7fcb903cbd09e1e520d10924c14103fc3ec03e2fc2",
           "current_size": 6045588,
           "first_seen": "2026-05-07T08:24:17.847480+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -166,7 +166,7 @@
           "current_hash": "5036e4edfeeecada4f6486e2eb071d4402bd452e022f6f65de104a92d393cb8d",
           "current_size": 4596638,
           "first_seen": "2026-05-07T08:24:17.847480+00:00",
-          "last_seen": "2026-05-11T11:22:43.881645+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -175,6 +175,65 @@
               "time": "2026-05-07T08:24:17.847480+00:00",
               "hash": "5036e4edfeeecada4f6486e2eb071d4402bd452e022f6f65de104a92d393cb8d",
               "size": 4596638
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "CAP. 1574-2 DETTAGLIO COSTI 2024.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/CAP. 1574-2 DETTAGLIO COSTI 2024.xlsx",
+          "current_hash": "179d641e530f5a5ec774ce48d07046680ffd9d6469ab00383dc6ce271a9bc554",
+          "current_size": 16740,
+          "first_seen": "2026-05-11T15:20:12.561434+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-05-11T15:20:12.561434+00:00",
+              "hash": "179d641e530f5a5ec774ce48d07046680ffd9d6469ab00383dc6ce271a9bc554",
+              "size": 16740
+            }
+          ]
+        },
+        {
+          "filename": "pef tari 2024-2025_montalto delle marche.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/pef tari 2024-2025_montalto delle marche.pdf",
+          "current_hash": "a640aa3b26dd38ba93e6e456086d6949d734388f95d3067cd44d87506d515479",
+          "current_size": 356579,
+          "first_seen": "2026-05-11T15:20:12.561434+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-05-11T15:20:12.561434+00:00",
+              "hash": "a640aa3b26dd38ba93e6e456086d6949d734388f95d3067cd44d87506d515479",
+              "size": 356579
+            }
+          ]
+        },
+        {
+          "filename": "Richiesta costi 2024_ PEF 2026 2029_Montalto delle Marche.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Richiesta costi 2024_ PEF 2026 2029_Montalto delle Marche.xlsx",
+          "current_hash": "c6d83dc53f73d351def182f341b6deb71fd2ae7243412c3c5cce3c8e48e3e4df",
+          "current_size": 26129,
+          "first_seen": "2026-05-11T15:20:12.561434+00:00",
+          "last_seen": "2026-05-11T15:20:12.561434+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-05-11T15:20:12.561434+00:00",
+              "hash": "c6d83dc53f73d351def182f341b6deb71fd2ae7243412c3c5cce3c8e48e3e4df",
+              "size": 26129
             }
           ]
         }
