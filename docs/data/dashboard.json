@@ -8599,14 +8599,103 @@
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-10T19:10:54.384260+00:00",
+      "last_scan": "2026-05-11T10:59:27.305411+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Folignano",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/4ovv7a5f2dzk"
-      }
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/4ovv7a5f2dzk",
+        "id": 14
+      },
+      "zip_hash": "3374d585db76daba0df6b3ff1f36589569bb357c64d794f646ccd08d855fa4cc",
+      "content_fingerprint": "684954f65983baf2cbcd70d54e6e21f8b0c3dbf3176eac571282a7c181dff94f",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "df366c2037a19fad15155d3b37b12a840c7201aa29a5a6ae75143e82c7534a3a",
+          "size": 4865888,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
+          "hash": "f1059d6eda32e632d614de2cef21443b5334dab8db13ae75cdbf669718257090",
+          "size": 5729807,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
+          "hash": "60d8f0f1ee8b37e647699c00b1376a732f07fc78fdcb4f9cc4ae480eca2c032a",
+          "size": 767986,
+          "doc_key": null,
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-05-11T10:59:27.305411+00:00",
+          "zip_hash": "3374d585db76daba0df6b3ff1f36589569bb357c64d794f646ccd08d855fa4cc",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [
+        {
+          "name": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "source": "comune",
+          "size": 4865888
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
+          "source": "comune",
+          "size": 5729807
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
+          "source": "comune",
+          "size": 767986
+        }
+      ],
+      "processabile": "no"
     },
     "15": {
       "last_scan": "2026-05-10T19:10:54.384260+00:00",
@@ -14550,7 +14639,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-11T10:56:37.434445+00:00",
+    "last_scan": "2026-05-11T10:59:27.305411+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
