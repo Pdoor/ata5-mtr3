@@ -10280,7 +10280,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-12T10:36:27.282099+00:00",
+      "last_scan": "2026-05-12T13:06:51.062270+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -10292,7 +10292,7 @@
       },
       "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
       "content_fingerprint": "24a439978f8ba277a803ebd328439c58cfdb502100ec292b20ddf34ea09288b8",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -10534,13 +10534,19 @@
           "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-12T13:06:51.062270+00:00",
+          "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-12T10:36:27.282099+00:00",
+      "last_scan": "2026-05-12T13:06:51.062270+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -10550,9 +10556,9 @@
         "url": "https://drive.atarifiuti.ap.it/54cx0eyho8d7",
         "id": 18
       },
-      "zip_hash": "1e2d3abdec6c6fcd0065bc6fe0070ce05a8a03cd4974eac0e40320df0a70901e",
-      "content_fingerprint": "36c8e453b9a40d27a5f6fb7af54f2869eba9f1299dc7bd095f1473db65b45a12",
-      "zip_changed": false,
+      "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
+      "content_fingerprint": "7d873c073bb7d2e279febfc41f068a3a1e368ce5b9684fae594f15825a221974",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -10633,13 +10639,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9ec992c01c4679cc0fd1343aa64324529b63e8e49e650e1e1e6b6b3678ed78af",
+          "current_file": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3953756,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "9ec992c01c4679cc0fd1343aa64324529b63e8e49e650e1e1e6b6b3678ed78af",
+              "size": 3953756
+            }
+          ],
+          "first_upload": "2026-05-12T13:06:51.062270+00:00",
+          "last_upload": "2026-05-12T13:06:51.062270+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-12T13:06:51.062270+00:00",
+              "hash": "9ec992c01c4679cc0fd1343aa64324529b63e8e49e650e1e1e6b6b3678ed78af",
+              "file": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "dd2e9bd501449c32bd217ab98d4a2c0cb5980794b1d0b20419ed7f521123aa34",
+          "current_file": "Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+          "current_size": 669430,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+              "hash": "dd2e9bd501449c32bd217ab98d4a2c0cb5980794b1d0b20419ed7f521123aa34",
+              "size": 669430
+            }
+          ],
+          "first_upload": "2026-05-12T13:06:51.062270+00:00",
+          "last_upload": "2026-05-12T13:06:51.062270+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-12T13:06:51.062270+00:00",
+              "hash": "dd2e9bd501449c32bd217ab98d4a2c0cb5980794b1d0b20419ed7f521123aa34",
+              "file": "Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "eae2ad764751469da8dcc3ec0711a4fcdf50886a623f5f0dfcc18c2bd1a3fa7c",
+          "current_file": "Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+          "current_size": 339998,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+              "hash": "eae2ad764751469da8dcc3ec0711a4fcdf50886a623f5f0dfcc18c2bd1a3fa7c",
+              "size": 339998
+            }
+          ],
+          "first_upload": "2026-05-12T13:06:51.062270+00:00",
+          "last_upload": "2026-05-12T13:06:51.062270+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-12T13:06:51.062270+00:00",
+              "hash": "eae2ad764751469da8dcc3ec0711a4fcdf50886a623f5f0dfcc18c2bd1a3fa7c",
+              "file": "Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -10672,6 +10744,30 @@
           "size": 767997,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "9ec992c01c4679cc0fd1343aa64324529b63e8e49e650e1e1e6b6b3678ed78af",
+          "size": 3953756,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+          "hash": "dd2e9bd501449c32bd217ab98d4a2c0cb5980794b1d0b20419ed7f521123aa34",
+          "size": 669430,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+          "hash": "eae2ad764751469da8dcc3ec0711a4fcdf50886a623f5f0dfcc18c2bd1a3fa7c",
+          "size": 339998,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -10704,13 +10800,19 @@
           "zip_hash": "1e2d3abdec6c6fcd0065bc6fe0070ce05a8a03cd4974eac0e40320df0a70901e",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-12T13:06:51.062270+00:00",
+          "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-12T10:36:27.282099+00:00",
+      "last_scan": "2026-05-12T13:06:51.062270+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -10874,13 +10976,19 @@
           "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-12T13:06:51.062270+00:00",
+          "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-12T10:36:27.282099+00:00",
+      "last_scan": "2026-05-12T13:06:51.062270+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11075,6 +11183,12 @@
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-12T13:06:51.062270+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -11100,13 +11214,13 @@
       "processabile": "no"
     },
     "21": {
-      "zip_hash": "34787c61d4e846f201ec0a4e342887ef60729f03309cf146690e8315cc4f6d0b",
-      "content_fingerprint": "ad4a37c831f620d5f4c732e2158f131e4cb2bca4700938e5610ab528ed50d0a3",
-      "last_scan": "2026-05-12T10:36:27.282099+00:00",
+      "zip_hash": "ad48d64d60b25b0b67f31f3d2746bc96dffd8f2463f8300c15bc7e601b45dce1",
+      "content_fingerprint": "73912c1e58ee4f63839c8966ddaf692bdd3e7fd665f654db81a579ebe252c6e1",
+      "last_scan": "2026-05-12T13:06:51.062270+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "b5ab21722d92516a4d1ab317bba85a3607cae774ce4a598faad3c66127cb6148",
           "current_file": "Allegato_1_-_ Montedinove Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4868922,
@@ -11134,11 +11248,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T10:36:27.282099+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "a6dabf476ff212e445607839fce5ff99c7b14d2b327a264bca46b2f68114de51",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montedinove.pdf.p7m",
           "current_size": 5641138,
@@ -11166,11 +11279,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T10:36:27.282099+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d6f884345a39b3a146106b340cfbdf20e248bc18d6742ce84fafec0aaa7569e4",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Montedinove 11.5.2026_signed.pdf",
           "current_size": 767685,
@@ -11198,14 +11310,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T10:36:27.282099+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 3981013,
@@ -11238,11 +11349,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T10:36:27.282099+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
           "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
           "current_size": 37920,
@@ -11270,11 +11380,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T10:36:27.282099+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
           "current_size": 281111,
@@ -11302,8 +11411,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T10:36:27.282099+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -11315,36 +11423,62 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Montedinove Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montedinove Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montedinove Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "b5ab21722d92516a4d1ab317bba85a3607cae774ce4a598faad3c66127cb6148",
           "size": 4868922,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montedinove.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montedinove.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montedinove.pdf.p7m",
           "hash": "a6dabf476ff212e445607839fce5ff99c7b14d2b327a264bca46b2f68114de51",
           "size": 5641138,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Montedinove 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Montedinove 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Montedinove 11.5.2026_signed.pdf",
           "hash": "d6f884345a39b3a146106b340cfbdf20e248bc18d6742ce84fafec0aaa7569e4",
           "size": 767685,
-          "doc_key": null,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "b4f1957fb9e5b6505741db48fa258e8f936933ffdcf793a6320d972035d391f0",
+          "size": 3981013,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Richiesta costi 2024_PEF 2026_Comune (1) (1).xlsx",
+          "hash": "f715c7cbcfd69d742907f052735f570e9d7c39b575721c5e04e7530dbdf5d111",
+          "size": 15342,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "hash": "c76275eeb850218fd219f4ba85f9689df10974f965e63edebddda882896cd18c",
+          "size": 37920,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
+          "hash": "c042d52ac3e552913779fb4b344008bb47b48a89bd0d3dcfda048ef27e46d4ee",
+          "size": 281111,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T08:57:00.981934+00:00",
-          "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-26T09:54:32.960337+00:00",
           "zip_hash": "34238af1b2a77c7e400b42253f01354be053d519ce6b2c1ffbb1fc2f4a8a5fa2",
@@ -11938,28 +12072,15 @@
           "zip_hash": "34787c61d4e846f201ec0a4e342887ef60729f03309cf146690e8315cc4f6d0b",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Montedinove Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montedinove Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4868922
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montedinove.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Montedinove.pdf.p7m",
-          "source": "comune",
-          "size": 5641138
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Montedinove 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Montedinove 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 767685
+          "time": "2026-05-12T13:06:51.062270+00:00",
+          "zip_hash": "ad48d64d60b25b0b67f31f3d2746bc96dffd8f2463f8300c15bc7e601b45dce1",
+          "changed": true,
+          "file_count": 7
         }
       ],
+      "unclassified_files": [],
       "info": {
         "comune": "Montedinove",
         "gestore": "Picenambiente",
@@ -11968,7 +12089,7 @@
         "id": 21
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "22": {
       "last_scan": "2026-05-12T10:36:27.282099+00:00",
@@ -17362,9 +17483,9 @@
   "meta": {
     "last_scan": "2026-05-12T13:06:51.062270+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 2,
-      "invariati": 13,
+      "scansionati": 20,
+      "aggiornati": 4,
+      "invariati": 16,
       "errori": 0,
       "vuoti": 1
     },
