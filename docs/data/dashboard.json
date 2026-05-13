@@ -910,7 +910,7 @@
       "processabile": "si"
     },
     "1": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1053,12 +1053,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T12:59:50.721946+00:00",
-          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
-          "changed": false,
-          "file_count": 1
-        },
         {
           "time": "2026-04-26T14:07:02.905427+00:00",
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
@@ -1652,6 +1646,12 @@
           "zip_hash": "e4a3dae8c9c9617766ee1eb3a65773fefe20fcd9724a8065ab00804ad6745315",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "e4a3dae8c9c9617766ee1eb3a65773fefe20fcd9724a8065ab00804ad6745315",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [
@@ -1665,7 +1665,7 @@
       "processabile": "no"
     },
     "2": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1677,7 +1677,7 @@
       },
       "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
       "content_fingerprint": "9338ba9053c5afbc6c3a20038a830fc866fa517d4826442f39cbcc4daa7e8bbf",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -1962,12 +1962,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T12:59:50.721946+00:00",
-          "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T14:07:02.905427+00:00",
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
@@ -2561,16 +2555,22 @@
           "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "3": {
-      "zip_hash": "f8f92d1b4b0aa2d58ddc06f231d576499b593afcc420c2e200cd3cfc48351fc5",
-      "content_fingerprint": "a86d7d9ab4b3cb0ef765c8bf4361de5cc6a55b099b8d7431f127d5ad52d33b30",
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
-      "zip_changed": false,
+      "zip_hash": "1609934c1b9f64e92c3ab979a7fe2547d1c85a951fba2ab7db284b8e381645bf",
+      "content_fingerprint": "4a5297c73a987b0b6fd13e1601dc16906de9a0fcadab53d2f7ec0bcd458395d9",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -2677,26 +2677,37 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "9289eac606e6fb49b9d2cab9b34554370cbda91f41ed4acbda5d5b8ea2528bdc",
-          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
-          "current_size": 784337,
-          "file_count": 1,
+          "current_hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
+          "current_size": 785104,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
               "hash": "9289eac606e6fb49b9d2cab9b34554370cbda91f41ed4acbda5d5b8ea2528bdc",
               "size": 784337
+            },
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
+              "hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
+              "size": 785104
             }
           ],
           "first_upload": "2026-04-07T09:46:49.391297+00:00",
-          "last_upload": "2026-04-07T09:46:49.391297+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-07T09:46:49.391297+00:00",
               "hash": "9289eac606e6fb49b9d2cab9b34554370cbda91f41ed4acbda5d5b8ea2528bdc",
               "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T10:33:25.719465+00:00",
+              "hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -2705,7 +2716,7 @@
           "current_hash": "794d3ab3cae5b032129e08c48ac60e198f6e68efbadf746f345dd61bd0346dd2",
           "current_file": "Carta didentitá Sara Moreschini.pdf",
           "current_size": 312747,
-          "file_count": 2,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
@@ -2716,6 +2727,11 @@
               "name": "Carta didentitá Sara Moreschini.pdf",
               "hash": "794d3ab3cae5b032129e08c48ac60e198f6e68efbadf746f345dd61bd0346dd2",
               "size": 312747
+            },
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni AGGIORNATA_signed.pdf",
+              "hash": "22ae5d7e1b043fc407b9e9a23e630b95e6e14fe2fbe24943c4b081e0e610bb17",
+              "size": 164905
             }
           ],
           "first_upload": "2026-04-07T09:46:49.391297+00:00",
@@ -2779,6 +2795,14 @@
           "source": "comune"
         },
         {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
+          "hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
+          "size": 785104,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
           "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
           "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
           "hash": "c1c0be1bda1bf12af5626c3c5ee95405370c75dd7011324a41f95566a085bf68",
@@ -2791,6 +2815,14 @@
           "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Carta didentitá Sara Moreschini.pdf",
           "hash": "794d3ab3cae5b032129e08c48ac60e198f6e68efbadf746f345dd61bd0346dd2",
           "size": 312747,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni AGGIORNATA_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni AGGIORNATA_signed.pdf",
+          "hash": "22ae5d7e1b043fc407b9e9a23e630b95e6e14fe2fbe24943c4b081e0e610bb17",
+          "size": 164905,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -2812,12 +2844,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T19:41:38.206055+00:00",
-          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-26T08:57:00.981934+00:00",
           "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
@@ -3411,6 +3437,12 @@
           "zip_hash": "f8f92d1b4b0aa2d58ddc06f231d576499b593afcc420c2e200cd3cfc48351fc5",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "1609934c1b9f64e92c3ab979a7fe2547d1c85a951fba2ab7db284b8e381645bf",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -3439,7 +3471,7 @@
       "last_scan_empty": true
     },
     "4": {
-      "last_scan": "2026-05-13T08:21:13.491406+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3451,7 +3483,7 @@
       },
       "zip_hash": "40f50b5f335dcb0e5b18be46635e1e7b61b5e2bb9573b6afdefc341969d9b948",
       "content_fingerprint": "6e7626da2f1577403dd68ae7435c64f4b8366553130dbcf7e3cd4956c167fb9e",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -3984,6 +4016,12 @@
           "zip_hash": "40f50b5f335dcb0e5b18be46635e1e7b61b5e2bb9573b6afdefc341969d9b948",
           "changed": true,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "40f50b5f335dcb0e5b18be46635e1e7b61b5e2bb9573b6afdefc341969d9b948",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -3997,7 +4035,7 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -18122,13 +18160,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-13T10:20:48.329487+00:00",
+    "last_scan": "2026-05-13T10:33:25.719465+00:00",
     "results": {
-      "scansionati": 1,
+      "scansionati": 4,
       "aggiornati": 1,
-      "invariati": 0,
+      "invariati": 3,
       "errori": 0,
-      "vuoti": 0
+      "vuoti": 1
     },
     "total_comuni": 33,
     "scadenze": {
