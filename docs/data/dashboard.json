@@ -3418,7 +3418,7 @@
       "last_scan_empty": true
     },
     "4": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T08:21:13.491406+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3428,9 +3428,9 @@
         "url": "https://drive.atarifiuti.ap.it/4g5saz8wvr38",
         "id": 4
       },
-      "zip_hash": "887e32ab5679371e7da9136851ec2bc1be7f04356a80bd8746da60dc816a60ff",
-      "content_fingerprint": "6e96ebfec3ffb60554952f739eb8f0870064de48fd3565dbf6420a291d276e0f",
-      "zip_changed": false,
+      "zip_hash": "40f50b5f335dcb0e5b18be46635e1e7b61b5e2bb9573b6afdefc341969d9b948",
+      "content_fingerprint": "6e7626da2f1577403dd68ae7435c64f4b8366553130dbcf7e3cd4956c167fb9e",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -3511,13 +3511,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3980888,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
+              "size": 3980888
+            }
+          ],
+          "first_upload": "2026-05-13T08:21:13.491406+00:00",
+          "last_upload": "2026-05-13T08:21:13.491406+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-13T08:21:13.491406+00:00",
+              "hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "260494d725499ad42c0b9a6415144bf62b98e00e84f087b1d4f30504a2a57e56",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+          "current_size": 43794,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+              "hash": "260494d725499ad42c0b9a6415144bf62b98e00e84f087b1d4f30504a2a57e56",
+              "size": 43794
+            }
+          ],
+          "first_upload": "2026-05-13T08:21:13.491406+00:00",
+          "last_upload": "2026-05-13T08:21:13.491406+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-13T08:21:13.491406+00:00",
+              "hash": "260494d725499ad42c0b9a6415144bf62b98e00e84f087b1d4f30504a2a57e56",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "f78c02e065652ea28023e86e234f8e4b3af20c36ffbb894952037c8742c8a0e2",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
+          "current_size": 150170,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
+              "hash": "f78c02e065652ea28023e86e234f8e4b3af20c36ffbb894952037c8742c8a0e2",
+              "size": 150170
+            }
+          ],
+          "first_upload": "2026-05-13T08:21:13.491406+00:00",
+          "last_upload": "2026-05-13T08:21:13.491406+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-13T08:21:13.491406+00:00",
+              "hash": "f78c02e065652ea28023e86e234f8e4b3af20c36ffbb894952037c8742c8a0e2",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -3599,6 +3665,38 @@
           "size": 966706,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
+          "size": 3980888,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+          "hash": "260494d725499ad42c0b9a6415144bf62b98e00e84f087b1d4f30504a2a57e56",
+          "size": 43794,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
+          "hash": "f78c02e065652ea28023e86e234f8e4b3af20c36ffbb894952037c8742c8a0e2",
+          "size": 150170,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Documenti Giustificativi.zip",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Documenti Giustificativi.zip",
+          "hash": "b46dd3d3c53916f86326a777420bf6c0d416400845d09d175f0f03ad80f2ea1b",
+          "size": 4052996,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -3859,10 +3957,23 @@
           "zip_hash": "887e32ab5679371e7da9136851ec2bc1be7f04356a80bd8746da60dc816a60ff",
           "changed": false,
           "file_count": 5
+        },
+        {
+          "time": "2026-05-13T08:21:13.491406+00:00",
+          "zip_hash": "40f50b5f335dcb0e5b18be46635e1e7b61b5e2bb9573b6afdefc341969d9b948",
+          "changed": true,
+          "file_count": 9
         }
       ],
-      "unclassified_files": [],
-      "processabile": "no"
+      "unclassified_files": [
+        {
+          "name": "Documenti Giustificativi.zip",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Documenti Giustificativi.zip",
+          "source": "comune",
+          "size": 4052996
+        }
+      ],
+      "processabile": "si"
     },
     "5": {
       "last_scan": "2026-05-12T20:46:47.422462+00:00",
@@ -17945,13 +18056,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-12T20:46:47.422462+00:00",
+    "last_scan": "2026-05-13T08:21:13.491406+00:00",
     "results": {
-      "scansionati": 28,
-      "aggiornati": 9,
-      "invariati": 19,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 0
     },
     "total_comuni": 33,
     "scadenze": {
