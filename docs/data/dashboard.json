@@ -1,9 +1,9 @@
 {
   "comuni": {
     "25": {
-      "zip_hash": "2f870fb01e02b73aeece926ca75e91b6318cdec491012913cfb16d35f07ebe43",
-      "content_fingerprint": "fae5ee8059844972ff5475912ac9f8aab4c9b74f403ae28ac007ac27c4ef215c",
-      "last_scan": "2026-05-13T09:28:25.005970+00:00",
+      "zip_hash": "beba4c44a76254d7d759965198ad2030e6ffcb3630ca4151ca09ec8ff7c6d714",
+      "content_fingerprint": "15a7240ecec95de5dcd5dc6b23e625035c391de520f30f1d24a2f6773fd2cfb2",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -143,12 +143,17 @@
           "current_hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
           "current_size": 3990511,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
               "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
               "size": 3990511
+            },
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone ver.2.xlsx",
+              "hash": "8f05b485addea1ee0b84eb17f49671032ecc23c468b470bc8492efc5de401503",
+              "size": 3985963
             }
           ],
           "first_upload": "2026-04-08T11:52:41.566992+00:00",
@@ -165,26 +170,37 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
-          "current_file": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
-          "current_size": 260457,
-          "file_count": 1,
+          "current_hash": "d5e9a8c36ad932d321e76b4b30c96191314a5754b84cbf1bde3ec5ce0acf8ea0",
+          "current_file": "Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+          "current_size": 294416,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
               "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
               "size": 260457
+            },
+            {
+              "name": "Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+              "hash": "d5e9a8c36ad932d321e76b4b30c96191314a5754b84cbf1bde3ec5ce0acf8ea0",
+              "size": 294416
             }
           ],
           "first_upload": "2026-04-08T11:52:41.566992+00:00",
-          "last_upload": "2026-04-08T11:52:41.566992+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-08T11:52:41.566992+00:00",
               "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
               "file": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T10:33:25.719465+00:00",
+              "hash": "d5e9a8c36ad932d321e76b4b30c96191314a5754b84cbf1bde3ec5ce0acf8ea0",
+              "file": "Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -193,7 +209,7 @@
           "current_hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
           "current_file": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
           "current_size": 307435,
-          "file_count": 3,
+          "file_count": 4,
           "all_files": [
             {
               "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
@@ -209,6 +225,11 @@
               "name": "Dichiarazione di Veridicità 12.03.2026.pdf",
               "hash": "87bf30129eb9e8a1543ca60b27ec361442faed08df7dd4c39bbed1dffec39650",
               "size": 227816
+            },
+            {
+              "name": "Dichiarazione di Veridicità 13.05.2026.pdf",
+              "hash": "e75419dd576c1bc951b8e48dce51a1861389639456d413217c55fc0150f03eb1",
+              "size": 229467
             }
           ],
           "first_upload": "2026-04-08T11:52:41.566992+00:00",
@@ -264,10 +285,26 @@
           "source": "comune"
         },
         {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone ver.2.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone ver.2.xlsx",
+          "hash": "8f05b485addea1ee0b84eb17f49671032ecc23c468b470bc8492efc5de401503",
+          "size": 3985963,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
           "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
           "size": 260457,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+          "hash": "d5e9a8c36ad932d321e76b4b30c96191314a5754b84cbf1bde3ec5ce0acf8ea0",
+          "size": 294416,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -294,15 +331,17 @@
           "size": 227816,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 13.05.2026.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 13.05.2026.pdf",
+          "hash": "e75419dd576c1bc951b8e48dce51a1861389639456d413217c55fc0150f03eb1",
+          "size": 229467,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T15:39:05.564834+00:00",
-          "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
-          "changed": false,
-          "file_count": 5
-        },
         {
           "time": "2026-04-26T16:38:59.748264+00:00",
           "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
@@ -896,6 +935,12 @@
           "zip_hash": "2f870fb01e02b73aeece926ca75e91b6318cdec491012913cfb16d35f07ebe43",
           "changed": true,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "beba4c44a76254d7d759965198ad2030e6ffcb3630ca4151ca09ec8ff7c6d714",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -12443,15 +12488,13 @@
       "processabile": "si"
     },
     "22": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Montefiore dell'Aso",
         "gestore": "La Splendente -> Ecofil",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/62u8dymude0p",
-        "id": 22
+        "url": "https://drive.atarifiuti.ap.it/62u8dymude0p"
       },
       "zip_hash": "a1f1f69ed184e8b0ed4217766fb51b00a7faa5d32d7c34725a65a29445e18faf",
       "content_fingerprint": "2931d9c653abd705dbc4c512073b759d0ee367cdec19aa3440acf3e84373f814",
@@ -12867,8 +12910,8 @@
     "23": {
       "zip_hash": "ee6250523812e676797b05611adbce5c42eb23758d7e4b0c2f48ffdff2f2ee23",
       "content_fingerprint": "1d73b4771cfa48ce4ecf4b82d8bf84bb939535d7d61b9f5b15c47bf0c3246187",
-      "last_scan": "2026-05-13T09:16:35.960437+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -13117,12 +13160,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T14:07:02.905427+00:00",
-          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T15:39:05.564834+00:00",
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
@@ -13716,6 +13753,12 @@
           "zip_hash": "ee6250523812e676797b05611adbce5c42eb23758d7e4b0c2f48ffdff2f2ee23",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "ee6250523812e676797b05611adbce5c42eb23758d7e4b0c2f48ffdff2f2ee23",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -13730,7 +13773,7 @@
       "processabile": "si"
     },
     "24": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13924,6 +13967,12 @@
           "zip_hash": "695cf7b8d25962c90407e41ab7b7389b8d650df32571a4a27b4c4e6e4b9e67ae",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "695cf7b8d25962c90407e41ab7b7389b8d650df32571a4a27b4c4e6e4b9e67ae",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -13932,8 +13981,8 @@
     "26": {
       "zip_hash": "c9be9476ce017ce2c84792442f7424c968f143cd500c00a026f60ad7d1c15a49",
       "content_fingerprint": "a026763294fa4fd4236fdc471329c900660e9d4187c7fc46bfa7498d4a2ab1cc",
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -14195,12 +14244,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T12:59:50.721946+00:00",
-          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-26T14:07:02.905427+00:00",
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
@@ -14794,6 +14837,12 @@
           "zip_hash": "c9be9476ce017ce2c84792442f7424c968f143cd500c00a026f60ad7d1c15a49",
           "changed": true,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "c9be9476ce017ce2c84792442f7424c968f143cd500c00a026f60ad7d1c15a49",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -14810,8 +14859,8 @@
     "27": {
       "zip_hash": "c332fb3a2543cacf9722e312490211de087fc3aaea5278fc9e4d95e915078d89",
       "content_fingerprint": "222ef3ca863e1a02e6e5a6f1e2af534be1e7ca590986a99562c94d34414de739",
-      "last_scan": "2026-05-13T09:31:37.895759+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -15048,12 +15097,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T14:07:02.905427+00:00",
-          "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T15:39:05.564834+00:00",
           "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
@@ -15646,6 +15689,12 @@
           "time": "2026-05-13T09:31:37.895759+00:00",
           "zip_hash": "c332fb3a2543cacf9722e312490211de087fc3aaea5278fc9e4d95e915078d89",
           "changed": true,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "c332fb3a2543cacf9722e312490211de087fc3aaea5278fc9e4d95e915078d89",
+          "changed": false,
           "file_count": 6
         }
       ],
@@ -18235,11 +18284,11 @@
   "meta": {
     "last_scan": "2026-05-13T10:33:25.719465+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 2,
-      "invariati": 18,
+      "scansionati": 25,
+      "aggiornati": 3,
+      "invariati": 22,
       "errori": 0,
-      "vuoti": 1
+      "vuoti": 2
     },
     "total_comuni": 33,
     "scadenze": {
