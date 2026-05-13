@@ -17975,7 +17975,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -17985,9 +17985,9 @@
         "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg",
         "id": 33
       },
-      "zip_hash": "9ba2130af467c4b53d94047139614e91c15d89de802d1774d14747f18b008a43",
-      "content_fingerprint": "11f300d773bec5192ce70c9d7619b576056e4b4c1769cf8526c5cf63a99731be",
-      "zip_changed": false,
+      "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
+      "content_fingerprint": "7211dcd4ab5d6bdf0ca2a6053c18b0bd8e10e4c82d42e3d294007a0186f939ad",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -18068,13 +18068,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "da5919c40fb4be8b4cc988ea7e5b71cb1b550e3f1fdb071e3a9cf654bf354d26",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3980499,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "da5919c40fb4be8b4cc988ea7e5b71cb1b550e3f1fdb071e3a9cf654bf354d26",
+              "size": 3980499
+            }
+          ],
+          "first_upload": "2026-05-13T10:33:25.719465+00:00",
+          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-13T10:33:25.719465+00:00",
+              "hash": "da5919c40fb4be8b4cc988ea7e5b71cb1b550e3f1fdb071e3a9cf654bf354d26",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "cf30f3df69f5a5a1b739b0dd1107154414f9602691a00b46c424b7411940831d",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "current_size": 645949,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+              "hash": "cf30f3df69f5a5a1b739b0dd1107154414f9602691a00b46c424b7411940831d",
+              "size": 645949
+            }
+          ],
+          "first_upload": "2026-05-13T10:33:25.719465+00:00",
+          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-13T10:33:25.719465+00:00",
+              "hash": "cf30f3df69f5a5a1b739b0dd1107154414f9602691a00b46c424b7411940831d",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "ccc67c7af4f5a9c165a8d4c1b84923330a70463c6903fb5ee1e46d02bd8858d0",
+          "current_file": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
+          "current_size": 175117,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
+              "hash": "ccc67c7af4f5a9c165a8d4c1b84923330a70463c6903fb5ee1e46d02bd8858d0",
+              "size": 175117
+            }
+          ],
+          "first_upload": "2026-05-13T10:33:25.719465+00:00",
+          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-13T10:33:25.719465+00:00",
+              "hash": "ccc67c7af4f5a9c165a8d4c1b84923330a70463c6903fb5ee1e46d02bd8858d0",
+              "file": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -18107,6 +18173,30 @@
           "size": 966706,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "da5919c40fb4be8b4cc988ea7e5b71cb1b550e3f1fdb071e3a9cf654bf354d26",
+          "size": 3980499,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "hash": "cf30f3df69f5a5a1b739b0dd1107154414f9602691a00b46c424b7411940831d",
+          "size": 645949,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni.pdf",
+          "hash": "ccc67c7af4f5a9c165a8d4c1b84923330a70463c6903fb5ee1e46d02bd8858d0",
+          "size": 175117,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -18139,10 +18229,16 @@
           "zip_hash": "9ba2130af467c4b53d94047139614e91c15d89de802d1774d14747f18b008a43",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "16": {
       "zip_hash": "b2e9426676a796eddd89aa14099e4f48f80374d8db5b222b5ed0c05ae09ed66d",
@@ -18299,8 +18395,8 @@
   "meta": {
     "last_scan": "2026-05-13T10:33:25.719465+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 4,
+      "scansionati": 31,
+      "aggiornati": 5,
       "invariati": 26,
       "errori": 0,
       "vuoti": 2
