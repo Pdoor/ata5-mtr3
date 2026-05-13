@@ -4235,7 +4235,7 @@
       "processabile": "no"
     },
     "6": {
-      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "last_scan": "2026-05-13T13:16:55.056760+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -4435,16 +4435,22 @@
           "zip_hash": "5c5d499cc2cdf85e6c2cf10b798e20308fd6c6881817995cd95bcedf9ecc2581",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T13:16:55.056760+00:00",
+          "zip_hash": "5c5d499cc2cdf85e6c2cf10b798e20308fd6c6881817995cd95bcedf9ecc2581",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "7": {
-      "zip_hash": "a2143d0b538200ec19ab72868e681cca3896a44bbfd9a9e7fb2f780871ea7b19",
-      "content_fingerprint": "7b2b8a7de3cdfcad37bdedbcee88a79c2dc95e58333ac2a95db0d06654e69e64",
-      "last_scan": "2026-05-13T10:33:25.719465+00:00",
-      "zip_changed": false,
+      "zip_hash": "15a7430b998eb0e9e25201a44effd8d12d91ce9a9efee7d19e47cd81d8c0c8fa",
+      "content_fingerprint": "9aa95ee0259db7b6561489a1b9204979d93c1dc137beaaf14a6470972174bb59",
+      "last_scan": "2026-05-13T13:16:55.056760+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -4562,20 +4568,20 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "0249b8fdacb980247d6697a326c1aab11fbac587232d4e5e5c55d1fa24971fb9",
+          "current_hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
-          "current_size": 3980747,
+          "current_size": 3980876,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
-              "hash": "0249b8fdacb980247d6697a326c1aab11fbac587232d4e5e5c55d1fa24971fb9",
-              "size": 3980747
+              "hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
+              "size": 3980876
             }
           ],
           "first_upload": "2026-04-10T10:50:43.901585+00:00",
-          "last_upload": "2026-04-10T10:50:43.901585+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T13:16:55.056760+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-10T10:50:43.901585+00:00",
@@ -4594,25 +4600,36 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-13T13:16:55.056760+00:00",
+              "hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "e19e4a8dd203c66d96f84055a1b8c85cbd2317b81021fe8090d726c3c0d0c30d",
-          "current_file": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-1.doc",
-          "current_size": 98304,
-          "file_count": 1,
+          "current_hash": "403a6a7412db61df2334f6f383e417693cadd027c8ff73656d73189fcd9ff54e",
+          "current_file": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+          "current_size": 98816,
+          "file_count": 2,
           "all_files": [
             {
               "name": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-1.doc",
               "hash": "e19e4a8dd203c66d96f84055a1b8c85cbd2317b81021fe8090d726c3c0d0c30d",
               "size": 98304
+            },
+            {
+              "name": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+              "hash": "403a6a7412db61df2334f6f383e417693cadd027c8ff73656d73189fcd9ff54e",
+              "size": 98816
             }
           ],
           "first_upload": "2026-04-10T10:50:43.901585+00:00",
-          "last_upload": "2026-04-10T10:50:43.901585+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T13:16:55.056760+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-10T10:50:43.901585+00:00",
@@ -4631,25 +4648,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-13T13:16:55.056760+00:00",
+              "hash": "403a6a7412db61df2334f6f383e417693cadd027c8ff73656d73189fcd9ff54e",
+              "file": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "04cd98fecb4df3c592f6627beb61e766ea41379c8e09845c136d4e37e518cd43",
+          "current_hash": "167f8d4827d0aa506ea5755b9aa57aa7f3ce9ef31c987e775c2621adc8fb6e28",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
-          "current_size": 34373,
+          "current_size": 34329,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
-              "hash": "04cd98fecb4df3c592f6627beb61e766ea41379c8e09845c136d4e37e518cd43",
-              "size": 34373
+              "hash": "167f8d4827d0aa506ea5755b9aa57aa7f3ce9ef31c987e775c2621adc8fb6e28",
+              "size": 34329
             }
           ],
           "first_upload": "2026-04-10T10:50:43.901585+00:00",
-          "last_upload": "2026-04-10T10:50:43.901585+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T13:16:55.056760+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-10T10:50:43.901585+00:00",
@@ -4668,6 +4691,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-13T13:16:55.056760+00:00",
+              "hash": "167f8d4827d0aa506ea5755b9aa57aa7f3ce9ef31c987e775c2621adc8fb6e28",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+              "event": "sostituzione"
             }
           ]
         },
@@ -4706,8 +4735,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
-          "hash": "0249b8fdacb980247d6697a326c1aab11fbac587232d4e5e5c55d1fa24971fb9",
-          "size": 3980747,
+          "hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
+          "size": 3980876,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -4720,21 +4749,23 @@
           "source": "comune"
         },
         {
+          "name": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+          "hash": "403a6a7412db61df2334f6f383e417693cadd027c8ff73656d73189fcd9ff54e",
+          "size": 98816,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
           "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
           "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
-          "hash": "04cd98fecb4df3c592f6627beb61e766ea41379c8e09845c136d4e37e518cd43",
-          "size": 34373,
+          "hash": "167f8d4827d0aa506ea5755b9aa57aa7f3ce9ef31c987e775c2621adc8fb6e28",
+          "size": 34329,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T15:39:05.564834+00:00",
-          "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T16:38:59.748264+00:00",
           "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
@@ -5328,6 +5359,12 @@
           "zip_hash": "a2143d0b538200ec19ab72868e681cca3896a44bbfd9a9e7fb2f780871ea7b19",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-13T13:16:55.056760+00:00",
+          "zip_hash": "15a7430b998eb0e9e25201a44effd8d12d91ce9a9efee7d19e47cd81d8c0c8fa",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -5342,9 +5379,9 @@
       "processabile": "si"
     },
     "8": {
-      "zip_hash": "9d05a5c4f1374c39d856ad57d298c6eccb483134b7a4edbb8db48a9dd515bf2c",
-      "content_fingerprint": "8f159a47b5926451d8b85521dc995a29482ce24263bb3db27ead85a7e1ca8f56",
-      "last_scan": "2026-05-13T11:12:11.864742+00:00",
+      "zip_hash": "19ae16b06858650f56c7ac64384a7a4e8178dbe1b97a53743817e77c1ff3940f",
+      "content_fingerprint": "14c295b439504557bd0d7a4026dba75426f2337292622d37a6175a7c2de6ceda",
+      "last_scan": "2026-05-13T13:16:55.056760+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -5504,7 +5541,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
           "current_file": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 3983247,
@@ -5535,35 +5572,18 @@
               "hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
               "file": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T13:16:55.056760+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-13T13:16:55.056760+00:00"
         }
       },
       "all_files": [
-        {
-          "name": "Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Pef Validato 2026/Castignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "820d23842552995dc2c970b051caad1965e7cadc759c769984932ed22da2005d",
-          "size": 3983247,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "Dichiarazione di veridicità-signed.pdf",
-          "path": "Pef Validato 2026/Dichiarazione di veridicità-signed.pdf",
-          "hash": "115fd46889da4628bdc098fd84ccb614b7dbc709b24f6389bb30d72edd5fe56c",
-          "size": 671277,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "relazione castignano.pdf",
-          "path": "Pef Validato 2026/relazione castignano.pdf",
-          "hash": "6ea3ee07464e4f479a473cbd97d2771dbbb6dc19e0b4506dcb082cccd5a18df7",
-          "size": 815010,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
         {
           "name": "Allegato_1_-_ Castignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -5614,12 +5634,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T15:39:05.564834+00:00",
-          "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T16:38:59.748264+00:00",
           "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
@@ -6213,6 +6227,12 @@
           "zip_hash": "9d05a5c4f1374c39d856ad57d298c6eccb483134b7a4edbb8db48a9dd515bf2c",
           "changed": true,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-13T13:16:55.056760+00:00",
+          "zip_hash": "19ae16b06858650f56c7ac64384a7a4e8178dbe1b97a53743817e77c1ff3940f",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -6229,7 +6249,7 @@
     "9": {
       "zip_hash": "03ec370229c028bf8adc470b8ea8fb07800ad2f5ce55d841de96bb4bbbe49b0a",
       "content_fingerprint": "23429479f1cf311713695b72c51958140be39fb40edf60e7213220081e909fa3",
-      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "last_scan": "2026-05-13T13:16:55.056760+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -6443,12 +6463,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T15:39:05.564834+00:00",
-          "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T16:38:59.748264+00:00",
           "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
@@ -7042,6 +7056,12 @@
           "zip_hash": "03ec370229c028bf8adc470b8ea8fb07800ad2f5ce55d841de96bb4bbbe49b0a",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-13T13:16:55.056760+00:00",
+          "zip_hash": "03ec370229c028bf8adc470b8ea8fb07800ad2f5ce55d841de96bb4bbbe49b0a",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -7058,7 +7078,7 @@
     "10": {
       "zip_hash": "e213dd5e2e9f69f0b85c9301c9964d7552c2cf14f83644ba8f5a1330922a055b",
       "content_fingerprint": "38d588903ea96abd7008aa23229d6e0fc751331cf339c0fd6affa4e00954d877",
-      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "last_scan": "2026-05-13T13:16:55.056760+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7308,12 +7328,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T15:39:05.564834+00:00",
-          "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T16:38:59.748264+00:00",
           "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
@@ -7904,6 +7918,12 @@
         },
         {
           "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "e213dd5e2e9f69f0b85c9301c9964d7552c2cf14f83644ba8f5a1330922a055b",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-13T13:16:55.056760+00:00",
           "zip_hash": "e213dd5e2e9f69f0b85c9301c9964d7552c2cf14f83644ba8f5a1330922a055b",
           "changed": false,
           "file_count": 6
@@ -18630,9 +18650,9 @@
   "meta": {
     "last_scan": "2026-05-13T13:16:55.056760+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 3,
-      "invariati": 2,
+      "scansionati": 10,
+      "aggiornati": 5,
+      "invariati": 5,
       "errori": 0,
       "vuoti": 0
     },
