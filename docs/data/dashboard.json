@@ -12880,13 +12880,13 @@
       "processabile": "no"
     },
     "23": {
-      "zip_hash": "47aa72e0633a597b8b45b1d77a13bf09c8803e039fec3106fc50ce336fc2850e",
-      "content_fingerprint": "4d76f0ed608338c242025d2b0dba6349bc9db469c80bb31e2c437d3b68d96880",
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "zip_hash": "ee6250523812e676797b05611adbce5c42eb23758d7e4b0c2f48ffdff2f2ee23",
+      "content_fingerprint": "1d73b4771cfa48ce4ecf4b82d8bf84bb939535d7d61b9f5b15c47bf0c3246187",
+      "last_scan": "2026-05-13T09:16:35.960437+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "0825e79cc9f4be3e2370fcd4ff8f88ba67a7d4063334072dea2bc611f413f1df",
           "current_file": "Allegato_1_-_ Montegallo Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4869686,
@@ -12914,11 +12914,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T20:46:47.422462+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
           "current_size": 3129866,
@@ -12946,11 +12945,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T20:46:47.422462+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
           "current_size": 966706,
@@ -12978,14 +12976,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T20:46:47.422462+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "2cd1e8ceb8268e8caf98043977c8489019da14a5370953fce684be7f71a0d186",
           "current_file": "Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 3981596,
@@ -13013,11 +13010,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T20:46:47.422462+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "70a460ac86ef89df1e96840c09eba1d23a282b8093707024da492b6512892d4a",
           "current_file": "Relazione PEF 2026-2029 Comune di Montegallo.pdf",
           "current_size": 664804,
@@ -13045,11 +13041,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T20:46:47.422462+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "e58cc281217951bd0ea990cf5fcf62aa969cc3b944779f413e4b041a7ed11f68",
           "current_file": "Dichiarazione di veridicita_signed.pdf",
           "current_size": 523920,
@@ -13077,8 +13072,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-12T20:46:47.422462+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -13090,36 +13084,54 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Montegallo Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montegallo Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montegallo Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "0825e79cc9f4be3e2370fcd4ff8f88ba67a7d4063334072dea2bc611f413f1df",
           "size": 4869686,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
           "hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
           "size": 3129866,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
           "hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
           "size": 966706,
-          "doc_key": null,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Montegallo_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "2cd1e8ceb8268e8caf98043977c8489019da14a5370953fce684be7f71a0d186",
+          "size": 3981596,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026-2029 Comune di Montegallo.pdf",
+          "hash": "70a460ac86ef89df1e96840c09eba1d23a282b8093707024da492b6512892d4a",
+          "size": 664804,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di veridicita_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di veridicita_signed.pdf",
+          "hash": "e58cc281217951bd0ea990cf5fcf62aa969cc3b944779f413e4b041a7ed11f68",
+          "size": 523920,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T12:59:50.721946+00:00",
-          "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-26T14:07:02.905427+00:00",
           "zip_hash": "1ed51479a3294f53d1898c3d0d4c7e782f0c2810bb68d6cce611ef7eaeda4f57",
@@ -13713,28 +13725,15 @@
           "zip_hash": "47aa72e0633a597b8b45b1d77a13bf09c8803e039fec3106fc50ce336fc2850e",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Montegallo Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montegallo Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4869686
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-          "source": "comune",
-          "size": 3129866
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 966706
+          "time": "2026-05-13T09:16:35.960437+00:00",
+          "zip_hash": "ee6250523812e676797b05611adbce5c42eb23758d7e4b0c2f48ffdff2f2ee23",
+          "changed": true,
+          "file_count": 6
         }
       ],
+      "unclassified_files": [],
       "info": {
         "comune": "Montegallo",
         "gestore": "Picenambiente",
@@ -13743,7 +13742,7 @@
         "id": 23
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "24": {
       "last_scan": "2026-05-12T20:46:47.422462+00:00",
@@ -18077,7 +18076,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-13T09:03:40.327661+00:00",
+    "last_scan": "2026-05-13T09:16:35.960437+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
