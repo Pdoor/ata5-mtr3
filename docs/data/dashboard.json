@@ -8389,8 +8389,8 @@
     "12": {
       "zip_hash": "79758863e5fe5000f7a9724d3d540ccac560db075b02180d11f437b3efa7bf22",
       "content_fingerprint": "1bbad3a439fd85bdfc6156b5acbb4398d8d91a4cf9c9166995dc54e5998242bc",
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -8635,12 +8635,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T17:35:06.614948+00:00",
-          "zip_hash": "1fa3ebd2d706e8fcfa10ed29223df2964eb5fa4f1ee8eddd372717bd0043dddb",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-25T18:44:25.573707+00:00",
           "zip_hash": "1fa3ebd2d706e8fcfa10ed29223df2964eb5fa4f1ee8eddd372717bd0043dddb",
@@ -9234,6 +9228,12 @@
           "zip_hash": "79758863e5fe5000f7a9724d3d540ccac560db075b02180d11f437b3efa7bf22",
           "changed": true,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "79758863e5fe5000f7a9724d3d540ccac560db075b02180d11f437b3efa7bf22",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -9256,13 +9256,15 @@
       "last_scan_empty": true
     },
     "13": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Cupra Marittima",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr",
+        "id": 13
       },
       "zip_hash": "936d72d9aeddbb1459d561f94c7ce9e093b9b64029d76f49047adac2d507f3ad",
       "content_fingerprint": "558df2805b69394eb3cc02e4421e4980a91990337205b5f1490acd1bc72b8b1f",
@@ -9442,13 +9444,19 @@
           "zip_hash": "936d72d9aeddbb1459d561f94c7ce9e093b9b64029d76f49047adac2d507f3ad",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "936d72d9aeddbb1459d561f94c7ce9e093b9b64029d76f49047adac2d507f3ad",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -9594,6 +9602,12 @@
           "zip_hash": "3374d585db76daba0df6b3ff1f36589569bb357c64d794f646ccd08d855fa4cc",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "3374d585db76daba0df6b3ff1f36589569bb357c64d794f646ccd08d855fa4cc",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [
@@ -9619,17 +9633,19 @@
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-12T20:46:47.422462+00:00",
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Force",
         "gestore": "Force",
-        "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir",
+        "id": 15
       },
-      "zip_hash": "934a685fc2b0921a397ec76e67e9ff860ff54a76b4f84825b637b595fc10cf8d",
-      "content_fingerprint": "b407dab94ed9652af9f33a0fafc2ab3f8c8af5db1da5eff3a8df27c4aa911244",
-      "zip_changed": false,
+      "zip_hash": "def12b5a6b2a99fdfcacc881f06676ee068cc59f7c771ab32962d2db1dcbe493",
+      "content_fingerprint": "236aa393c452c33222c6d0640cb2feb165a79afefde68321ec1f6ff4f6008b47",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -9645,26 +9661,37 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "b58203c64c8a7930f5221ca445ac9ed1413efa45557cd036c714a23cecd971cd",
-          "current_file": "Copia di Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4002681,
-          "file_count": 1,
+          "current_hash": "6c68a995bfcca8ed414bb423880c41a6a558a9e960aa5df31524abde077dfd6b",
+          "current_file": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4003284,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Copia di Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "hash": "b58203c64c8a7930f5221ca445ac9ed1413efa45557cd036c714a23cecd971cd",
               "size": 4002681
+            },
+            {
+              "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "6c68a995bfcca8ed414bb423880c41a6a558a9e960aa5df31524abde077dfd6b",
+              "size": 4003284
             }
           ],
           "first_upload": "2026-04-07T15:05:03.301311+00:00",
-          "last_upload": "2026-04-07T15:05:03.301311+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-07T15:05:03.301311+00:00",
               "hash": "b58203c64c8a7930f5221ca445ac9ed1413efa45557cd036c714a23cecd971cd",
               "file": "Copia di Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T10:33:25.719465+00:00",
+              "hash": "6c68a995bfcca8ed414bb423880c41a6a558a9e960aa5df31524abde077dfd6b",
+              "file": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -9757,6 +9784,14 @@
           "source": "comune"
         },
         {
+          "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "6c68a995bfcca8ed414bb423880c41a6a558a9e960aa5df31524abde077dfd6b",
+          "size": 4003284,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "RELAZIONE PEF 2026-2029.pdf",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF 2026-2029.pdf",
           "hash": "017fb98cb184b7f082a6d0ed897fe86313e2ffae13f04317c2444fb7deaf3092",
@@ -9822,12 +9857,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T08:57:00.981934+00:00",
-          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-26T09:54:32.960337+00:00",
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
@@ -10421,6 +10450,12 @@
           "zip_hash": "934a685fc2b0921a397ec76e67e9ff860ff54a76b4f84825b637b595fc10cf8d",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "def12b5a6b2a99fdfcacc881f06676ee068cc59f7c771ab32962d2db1dcbe493",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -18022,8 +18057,8 @@
     "16": {
       "zip_hash": "b2e9426676a796eddd89aa14099e4f48f80374d8db5b222b5ed0c05ae09ed66d",
       "content_fingerprint": "ad179502c2da28b5d6ff1b8ee4c25afa32a169faa3ff4a88b0e1c6e45c3eb1c7",
-      "last_scan": "2026-05-13T10:20:48.329487+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-13T10:33:25.719465+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -18151,6 +18186,12 @@
           "zip_hash": "b2e9426676a796eddd89aa14099e4f48f80374d8db5b222b5ed0c05ae09ed66d",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T10:33:25.719465+00:00",
+          "zip_hash": "b2e9426676a796eddd89aa14099e4f48f80374d8db5b222b5ed0c05ae09ed66d",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -18168,9 +18209,9 @@
   "meta": {
     "last_scan": "2026-05-13T10:33:25.719465+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 1,
-      "invariati": 9,
+      "scansionati": 15,
+      "aggiornati": 2,
+      "invariati": 13,
       "errori": 0,
       "vuoti": 1
     },
