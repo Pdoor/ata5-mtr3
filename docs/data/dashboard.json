@@ -17403,7 +17403,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-14T17:56:36.988609+00:00",
+      "last_scan": "2026-05-14T19:55:47.778381+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -17621,13 +17621,19 @@
           "zip_hash": "405e554e8b8b7fae1eca5d9b135551f32538e9882c09cd385bcd189d08e31979",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-14T19:55:47.778381+00:00",
+          "zip_hash": "405e554e8b8b7fae1eca5d9b135551f32538e9882c09cd385bcd189d08e31979",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-05-14T17:56:36.988609+00:00",
+      "last_scan": "2026-05-14T19:55:47.778381+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -17869,21 +17875,25 @@
           "zip_hash": "8223989207833ce87df9367be6ebbb30b3dfbbdaf7bc019bb248b67e7885a0cf",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-14T19:55:47.778381+00:00",
+          "zip_hash": "8223989207833ce87df9367be6ebbb30b3dfbbdaf7bc019bb248b67e7885a0cf",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "31": {
-      "last_scan": "2026-05-14T17:56:36.988609+00:00",
+      "last_scan": "2026-05-14T19:55:47.778381+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "San Benedetto del Tronto",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
-        "id": 31
+        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938"
       },
       "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
       "content_fingerprint": "f1ce54f47e881528c2f23f0a49247bdc4c2d17452169c09344c16872fd80e226",
@@ -18515,7 +18525,7 @@
     "32": {
       "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
       "content_fingerprint": "30fa48a6839838f0d36d7e8d7cf22fc6b206df9d88837981d0a09560fa67700c",
-      "last_scan": "2026-05-14T17:56:36.988609+00:00",
+      "last_scan": "2026-05-14T19:55:47.778381+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -18778,12 +18788,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-26T14:07:02.905427+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-26T15:39:05.564834+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -19377,6 +19381,12 @@
           "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-14T19:55:47.778381+00:00",
+          "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -19392,15 +19402,13 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-14T17:56:36.988609+00:00",
+      "last_scan": "2026-05-14T19:55:47.778381+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Venarotta",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg",
-        "id": 33
+        "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg"
       },
       "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
       "content_fingerprint": "7211dcd4ab5d6bdf0ca2a6053c18b0bd8e10e4c82d42e3d294007a0186f939ad",
@@ -19914,11 +19922,11 @@
   "meta": {
     "last_scan": "2026-05-14T19:55:47.778381+00:00",
     "results": {
-      "scansionati": 25,
+      "scansionati": 28,
       "aggiornati": 6,
-      "invariati": 19,
+      "invariati": 22,
       "errori": 0,
-      "vuoti": 3
+      "vuoti": 5
     },
     "total_comuni": 33,
     "scadenze": {
