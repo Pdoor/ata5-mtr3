@@ -15464,13 +15464,13 @@
       "processabile": "no"
     },
     "26": {
-      "zip_hash": "8f19cba811d76992dbcb5db06bf7c615790c776da87736d85172b6b29c5f264e",
-      "content_fingerprint": "92b66648a8cbf2f9dbeffa6042f278027b82d1995ffe1d551a14b8c54b540dbc",
-      "last_scan": "2026-05-15T15:23:00.881373+00:00",
+      "zip_hash": "cbaa6f4273b3a0e9bc13390e0c84cc7134ce229e76ee3f0fcb1abcda624b0eb4",
+      "content_fingerprint": "50bc9891866fd4c091c0fd07a18796606c731057b489661bdc1c3dd51b74e675",
+      "last_scan": "2026-05-15T17:43:53.957619+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "6fe418e31178cf13c6c0d8d3352deef4b6f072645378501b8eac2454e82c2d9a",
           "current_file": "Allegato_1_-_ Offida Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4769215,
@@ -15510,11 +15510,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "b3d5ffe8a58717ca3398d152784e51d2441aafd0de1415d8f0bc3122cb1d51de",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Offida.pdf.p7m",
           "current_size": 5614181,
@@ -15554,11 +15553,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "b22dc32c7df69f5dbbb6f79f8cd76f904b4986060da2bc58c89a7418e03af9bf",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Offida 11.5.2026_signed.pdf",
           "current_size": 833052,
@@ -15598,14 +15596,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "c642e35a4817c08160917da29b9a8da58f9ddc15ec29c4bb4eaed6fefca0b40d",
           "current_file": "OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
           "current_size": 3981469,
@@ -15651,11 +15648,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "95b87217333dc2bae02096d7d1d058b397000daa04b1705b691c8d49a237550f",
           "current_file": "RELAZIONE PEF 2026.pdf.p7m",
           "current_size": 352863,
@@ -15700,11 +15696,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "1688498654bafb53bc86f964809e6029954e6afb1856684933ff8b4ef963495e",
           "current_file": "C. I. MASSA.pdf",
           "current_size": 491552,
@@ -15754,8 +15749,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -15767,36 +15761,78 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Offida Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Offida Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Offida Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "6fe418e31178cf13c6c0d8d3352deef4b6f072645378501b8eac2454e82c2d9a",
           "size": 4769215,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Offida.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Offida.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Offida.pdf.p7m",
           "hash": "b3d5ffe8a58717ca3398d152784e51d2441aafd0de1415d8f0bc3122cb1d51de",
           "size": 5614181,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Offida 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Offida 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Offida 11.5.2026_signed.pdf",
           "hash": "b22dc32c7df69f5dbbb6f79f8cd76f904b4986060da2bc58c89a7418e03af9bf",
           "size": 833052,
-          "doc_key": null,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/OFFIDA_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(8).xlsx",
+          "hash": "c642e35a4817c08160917da29b9a8da58f9ddc15ec29c4bb4eaed6fefca0b40d",
+          "size": 3981469,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE PEF 2026.pdf.p7m",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF 2026.pdf.p7m",
+          "hash": "95b87217333dc2bae02096d7d1d058b397000daa04b1705b691c8d49a237550f",
+          "size": 352863,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE PEF 2026 secondo invio .pdf.p7m",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF 2026 secondo invio .pdf.p7m",
+          "hash": "66eefedc8631e63ce20b3470d95f67828613529ea026881cd181a120da276518",
+          "size": 199087,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di veridicità pef.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità pef.pdf.p7m",
+          "hash": "de6bf1f7407d1dbb7b5ff1a953b0ad34c0a5aa9fd2508cdd5910223f738a0d4a",
+          "size": 155819,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "C. I. MASSA.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/C. I. MASSA.pdf",
+          "hash": "1688498654bafb53bc86f964809e6029954e6afb1856684933ff8b4ef963495e",
+          "size": 491552,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "dichiarazione di veridicità.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/dichiarazione di veridicità.pdf.p7m",
+          "hash": "a984b2d39a5ad5749964928a7a8d1e487fdfc2f82d0bd83cf2e7f48c1024610c",
+          "size": 157008,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-28T15:30:22.800305+00:00",
-          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-28T17:50:02.473462+00:00",
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
@@ -16390,28 +16426,15 @@
           "zip_hash": "8f19cba811d76992dbcb5db06bf7c615790c776da87736d85172b6b29c5f264e",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Offida Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Offida Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4769215
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Offida.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Offida.pdf.p7m",
-          "source": "comune",
-          "size": 5614181
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Offida 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Offida 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 833052
+          "time": "2026-05-15T17:43:53.957619+00:00",
+          "zip_hash": "cbaa6f4273b3a0e9bc13390e0c84cc7134ce229e76ee3f0fcb1abcda624b0eb4",
+          "changed": true,
+          "file_count": 9
         }
       ],
+      "unclassified_files": [],
       "info": {
         "comune": "Offida",
         "gestore": "Picenambiente",
@@ -16420,16 +16443,16 @@
         "id": 26
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "27": {
-      "zip_hash": "38465939373a912b47c079ec3e2b1916c2f5656ac9d606fd402a627f0d30d031",
-      "content_fingerprint": "38aab7ba9d259237d79f2b522cb0c25eda7c76bde8eacee84eb73f41e4834743",
-      "last_scan": "2026-05-15T15:23:00.881373+00:00",
-      "zip_changed": false,
+      "zip_hash": "fb1581aa311d4a1565537a80fb77b3b1577aa3ae82ee6f0075bb9a6e20faca04",
+      "content_fingerprint": "9e32c1e7fb33dfba2049c14c995749696d3ab9e12021514077b096f21781f6c6",
+      "last_scan": "2026-05-15T17:43:53.957619+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "6c61ac144a90b424282314bb50dc768f4f34586f4f20de7c4c35fb30f3cebba5",
           "current_file": "Allegato_1_-_ Palmiano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4885848,
@@ -16462,11 +16485,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-15T17:43:53.957619+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-15T17:43:53.957619+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
           "current_size": 3129866,
@@ -16499,11 +16529,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-15T17:43:53.957619+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-15T17:43:53.957619+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
           "current_size": 966706,
@@ -16536,8 +16573,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-15T17:43:53.957619+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-15T17:43:53.957619+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -16650,30 +16694,6 @@
       },
       "all_files": [
         {
-          "name": "Allegato_1_-_ Palmiano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Palmiano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "6c61ac144a90b424282314bb50dc768f4f34586f4f20de7c4c35fb30f3cebba5",
-          "size": 4885848,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-          "hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
-          "size": 3129866,
-          "doc_key": "relazione",
-          "source": "gestore"
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-          "hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
-          "size": 966706,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
           "name": "Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Palmiano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "a4f1363eedd3debd19d15f1fa2069d9e7f631f96ce3a00540d180ad755d1b3ef",
@@ -16699,12 +16719,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-28T17:50:02.473462+00:00",
-          "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-28T19:46:56.054793+00:00",
           "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
@@ -17298,6 +17312,12 @@
           "zip_hash": "38465939373a912b47c079ec3e2b1916c2f5656ac9d606fd402a627f0d30d031",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-15T17:43:53.957619+00:00",
+          "zip_hash": "fb1581aa311d4a1565537a80fb77b3b1577aa3ae82ee6f0075bb9a6e20faca04",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -17309,10 +17329,10 @@
         "id": 27
       },
       "last_scan_error": false,
-      "processabile": "si"
+      "processabile": "no"
     },
     "28": {
-      "last_scan": "2026-05-15T15:23:00.881373+00:00",
+      "last_scan": "2026-05-15T17:43:53.957619+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -17322,12 +17342,12 @@
         "url": "https://drive.atarifiuti.ap.it/6fu3rb2xseri",
         "id": 28
       },
-      "zip_hash": "72f1de9d46f4dfc7d138d9f1c432c063147a666538fe750e33b1cac57327addd",
-      "content_fingerprint": "be0eea309b9b9a2df926b06d61ca4d6a31ce21b5040d8f274a13fee6eaff201a",
+      "zip_hash": "2d1822e3984ed4a9a9b07592a4d093aaafd244f7e8503f1530533dea244e2a5b",
+      "content_fingerprint": "5c50e8a8c9ffcebbd9779814c759b28c3b3f051168bf9e3b3473291d0e87c1c2",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "591ee9eff87ddaabbce670130a1d6dcc0fe352d1bcaf09a26aa78b771d1b7efd",
           "current_file": "Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4866960,
@@ -17355,11 +17375,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "6b656c595add76753acf3e6740807357e925771993d03ee9db09d37044b9009a",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
           "current_size": 5984827,
@@ -17387,11 +17406,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "11cb73d2c972e65437b00ce50b682778caac6ab4ac4b5b79c3ed669434c0da23",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
           "current_size": 832777,
@@ -17419,14 +17437,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "02e93add48b12d9bef7b284f59b4baa4356430611ab9efb81fe53ef5addac45f",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 4697671,
@@ -17454,11 +17471,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "e9efde375a5d05d6f6afb4838c2412f749b249a52d5b5a1527a0737585f38398",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
           "current_size": 2151166,
@@ -17486,11 +17502,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "2de28ea215bb83f20000dcff03fad9b228fa873a1b64cde3a00b55db6d4ba0b2",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
           "current_size": 139333,
@@ -17518,8 +17533,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T15:23:00.881373+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -17531,25 +17545,57 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "591ee9eff87ddaabbce670130a1d6dcc0fe352d1bcaf09a26aa78b771d1b7efd",
           "size": 4866960,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
           "hash": "6b656c595add76753acf3e6740807357e925771993d03ee9db09d37044b9009a",
           "size": 5984827,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
           "hash": "11cb73d2c972e65437b00ce50b682778caac6ab4ac4b5b79c3ed669434c0da23",
           "size": 832777,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "02e93add48b12d9bef7b284f59b4baa4356430611ab9efb81fe53ef5addac45f",
+          "size": 4697671,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "hash": "e9efde375a5d05d6f6afb4838c2412f749b249a52d5b5a1527a0737585f38398",
+          "size": 2151166,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "hash": "2de28ea215bb83f20000dcff03fad9b228fa873a1b64cde3a00b55db6d4ba0b2",
+          "size": 139333,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "DOCUMENTI PEF 2026_2029.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/DOCUMENTI PEF 2026_2029.rar",
+          "hash": "5036e4edfeeecada4f6486e2eb071d4402bd452e022f6f65de104a92d393cb8d",
+          "size": 4596638,
           "doc_key": null,
           "source": "comune"
         }
@@ -17878,32 +17924,26 @@
           "zip_hash": "72f1de9d46f4dfc7d138d9f1c432c063147a666538fe750e33b1cac57327addd",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-15T17:43:53.957619+00:00",
+          "zip_hash": "2d1822e3984ed4a9a9b07592a4d093aaafd244f7e8503f1530533dea244e2a5b",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
         {
-          "name": "Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "name": "DOCUMENTI PEF 2026_2029.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/DOCUMENTI PEF 2026_2029.rar",
           "source": "comune",
-          "size": 4866960
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
-          "source": "comune",
-          "size": 5984827
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 832777
+          "size": 4596638
         }
       ],
-      "processabile": "no"
+      "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-15T15:23:00.881373+00:00",
+      "last_scan": "2026-05-15T17:43:53.957619+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -18145,13 +18185,19 @@
           "zip_hash": "405e554e8b8b7fae1eca5d9b135551f32538e9882c09cd385bcd189d08e31979",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-15T17:43:53.957619+00:00",
+          "zip_hash": "405e554e8b8b7fae1eca5d9b135551f32538e9882c09cd385bcd189d08e31979",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-05-15T15:23:00.881373+00:00",
+      "last_scan": "2026-05-15T17:43:53.957619+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -18414,6 +18460,12 @@
         },
         {
           "time": "2026-05-15T15:23:00.881373+00:00",
+          "zip_hash": "8223989207833ce87df9367be6ebbb30b3dfbbdaf7bc019bb248b67e7885a0cf",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-15T17:43:53.957619+00:00",
           "zip_hash": "8223989207833ce87df9367be6ebbb30b3dfbbdaf7bc019bb248b67e7885a0cf",
           "changed": false,
           "file_count": 3
@@ -20641,9 +20693,9 @@
   "meta": {
     "last_scan": "2026-05-15T17:43:53.957619+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 6,
-      "invariati": 19,
+      "scansionati": 30,
+      "aggiornati": 9,
+      "invariati": 21,
       "errori": 0,
       "vuoti": 0
     },
