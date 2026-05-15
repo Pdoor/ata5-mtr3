@@ -4600,7 +4600,7 @@
       "processabile": "si"
     },
     "6": {
-      "last_scan": "2026-05-15T17:43:53.957619+00:00",
+      "last_scan": "2026-05-15T19:44:01.517563+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -4878,154 +4878,37 @@
           "zip_hash": "5c5d499cc2cdf85e6c2cf10b798e20308fd6c6881817995cd95bcedf9ecc2581",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-15T19:44:01.517563+00:00",
+          "zip_hash": "5c5d499cc2cdf85e6c2cf10b798e20308fd6c6881817995cd95bcedf9ecc2581",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "7": {
-      "zip_hash": "83bcd99fb34ee291ad2168ae40ab2a2f55b2f472f79b3f09fa57adf19873c470",
-      "content_fingerprint": "cec5812d86653f346a5fa1d3ee3551c826baf02390f552c44ab7fc51e2e4ea56",
-      "last_scan": "2026-05-15T17:43:53.957619+00:00",
+      "zip_hash": "b47c1a5e70942759ba31d4ed63ac8ad49e3cdd38c21d85adff52845e88651a21",
+      "content_fingerprint": "5c8202ca45e2c7c5f469e4c5942d11c2cb9cbd15aea17fe16901c2dc871dc287",
+      "last_scan": "2026-05-15T19:44:01.517563+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
-          "current_hash": "5c64676f4fbb48b0fe2c94e5acaf8dbe467bbefdad32c3d46f15f3c275a29929",
-          "current_file": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4864260,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "5c64676f4fbb48b0fe2c94e5acaf8dbe467bbefdad32c3d46f15f3c275a29929",
-              "size": 4864260
-            }
-          ],
-          "first_upload": "2026-05-11T10:42:39.209727+00:00",
-          "last_upload": "2026-05-11T10:42:39.209727+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-11T10:42:39.209727+00:00",
-              "hash": "5c64676f4fbb48b0fe2c94e5acaf8dbe467bbefdad32c3d46f15f3c275a29929",
-              "file": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-11T15:20:12.561434+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            },
-            {
-              "time": "2026-05-12T10:36:27.282099+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            },
-            {
-              "time": "2026-05-15T17:43:53.957619+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-15T17:43:53.957619+00:00"
+          "status": "missing"
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "55b85a801a5afecfba6f93d0a67551532c9a079180a34539600f7d62c20f5428",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-          "current_size": 5314579,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-              "hash": "55b85a801a5afecfba6f93d0a67551532c9a079180a34539600f7d62c20f5428",
-              "size": 5314579
-            }
-          ],
-          "first_upload": "2026-05-11T10:42:39.209727+00:00",
-          "last_upload": "2026-05-11T10:42:39.209727+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-11T10:42:39.209727+00:00",
-              "hash": "55b85a801a5afecfba6f93d0a67551532c9a079180a34539600f7d62c20f5428",
-              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-11T15:20:12.561434+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            },
-            {
-              "time": "2026-05-12T10:36:27.282099+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            },
-            {
-              "time": "2026-05-15T17:43:53.957619+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-15T17:43:53.957619+00:00"
+          "status": "missing"
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "ffbb3c45c1cd0c672347596e76e253a205e197f8e5eee617c15cd55b85d70c28",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-          "current_size": 1032383,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-              "hash": "ffbb3c45c1cd0c672347596e76e253a205e197f8e5eee617c15cd55b85d70c28",
-              "size": 1032383
-            }
-          ],
-          "first_upload": "2026-05-11T10:42:39.209727+00:00",
-          "last_upload": "2026-05-11T10:42:39.209727+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-11T10:42:39.209727+00:00",
-              "hash": "ffbb3c45c1cd0c672347596e76e253a205e197f8e5eee617c15cd55b85d70c28",
-              "file": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-11T15:20:12.561434+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            },
-            {
-              "time": "2026-05-12T10:36:27.282099+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            },
-            {
-              "time": "2026-05-15T17:43:53.957619+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-15T17:43:53.957619+00:00"
+          "status": "missing"
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
           "current_size": 3980876,
@@ -5071,11 +4954,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T17:43:53.957619+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "403a6a7412db61df2334f6f383e417693cadd027c8ff73656d73189fcd9ff54e",
           "current_file": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
           "current_size": 98816,
@@ -5126,11 +5008,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T17:43:53.957619+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "167f8d4827d0aa506ea5755b9aa57aa7f3ce9ef31c987e775c2621adc8fb6e28",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
           "current_size": 34329,
@@ -5176,8 +5057,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-15T17:43:53.957619+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -5188,37 +5068,39 @@
       },
       "all_files": [
         {
-          "name": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "5c64676f4fbb48b0fe2c94e5acaf8dbe467bbefdad32c3d46f15f3c275a29929",
-          "size": 4864260,
-          "doc_key": null,
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
+          "hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
+          "size": 3980876,
+          "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-          "hash": "55b85a801a5afecfba6f93d0a67551532c9a079180a34539600f7d62c20f5428",
-          "size": 5314579,
-          "doc_key": null,
+          "name": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-1.doc",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF GREZZO 2026-2029_aggiornato-1.doc",
+          "hash": "e19e4a8dd203c66d96f84055a1b8c85cbd2317b81021fe8090d726c3c0d0c30d",
+          "size": 98304,
+          "doc_key": "relazione_c",
           "source": "comune"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-          "hash": "ffbb3c45c1cd0c672347596e76e253a205e197f8e5eee617c15cd55b85d70c28",
-          "size": 1032383,
-          "doc_key": null,
+          "name": "RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE PEF GREZZO 2026-2029_aggiornato-2.doc",
+          "hash": "403a6a7412db61df2334f6f383e417693cadd027c8ff73656d73189fcd9ff54e",
+          "size": 98816,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni(1).docx.p7m",
+          "hash": "167f8d4827d0aa506ea5755b9aa57aa7f3ce9ef31c987e775c2621adc8fb6e28",
+          "size": 34329,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-28T19:46:56.054793+00:00",
-          "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-29T10:10:15.919936+00:00",
           "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
@@ -5812,28 +5694,15 @@
           "zip_hash": "83bcd99fb34ee291ad2168ae40ab2a2f55b2f472f79b3f09fa57adf19873c470",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4864260
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama.pdf.p7m",
-          "source": "comune",
-          "size": 5314579
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 1032383
+          "time": "2026-05-15T19:44:01.517563+00:00",
+          "zip_hash": "b47c1a5e70942759ba31d4ed63ac8ad49e3cdd38c21d85adff52845e88651a21",
+          "changed": true,
+          "file_count": 4
         }
       ],
+      "unclassified_files": [],
       "info": {
         "comune": "Castel di Lama",
         "gestore": "Picenambiente",
@@ -5847,8 +5716,8 @@
     "8": {
       "zip_hash": "19ae16b06858650f56c7ac64384a7a4e8178dbe1b97a53743817e77c1ff3940f",
       "content_fingerprint": "14c295b439504557bd0d7a4026dba75426f2337292622d37a6175a7c2de6ceda",
-      "last_scan": "2026-05-15T17:43:53.957619+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-15T19:44:01.517563+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -6097,12 +5966,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-28T19:46:56.054793+00:00",
-          "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-29T10:10:15.919936+00:00",
           "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
@@ -6696,6 +6559,12 @@
           "zip_hash": "19ae16b06858650f56c7ac64384a7a4e8178dbe1b97a53743817e77c1ff3940f",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-15T19:44:01.517563+00:00",
+          "zip_hash": "19ae16b06858650f56c7ac64384a7a4e8178dbe1b97a53743817e77c1ff3940f",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -6712,7 +6581,7 @@
     "9": {
       "zip_hash": "a21667de197f285f89de93024be91d78169eea8bb92d79b7daeb8edd2d4c80da",
       "content_fingerprint": "3e71b38980643316a4373037771909931fdba8b20e14de5e553978b6678ae511",
-      "last_scan": "2026-05-15T17:43:53.957619+00:00",
+      "last_scan": "2026-05-15T19:44:01.517563+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7005,12 +6874,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-28T19:46:56.054793+00:00",
-          "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-29T10:10:15.919936+00:00",
           "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
@@ -7604,6 +7467,12 @@
           "zip_hash": "a21667de197f285f89de93024be91d78169eea8bb92d79b7daeb8edd2d4c80da",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-15T19:44:01.517563+00:00",
+          "zip_hash": "a21667de197f285f89de93024be91d78169eea8bb92d79b7daeb8edd2d4c80da",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -7620,7 +7489,7 @@
     "10": {
       "zip_hash": "3e8cdd4e8596243ffd93f47a386d17ee0d583d6d7c9928536d0be236b38ca33f",
       "content_fingerprint": "b7ead9aa96db2e3594531d97cb5e743a62d4c786cd2eb1ddca4bfd211c67199e",
-      "last_scan": "2026-05-15T17:43:53.957619+00:00",
+      "last_scan": "2026-05-15T19:44:01.517563+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7957,12 +7826,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-28T19:46:56.054793+00:00",
-          "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-29T10:10:15.919936+00:00",
           "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
@@ -8553,6 +8416,12 @@
         },
         {
           "time": "2026-05-15T17:43:53.957619+00:00",
+          "zip_hash": "3e8cdd4e8596243ffd93f47a386d17ee0d583d6d7c9928536d0be236b38ca33f",
+          "changed": false,
+          "file_count": 9
+        },
+        {
+          "time": "2026-05-15T19:44:01.517563+00:00",
           "zip_hash": "3e8cdd4e8596243ffd93f47a386d17ee0d583d6d7c9928536d0be236b38ca33f",
           "changed": false,
           "file_count": 9
@@ -20756,9 +20625,9 @@
   "meta": {
     "last_scan": "2026-05-15T19:44:01.517563+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 1,
-      "invariati": 4,
+      "scansionati": 10,
+      "aggiornati": 2,
+      "invariati": 8,
       "errori": 0,
       "vuoti": 0
     },
