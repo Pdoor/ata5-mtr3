@@ -20123,10 +20123,10 @@
       "processabile": "si"
     },
     "16": {
-      "zip_hash": "b2e9426676a796eddd89aa14099e4f48f80374d8db5b222b5ed0c05ae09ed66d",
-      "content_fingerprint": "ad179502c2da28b5d6ff1b8ee4c25afa32a169faa3ff4a88b0e1c6e45c3eb1c7",
-      "last_scan": "2026-05-15T10:28:37.121138+00:00",
-      "zip_changed": false,
+      "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
+      "content_fingerprint": "3f741a20a66003e627dd9053e840241720a425247c9977fddc0248ff19e02eab",
+      "last_scan": "2026-05-15T12:57:04.283971+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -20207,13 +20207,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "10cdd41239318b6c09de163e6e2181d1d8d8c53d75b481e93bf0319e7eb63ea3",
+          "current_file": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
+          "current_size": 3981426,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
+              "hash": "10cdd41239318b6c09de163e6e2181d1d8d8c53d75b481e93bf0319e7eb63ea3",
+              "size": 3981426
+            }
+          ],
+          "first_upload": "2026-05-15T12:57:04.283971+00:00",
+          "last_upload": "2026-05-15T12:57:04.283971+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-15T12:57:04.283971+00:00",
+              "hash": "10cdd41239318b6c09de163e6e2181d1d8d8c53d75b481e93bf0319e7eb63ea3",
+              "file": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "54af11a07a270773bb4c6703a7764a025c03203d9c8b2c10e140a0ead165bdbc",
+          "current_file": "Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
+          "current_size": 460113,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
+              "hash": "54af11a07a270773bb4c6703a7764a025c03203d9c8b2c10e140a0ead165bdbc",
+              "size": 460113
+            }
+          ],
+          "first_upload": "2026-05-15T12:57:04.283971+00:00",
+          "last_upload": "2026-05-15T12:57:04.283971+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-15T12:57:04.283971+00:00",
+              "hash": "54af11a07a270773bb4c6703a7764a025c03203d9c8b2c10e140a0ead165bdbc",
+              "file": "Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "48238ba1cdf0be1a68cb8b7476baa6ae6751a060787a1ffbd794714ff6d3c242",
+          "current_file": "Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
+          "current_size": 132599,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
+              "hash": "48238ba1cdf0be1a68cb8b7476baa6ae6751a060787a1ffbd794714ff6d3c242",
+              "size": 132599
+            }
+          ],
+          "first_upload": "2026-05-15T12:57:04.283971+00:00",
+          "last_upload": "2026-05-15T12:57:04.283971+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-15T12:57:04.283971+00:00",
+              "hash": "48238ba1cdf0be1a68cb8b7476baa6ae6751a060787a1ffbd794714ff6d3c242",
+              "file": "Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -20246,6 +20312,30 @@
           "size": 842182,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
+          "hash": "10cdd41239318b6c09de163e6e2181d1d8d8c53d75b481e93bf0319e7eb63ea3",
+          "size": 3981426,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
+          "hash": "54af11a07a270773bb4c6703a7764a025c03203d9c8b2c10e140a0ead165bdbc",
+          "size": 460113,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
+          "hash": "48238ba1cdf0be1a68cb8b7476baa6ae6751a060787a1ffbd794714ff6d3c242",
+          "size": 132599,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -20320,6 +20410,12 @@
           "zip_hash": "b2e9426676a796eddd89aa14099e4f48f80374d8db5b222b5ed0c05ae09ed66d",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-15T12:57:04.283971+00:00",
+          "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -20331,14 +20427,14 @@
         "id": 16
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     }
   },
   "meta": {
     "last_scan": "2026-05-15T12:57:04.283971+00:00",
     "results": {
-      "scansionati": 14,
-      "aggiornati": 1,
+      "scansionati": 15,
+      "aggiornati": 2,
       "invariati": 13,
       "errori": 0,
       "vuoti": 1
