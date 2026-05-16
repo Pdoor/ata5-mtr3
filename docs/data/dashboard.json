@@ -969,7 +969,7 @@
       "last_scan_empty": true
     },
     "1": {
-      "last_scan": "2026-05-16T15:00:49.645259+00:00",
+      "last_scan": "2026-05-16T17:02:26.210705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1238,12 +1238,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-29T17:42:41.902268+00:00",
-          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
-          "changed": false,
-          "file_count": 1
-        },
         {
           "time": "2026-04-29T19:42:51.416010+00:00",
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
@@ -1837,6 +1831,12 @@
           "zip_hash": "0f60a6d17620479b5943966fd5aaf1c4e6cc912f05e4ad3772d2aac10c74b5b1",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-16T17:02:26.210705+00:00",
+          "zip_hash": "0f60a6d17620479b5943966fd5aaf1c4e6cc912f05e4ad3772d2aac10c74b5b1",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -1850,7 +1850,7 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-05-16T15:00:49.645259+00:00",
+      "last_scan": "2026-05-16T17:02:26.210705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2213,12 +2213,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-29T17:42:41.902268+00:00",
-          "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-29T19:42:51.416010+00:00",
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
@@ -2812,6 +2806,12 @@
           "zip_hash": "375802eaba05ff271177948019af6bb4af96793140b1ddfaf0a4c1877f1d3bd6",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-16T17:02:26.210705+00:00",
+          "zip_hash": "375802eaba05ff271177948019af6bb4af96793140b1ddfaf0a4c1877f1d3bd6",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -2820,7 +2820,7 @@
     "3": {
       "zip_hash": "1609934c1b9f64e92c3ab979a7fe2547d1c85a951fba2ab7db284b8e381645bf",
       "content_fingerprint": "4a5297c73a987b0b6fd13e1601dc16906de9a0fcadab53d2f7ec0bcd458395d9",
-      "last_scan": "2026-05-16T15:00:49.645259+00:00",
+      "last_scan": "2026-05-16T17:02:26.210705+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3113,12 +3113,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-29T10:10:15.919936+00:00",
-          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-29T12:19:13.797302+00:00",
           "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
@@ -3712,6 +3706,12 @@
           "zip_hash": "1609934c1b9f64e92c3ab979a7fe2547d1c85a951fba2ab7db284b8e381645bf",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-16T17:02:26.210705+00:00",
+          "zip_hash": "1609934c1b9f64e92c3ab979a7fe2547d1c85a951fba2ab7db284b8e381645bf",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -3740,7 +3740,7 @@
       "last_scan_empty": true
     },
     "4": {
-      "last_scan": "2026-05-16T15:00:49.645259+00:00",
+      "last_scan": "2026-05-16T17:02:26.210705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3750,105 +3750,18 @@
         "url": "https://drive.atarifiuti.ap.it/4g5saz8wvr38",
         "id": 4
       },
-      "zip_hash": "f6efd3e464f403c8c80006b7aea158ab4831bb6cac56500346068837a62b1cdf",
-      "content_fingerprint": "404199abefccbba0c29c1ff95aee7b620f139f6464d1f0f34f004525e45e7479",
+      "zip_hash": "2ceb23bec2190c798368be7fbec40f1a2db93906a98723a1c3de8700e7060362",
+      "content_fingerprint": "6ec1cdfb28cd9f98fb242e83c47eab8cee77f4b09b5b7409a989d1f32d19642a",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
-          "current_hash": "b1da63c6b95208d2c72aec7dc48f3615ea2bbe85293ade063a9823854d644ac7",
-          "current_file": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4865568,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "b1da63c6b95208d2c72aec7dc48f3615ea2bbe85293ade063a9823854d644ac7",
-              "size": 4865568
-            }
-          ],
-          "first_upload": "2026-05-16T11:04:39.723109+00:00",
-          "last_upload": "2026-05-16T11:04:39.723109+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-16T11:04:39.723109+00:00",
-              "hash": "b1da63c6b95208d2c72aec7dc48f3615ea2bbe85293ade063a9823854d644ac7",
-              "file": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-16T15:00:49.645259+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-16T15:00:49.645259+00:00"
+          "status": "missing"
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-          "current_size": 3129866,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-              "hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
-              "size": 3129866
-            }
-          ],
-          "first_upload": "2026-05-16T11:04:39.723109+00:00",
-          "last_upload": "2026-05-16T11:04:39.723109+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-16T11:04:39.723109+00:00",
-              "hash": "00f8dd4c9149dc903f2dc170af13294d33f88b22dfeae41e26e110718ae8038e",
-              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto.pdf.p7m",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-16T15:00:49.645259+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-16T15:00:49.645259+00:00"
+          "status": "missing"
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-          "current_size": 966706,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-              "hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
-              "size": 966706
-            }
-          ],
-          "first_upload": "2026-05-16T11:04:39.723109+00:00",
-          "last_upload": "2026-05-16T11:04:39.723109+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-16T11:04:39.723109+00:00",
-              "hash": "125c9616ca70ab4b23768a39dec8fda7c2cdc90dc43bbb95fd6ca33543959422",
-              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 12.5.2026_signed.pdf",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-16T15:00:49.645259+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-16T15:00:49.645259+00:00"
+          "status": "missing"
         },
         "altre_com": {
           "status": "missing"
@@ -3932,44 +3845,26 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
-          "current_hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-          "current_file": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-          "current_size": 6641674,
-          "file_count": 2,
-          "all_files": [
-            {
-              "name": "Pef 2026_2029_Arquata del Tronto.zip",
-              "hash": "dbfd85b201610f6ca88353cbe4c771235ccd39887c1a80bf10ff9d766d35a1e8",
-              "size": 6455643
-            },
-            {
-              "name": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-              "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-              "size": 6641674
-            }
-          ],
-          "first_upload": "2026-05-16T11:04:39.723109+00:00",
-          "last_upload": "2026-05-16T11:04:39.723109+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-16T11:04:39.723109+00:00",
-              "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-              "file": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-16T15:00:49.645259+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-16T15:00:49.645259+00:00"
+          "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "Pef 2026_2029_Arquata del Tronto.zip",
+          "path": "Gestore 2026/Pef Validato 2026/Pef 2026_2029_Arquata del Tronto.zip",
+          "hash": "dbfd85b201610f6ca88353cbe4c771235ccd39887c1a80bf10ff9d766d35a1e8",
+          "size": 6455643,
+          "doc_key": null,
+          "source": "gestore"
+        },
+        {
+          "name": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
+          "path": "Gestore 2026/Pef Validato 2026/PEF 2026_2029 )2° invio a sostizione del 1°.zip",
+          "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
+          "size": 6641674,
+          "doc_key": null,
+          "source": "gestore"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
@@ -4375,9 +4270,27 @@
           "zip_hash": "f6efd3e464f403c8c80006b7aea158ab4831bb6cac56500346068837a62b1cdf",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-16T17:02:26.210705+00:00",
+          "zip_hash": "2ceb23bec2190c798368be7fbec40f1a2db93906a98723a1c3de8700e7060362",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [
+        {
+          "name": "Pef 2026_2029_Arquata del Tronto.zip",
+          "path": "Gestore 2026/Pef Validato 2026/Pef 2026_2029_Arquata del Tronto.zip",
+          "source": "gestore",
+          "size": 6455643
+        },
+        {
+          "name": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
+          "path": "Gestore 2026/Pef Validato 2026/PEF 2026_2029 )2° invio a sostizione del 1°.zip",
+          "source": "gestore",
+          "size": 6641674
+        },
         {
           "name": "Documenti Giustificativi.zip",
           "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Documenti Giustificativi.zip",
@@ -4388,7 +4301,7 @@
       "processabile": "no"
     },
     "5": {
-      "last_scan": "2026-05-16T15:00:49.645259+00:00",
+      "last_scan": "2026-05-16T17:02:26.210705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -4725,6 +4638,12 @@
         },
         {
           "time": "2026-05-16T15:00:49.645259+00:00",
+          "zip_hash": "62ec7e012142ebb3d579e9b68a96e49f0a1b8c409173a6e282cd87306a57e6ce",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-16T17:02:26.210705+00:00",
           "zip_hash": "62ec7e012142ebb3d579e9b68a96e49f0a1b8c409173a6e282cd87306a57e6ce",
           "changed": false,
           "file_count": 7
@@ -21558,11 +21477,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-16T15:00:49.645259+00:00",
+    "last_scan": "2026-05-16T17:02:26.210705+00:00",
     "results": {
-      "scansionati": 33,
-      "aggiornati": 10,
-      "invariati": 23,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
@@ -21572,7 +21491,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
