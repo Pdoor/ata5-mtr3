@@ -21180,8 +21180,8 @@
     "16": {
       "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
       "content_fingerprint": "3f741a20a66003e627dd9053e840241720a425247c9977fddc0248ff19e02eab",
-      "last_scan": "2026-05-16T15:00:49.645259+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-16T17:02:26.210705+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -21519,6 +21519,12 @@
           "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-16T17:02:26.210705+00:00",
+          "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -21537,9 +21543,9 @@
   "meta": {
     "last_scan": "2026-05-16T17:02:26.210705+00:00",
     "results": {
-      "scansionati": 14,
+      "scansionati": 15,
       "aggiornati": 3,
-      "invariati": 11,
+      "invariati": 12,
       "errori": 0,
       "vuoti": 1
     },
