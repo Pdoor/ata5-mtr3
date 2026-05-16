@@ -19167,17 +19167,19 @@
       "processabile": "no"
     },
     "31": {
-      "last_scan": "2026-05-16T13:40:39.985653+00:00",
+      "last_scan": "2026-05-16T15:00:49.645259+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "San Benedetto del Tronto",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
+        "id": 31
       },
       "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
       "content_fingerprint": "f1ce54f47e881528c2f23f0a49247bdc4c2d17452169c09344c16872fd80e226",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -19911,19 +19913,25 @@
           "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-16T15:00:49.645259+00:00",
+          "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "32": {
-      "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
-      "content_fingerprint": "30fa48a6839838f0d36d7e8d7cf22fc6b206df9d88837981d0a09560fa67700c",
-      "last_scan": "2026-05-16T13:40:39.985653+00:00",
-      "zip_changed": false,
+      "zip_hash": "4abd94230a423dad76132b4947d12695ea5ec5241d87570d5b4781890f41e3a6",
+      "content_fingerprint": "5ae31f4c6667770c6e75cd71c0b4f8aab62557c5db413a1f876d19faa39f0947",
+      "last_scan": "2026-05-16T15:00:49.645259+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "a5017bdc6b9dd79aeab6adad901bf2687f4357789f5afff56de1af7b654622d3",
           "current_file": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4867660,
@@ -19950,11 +19958,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-16T15:00:49.645259+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-16T15:00:49.645259+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "8f243a48a8b3c1eda4b30bbbb6284393ed0a9a94be0e0ae20829c1920f196ccf",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli.pdf.p7m",
           "current_size": 6053668,
@@ -19981,11 +19996,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-16T15:00:49.645259+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-16T15:00:49.645259+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "54efadc75add3a636aaeb13c617c1c98d9827ed85760b433dd2e5a7d91a7128f",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 11.5.2026_signed.pdf",
           "current_size": 841818,
@@ -20012,14 +20034,21 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-16T15:00:49.645259+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-16T15:00:49.645259+00:00"
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
           "current_size": 3978594,
@@ -20046,11 +20075,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-16T15:00:49.645259+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-16T15:00:49.645259+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
           "current_size": 239742,
@@ -20077,11 +20113,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-16T15:00:49.645259+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-16T15:00:49.645259+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
           "current_file": "DOCUMENTO SINDACO.pdf",
           "current_size": 8210218,
@@ -20113,8 +20156,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-16T15:00:49.645259+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-16T15:00:49.645259+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -20126,68 +20176,30 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "a5017bdc6b9dd79aeab6adad901bf2687f4357789f5afff56de1af7b654622d3",
           "size": 4867660,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli.pdf.p7m",
           "hash": "8f243a48a8b3c1eda4b30bbbb6284393ed0a9a94be0e0ae20829c1920f196ccf",
           "size": 6053668,
-          "doc_key": "relazione",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Spinetoli 11.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Spinetoli 11.5.2026_signed.pdf",
           "hash": "54efadc75add3a636aaeb13c617c1c98d9827ed85760b433dd2e5a7d91a7128f",
           "size": 841818,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
-          "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
-          "size": 3978594,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
-          "hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
-          "size": 239742,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
-          "hash": "7e89b26584dc5d300dfb938f2b7b68b5f0e9eba2c4f39d7a54b622501e746343",
-          "size": 73965,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "DOCUMENTO SINDACO.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/DOCUMENTO SINDACO.pdf",
-          "hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
-          "size": 8210218,
-          "doc_key": "dich_veridicita_c",
+          "doc_key": null,
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-27T15:10:06.464998+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-27T17:26:36.121136+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -20781,9 +20793,34 @@
           "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-16T15:00:49.645259+00:00",
+          "zip_hash": "4abd94230a423dad76132b4947d12695ea5ec5241d87570d5b4781890f41e3a6",
+          "changed": true,
+          "file_count": 3
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "source": "comune",
+          "size": 4867660
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli.pdf.p7m",
+          "source": "comune",
+          "size": 6053668
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 11.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Spinetoli 11.5.2026_signed.pdf",
+          "source": "comune",
+          "size": 841818
+        }
+      ],
       "info": {
         "comune": "Spinetoli",
         "gestore": "Picenambiente",
@@ -20792,11 +20829,11 @@
         "id": 32
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-16T13:40:39.985653+00:00",
+      "last_scan": "2026-05-16T15:00:49.645259+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -21149,6 +21186,12 @@
         },
         {
           "time": "2026-05-16T13:40:39.985653+00:00",
+          "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-16T15:00:49.645259+00:00",
           "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
           "changed": false,
           "file_count": 6
@@ -21517,9 +21560,9 @@
   "meta": {
     "last_scan": "2026-05-16T15:00:49.645259+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 9,
-      "invariati": 21,
+      "scansionati": 33,
+      "aggiornati": 10,
+      "invariati": 23,
       "errori": 0,
       "vuoti": 0
     },
@@ -21529,7 +21572,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
