@@ -12300,7 +12300,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-18T11:48:02.293681+00:00",
+      "last_scan": "2026-05-18T15:41:19.163814+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12312,7 +12312,7 @@
       },
       "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
       "content_fingerprint": "24a439978f8ba277a803ebd328439c58cfdb502100ec292b20ddf34ea09288b8",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -12818,13 +12818,19 @@
           "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-18T15:41:19.163814+00:00",
+          "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-18T11:48:02.293681+00:00",
+      "last_scan": "2026-05-18T15:41:19.163814+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12834,12 +12840,12 @@
         "url": "https://drive.atarifiuti.ap.it/54cx0eyho8d7",
         "id": 18
       },
-      "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
-      "content_fingerprint": "7d873c073bb7d2e279febfc41f068a3a1e368ce5b9684fae594f15825a221974",
-      "zip_changed": false,
+      "zip_hash": "3aae69fd32c8e866d4cb997eb4a14f38d434ba61dd8ac4fd9f8c65853142c480",
+      "content_fingerprint": "b908469a96e6aea22a724477fe8618453128512c736ce0360d16129b225a402f",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "bc67890067bc4f340102038ea90613dbb0516ae32fbd441a59c45441c75e006d",
           "current_file": "Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4864137,
@@ -12884,11 +12890,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-18T15:41:19.163814+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-18T15:41:19.163814+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "6870877927988341e8818ac2e612f360407114d80380c10e497eec6b47797b66",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
           "current_size": 5709196,
@@ -12933,11 +12946,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-18T15:41:19.163814+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-18T15:41:19.163814+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "4d97c777776776735220c2ef9fa67ebd8a6786d7077266c90e419ddcae45623d",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
           "current_size": 767997,
@@ -12982,8 +13002,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-18T15:41:19.163814+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-18T15:41:19.163814+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -13125,30 +13152,6 @@
         }
       },
       "all_files": [
-        {
-          "name": "Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "bc67890067bc4f340102038ea90613dbb0516ae32fbd441a59c45441c75e006d",
-          "size": 4864137,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
-          "hash": "6870877927988341e8818ac2e612f360407114d80380c10e497eec6b47797b66",
-          "size": 5709196,
-          "doc_key": "relazione",
-          "source": "gestore"
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
-          "hash": "4d97c777776776735220c2ef9fa67ebd8a6786d7077266c90e419ddcae45623d",
-          "size": 767997,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
         {
           "name": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -13396,13 +13399,19 @@
           "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-18T15:41:19.163814+00:00",
+          "zip_hash": "3aae69fd32c8e866d4cb997eb4a14f38d434ba61dd8ac4fd9f8c65853142c480",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
-      "processabile": "si"
+      "processabile": "no"
     },
     "19": {
-      "last_scan": "2026-05-18T11:48:02.293681+00:00",
+      "last_scan": "2026-05-18T15:41:19.163814+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13752,13 +13761,19 @@
           "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-18T15:41:19.163814+00:00",
+          "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-18T11:48:02.293681+00:00",
+      "last_scan": "2026-05-18T15:41:19.163814+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -14130,6 +14145,12 @@
         },
         {
           "time": "2026-05-18T11:48:02.293681+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-18T15:41:19.163814+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -22572,13 +22593,13 @@
       "processabile": "si"
     },
     "16": {
-      "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
-      "content_fingerprint": "3f741a20a66003e627dd9053e840241720a425247c9977fddc0248ff19e02eab",
-      "last_scan": "2026-05-18T11:48:02.293681+00:00",
-      "zip_changed": false,
+      "zip_hash": "0ebde9af2b55319fb2f00532c2dea55f160182a13af08f26d907f1adf08288d0",
+      "content_fingerprint": "9a41d6d948e6def45c40b1bffe82134524a0e2ead2ccb732b589498fca438ea6",
+      "last_scan": "2026-05-18T15:41:19.163814+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "685974ea5cc9cdeea7b65ac7c641ad247493056edee138a3ffa1ebba1bc5fe7d",
           "current_file": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4874585,
@@ -22599,11 +22620,18 @@
               "hash": "685974ea5cc9cdeea7b65ac7c641ad247493056edee138a3ffa1ebba1bc5fe7d",
               "file": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-18T15:41:19.163814+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-18T15:41:19.163814+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "20815418c5b6edd8b63034df7229e79595255d3c2e7257a75847e15a269765d6",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
           "current_size": 9121960,
@@ -22624,11 +22652,18 @@
               "hash": "20815418c5b6edd8b63034df7229e79595255d3c2e7257a75847e15a269765d6",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-18T15:41:19.163814+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-18T15:41:19.163814+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "57fbf830f47daca7db5a44172000e2369e65b4ba0f01b1ff0476211d6dbf61e2",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
           "current_size": 842182,
@@ -22649,8 +22684,15 @@
               "hash": "57fbf830f47daca7db5a44172000e2369e65b4ba0f01b1ff0476211d6dbf61e2",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-18T15:41:19.163814+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-18T15:41:19.163814+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -22756,30 +22798,6 @@
         }
       },
       "all_files": [
-        {
-          "name": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "685974ea5cc9cdeea7b65ac7c641ad247493056edee138a3ffa1ebba1bc5fe7d",
-          "size": 4874585,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
-          "hash": "20815418c5b6edd8b63034df7229e79595255d3c2e7257a75847e15a269765d6",
-          "size": 9121960,
-          "doc_key": "relazione",
-          "source": "gestore"
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
-          "hash": "57fbf830f47daca7db5a44172000e2369e65b4ba0f01b1ff0476211d6dbf61e2",
-          "size": 842182,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
         {
           "name": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
@@ -22967,6 +22985,12 @@
           "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-18T15:41:19.163814+00:00",
+          "zip_hash": "0ebde9af2b55319fb2f00532c2dea55f160182a13af08f26d907f1adf08288d0",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -22978,16 +23002,16 @@
         "id": 16
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": true
     }
   },
   "meta": {
     "last_scan": "2026-05-18T15:41:19.163814+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 6,
-      "invariati": 9,
+      "scansionati": 20,
+      "aggiornati": 8,
+      "invariati": 12,
       "errori": 0,
       "vuoti": 0
     },
