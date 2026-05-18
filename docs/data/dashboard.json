@@ -12227,7 +12227,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-17T19:14:25.077027+00:00",
+      "last_scan": "2026-05-18T11:48:02.293681+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12237,12 +12237,12 @@
         "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh",
         "id": 17
       },
-      "zip_hash": "419a07c8c36fd1d9688e1fe948524b9c2f9ceae77f99a00803ad230b2cceb3cb",
-      "content_fingerprint": "df30867046bd412e897ee3f4c8d1f06421e58ee0495c5f113997f35a34943c69",
+      "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
+      "content_fingerprint": "24a439978f8ba277a803ebd328439c58cfdb502100ec292b20ddf34ea09288b8",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "61a5c0b43a2f85af3e1414a41ee6ce09b6c0b834feaca91337a669cf572ebe33",
           "current_file": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4864416,
@@ -12282,11 +12282,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-17T19:14:25.077027+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "90250fe63f262aa20fa8fe492f4a468b617543a81a4332222ab0529a50cfc088",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
           "current_size": 6189462,
@@ -12326,11 +12325,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-17T19:14:25.077027+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "8c95886c20f7181a8ba3a75ece211f44e118a75fc79ae91ccfd6b7af6d46ce99",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
           "current_size": 842499,
@@ -12370,14 +12368,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-17T19:14:25.077027+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "884aafd29f5fd0e6e9a13d41d527329debeebeeb6f08f85267b53c63571d814a",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 3970356,
@@ -12405,11 +12402,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-17T19:14:25.077027+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "e790552ef2d1faf0bdfbf8c5bee3ceb7b2d1ae3a91c551bd721e7c69713c856e",
           "current_file": "RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
           "current_size": 1359232,
@@ -12437,11 +12433,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-17T19:14:25.077027+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d0ff374da8b68bce273466daeb282d3a2c64d2c4570bcdcd8d1d6ea9ebb91b83",
           "current_file": "Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
           "current_size": 546811,
@@ -12469,8 +12464,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-17T19:14:25.077027+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -12482,26 +12476,50 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "61a5c0b43a2f85af3e1414a41ee6ce09b6c0b834feaca91337a669cf572ebe33",
           "size": 4864416,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
           "hash": "90250fe63f262aa20fa8fe492f4a468b617543a81a4332222ab0529a50cfc088",
           "size": 6189462,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
           "hash": "8c95886c20f7181a8ba3a75ece211f44e118a75fc79ae91ccfd6b7af6d46ce99",
           "size": 842499,
-          "doc_key": null,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "884aafd29f5fd0e6e9a13d41d527329debeebeeb6f08f85267b53c63571d814a",
+          "size": 3970356,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
+          "hash": "e790552ef2d1faf0bdfbf8c5bee3ceb7b2d1ae3a91c551bd721e7c69713c856e",
+          "size": 1359232,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
+          "hash": "d0ff374da8b68bce273466daeb282d3a2c64d2c4570bcdcd8d1d6ea9ebb91b83",
+          "size": 546811,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
@@ -12721,32 +12739,19 @@
           "zip_hash": "419a07c8c36fd1d9688e1fe948524b9c2f9ceae77f99a00803ad230b2cceb3cb",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4864416
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-          "source": "comune",
-          "size": 6189462
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 842499
+          "time": "2026-05-18T11:48:02.293681+00:00",
+          "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
+          "changed": true,
+          "file_count": 6
         }
       ],
-      "processabile": "no"
+      "unclassified_files": [],
+      "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-17T19:14:25.077027+00:00",
+      "last_scan": "2026-05-18T11:48:02.293681+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13312,13 +13317,19 @@
           "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-18T11:48:02.293681+00:00",
+          "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-17T19:14:25.077027+00:00",
+      "last_scan": "2026-05-18T11:48:02.293681+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13662,13 +13673,19 @@
           "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-18T11:48:02.293681+00:00",
+          "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-17T19:14:25.077027+00:00",
+      "last_scan": "2026-05-18T11:48:02.293681+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -14034,6 +14051,12 @@
         },
         {
           "time": "2026-05-17T19:14:25.077027+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-18T11:48:02.293681+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -22337,7 +22360,7 @@
     "16": {
       "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
       "content_fingerprint": "3f741a20a66003e627dd9053e840241720a425247c9977fddc0248ff19e02eab",
-      "last_scan": "2026-05-17T19:14:25.077027+00:00",
+      "last_scan": "2026-05-18T11:48:02.293681+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22724,6 +22747,12 @@
           "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-18T11:48:02.293681+00:00",
+          "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -22742,9 +22771,9 @@
   "meta": {
     "last_scan": "2026-05-18T11:48:02.293681+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 2,
-      "invariati": 13,
+      "scansionati": 20,
+      "aggiornati": 3,
+      "invariati": 17,
       "errori": 0,
       "vuoti": 0
     },
