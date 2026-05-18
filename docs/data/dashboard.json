@@ -17308,8 +17308,8 @@
     "26": {
       "zip_hash": "cbaa6f4273b3a0e9bc13390e0c84cc7134ce229e76ee3f0fcb1abcda624b0eb4",
       "content_fingerprint": "50bc9891866fd4c091c0fd07a18796606c731057b489661bdc1c3dd51b74e675",
-      "last_scan": "2026-05-18T15:41:19.163814+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-05-18T18:03:41.601543+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -17693,12 +17693,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T15:00:21.039701+00:00",
-          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-01T16:04:56.623001+00:00",
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
@@ -18292,6 +18286,12 @@
           "zip_hash": "cbaa6f4273b3a0e9bc13390e0c84cc7134ce229e76ee3f0fcb1abcda624b0eb4",
           "changed": true,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-18T18:03:41.601543+00:00",
+          "zip_hash": "cbaa6f4273b3a0e9bc13390e0c84cc7134ce229e76ee3f0fcb1abcda624b0eb4",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -18308,7 +18308,7 @@
     "27": {
       "zip_hash": "38465939373a912b47c079ec3e2b1916c2f5656ac9d606fd402a627f0d30d031",
       "content_fingerprint": "38aab7ba9d259237d79f2b522cb0c25eda7c76bde8eacee84eb73f41e4834743",
-      "last_scan": "2026-05-18T15:41:19.163814+00:00",
+      "last_scan": "2026-05-18T18:03:41.601543+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -18600,12 +18600,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T16:04:56.623001+00:00",
-          "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-01T18:02:15.403315+00:00",
           "zip_hash": "ff1acefb9ce26b9deb009a98134d2777f34de16d9b223b6961a79fb7162aa03d",
@@ -19199,6 +19193,12 @@
           "zip_hash": "38465939373a912b47c079ec3e2b1916c2f5656ac9d606fd402a627f0d30d031",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-18T18:03:41.601543+00:00",
+          "zip_hash": "38465939373a912b47c079ec3e2b1916c2f5656ac9d606fd402a627f0d30d031",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -19213,7 +19213,7 @@
       "processabile": "si"
     },
     "28": {
-      "last_scan": "2026-05-18T15:41:19.163814+00:00",
+      "last_scan": "2026-05-18T18:03:41.601543+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -19223,12 +19223,12 @@
         "url": "https://drive.atarifiuti.ap.it/6fu3rb2xseri",
         "id": 28
       },
-      "zip_hash": "72f1de9d46f4dfc7d138d9f1c432c063147a666538fe750e33b1cac57327addd",
-      "content_fingerprint": "be0eea309b9b9a2df926b06d61ca4d6a31ce21b5040d8f274a13fee6eaff201a",
+      "zip_hash": "2d1822e3984ed4a9a9b07592a4d093aaafd244f7e8503f1530533dea244e2a5b",
+      "content_fingerprint": "5c50e8a8c9ffcebbd9779814c759b28c3b3f051168bf9e3b3473291d0e87c1c2",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "591ee9eff87ddaabbce670130a1d6dcc0fe352d1bcaf09a26aa78b771d1b7efd",
           "current_file": "Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4866960,
@@ -19268,11 +19268,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-18T15:41:19.163814+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "6b656c595add76753acf3e6740807357e925771993d03ee9db09d37044b9009a",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
           "current_size": 5984827,
@@ -19312,11 +19311,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-18T15:41:19.163814+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "11cb73d2c972e65437b00ce50b682778caac6ab4ac4b5b79c3ed669434c0da23",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
           "current_size": 832777,
@@ -19356,14 +19354,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-18T15:41:19.163814+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "02e93add48b12d9bef7b284f59b4baa4356430611ab9efb81fe53ef5addac45f",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 4697671,
@@ -19403,11 +19400,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-18T15:41:19.163814+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "e9efde375a5d05d6f6afb4838c2412f749b249a52d5b5a1527a0737585f38398",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
           "current_size": 2151166,
@@ -19447,11 +19443,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-18T15:41:19.163814+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "2de28ea215bb83f20000dcff03fad9b228fa873a1b64cde3a00b55db6d4ba0b2",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
           "current_size": 139333,
@@ -19491,8 +19486,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-18T15:41:19.163814+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -19504,25 +19498,57 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "591ee9eff87ddaabbce670130a1d6dcc0fe352d1bcaf09a26aa78b771d1b7efd",
           "size": 4866960,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
           "hash": "6b656c595add76753acf3e6740807357e925771993d03ee9db09d37044b9009a",
           "size": 5984827,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
           "hash": "11cb73d2c972e65437b00ce50b682778caac6ab4ac4b5b79c3ed669434c0da23",
           "size": 832777,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "02e93add48b12d9bef7b284f59b4baa4356430611ab9efb81fe53ef5addac45f",
+          "size": 4697671,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "hash": "e9efde375a5d05d6f6afb4838c2412f749b249a52d5b5a1527a0737585f38398",
+          "size": 2151166,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "hash": "2de28ea215bb83f20000dcff03fad9b228fa873a1b64cde3a00b55db6d4ba0b2",
+          "size": 139333,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "DOCUMENTI PEF 2026_2029.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/DOCUMENTI PEF 2026_2029.rar",
+          "hash": "5036e4edfeeecada4f6486e2eb071d4402bd452e022f6f65de104a92d393cb8d",
+          "size": 4596638,
           "doc_key": null,
           "source": "comune"
         }
@@ -19941,32 +19967,26 @@
           "zip_hash": "72f1de9d46f4dfc7d138d9f1c432c063147a666538fe750e33b1cac57327addd",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-18T18:03:41.601543+00:00",
+          "zip_hash": "2d1822e3984ed4a9a9b07592a4d093aaafd244f7e8503f1530533dea244e2a5b",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
         {
-          "name": "Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Ripatransone Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "name": "DOCUMENTI PEF 2026_2029.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/DOCUMENTI PEF 2026_2029.rar",
           "source": "comune",
-          "size": 4866960
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Ripatransone.pdf.p7m",
-          "source": "comune",
-          "size": 5984827
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Ripatransone 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 832777
+          "size": 4596638
         }
       ],
-      "processabile": "no"
+      "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-18T15:41:19.163814+00:00",
+      "last_scan": "2026-05-18T18:03:41.601543+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -20304,13 +20324,19 @@
           "zip_hash": "405e554e8b8b7fae1eca5d9b135551f32538e9882c09cd385bcd189d08e31979",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-18T18:03:41.601543+00:00",
+          "zip_hash": "405e554e8b8b7fae1eca5d9b135551f32538e9882c09cd385bcd189d08e31979",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-05-18T15:41:19.163814+00:00",
+      "last_scan": "2026-05-18T18:03:41.601543+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -20669,6 +20695,12 @@
         },
         {
           "time": "2026-05-18T15:41:19.163814+00:00",
+          "zip_hash": "8223989207833ce87df9367be6ebbb30b3dfbbdaf7bc019bb248b67e7885a0cf",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-18T18:03:41.601543+00:00",
           "zip_hash": "8223989207833ce87df9367be6ebbb30b3dfbbdaf7bc019bb248b67e7885a0cf",
           "changed": false,
           "file_count": 3
@@ -23336,9 +23368,9 @@
   "meta": {
     "last_scan": "2026-05-18T18:03:41.601543+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 8,
-      "invariati": 17,
+      "scansionati": 30,
+      "aggiornati": 9,
+      "invariati": 21,
       "errori": 0,
       "vuoti": 0
     },
