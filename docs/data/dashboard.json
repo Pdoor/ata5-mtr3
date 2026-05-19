@@ -10305,13 +10305,13 @@
       "processabile": "no"
     },
     "12": {
-      "zip_hash": "9e75bbf8d14df7cf9a94b33e4c9f950518ccf9970acb4b72b43cfcee4e695b38",
-      "content_fingerprint": "93df8912a7f1ebcadd8d317a167642204690554cc6435930d3e7c4fab9bae639",
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
-      "zip_changed": false,
+      "zip_hash": "fa24db653fec54d238935a06d525da9066c987e8b9750bc8b403a26e21e69d11",
+      "content_fingerprint": "d4edba09f6050d13d21044b92b5ca0690f73fd52a3319de4726870f7d56e0945",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "df8422b69944f7202ab5f13d61684ccb03ed6c82fee4969866533ba9393d153f",
           "current_file": "Allegato_1_-_ Cossignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4864899,
@@ -10338,11 +10338,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
           "current_size": 4119484,
@@ -10375,11 +10382,18 @@
               "hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
           "current_size": 465191,
@@ -10412,14 +10426,21 @@
               "hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "da4a8f81d36b3263815cdbd450ef0e4df22831e25aa4175db8e11dcf5bd5b48d",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 4003518,
@@ -10458,11 +10479,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "2ffbb6b760455708db1ca132396313bdbd75a108cac2c2cb7307cbefa2548e55",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
           "current_size": 727279,
@@ -10495,11 +10523,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "77ef31d125e29f570ceca1904e925cc2ee57a85f0e2377d706768ce9082c7553",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
           "current_size": 286522,
@@ -10532,8 +10567,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -10545,68 +10587,30 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Cossignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Cossignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Cossignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "df8422b69944f7202ab5f13d61684ccb03ed6c82fee4969866533ba9393d153f",
           "size": 4864899,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
           "hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
           "size": 4119484,
-          "doc_key": "relazione",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
           "hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
           "size": 465191,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "hash": "da4a8f81d36b3263815cdbd450ef0e4df22831e25aa4175db8e11dcf5bd5b48d",
-          "size": 4003518,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx.pdf",
-          "hash": "2ffbb6b760455708db1ca132396313bdbd75a108cac2c2cb7307cbefa2548e55",
-          "size": 727279,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf",
-          "hash": "77ef31d125e29f570ceca1904e925cc2ee57a85f0e2377d706768ce9082c7553",
-          "size": 286522,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "zip.rar",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/zip.rar",
-          "hash": "2ce3d7608eb28af57b83c15bbe4d8970fc433e3b0a9da54e5980c8f6aeeed12f",
-          "size": 5498402,
           "doc_key": null,
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T20:07:11.820656+00:00",
-          "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-02T09:11:46.145294+00:00",
           "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
@@ -11200,14 +11204,32 @@
           "zip_hash": "9e75bbf8d14df7cf9a94b33e4c9f950518ccf9970acb4b72b43cfcee4e695b38",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "fa24db653fec54d238935a06d525da9066c987e8b9750bc8b403a26e21e69d11",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [
         {
-          "name": "zip.rar",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/zip.rar",
+          "name": "Allegato_1_-_ Cossignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Cossignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "source": "comune",
-          "size": 5498402
+          "size": 4864899
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+          "source": "comune",
+          "size": 4119484
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+          "source": "comune",
+          "size": 465191
         }
       ],
       "info": {
@@ -11218,11 +11240,11 @@
         "id": 12
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": true
     },
     "13": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11620,13 +11642,19 @@
           "zip_hash": "1aeb97dae79a6548af23357e2df26ba5a6516102760aee0d7589b3d6d8ced48b",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "1aeb97dae79a6548af23357e2df26ba5a6516102760aee0d7589b3d6d8ced48b",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12042,13 +12070,19 @@
           "zip_hash": "b4108cb810476a01d9605926bcb94e0921e429f7eea2bef9b3c82e4f25c60615",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "b4108cb810476a01d9605926bcb94e0921e429f7eea2bef9b3c82e4f25c60615",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12278,12 +12312,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-30T19:39:43.298783+00:00",
-          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-01T09:49:51.468163+00:00",
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
@@ -12877,6 +12905,12 @@
           "zip_hash": "10c78431a05e26b7d897f0ad17adfac4806f046f61643400b1002ff3aa26b01a",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "10c78431a05e26b7d897f0ad17adfac4806f046f61643400b1002ff3aa26b01a",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -12914,7 +12948,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13477,6 +13511,12 @@
         },
         {
           "time": "2026-05-19T18:08:56.255251+00:00",
+          "zip_hash": "1ca3c7dad58b2b7f2d801772198e050a5d3f5017e1755d9b62a1e8d7daa24680",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
           "zip_hash": "1ca3c7dad58b2b7f2d801772198e050a5d3f5017e1755d9b62a1e8d7daa24680",
           "changed": false,
           "file_count": 6
@@ -23927,7 +23967,7 @@
     "16": {
       "zip_hash": "bdc7963a549fb0200eb36fd7a517594e8a79db9c807ab79b1756da53f0bc336d",
       "content_fingerprint": "a248f908a09d57f118c2c1236b29f98aa7760b0bc43222c2509b4c7a8f5946bf",
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24392,9 +24432,7 @@
       "info": {
         "comune": "Grottammare",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6",
-        "id": 16
+        "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6"
       },
       "last_scan_error": false,
       "processabile": "si",
@@ -24404,11 +24442,11 @@
   "meta": {
     "last_scan": "2026-05-19T20:46:31.249391+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 3,
-      "invariati": 7,
+      "scansionati": 15,
+      "aggiornati": 4,
+      "invariati": 11,
       "errori": 0,
-      "vuoti": 1
+      "vuoti": 2
     },
     "total_comuni": 33,
     "scadenze": {
