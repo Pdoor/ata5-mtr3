@@ -818,6 +818,7 @@ function fmtDate(iso){if(!iso)return"—";try{return new Date(iso).toLocaleDateS
 function fmtDT(iso){if(!iso)return"—";try{return new Date(iso).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"})}catch(e){return"—"}}
 function fmtSize(b){if(!b)return"";if(b<1024)return b+"B";if(b<1048576)return(b/1024).toFixed(1)+"KB";return(b/1048576).toFixed(1)+"MB"}
 function fmtShortDate(iso){if(!iso)return"";try{const d=new Date(iso);return String(d.getUTCDate()).padStart(2,"0")+"/"+String(d.getUTCMonth()+1).padStart(2,"0");}catch(e){return""}}
+function latestNoteDate(notes,targetCat){let best="";function walk(arr,inheritedCat){for(const n of (arr||[])){const eff=inheritedCat||n.cat;if(eff===targetCat&&n.date&&n.date>best)best=n.date;if(n.children)walk(n.children,eff);}}walk(notes,null);return best;}
 function daysUntil(s){if(!s)return null;return Math.ceil((new Date(s)-new Date())/864e5)}
 function getState(id){if(!JDATA?.comuni)return null;return JDATA.comuni[String(id)]||null;}
 function getDocSt(s,key){if(!s)return{status:"missing"};return s.docs?.[key]||{status:"missing"};}
@@ -888,7 +889,7 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Data ultima nota Gestore","Data ultima nota Comune","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -900,6 +901,8 @@ function exportCSV(){
       ...DOC_ATA5.map(d=>ST[getDocSt(s,d.key).status]?.label||"Mancante"),
       p+"%",s?.processabile?PR[s.processabile]?.label||"":"-",
       fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
+      fmtDate(latestNoteDate(_getNotes(c.id),"gestore")),
+      fmtDate(latestNoteDate(_getNotes(c.id),"comune")),
       s?.last_scan_error?"SI":"",
       s?.cart_ondrive===true?"SI":"",
       s?.cart_odg===true?"SI":"",
@@ -1626,8 +1629,12 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
-    hr.appendChild(h("th",{className:i<=2?"l":""},t)));
+  const _TH_TITLES={"Last Note G":"Data ultima nota delle interlocuzioni","Last Note C":"Data ultima nota delle interlocuzioni"};
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Last Note G","Last Note C","Drive"].forEach((t,i)=>{
+    const attr={className:i<=2?"l":""};
+    if(_TH_TITLES[t])attr.title=_TH_TITLES[t];
+    hr.appendChild(h("th",attr,t));
+  });
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
   fil.forEach(c=>{
@@ -1719,9 +1726,12 @@ function renderTable(fil){
     const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
     const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(firstUp)));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastG)));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtDate(lastC)));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtShortDate(firstUp)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtShortDate(lastG)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtShortDate(lastC)||"---"));
+    const _lnG=latestNoteDate(_getNotes(c.id),"gestore"),_lnC=latestNoteDate(_getNotes(c.id),"comune");
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultima nota delle interlocuzioni"},fmtShortDate(_lnG)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultima nota delle interlocuzioni"},fmtShortDate(_lnC)||"---"));
     const dtd=h("td",{style:{textAlign:"center"}});
     const a=h("a",{href:c.url,target:"_blank",className:"drive-lnk"},"↗");
     a.addEventListener("click",e=>e.stopPropagation());
