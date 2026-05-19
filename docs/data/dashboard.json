@@ -9438,7 +9438,7 @@
       "last_scan_empty": true
     },
     "11": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -9597,12 +9597,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T20:07:11.820656+00:00",
-          "zip_hash": "de41dd13a1869c8c910a7d01544a0e351503c3a0db2b7762c1597a2de77ec5cc",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-02T09:11:46.145294+00:00",
           "zip_hash": "de41dd13a1869c8c910a7d01544a0e351503c3a0db2b7762c1597a2de77ec5cc",
@@ -10196,16 +10190,22 @@
           "zip_hash": "e063303a6e605eeb81d400f65cba8fccd9ad6a3ef3520a07a7b9efb33b32f244",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "e063303a6e605eeb81d400f65cba8fccd9ad6a3ef3520a07a7b9efb33b32f244",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "12": {
-      "zip_hash": "79758863e5fe5000f7a9724d3d540ccac560db075b02180d11f437b3efa7bf22",
-      "content_fingerprint": "1bbad3a439fd85bdfc6156b5acbb4398d8d91a4cf9c9166995dc54e5998242bc",
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
-      "zip_changed": false,
+      "zip_hash": "9e75bbf8d14df7cf9a94b33e4c9f950518ccf9970acb4b72b43cfcee4e695b38",
+      "content_fingerprint": "93df8912a7f1ebcadd8d317a167642204690554cc6435930d3e7c4fab9bae639",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -10240,20 +10240,20 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "7bccbad6a1cf31ec297353123cbbb6218b354c494b673b25c55a3ac7ea070dd4",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano.pdf.p7m",
-          "current_size": 5698431,
+          "current_hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+          "current_size": 4119484,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano.pdf.p7m",
-              "hash": "7bccbad6a1cf31ec297353123cbbb6218b354c494b673b25c55a3ac7ea070dd4",
-              "size": 5698431
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+              "hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
+              "size": 4119484
             }
           ],
           "first_upload": "2026-05-15T19:44:01.517563+00:00",
-          "last_upload": "2026-05-15T19:44:01.517563+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-15T19:44:01.517563+00:00",
@@ -10266,25 +10266,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "fb59808684c0bcee7fca40d0acdbe560d0df0630ff05f2e7b5b37caae84dbac0",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 11.5.2026_signed.pdf",
-          "current_size": 767985,
+          "current_hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+          "current_size": 465191,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 11.5.2026_signed.pdf",
-              "hash": "fb59808684c0bcee7fca40d0acdbe560d0df0630ff05f2e7b5b37caae84dbac0",
-              "size": 767985
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+              "hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
+              "size": 465191
             }
           ],
           "first_upload": "2026-05-15T19:44:01.517563+00:00",
-          "last_upload": "2026-05-15T19:44:01.517563+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-15T19:44:01.517563+00:00",
@@ -10297,6 +10303,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -10437,18 +10449,18 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano.pdf.p7m",
-          "hash": "7bccbad6a1cf31ec297353123cbbb6218b354c494b673b25c55a3ac7ea070dd4",
-          "size": 5698431,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cossignano Rev.2.pdf.p7m",
+          "hash": "f955db0e86cfc82f71d655b949f1c4efa01710646087e7ca367b6de0aeceff0f",
+          "size": 4119484,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cossignano 11.5.2026_signed.pdf",
-          "hash": "fb59808684c0bcee7fca40d0acdbe560d0df0630ff05f2e7b5b37caae84dbac0",
-          "size": 767985,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cossignano 19.5.2026_signed.pdf",
+          "hash": "999341acbb73c5bc0933d54065500f3701d09a39353c43d435c8757072ac4a36",
+          "size": 465191,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -10486,12 +10498,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T16:04:56.623001+00:00",
-          "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-01T18:02:15.403315+00:00",
           "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
@@ -11085,6 +11091,12 @@
           "zip_hash": "79758863e5fe5000f7a9724d3d540ccac560db075b02180d11f437b3efa7bf22",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "9e75bbf8d14df7cf9a94b33e4c9f950518ccf9970acb4b72b43cfcee4e695b38",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -11107,7 +11119,7 @@
       "last_scan_empty": true
     },
     "13": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11117,9 +11129,9 @@
         "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr",
         "id": 13
       },
-      "zip_hash": "936d72d9aeddbb1459d561f94c7ce9e093b9b64029d76f49047adac2d507f3ad",
-      "content_fingerprint": "558df2805b69394eb3cc02e4421e4980a91990337205b5f1490acd1bc72b8b1f",
-      "zip_changed": false,
+      "zip_hash": "1aeb97dae79a6548af23357e2df26ba5a6516102760aee0d7589b3d6d8ced48b",
+      "content_fingerprint": "d7831bcc5801debd9671f01855fe78a28ddf83701d0067c6ec08c476886c9189",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -11148,51 +11160,63 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "c53c7afa9d1133374b3579c96f65ea2156e27d6248721ee0a7164f02c377383d",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima.pdf.p7m",
-          "current_size": 6789277,
+          "current_hash": "22e76b700571701039622c3c033856d5d8f84c8a73c832c4eba130139401e046",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima Rev.2.pdf.p7m",
+          "current_size": 4223814,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima.pdf.p7m",
-              "hash": "c53c7afa9d1133374b3579c96f65ea2156e27d6248721ee0a7164f02c377383d",
-              "size": 6789277
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima Rev.2.pdf.p7m",
+              "hash": "22e76b700571701039622c3c033856d5d8f84c8a73c832c4eba130139401e046",
+              "size": 4223814
             }
           ],
           "first_upload": "2026-05-11T10:56:37.434445+00:00",
-          "last_upload": "2026-05-11T10:56:37.434445+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T10:56:37.434445+00:00",
               "hash": "c53c7afa9d1133374b3579c96f65ea2156e27d6248721ee0a7164f02c377383d",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima.pdf.p7m",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "22e76b700571701039622c3c033856d5d8f84c8a73c832c4eba130139401e046",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "c41080eb1b228c846b6926945c486d5243c554f7c0936c60398be2856a0e7a5e",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 11.5.2026_signed.pdf",
-          "current_size": 843451,
+          "current_hash": "d7f7b5be4a9e7adf75337d840fc6c3a7e935bb4204bdea8590a1b9106630eda5",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 19.5.2026_signed.pdf",
+          "current_size": 493417,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 11.5.2026_signed.pdf",
-              "hash": "c41080eb1b228c846b6926945c486d5243c554f7c0936c60398be2856a0e7a5e",
-              "size": 843451
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 19.5.2026_signed.pdf",
+              "hash": "d7f7b5be4a9e7adf75337d840fc6c3a7e935bb4204bdea8590a1b9106630eda5",
+              "size": 493417
             }
           ],
           "first_upload": "2026-05-11T10:56:37.434445+00:00",
-          "last_upload": "2026-05-11T10:56:37.434445+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T10:56:37.434445+00:00",
               "hash": "c41080eb1b228c846b6926945c486d5243c554f7c0936c60398be2856a0e7a5e",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 11.5.2026_signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "d7f7b5be4a9e7adf75337d840fc6c3a7e935bb4204bdea8590a1b9106630eda5",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 19.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -11225,18 +11249,18 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima.pdf.p7m",
-          "hash": "c53c7afa9d1133374b3579c96f65ea2156e27d6248721ee0a7164f02c377383d",
-          "size": 6789277,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Cupra Marittima Rev.2.pdf.p7m",
+          "hash": "22e76b700571701039622c3c033856d5d8f84c8a73c832c4eba130139401e046",
+          "size": 4223814,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 11.5.2026_signed.pdf",
-          "hash": "c41080eb1b228c846b6926945c486d5243c554f7c0936c60398be2856a0e7a5e",
-          "size": 843451,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Cupra Marittima 19.5.2026_signed.pdf",
+          "hash": "d7f7b5be4a9e7adf75337d840fc6c3a7e935bb4204bdea8590a1b9106630eda5",
+          "size": 493417,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         }
@@ -11481,13 +11505,19 @@
           "zip_hash": "936d72d9aeddbb1459d561f94c7ce9e093b9b64029d76f49047adac2d507f3ad",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "1aeb97dae79a6548af23357e2df26ba5a6516102760aee0d7589b3d6d8ced48b",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11497,18 +11527,84 @@
         "url": "https://drive.atarifiuti.ap.it/4ovv7a5f2dzk",
         "id": 14
       },
-      "zip_hash": "3374d585db76daba0df6b3ff1f36589569bb357c64d794f646ccd08d855fa4cc",
-      "content_fingerprint": "684954f65983baf2cbcd70d54e6e21f8b0c3dbf3176eac571282a7c181dff94f",
-      "zip_changed": false,
+      "zip_hash": "b4108cb810476a01d9605926bcb94e0921e429f7eea2bef9b3c82e4f25c60615",
+      "content_fingerprint": "867c456ca104c029bebbc93ff80b357bd36265bc0e029c6dfd212979397fcf66",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "df366c2037a19fad15155d3b37b12a840c7201aa29a5a6ae75143e82c7534a3a",
+          "current_file": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4865888,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "df366c2037a19fad15155d3b37b12a840c7201aa29a5a6ae75143e82c7534a3a",
+              "size": 4865888
+            }
+          ],
+          "first_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "df366c2037a19fad15155d3b37b12a840c7201aa29a5a6ae75143e82c7534a3a",
+              "file": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "21fda17c395a9760239d9b9e5cdb200d89aaf42020d5cb1db828ad26583df080",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano Rev.2.pdf.p7m",
+          "current_size": 3619780,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano Rev.2.pdf.p7m",
+              "hash": "21fda17c395a9760239d9b9e5cdb200d89aaf42020d5cb1db828ad26583df080",
+              "size": 3619780
+            }
+          ],
+          "first_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "21fda17c395a9760239d9b9e5cdb200d89aaf42020d5cb1db828ad26583df080",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano Rev.2.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "f67382d1a4e331140f5052a2e498c8b0e7104598fc6006942af61caaa6ec869a",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Folignano 19.5.2026_signed.pdf",
+          "current_size": 465052,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Folignano 19.5.2026_signed.pdf",
+              "hash": "f67382d1a4e331140f5052a2e498c8b0e7104598fc6006942af61caaa6ec869a",
+              "size": 465052
+            }
+          ],
+          "first_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "f67382d1a4e331140f5052a2e498c8b0e7104598fc6006942af61caaa6ec869a",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Folignano 19.5.2026_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -11532,27 +11628,27 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "df366c2037a19fad15155d3b37b12a840c7201aa29a5a6ae75143e82c7534a3a",
           "size": 4865888,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
-          "hash": "f1059d6eda32e632d614de2cef21443b5334dab8db13ae75cdbf669718257090",
-          "size": 5729807,
-          "doc_key": null,
-          "source": "comune"
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano Rev.2.pdf.p7m",
+          "hash": "21fda17c395a9760239d9b9e5cdb200d89aaf42020d5cb1db828ad26583df080",
+          "size": 3619780,
+          "doc_key": "relazione",
+          "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
-          "hash": "60d8f0f1ee8b37e647699c00b1376a732f07fc78fdcb4f9cc4ae480eca2c032a",
-          "size": 767986,
-          "doc_key": null,
-          "source": "comune"
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Folignano 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Folignano 19.5.2026_signed.pdf",
+          "hash": "f67382d1a4e331140f5052a2e498c8b0e7104598fc6006942af61caaa6ec869a",
+          "size": 465052,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
         }
       ],
       "scan_history": [
@@ -11825,32 +11921,19 @@
           "zip_hash": "3374d585db76daba0df6b3ff1f36589569bb357c64d794f646ccd08d855fa4cc",
           "changed": false,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4865888
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Folignano.pdf.p7m",
-          "source": "comune",
-          "size": 5729807
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Folignano 11.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 767986
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "b4108cb810476a01d9605926bcb94e0921e429f7eea2bef9b3c82e4f25c60615",
+          "changed": true,
+          "file_count": 3
         }
       ],
+      "unclassified_files": [],
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11860,9 +11943,9 @@
         "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir",
         "id": 15
       },
-      "zip_hash": "def12b5a6b2a99fdfcacc881f06676ee068cc59f7c771ab32962d2db1dcbe493",
-      "content_fingerprint": "236aa393c452c33222c6d0640cb2feb165a79afefde68321ec1f6ff4f6008b47",
-      "zip_changed": false,
+      "zip_hash": "10c78431a05e26b7d897f0ad17adfac4806f046f61643400b1002ff3aa26b01a",
+      "content_fingerprint": "6aa1350deaa7bfa9dec5540d4989f583f25002b8a06778de2958679ca352550d",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -11964,26 +12047,32 @@
         },
         "altre_com_c": {
           "status": "received",
-          "current_hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
+          "current_hash": "ccff37218521f4cc228ee350cdaed60b385f97655eb18aa6e5abe61889fd170a",
           "current_file": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
-          "current_size": 480845,
+          "current_size": 434036,
           "file_count": 1,
           "all_files": [
             {
               "name": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
-              "hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
-              "size": 480845
+              "hash": "ccff37218521f4cc228ee350cdaed60b385f97655eb18aa6e5abe61889fd170a",
+              "size": 434036
             }
           ],
           "first_upload": "2026-05-08T11:21:56.877034+00:00",
-          "last_upload": "2026-05-08T11:21:56.877034+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-08T11:21:56.877034+00:00",
               "hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
               "file": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "ccff37218521f4cc228ee350cdaed60b385f97655eb18aa6e5abe61889fd170a",
+              "file": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
@@ -12051,16 +12140,16 @@
         {
           "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "4e13fddba73e20a8d4ff8c1ff9f5344461ca0200415db43822a1d0641ec0550b",
-          "size": 4002972,
+          "hash": "6c68a995bfcca8ed414bb423880c41a6a558a9e960aa5df31524abde077dfd6b",
+          "size": 4003284,
           "doc_key": null,
           "source": "comune"
         },
         {
           "name": "DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
           "path": "Comune 2026/DICHIARAZIONE DI VERIDICITA ALLEGATO 4.pdf.p7m",
-          "hash": "a85e658eb3f045e0ab23472e10716215139102caf6f63fad6b46a25d38fd68b8",
-          "size": 480845,
+          "hash": "ccff37218521f4cc228ee350cdaed60b385f97655eb18aa6e5abe61889fd170a",
+          "size": 434036,
           "doc_key": "altre_com_c",
           "source": "comune"
         },
@@ -12074,12 +12163,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-30T15:13:03.262470+00:00",
-          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-30T17:25:06.580204+00:00",
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
@@ -12673,6 +12756,12 @@
           "zip_hash": "def12b5a6b2a99fdfcacc881f06676ee068cc59f7c771ab32962d2db1dcbe493",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "10c78431a05e26b7d897f0ad17adfac4806f046f61643400b1002ff3aa26b01a",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -12698,7 +12787,7 @@
           "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "source": "comune",
-          "size": 4002972
+          "size": 4003284
         },
         {
           "name": "RELAZIONE PEF 2026-2028.pdf",
@@ -23834,9 +23923,9 @@
   "meta": {
     "last_scan": "2026-05-19T15:33:40.099680+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 10,
-      "invariati": 0,
+      "scansionati": 15,
+      "aggiornati": 14,
+      "invariati": 1,
       "errori": 0,
       "vuoti": 0
     },
