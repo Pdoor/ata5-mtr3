@@ -819,6 +819,7 @@ function fmtDT(iso){if(!iso)return"—";try{return new Date(iso).toLocaleString(
 function fmtSize(b){if(!b)return"";if(b<1024)return b+"B";if(b<1048576)return(b/1024).toFixed(1)+"KB";return(b/1048576).toFixed(1)+"MB"}
 function fmtShortDate(iso){if(!iso)return"";try{const d=new Date(iso);return String(d.getUTCDate()).padStart(2,"0")+"/"+String(d.getUTCMonth()+1).padStart(2,"0");}catch(e){return""}}
 function latestNoteDate(notes,targetCat){let best="";function walk(arr,inheritedCat){for(const n of (arr||[])){const eff=inheritedCat||n.cat;if(eff===targetCat&&n.date&&n.date>best)best=n.date;if(n.children)walk(n.children,eff);}}walk(notes,null);return best;}
+function earliestNoteDate(notes,targetCat){let best="";function walk(arr,inheritedCat){for(const n of (arr||[])){const eff=inheritedCat||n.cat;if(eff===targetCat&&n.date&&(best===""||n.date<best))best=n.date;if(n.children)walk(n.children,eff);}}walk(notes,null);return best;}
 function daysUntil(s){if(!s)return null;return Math.ceil((new Date(s)-new Date())/864e5)}
 function getState(id){if(!JDATA?.comuni)return null;return JDATA.comuni[String(id)]||null;}
 function getDocSt(s,key){if(!s)return{status:"missing"};return s.docs?.[key]||{status:"missing"};}
@@ -889,7 +890,7 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload G","Primo Upload C","Ultimo G","Ultimo C","Data ultima nota Gestore","Data ultima nota Comune","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload G","Primo Upload C","Ultimo G","Ultimo C","Data prima nota Gestore","Data prima nota Comune","Data ultima nota Gestore","Data ultima nota Comune","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -903,6 +904,8 @@ function exportCSV(){
       ...DOC_ATA5.map(d=>ST[getDocSt(s,d.key).status]?.label||"Mancante"),
       p+"%",s?.processabile?PR[s.processabile]?.label||"":"-",
       fmtDate(firstUpG),fmtDate(firstUpC),fmtDate(lastG),fmtDate(lastC),
+      fmtDate(earliestNoteDate(_getNotes(c.id),"gestore")),
+      fmtDate(earliestNoteDate(_getNotes(c.id),"comune")),
       fmtDate(latestNoteDate(_getNotes(c.id),"gestore")),
       fmtDate(latestNoteDate(_getNotes(c.id),"comune")),
       s?.last_scan_error?"SI":"",
@@ -1631,8 +1634,8 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  const _TH_TITLES={"1° Upload G":"data del caricamento del primo/i documento/i Gestore","1° Upload C":"data del caricamento del primo/i documento/i Comune","Ultimo G":"Data ultimo caricamento documento/i del Gestore","Ultimo C":"Data ultimo caricamento documento/i del Comune","Last Note G":"Data ultima nota delle interlocuzioni","Last Note C":"Data ultima nota delle interlocuzioni"};
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload G","1° Upload C","Ultimo G","Ultimo C","Last Note G","Last Note C","Drive"].forEach((t,i)=>{
+  const _TH_TITLES={"1° Upload G":"data del caricamento del primo/i documento/i Gestore","1° Upload C":"data del caricamento del primo/i documento/i Comune","Ultimo G":"Data ultimo caricamento documento/i del Gestore","Ultimo C":"Data ultimo caricamento documento/i del Comune","First Note G":"Data prima nota interlocuzioni Gestore","First Note C":"Data prima nota interlocuzioni Comune","Last Note G":"Data ultima nota delle interlocuzioni","Last Note C":"Data ultima nota delle interlocuzioni"};
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload G","1° Upload C","Ultimo G","Ultimo C","First Note G","First Note C","Last Note G","Last Note C","Drive"].forEach((t,i)=>{
     const attr={className:i<=2?"l":""};
     if(_TH_TITLES[t])attr.title=_TH_TITLES[t];
     hr.appendChild(h("th",attr,t));
@@ -1735,6 +1738,9 @@ function renderTable(fil){
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultimo caricamento documento/i del Gestore"},fmtShortDate(lastG)||"---"));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultimo caricamento documento/i del Comune"},fmtShortDate(lastC)||"---"));
     const _lnG=latestNoteDate(_getNotes(c.id),"gestore"),_lnC=latestNoteDate(_getNotes(c.id),"comune");
+    const _fnG=earliestNoteDate(_getNotes(c.id),"gestore"),_fnC=earliestNoteDate(_getNotes(c.id),"comune");
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data prima nota interlocuzioni Gestore"},fmtShortDate(_fnG)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data prima nota interlocuzioni Comune"},fmtShortDate(_fnC)||"---"));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultima nota delle interlocuzioni"},fmtShortDate(_lnG)||"---"));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultima nota delle interlocuzioni"},fmtShortDate(_lnC)||"---"));
     const dtd=h("td",{style:{textAlign:"center"}});
