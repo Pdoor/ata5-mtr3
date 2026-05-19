@@ -12799,7 +12799,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12809,9 +12809,9 @@
         "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh",
         "id": 17
       },
-      "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
-      "content_fingerprint": "24a439978f8ba277a803ebd328439c58cfdb502100ec292b20ddf34ea09288b8",
-      "zip_changed": false,
+      "zip_hash": "1ca3c7dad58b2b7f2d801772198e050a5d3f5017e1755d9b62a1e8d7daa24680",
+      "content_fingerprint": "b0b2b9c0ce891428290e09680ff9bcb5b7ab03a35f2dc92ec98c09963d275920",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -12858,20 +12858,20 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "90250fe63f262aa20fa8fe492f4a468b617543a81a4332222ab0529a50cfc088",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-          "current_size": 6189462,
+          "current_hash": "a35ee9719a3444b7af7b84dbbf5f8bd4fe493c83c9ea36e94be750f424374943",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
+          "current_size": 3742249,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-              "hash": "90250fe63f262aa20fa8fe492f4a468b617543a81a4332222ab0529a50cfc088",
-              "size": 6189462
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
+              "hash": "a35ee9719a3444b7af7b84dbbf5f8bd4fe493c83c9ea36e94be750f424374943",
+              "size": 3742249
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
@@ -12896,25 +12896,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "a35ee9719a3444b7af7b84dbbf5f8bd4fe493c83c9ea36e94be750f424374943",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "8c95886c20f7181a8ba3a75ece211f44e118a75fc79ae91ccfd6b7af6d46ce99",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-          "current_size": 842499,
+          "current_hash": "6ab9dc8840fe1c206305c2b2caf16209a3a8a05a1df45590b4a1b1c5a88208ba",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 19.5.2026_signed.pdf",
+          "current_size": 492978,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-              "hash": "8c95886c20f7181a8ba3a75ece211f44e118a75fc79ae91ccfd6b7af6d46ce99",
-              "size": 842499
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 19.5.2026_signed.pdf",
+              "hash": "6ab9dc8840fe1c206305c2b2caf16209a3a8a05a1df45590b4a1b1c5a88208ba",
+              "size": 492978
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
@@ -12939,6 +12945,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "6ab9dc8840fe1c206305c2b2caf16209a3a8a05a1df45590b4a1b1c5a88208ba",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 19.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -13055,18 +13067,18 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano.pdf.p7m",
-          "hash": "90250fe63f262aa20fa8fe492f4a468b617543a81a4332222ab0529a50cfc088",
-          "size": 6189462,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
+          "hash": "a35ee9719a3444b7af7b84dbbf5f8bd4fe493c83c9ea36e94be750f424374943",
+          "size": 3742249,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Maltignano 11.5.2026_signed.pdf",
-          "hash": "8c95886c20f7181a8ba3a75ece211f44e118a75fc79ae91ccfd6b7af6d46ce99",
-          "size": 842499,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Maltignano 19.5.2026_signed.pdf",
+          "hash": "6ab9dc8840fe1c206305c2b2caf16209a3a8a05a1df45590b4a1b1c5a88208ba",
+          "size": 492978,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -13341,13 +13353,19 @@
           "zip_hash": "6979e0de5055d5c36e642c5623b01ae3c503ca9b6777ca2b2a704bdd0e46458f",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "1ca3c7dad58b2b7f2d801772198e050a5d3f5017e1755d9b62a1e8d7daa24680",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13357,26 +13375,26 @@
         "url": "https://drive.atarifiuti.ap.it/54cx0eyho8d7",
         "id": 18
       },
-      "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
-      "content_fingerprint": "7d873c073bb7d2e279febfc41f068a3a1e368ce5b9684fae594f15825a221974",
-      "zip_changed": false,
+      "zip_hash": "b26387f5f7b89ae1c95802ef2b9643772f39838533d189f2c9cf1e247f9a7426",
+      "content_fingerprint": "30fcf15730e7a993b3c91a6366b937753f6918e337a2e43fd958b5c7d1501e98",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "bc67890067bc4f340102038ea90613dbb0516ae32fbd441a59c45441c75e006d",
+          "current_hash": "9939695aa574bb8350890acb8266ec1172c48102fdfc6376116c9e5afb900f94",
           "current_file": "Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4864137,
+          "current_size": 4866843,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "bc67890067bc4f340102038ea90613dbb0516ae32fbd441a59c45441c75e006d",
-              "size": 4864137
+              "hash": "9939695aa574bb8350890acb8266ec1172c48102fdfc6376116c9e5afb900f94",
+              "size": 4866843
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
@@ -13413,25 +13431,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "9939695aa574bb8350890acb8266ec1172c48102fdfc6376116c9e5afb900f94",
+              "file": "Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "6870877927988341e8818ac2e612f360407114d80380c10e497eec6b47797b66",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
-          "current_size": 5709196,
+          "current_hash": "048c3cd133473b36188e3e33829751db7bdeac6971b73b0b03ec17c0486a14df",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano Rev.2.pdf.p7m",
+          "current_size": 3462853,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
-              "hash": "6870877927988341e8818ac2e612f360407114d80380c10e497eec6b47797b66",
-              "size": 5709196
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano Rev.2.pdf.p7m",
+              "hash": "048c3cd133473b36188e3e33829751db7bdeac6971b73b0b03ec17c0486a14df",
+              "size": 3462853
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
@@ -13468,25 +13492,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "048c3cd133473b36188e3e33829751db7bdeac6971b73b0b03ec17c0486a14df",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "4d97c777776776735220c2ef9fa67ebd8a6786d7077266c90e419ddcae45623d",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
-          "current_size": 767997,
+          "current_hash": "bbcdaeac30f34b569c24c80cf7de8da2b58b8eb5483af2ac8ef03b11737af469",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Massignano 19.5.2026_signed.pdf",
+          "current_size": 465080,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
-              "hash": "4d97c777776776735220c2ef9fa67ebd8a6786d7077266c90e419ddcae45623d",
-              "size": 767997
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Massignano 19.5.2026_signed.pdf",
+              "hash": "bbcdaeac30f34b569c24c80cf7de8da2b58b8eb5483af2ac8ef03b11737af469",
+              "size": 465080
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
@@ -13523,6 +13553,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "bbcdaeac30f34b569c24c80cf7de8da2b58b8eb5483af2ac8ef03b11737af469",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Massignano 19.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -13669,24 +13705,24 @@
         {
           "name": "Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Massignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "bc67890067bc4f340102038ea90613dbb0516ae32fbd441a59c45441c75e006d",
-          "size": 4864137,
+          "hash": "9939695aa574bb8350890acb8266ec1172c48102fdfc6376116c9e5afb900f94",
+          "size": 4866843,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano.pdf.p7m",
-          "hash": "6870877927988341e8818ac2e612f360407114d80380c10e497eec6b47797b66",
-          "size": 5709196,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Massignano Rev.2.pdf.p7m",
+          "hash": "048c3cd133473b36188e3e33829751db7bdeac6971b73b0b03ec17c0486a14df",
+          "size": 3462853,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Massignano 11.5.2026_signed.pdf",
-          "hash": "4d97c777776776735220c2ef9fa67ebd8a6786d7077266c90e419ddcae45623d",
-          "size": 767997,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Massignano 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Massignano 19.5.2026_signed.pdf",
+          "hash": "bbcdaeac30f34b569c24c80cf7de8da2b58b8eb5483af2ac8ef03b11737af469",
+          "size": 465080,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -13961,13 +13997,19 @@
           "zip_hash": "3b69ccb6b1c3b4f3fe74f6dd42425d348dcc1b509154aec64ea08ca5f8afefc2",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "b26387f5f7b89ae1c95802ef2b9643772f39838533d189f2c9cf1e247f9a7426",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13977,82 +14019,100 @@
         "url": "https://drive.atarifiuti.ap.it/5hq88fqxu1de",
         "id": 19
       },
-      "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
-      "content_fingerprint": "8d562fc9c21149ecac34494edb8cc61f117a51ae2d03f95dc69817855d681328",
-      "zip_changed": false,
+      "zip_hash": "6b15c79f7daf163e0e16ba94d3f40efd5c06831bf9acfba516dce5d8c3f8dd36",
+      "content_fingerprint": "a2b2485cced8710fbd79e42195e0b50359b10b624d82d2361f2e4d0afd59c959",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "fffb047d081d5bf936ffa9bd4cbd0c91c2d23765d7eebfa44fd866bf714bf316",
+          "current_hash": "2934014ff97443411e954e5d28584b30ad2cda9cbb5b2377e10d908e3f114924",
           "current_file": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4870177,
+          "current_size": 4872976,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "fffb047d081d5bf936ffa9bd4cbd0c91c2d23765d7eebfa44fd866bf714bf316",
-              "size": 4870177
+              "hash": "2934014ff97443411e954e5d28584b30ad2cda9cbb5b2377e10d908e3f114924",
+              "size": 4872976
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
               "hash": "fffb047d081d5bf936ffa9bd4cbd0c91c2d23765d7eebfa44fd866bf714bf316",
               "file": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "2934014ff97443411e954e5d28584b30ad2cda9cbb5b2377e10d908e3f114924",
+              "file": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "dfd2a9a7f3e5a31ad08c712d90712a549442eafd38c636e646cabab4b1cc88c1",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto.pdf.p7m",
-          "current_size": 5961021,
+          "current_hash": "a3c842cdd8f9c9da863c0a1bec2aed3e3393957af56813c8a75de771c29f6848",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+          "current_size": 3395613,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto.pdf.p7m",
-              "hash": "dfd2a9a7f3e5a31ad08c712d90712a549442eafd38c636e646cabab4b1cc88c1",
-              "size": 5961021
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+              "hash": "a3c842cdd8f9c9da863c0a1bec2aed3e3393957af56813c8a75de771c29f6848",
+              "size": 3395613
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
               "hash": "dfd2a9a7f3e5a31ad08c712d90712a549442eafd38c636e646cabab4b1cc88c1",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto.pdf.p7m",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "a3c842cdd8f9c9da863c0a1bec2aed3e3393957af56813c8a75de771c29f6848",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "21735f33a4635684c9a5ed7d980a76ea66476fac826c819b25c8565db88a6557",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 11.5.2026_signed.pdf",
-          "current_size": 768195,
+          "current_hash": "3ac24f6407e0e5fddec5f7a85ed0c0f91d825ca12afdd76cf741231da9433250",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 19.5.2026_signed.pdf",
+          "current_size": 465339,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 11.5.2026_signed.pdf",
-              "hash": "21735f33a4635684c9a5ed7d980a76ea66476fac826c819b25c8565db88a6557",
-              "size": 768195
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 19.5.2026_signed.pdf",
+              "hash": "3ac24f6407e0e5fddec5f7a85ed0c0f91d825ca12afdd76cf741231da9433250",
+              "size": 465339
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-11T11:22:43.881645+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-11T11:22:43.881645+00:00",
               "hash": "21735f33a4635684c9a5ed7d980a76ea66476fac826c819b25c8565db88a6557",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 11.5.2026_signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "3ac24f6407e0e5fddec5f7a85ed0c0f91d825ca12afdd76cf741231da9433250",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 19.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -14079,24 +14139,24 @@
         {
           "name": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "fffb047d081d5bf936ffa9bd4cbd0c91c2d23765d7eebfa44fd866bf714bf316",
-          "size": 4870177,
+          "hash": "2934014ff97443411e954e5d28584b30ad2cda9cbb5b2377e10d908e3f114924",
+          "size": 4872976,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto.pdf.p7m",
-          "hash": "dfd2a9a7f3e5a31ad08c712d90712a549442eafd38c636e646cabab4b1cc88c1",
-          "size": 5961021,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+          "hash": "a3c842cdd8f9c9da863c0a1bec2aed3e3393957af56813c8a75de771c29f6848",
+          "size": 3395613,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 11.5.2026_signed.pdf",
-          "hash": "21735f33a4635684c9a5ed7d980a76ea66476fac826c819b25c8565db88a6557",
-          "size": 768195,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 19.5.2026_signed.pdf",
+          "hash": "3ac24f6407e0e5fddec5f7a85ed0c0f91d825ca12afdd76cf741231da9433250",
+          "size": 465339,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         }
@@ -14341,13 +14401,19 @@
           "zip_hash": "7ed0f45da2d1be073bde4605e7d649a7b4a8513b6ef8c55efe32c3bfb59a9b51",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "6b15c79f7daf163e0e16ba94d3f40efd5c06831bf9acfba516dce5d8c3f8dd36",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -14743,6 +14809,12 @@
         },
         {
           "time": "2026-05-19T11:24:32.444869+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -23468,10 +23540,10 @@
       "processabile": "si"
     },
     "16": {
-      "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
-      "content_fingerprint": "3f741a20a66003e627dd9053e840241720a425247c9977fddc0248ff19e02eab",
-      "last_scan": "2026-05-19T11:24:32.444869+00:00",
-      "zip_changed": false,
+      "zip_hash": "bdc7963a549fb0200eb36fd7a517594e8a79db9c807ab79b1756da53f0bc336d",
+      "content_fingerprint": "a248f908a09d57f118c2c1236b29f98aa7760b0bc43222c2509b4c7a8f5946bf",
+      "last_scan": "2026-05-19T15:33:40.099680+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -23506,20 +23578,20 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "20815418c5b6edd8b63034df7229e79595255d3c2e7257a75847e15a269765d6",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
-          "current_size": 9121960,
+          "current_hash": "e28678d9f482761dc860c86dacebd32336f818e468437b13a8b1a58b6c65bf99",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+          "current_size": 7083946,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
-              "hash": "20815418c5b6edd8b63034df7229e79595255d3c2e7257a75847e15a269765d6",
-              "size": 9121960
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+              "hash": "e28678d9f482761dc860c86dacebd32336f818e468437b13a8b1a58b6c65bf99",
+              "size": 7083946
             }
           ],
           "first_upload": "2026-05-16T15:00:49.645259+00:00",
-          "last_upload": "2026-05-16T15:00:49.645259+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-16T15:00:49.645259+00:00",
@@ -23532,25 +23604,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "e28678d9f482761dc860c86dacebd32336f818e468437b13a8b1a58b6c65bf99",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "57fbf830f47daca7db5a44172000e2369e65b4ba0f01b1ff0476211d6dbf61e2",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
-          "current_size": 842182,
+          "current_hash": "38c809849247719d5cbb1e1159b35b5edcb622ef228ca95b41a93c0b2c5b31ac",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 19.5.2026_signed.pdf",
+          "current_size": 492843,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
-              "hash": "57fbf830f47daca7db5a44172000e2369e65b4ba0f01b1ff0476211d6dbf61e2",
-              "size": 842182
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 19.5.2026_signed.pdf",
+              "hash": "38c809849247719d5cbb1e1159b35b5edcb622ef228ca95b41a93c0b2c5b31ac",
+              "size": 492843
             }
           ],
           "first_upload": "2026-05-16T15:00:49.645259+00:00",
-          "last_upload": "2026-05-16T15:00:49.645259+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-16T15:00:49.645259+00:00",
@@ -23563,6 +23641,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T15:33:40.099680+00:00",
+              "hash": "38c809849247719d5cbb1e1159b35b5edcb622ef228ca95b41a93c0b2c5b31ac",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 19.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -23679,18 +23763,18 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare.pdf.p7m",
-          "hash": "20815418c5b6edd8b63034df7229e79595255d3c2e7257a75847e15a269765d6",
-          "size": 9121960,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+          "hash": "e28678d9f482761dc860c86dacebd32336f818e468437b13a8b1a58b6c65bf99",
+          "size": 7083946,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Grottammare 11.5.2026_signed.pdf",
-          "hash": "57fbf830f47daca7db5a44172000e2369e65b4ba0f01b1ff0476211d6dbf61e2",
-          "size": 842182,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 19.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Grottammare 19.5.2026_signed.pdf",
+          "hash": "38c809849247719d5cbb1e1159b35b5edcb622ef228ca95b41a93c0b2c5b31ac",
+          "size": 492843,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -23905,6 +23989,12 @@
           "zip_hash": "eec6433bdf4fdc1831342e717c6094ff73e1097f063f81698f34f4af8cbd2733",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-19T15:33:40.099680+00:00",
+          "zip_hash": "bdc7963a549fb0200eb36fd7a517594e8a79db9c807ab79b1756da53f0bc336d",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23923,9 +24013,9 @@
   "meta": {
     "last_scan": "2026-05-19T15:33:40.099680+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 14,
-      "invariati": 1,
+      "scansionati": 20,
+      "aggiornati": 18,
+      "invariati": 2,
       "errori": 0,
       "vuoti": 0
     },
