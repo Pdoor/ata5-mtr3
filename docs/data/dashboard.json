@@ -20881,7 +20881,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -21261,13 +21261,19 @@
           "zip_hash": "7baa5a50ff1814d5036684ea8e1771e58ccd12f970669a9fa50156df901e0e35",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "7baa5a50ff1814d5036684ea8e1771e58ccd12f970669a9fa50156df901e0e35",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -21671,13 +21677,19 @@
           "zip_hash": "8fe343c432ea414173f53423dab19f8b762a0c166e8082042dfc903af7cc9402",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "8fe343c432ea414173f53423dab19f8b762a0c166e8082042dfc903af7cc9402",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "31": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -21689,7 +21701,7 @@
       },
       "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
       "content_fingerprint": "9595ef392e2c1287db975847117b6e60e024d2c02746295462eff4bfa6866422",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -22621,19 +22633,25 @@
           "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "32": {
-      "zip_hash": "6c8327f2afbf3c3f0986062489b34593419cd41914d685ff5b4587aa0598d2a8",
-      "content_fingerprint": "c3760a10177d2cd3fd56ef05bea6805ee9ca34b7c0a9757c79bcf844ec6b62ff",
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
-      "zip_changed": false,
+      "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+      "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "a5017bdc6b9dd79aeab6adad901bf2687f4357789f5afff56de1af7b654622d3",
           "current_file": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4867660,
@@ -22666,11 +22684,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "710d24a3aa059f5d6e2f3d2ee5c017977a86f0dacfa5d84c301bde9b1c30a4a9",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
           "current_size": 4525841,
@@ -22709,11 +22734,18 @@
               "hash": "710d24a3aa059f5d6e2f3d2ee5c017977a86f0dacfa5d84c301bde9b1c30a4a9",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "2cb2afb1d92bada9cdf0f3534593db3a1e7d7bcc19797caa481b45c1a7212fcf",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 19.5.2026_signed.pdf",
           "current_size": 492926,
@@ -22752,8 +22784,15 @@
               "hash": "2cb2afb1d92bada9cdf0f3534593db3a1e7d7bcc19797caa481b45c1a7212fcf",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 19.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-19T20:46:31.249391+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-19T20:46:31.249391+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -22883,30 +22922,6 @@
       },
       "all_files": [
         {
-          "name": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "a5017bdc6b9dd79aeab6adad901bf2687f4357789f5afff56de1af7b654622d3",
-          "size": 4867660,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
-          "hash": "710d24a3aa059f5d6e2f3d2ee5c017977a86f0dacfa5d84c301bde9b1c30a4a9",
-          "size": 4525841,
-          "doc_key": "relazione",
-          "source": "gestore"
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Spinetoli 19.5.2026_signed.pdf",
-          "hash": "2cb2afb1d92bada9cdf0f3534593db3a1e7d7bcc19797caa481b45c1a7212fcf",
-          "size": 492926,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
           "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
@@ -22940,12 +22955,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T09:49:51.468163+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-01T13:27:02.850695+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -23539,6 +23548,12 @@
           "zip_hash": "6c8327f2afbf3c3f0986062489b34593419cd41914d685ff5b4587aa0598d2a8",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -23550,11 +23565,11 @@
         "id": 32
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-19T18:08:56.255251+00:00",
+      "last_scan": "2026-05-19T20:46:31.249391+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -24015,6 +24030,12 @@
         },
         {
           "time": "2026-05-19T18:08:56.255251+00:00",
+          "zip_hash": "bf67f35e776c068a6e63c32f5294bc02ff56852595aaf4e3f5ca1259fb4ce595",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-19T20:46:31.249391+00:00",
           "zip_hash": "bf67f35e776c068a6e63c32f5294bc02ff56852595aaf4e3f5ca1259fb4ce595",
           "changed": false,
           "file_count": 6
@@ -24501,9 +24522,9 @@
   "meta": {
     "last_scan": "2026-05-19T20:46:31.249391+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 7,
-      "invariati": 18,
+      "scansionati": 30,
+      "aggiornati": 8,
+      "invariati": 22,
       "errori": 0,
       "vuoti": 3
     },
