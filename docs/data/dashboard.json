@@ -20915,7 +20915,7 @@
       "processabile": "no"
     },
     "31": {
-      "last_scan": "2026-05-18T20:27:37.629706+00:00",
+      "last_scan": "2026-05-19T11:24:32.444869+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -20925,9 +20925,9 @@
         "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
         "id": 31
       },
-      "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
-      "content_fingerprint": "f1ce54f47e881528c2f23f0a49247bdc4c2d17452169c09344c16872fd80e226",
-      "zip_changed": false,
+      "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
+      "content_fingerprint": "9595ef392e2c1287db975847117b6e60e024d2c02746295462eff4bfa6866422",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -21004,20 +21004,20 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "15950e5113cb79a8bfc1467534ca470c4f945cc2446dd4b03b22145edee31cfd",
-          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
-          "current_size": 9474355,
+          "current_hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
+          "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "current_size": 9486816,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
-              "hash": "15950e5113cb79a8bfc1467534ca470c4f945cc2446dd4b03b22145edee31cfd",
-              "size": 9474355
+              "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+              "hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
+              "size": 9486816
             }
           ],
           "first_upload": "2026-05-06T08:05:44.361219+00:00",
-          "last_upload": "2026-05-06T08:05:44.361219+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T11:24:32.444869+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-06T08:05:44.361219+00:00",
@@ -21072,25 +21072,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T11:24:32.444869+00:00",
+              "hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "01025d2ba83fe2fc72ae4f755032a53b289aad60dd1a197960f57b957c94e1cc",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
-          "current_size": 605925,
+          "current_hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
+          "current_size": 465198,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
-              "hash": "01025d2ba83fe2fc72ae4f755032a53b289aad60dd1a197960f57b957c94e1cc",
-              "size": 605925
+              "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
+              "hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
+              "size": 465198
             }
           ],
           "first_upload": "2026-05-06T08:05:44.361219+00:00",
-          "last_upload": "2026-05-06T08:05:44.361219+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T11:24:32.444869+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-06T08:05:44.361219+00:00",
@@ -21145,6 +21151,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-19T11:24:32.444869+00:00",
+              "hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -21339,18 +21351,18 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto.pdf.p7m",
-          "hash": "15950e5113cb79a8bfc1467534ca470c4f945cc2446dd4b03b22145edee31cfd",
-          "size": 9474355,
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
+          "size": 9486816,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 5.5.2026_signed.pdf",
-          "hash": "01025d2ba83fe2fc72ae4f755032a53b289aad60dd1a197960f57b957c94e1cc",
-          "size": 605925,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
+          "hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
+          "size": 465198,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -21793,6 +21805,12 @@
           "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-19T11:24:32.444869+00:00",
+          "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -21801,7 +21819,7 @@
     "32": {
       "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
       "content_fingerprint": "30fa48a6839838f0d36d7e8d7cf22fc6b206df9d88837981d0a09560fa67700c",
-      "last_scan": "2026-05-18T20:27:37.629706+00:00",
+      "last_scan": "2026-05-19T11:24:32.444869+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22100,12 +22118,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-30T12:17:08.487081+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-30T15:13:03.262470+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -22699,6 +22711,12 @@
           "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-19T11:24:32.444869+00:00",
+          "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -22714,7 +22732,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-18T20:27:37.629706+00:00",
+      "last_scan": "2026-05-19T11:24:32.444869+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -23145,6 +23163,12 @@
         },
         {
           "time": "2026-05-18T20:27:37.629706+00:00",
+          "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-19T11:24:32.444869+00:00",
           "zip_hash": "229b0dec44a6a7884d672d9fa2075ec45ba36c0cd735685d9e13c61582d25ecc",
           "changed": false,
           "file_count": 6
@@ -23609,9 +23633,9 @@
   "meta": {
     "last_scan": "2026-05-19T11:24:32.444869+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 2,
-      "invariati": 28,
+      "scansionati": 33,
+      "aggiornati": 3,
+      "invariati": 30,
       "errori": 0,
       "vuoti": 0
     },
@@ -23621,7 +23645,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
