@@ -889,10 +889,12 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Data ultima nota Gestore","Data ultima nota Comune","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:AltreCom","C:Tool","C:Rel","C:Dich","C:AltreCom","PEF Validato","%","Processabile","Primo Upload G","Primo Upload C","Ultimo G","Ultimo C","Data ultima nota Gestore","Data ultima nota Comune","Timeout","OneDrive","OneDrive_Gestore","OneDrive_Comune","WF Fase","WF Grezzi OD","WF Avvio","WF Riconc","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
+    const firstUpG=s?DOC_G.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
+    const firstUpC=s?DOC_C.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
     const lastG=s?DOC_G.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
     const lastC=s?DOC_C.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
     rows.push([c.id,c.comune,c.gestore,c.advisor||"",
@@ -900,7 +902,7 @@ function exportCSV(){
       ...DOC_C.map(d=>ST[getDocSt(s,d.key).status]?.label||"Mancante"),
       ...DOC_ATA5.map(d=>ST[getDocSt(s,d.key).status]?.label||"Mancante"),
       p+"%",s?.processabile?PR[s.processabile]?.label||"":"-",
-      fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
+      fmtDate(firstUpG),fmtDate(firstUpC),fmtDate(lastG),fmtDate(lastC),
       fmtDate(latestNoteDate(_getNotes(c.id),"gestore")),
       fmtDate(latestNoteDate(_getNotes(c.id),"comune")),
       s?.last_scan_error?"SI":"",
@@ -1629,8 +1631,8 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  const _TH_TITLES={"Last Note G":"Data ultima nota delle interlocuzioni","Last Note C":"Data ultima nota delle interlocuzioni"};
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Last Note G","Last Note C","Drive"].forEach((t,i)=>{
+  const _TH_TITLES={"1° Upload G":"data del caricamento del primo/i documento/i Gestore","1° Upload C":"data del caricamento del primo/i documento/i Comune","Ultimo G":"Data ultimo caricamento documento/i del Gestore","Ultimo C":"Data ultimo caricamento documento/i del Comune","Last Note G":"Data ultima nota delle interlocuzioni","Last Note C":"Data ultima nota delle interlocuzioni"};
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload G","1° Upload C","Ultimo G","Ultimo C","Last Note G","Last Note C","Drive"].forEach((t,i)=>{
     const attr={className:i<=2?"l":""};
     if(_TH_TITLES[t])attr.title=_TH_TITLES[t];
     hr.appendChild(h("th",attr,t));
@@ -1642,6 +1644,8 @@ function renderTable(fil){
     const pc=s?.processabile?PR[s.processabile]:null;
     const col=s===null?"var(--t4)":p===100?"var(--green)":p>0?"var(--yel)":"var(--t3)";
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
+    const firstUpG=s?DOC_G.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
+    const firstUpC=s?DOC_C.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
     const lastG=s?DOC_G.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
     const lastC=s?DOC_C.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
     const tr=h("tr",{onClick:()=>{selId=c.id;view="dashboard";render()}});
@@ -1726,9 +1730,10 @@ function renderTable(fil){
     const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
     const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtShortDate(firstUp)||"---"));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtShortDate(lastG)||"---"));
-    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"}},fmtShortDate(lastC)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"data del caricamento del primo/i documento/i Gestore"},fmtShortDate(firstUpG)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"data del caricamento del primo/i documento/i Comune"},fmtShortDate(firstUpC)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultimo caricamento documento/i del Gestore"},fmtShortDate(lastG)||"---"));
+    tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultimo caricamento documento/i del Comune"},fmtShortDate(lastC)||"---"));
     const _lnG=latestNoteDate(_getNotes(c.id),"gestore"),_lnC=latestNoteDate(_getNotes(c.id),"comune");
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultima nota delle interlocuzioni"},fmtShortDate(_lnG)||"---"));
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:"var(--t3)"},title:"Data ultima nota delle interlocuzioni"},fmtShortDate(_lnC)||"---"));
