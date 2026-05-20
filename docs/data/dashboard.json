@@ -981,7 +981,7 @@
       "last_scan_empty": true
     },
     "1": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -991,9 +991,9 @@
         "url": "https://drive.atarifiuti.ap.it/31vxgad4m5f4",
         "id": 1
       },
-      "zip_hash": "8d9c1059092500bcb0cd3999df5b206495e8a28a0126e0182ab8cc15bb834e59",
-      "content_fingerprint": "67b0c4f354d7253cb77b34e27cff952129d2d506aae6176fe1afa31e915318ae",
-      "zip_changed": false,
+      "zip_hash": "1b8ee76a63d62677e45218205bdabc296bea88b782970fb3dfab358012489b00",
+      "content_fingerprint": "51de9f6a04a386bc8abf92058767cfb618a433b978a3c0c095626872b2d7e503",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -1040,19 +1040,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
+          "current_hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "current_size": 3140470,
+          "current_size": 3151388,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-              "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-              "size": 3140470
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "size": 3151388
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -1084,24 +1084,30 @@
               "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "current_size": 464473,
+          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "current_size": 464299,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-              "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-              "size": 464473
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "size": 464299
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -1133,6 +1139,12 @@
               "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
               "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -1144,12 +1156,17 @@
           "current_hash": "20ae8d213a949cd4f8133bd401376149a548891ba3c7b81eb3c85bc4dc48d5ae",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 3981754,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
               "hash": "20ae8d213a949cd4f8133bd401376149a548891ba3c7b81eb3c85bc4dc48d5ae",
               "size": 3981754
+            },
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 RETTIFICATO.xlsx",
+              "hash": "dba22aa46a3c1296da98f40d172d3efcfde03dccb621f0040c2178964134f909",
+              "size": 3981479
             }
           ],
           "first_upload": "2026-05-14T17:56:36.988609+00:00",
@@ -1172,19 +1189,24 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "ac5a42499266e6ac5969214d3be7b429cbdc8904154d5089f527081a88d9f94f",
-          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
-          "current_size": 805833,
-          "file_count": 1,
+          "current_hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
+          "current_size": 805869,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
               "hash": "ac5a42499266e6ac5969214d3be7b429cbdc8904154d5089f527081a88d9f94f",
               "size": 805833
+            },
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
+              "hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
+              "size": 805869
             }
           ],
           "first_upload": "2026-05-14T17:56:36.988609+00:00",
-          "last_upload": "2026-05-18T11:48:02.293681+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -1204,6 +1226,12 @@
               "hash": "ac5a42499266e6ac5969214d3be7b429cbdc8904154d5089f527081a88d9f94f",
               "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
@@ -1212,12 +1240,17 @@
           "current_hash": "a64f8a7421b6c181d5b358c51e00519bc7f2441071ad773cc43b7e9abbb6a5e1",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
           "current_size": 129216,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
               "hash": "a64f8a7421b6c181d5b358c51e00519bc7f2441071ad773cc43b7e9abbb6a5e1",
               "size": 129216
+            },
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni RETTIFICATA.pdf.p7m",
+              "hash": "5daeec04e744759acd945f71f1023e19bec5bef6eec93884fd73888a9b8b7d1f",
+              "size": 128989
             }
           ],
           "first_upload": "2026-05-14T17:56:36.988609+00:00",
@@ -1257,16 +1290,16 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-          "size": 3140470,
+          "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+          "size": 3151388,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "size": 464473,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "size": 464299,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -1287,6 +1320,14 @@
           "source": "comune"
         },
         {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 RETTIFICATO.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 RETTIFICATO.xlsx",
+          "hash": "dba22aa46a3c1296da98f40d172d3efcfde03dccb621f0040c2178964134f909",
+          "size": 3981479,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
           "hash": "ac5a42499266e6ac5969214d3be7b429cbdc8904154d5089f527081a88d9f94f",
@@ -1295,10 +1336,26 @@
           "source": "comune"
         },
         {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
+          "hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
+          "size": 805869,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
           "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
           "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
           "hash": "a64f8a7421b6c181d5b358c51e00519bc7f2441071ad773cc43b7e9abbb6a5e1",
           "size": 129216,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni RETTIFICATA.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni RETTIFICATA.pdf.p7m",
+          "hash": "5daeec04e744759acd945f71f1023e19bec5bef6eec93884fd73888a9b8b7d1f",
+          "size": 128989,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -1312,12 +1369,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T11:52:32.858606+00:00",
-          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
-          "changed": false,
-          "file_count": 1
-        },
         {
           "time": "2026-05-02T13:21:28.447967+00:00",
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
@@ -1911,6 +1962,12 @@
           "zip_hash": "8d9c1059092500bcb0cd3999df5b206495e8a28a0126e0182ab8cc15bb834e59",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "1b8ee76a63d62677e45218205bdabc296bea88b782970fb3dfab358012489b00",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -1930,7 +1987,7 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1940,12 +1997,12 @@
         "url": "https://drive.atarifiuti.ap.it/2d7j066ewobm",
         "id": 2
       },
-      "zip_hash": "6708b5f489ac43bf719e78d5c5da3037732f9cd4f4ff61812c1c09284cec73b2",
-      "content_fingerprint": "2d401a4dc8cd0693460177ac76bd25fe4f638ef7bd76570e959e590bcdd5f35a",
+      "zip_hash": "af7f617d243ab070d992327cd46a9543e4526d99b11332d1caca53af02cd5789",
+      "content_fingerprint": "1e4152b8e7cbb812206babe83d0474b2bdfff557bb29b3092b7bc7eebca4a7a8",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "1d8161bde5856cad165bced53e1121f388f7ab01661323ddeca27229380e4bff",
           "current_file": "Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4865973,
@@ -2021,24 +2078,23 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "4bad9c248360a92ef630c2b32af4f1d6a1f7c6f81c6ab3179b600b2525448bed",
+          "status": "received",
+          "current_hash": "907bab6d116a045cec5cc75aeb13c988ca02710ae5915c031b95ae204b70d029",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
-          "current_size": 3404282,
+          "current_size": 3420767,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
-              "hash": "4bad9c248360a92ef630c2b32af4f1d6a1f7c6f81c6ab3179b600b2525448bed",
-              "size": 3404282
+              "hash": "907bab6d116a045cec5cc75aeb13c988ca02710ae5915c031b95ae204b70d029",
+              "size": 3420767
             }
           ],
           "first_upload": "2026-05-07T08:24:17.847480+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -2100,25 +2156,30 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "907bab6d116a045cec5cc75aeb13c988ca02710ae5915c031b95ae204b70d029",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "dee540508b5182af23cd8065e43809390f370b26d7cc9a7c60512dfd8dd19b70",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 19.5.2026_signed.pdf",
-          "current_size": 465215,
+          "status": "received",
+          "current_hash": "7b06d2becc321f9651770fa9c2da2d850df8edf9c1ac65f25c7c0934f341e50c",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 20.5.2026_signed.pdf",
+          "current_size": 465106,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 19.5.2026_signed.pdf",
-              "hash": "dee540508b5182af23cd8065e43809390f370b26d7cc9a7c60512dfd8dd19b70",
-              "size": 465215
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 20.5.2026_signed.pdf",
+              "hash": "7b06d2becc321f9651770fa9c2da2d850df8edf9c1ac65f25c7c0934f341e50c",
+              "size": 465106
             }
           ],
           "first_upload": "2026-05-07T08:24:17.847480+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -2180,15 +2241,20 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "7b06d2becc321f9651770fa9c2da2d850df8edf9c1ac65f25c7c0934f341e50c",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "5b4d724da8372f28749a62859f35447b8f322e37cce0c3a813e471ac177c79fe",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(7).xlsx",
           "current_size": 3981558,
@@ -2240,11 +2306,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "bade1027523e679f79e7073fe4cc3256e1563b4f5103337821a72ad027b4a394",
           "current_file": "Allegato 2 Relazione PEF 2026 Gestore Comune  Acquaviva Picena.pdf",
           "current_size": 649942,
@@ -2296,11 +2361,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "4596d051a58f6a027182442600bb87d30a2af470109a6e3e99435750ce756ec9",
           "current_file": "Allegato4_DichiarazioneVeridicitaComuni-signed.pdf",
           "current_size": 399914,
@@ -2346,8 +2410,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -2359,36 +2422,54 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "1d8161bde5856cad165bced53e1121f388f7ab01661323ddeca27229380e4bff",
           "size": 4865973,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
-          "hash": "4bad9c248360a92ef630c2b32af4f1d6a1f7c6f81c6ab3179b600b2525448bed",
-          "size": 3404282,
-          "doc_key": null,
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
+          "hash": "907bab6d116a045cec5cc75aeb13c988ca02710ae5915c031b95ae204b70d029",
+          "size": 3420767,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 20.5.2026_signed.pdf",
+          "hash": "7b06d2becc321f9651770fa9c2da2d850df8edf9c1ac65f25c7c0934f341e50c",
+          "size": 465106,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(7).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(7).xlsx",
+          "hash": "5b4d724da8372f28749a62859f35447b8f322e37cce0c3a813e471ac177c79fe",
+          "size": 3981558,
+          "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 19.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 19.5.2026_signed.pdf",
-          "hash": "dee540508b5182af23cd8065e43809390f370b26d7cc9a7c60512dfd8dd19b70",
-          "size": 465215,
-          "doc_key": null,
+          "name": "Allegato 2 Relazione PEF 2026 Gestore Comune  Acquaviva Picena.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato 2 Relazione PEF 2026 Gestore Comune  Acquaviva Picena.pdf",
+          "hash": "bade1027523e679f79e7073fe4cc3256e1563b4f5103337821a72ad027b4a394",
+          "size": 649942,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni-signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni-signed.pdf",
+          "hash": "4596d051a58f6a027182442600bb87d30a2af470109a6e3e99435750ce756ec9",
+          "size": 399914,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T11:52:32.858606+00:00",
-          "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-02T13:21:28.447967+00:00",
           "zip_hash": "dfdb2ae2253d4d80a5b0851d45e9c3a1c9cebab7166791e0ce71a368dcbfde9a",
@@ -2982,35 +3063,22 @@
           "zip_hash": "6708b5f489ac43bf719e78d5c5da3037732f9cd4f4ff61812c1c09284cec73b2",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Acquaviva Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4865973
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Acquaviva Picena Rev.2.pdf.p7m",
-          "source": "comune",
-          "size": 3404282
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 19.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Acquaviva Picena 19.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 465215
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "af7f617d243ab070d992327cd46a9543e4526d99b11332d1caca53af02cd5789",
+          "changed": true,
+          "file_count": 6
         }
       ],
-      "processabile": "no"
+      "unclassified_files": [],
+      "processabile": "si"
     },
     "3": {
-      "zip_hash": "51e469ba5fec13b4217b95a2627a3347ce5a845e166edf8043d8a56394109d89",
-      "content_fingerprint": "86e8397749589994eea810b18903cf7b600d685209905163114c371003161dc5",
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
-      "zip_changed": false,
+      "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
+      "content_fingerprint": "b6fc042543fb9b47929e7f58cecb605c17de002b8ff95d2fd108d9355a824d63",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -3045,19 +3113,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
+          "current_hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "current_size": 3140470,
+          "current_size": 3151388,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-              "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-              "size": 3140470
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "size": 3151388
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -3077,24 +3145,30 @@
               "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "current_size": 464473,
+          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "current_size": 464299,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-              "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-              "size": 464473
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "size": 464299
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -3114,6 +3188,12 @@
               "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
               "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -3122,49 +3202,50 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "a0ba15b2aaef26ca4d484f8f9d7b7342c76f5613b643a7f691f3d27c544a3ecc",
-          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 aggiornato al 30.03.2026.xlsx",
-          "current_size": 3955159,
+          "current_hash": "9f333c6abe1b54bb3602da4271719d1cd066769bff9800c9469b727db2ff0bf9",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3980763,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 aggiornato al 30.03.2026.xlsx",
-              "hash": "a0ba15b2aaef26ca4d484f8f9d7b7342c76f5613b643a7f691f3d27c544a3ecc",
-              "size": 3955159
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "9f333c6abe1b54bb3602da4271719d1cd066769bff9800c9469b727db2ff0bf9",
+              "size": 3980763
             }
           ],
           "first_upload": "2026-04-07T09:46:49.391297+00:00",
-          "last_upload": "2026-04-07T09:46:49.391297+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-07T09:46:49.391297+00:00",
               "hash": "a0ba15b2aaef26ca4d484f8f9d7b7342c76f5613b643a7f691f3d27c544a3ecc",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 aggiornato al 30.03.2026.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "9f333c6abe1b54bb3602da4271719d1cd066769bff9800c9469b727db2ff0bf9",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
-          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
-          "current_size": 785104,
-          "file_count": 2,
+          "current_hash": "aa66b41f7b3e9c051619ebbee26d2c3d60a48894eb0f59fafb8341695e9e0771",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+          "current_size": 786450,
+          "file_count": 1,
           "all_files": [
             {
               "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
-              "hash": "9289eac606e6fb49b9d2cab9b34554370cbda91f41ed4acbda5d5b8ea2528bdc",
-              "size": 784337
-            },
-            {
-              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
-              "hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
-              "size": 785104
+              "hash": "aa66b41f7b3e9c051619ebbee26d2c3d60a48894eb0f59fafb8341695e9e0771",
+              "size": 786450
             }
           ],
           "first_upload": "2026-04-07T09:46:49.391297+00:00",
-          "last_upload": "2026-05-13T10:33:25.719465+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -3178,6 +3259,12 @@
               "hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
               "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "aa66b41f7b3e9c051619ebbee26d2c3d60a48894eb0f59fafb8341695e9e0771",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -3186,22 +3273,17 @@
           "current_hash": "794d3ab3cae5b032129e08c48ac60e198f6e68efbadf746f345dd61bd0346dd2",
           "current_file": "Carta didentitá Sara Moreschini.pdf",
           "current_size": 312747,
-          "file_count": 3,
+          "file_count": 2,
           "all_files": [
-            {
-              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
-              "hash": "c1c0be1bda1bf12af5626c3c5ee95405370c75dd7011324a41f95566a085bf68",
-              "size": 164764
-            },
             {
               "name": "Carta didentitá Sara Moreschini.pdf",
               "hash": "794d3ab3cae5b032129e08c48ac60e198f6e68efbadf746f345dd61bd0346dd2",
               "size": 312747
             },
             {
-              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni AGGIORNATA_signed.pdf",
-              "hash": "22ae5d7e1b043fc407b9e9a23e630b95e6e14fe2fbe24943c4b081e0e610bb17",
-              "size": 164905
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1)_signed.pdf",
+              "hash": "93ec03b93556c434647e7b0f909eb73dea0283f4d62eeeff1674655f372762ad",
+              "size": 164919
             }
           ],
           "first_upload": "2026-04-07T09:46:49.391297+00:00",
@@ -3235,49 +3317,33 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-          "size": 3140470,
+          "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+          "size": 3151388,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "size": 464473,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "size": 464299,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 aggiornato al 30.03.2026.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 aggiornato al 30.03.2026.xlsx",
-          "hash": "a0ba15b2aaef26ca4d484f8f9d7b7342c76f5613b643a7f691f3d27c544a3ecc",
-          "size": 3955159,
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "9f333c6abe1b54bb3602da4271719d1cd066769bff9800c9469b727db2ff0bf9",
+          "size": 3980763,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
           "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.pdf",
-          "hash": "9289eac606e6fb49b9d2cab9b34554370cbda91f41ed4acbda5d5b8ea2528bdc",
-          "size": 784337,
+          "hash": "aa66b41f7b3e9c051619ebbee26d2c3d60a48894eb0f59fafb8341695e9e0771",
+          "size": 786450,
           "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029-AGGIORNATA.pdf",
-          "hash": "7b25c8e51f096c406d016ffc86be43d95a6835cd9032b1b0895d0ddcafc145aa",
-          "size": 785104,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
-          "hash": "c1c0be1bda1bf12af5626c3c5ee95405370c75dd7011324a41f95566a085bf68",
-          "size": 164764,
-          "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
         {
@@ -3289,10 +3355,10 @@
           "source": "comune"
         },
         {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni AGGIORNATA_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni AGGIORNATA_signed.pdf",
-          "hash": "22ae5d7e1b043fc407b9e9a23e630b95e6e14fe2fbe24943c4b081e0e610bb17",
-          "size": 164905,
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1)_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1)_signed.pdf",
+          "hash": "93ec03b93556c434647e7b0f909eb73dea0283f4d62eeeff1674655f372762ad",
+          "size": 164919,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -3311,15 +3377,17 @@
           "size": 3543965,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "hash": "99accfe87e81c092c342078d399dd9d46dddc3cbe62f818798730514a1ca7792",
+          "size": 34405,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T10:56:21.171824+00:00",
-          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-02T11:52:32.858606+00:00",
           "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
@@ -3913,6 +3981,12 @@
           "zip_hash": "51e469ba5fec13b4217b95a2627a3347ce5a845e166edf8043d8a56394109d89",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -3927,6 +4001,12 @@
           "path": "Comune 2026/Eventuali - Comunicazioni supplementari/documentazione comune.zip",
           "source": "comune",
           "size": 3543965
+        },
+        {
+          "name": "Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "source": "comune",
+          "size": 34405
         }
       ],
       "info": {
@@ -3941,17 +4021,19 @@
       "last_scan_empty": true
     },
     "4": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Arquata del Tronto",
         "gestore": "Picenambiente",
-        "url": "https://drive.atarifiuti.ap.it/4g5saz8wvr38"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/4g5saz8wvr38",
+        "id": 4
       },
-      "zip_hash": "329e8e72573b662a1fe7eb5a500cd0ad647994e5221494625f5aa2c6cd76154a",
-      "content_fingerprint": "d97f74da1b19c04037e1bd160405a8d41fcb8b126ee15cbd7ff954e3d7bd4631",
-      "zip_changed": false,
+      "zip_hash": "0ab4d555c87fce60e31a3c8e9ee6ea2370991e56a0f7ebddcc74686e378465cd",
+      "content_fingerprint": "63869062e6fdb80a641db6cc59b96c0cec4794e1d4778ebe6c519aa6a9ae05f0",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -3986,19 +4068,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
+          "current_hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "current_size": 3140470,
+          "current_size": 3151388,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-              "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-              "size": 3140470
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "size": 3151388
             }
           ],
           "first_upload": "2026-05-16T19:11:24.493426+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -4018,24 +4100,30 @@
               "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "current_size": 464473,
+          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "current_size": 464299,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-              "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-              "size": 464473
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "size": 464299
             }
           ],
           "first_upload": "2026-05-16T19:11:24.493426+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -4055,6 +4143,12 @@
               "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
               "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -4063,44 +4157,50 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
+          "current_hash": "69aeaecb94b699d70eaa16a620db44f40f7a908ff5eeeafc14480cedcd366b8c",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "current_size": 3980888,
+          "current_size": 3980872,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-              "hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
-              "size": 3980888
+              "hash": "69aeaecb94b699d70eaa16a620db44f40f7a908ff5eeeafc14480cedcd366b8c",
+              "size": 3980872
             }
           ],
           "first_upload": "2026-05-13T08:21:13.491406+00:00",
-          "last_upload": "2026-05-13T08:21:13.491406+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-13T08:21:13.491406+00:00",
               "hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "69aeaecb94b699d70eaa16a620db44f40f7a908ff5eeeafc14480cedcd366b8c",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "1b88be8d2f4ed50f1daaf313cd1e2c76ae571713a488fd1229b536bf1a764835",
+          "current_hash": "757e66bd10d594656420ad349b9598fbdf881d0037c53210c83eb703366f7f8a",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
-          "current_size": 43918,
+          "current_size": 43903,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
-              "hash": "1b88be8d2f4ed50f1daaf313cd1e2c76ae571713a488fd1229b536bf1a764835",
-              "size": 43918
+              "hash": "757e66bd10d594656420ad349b9598fbdf881d0037c53210c83eb703366f7f8a",
+              "size": 43903
             }
           ],
           "first_upload": "2026-05-13T08:21:13.491406+00:00",
-          "last_upload": "2026-05-19T11:24:32.444869+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -4114,24 +4214,30 @@
               "hash": "1b88be8d2f4ed50f1daaf313cd1e2c76ae571713a488fd1229b536bf1a764835",
               "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "757e66bd10d594656420ad349b9598fbdf881d0037c53210c83eb703366f7f8a",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "747df32794ba091ff8cc0be9481a0bfe000b47ecf2009408e3dc871bb5609c1f",
+          "current_hash": "8fd57c65e369ce2c0fcc998bf2e2d15caf9d8045e96649943bd06e11fa842ef5",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
-          "current_size": 150384,
+          "current_size": 150401,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
-              "hash": "747df32794ba091ff8cc0be9481a0bfe000b47ecf2009408e3dc871bb5609c1f",
-              "size": 150384
+              "hash": "8fd57c65e369ce2c0fcc998bf2e2d15caf9d8045e96649943bd06e11fa842ef5",
+              "size": 150401
             }
           ],
           "first_upload": "2026-05-13T08:21:13.491406+00:00",
-          "last_upload": "2026-05-19T11:24:32.444869+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -4143,6 +4249,12 @@
             {
               "time": "2026-05-19T11:24:32.444869+00:00",
               "hash": "747df32794ba091ff8cc0be9481a0bfe000b47ecf2009408e3dc871bb5609c1f",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "8fd57c65e369ce2c0fcc998bf2e2d15caf9d8045e96649943bd06e11fa842ef5",
               "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
               "event": "sostituzione"
             }
@@ -4222,40 +4334,40 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-          "size": 3140470,
+          "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+          "size": 3151388,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "size": 464473,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "size": 464299,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "hash": "4c01052a38d7857618247f0fccf6c14748952735b091d423d87710ab30f24c4e",
-          "size": 3980888,
+          "hash": "69aeaecb94b699d70eaa16a620db44f40f7a908ff5eeeafc14480cedcd366b8c",
+          "size": 3980872,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
           "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
-          "hash": "1b88be8d2f4ed50f1daaf313cd1e2c76ae571713a488fd1229b536bf1a764835",
-          "size": 43918,
+          "hash": "757e66bd10d594656420ad349b9598fbdf881d0037c53210c83eb703366f7f8a",
+          "size": 43903,
           "doc_key": "relazione_c",
           "source": "comune"
         },
         {
           "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
           "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni (1).pdf.p7m",
-          "hash": "747df32794ba091ff8cc0be9481a0bfe000b47ecf2009408e3dc871bb5609c1f",
-          "size": 150384,
+          "hash": "8fd57c65e369ce2c0fcc998bf2e2d15caf9d8045e96649943bd06e11fa842ef5",
+          "size": 150401,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -4264,6 +4376,14 @@
           "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Documenti Giustificativi.zip",
           "hash": "b46dd3d3c53916f86326a777420bf6c0d416400845d09d175f0f03ad80f2ea1b",
           "size": 4052996,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "hash": "99accfe87e81c092c342078d399dd9d46dddc3cbe62f818798730514a1ca7792",
+          "size": 34405,
           "doc_key": null,
           "source": "comune"
         }
@@ -4730,6 +4850,12 @@
           "zip_hash": "329e8e72573b662a1fe7eb5a500cd0ad647994e5221494625f5aa2c6cd76154a",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "0ab4d555c87fce60e31a3c8e9ee6ea2370991e56a0f7ebddcc74686e378465cd",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -4738,12 +4864,18 @@
           "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Documenti Giustificativi.zip",
           "source": "comune",
           "size": 4052996
+        },
+        {
+          "name": "Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Rendicontazione costi ATA 2024 aggiornato.pdf",
+          "source": "comune",
+          "size": 34405
         }
       ],
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -5227,6 +5359,12 @@
         },
         {
           "time": "2026-05-19T20:46:31.249391+00:00",
+          "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
           "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
           "changed": false,
           "file_count": 10
@@ -24520,13 +24658,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-19T20:46:31.249391+00:00",
+    "last_scan": "2026-05-20T10:55:59.824705+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 8,
-      "invariati": 22,
+      "scansionati": 5,
+      "aggiornati": 4,
+      "invariati": 1,
       "errori": 0,
-      "vuoti": 3
+      "vuoti": 0
     },
     "total_comuni": 33,
     "scadenze": {
