@@ -5381,7 +5381,7 @@
       "processabile": "si"
     },
     "6": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -5391,9 +5391,9 @@
         "url": "https://drive.atarifiuti.ap.it/fcu3h2oxyfg",
         "id": 6
       },
-      "zip_hash": "467b612e170b97963b6b198b0e90968c7eec97032404fc16ba9a01f8d71c1d4f",
-      "content_fingerprint": "b0dc235ecc342ca74b04d379cf40bed7e9b5cbe7f1b8733008454bccd3d3d4d8",
-      "zip_changed": false,
+      "zip_hash": "8a66d5cdbe87a68a7d26dbecdff1da04aab59a77ed40751c70f89679a2aae698",
+      "content_fingerprint": "13fa1983cefeead76775a16e17e33804f1f670a9181d9a8a095bd04c9a5f1fba",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -5422,19 +5422,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "634e867fb161a73ce2664d7d86870d51e13cf42661076c65631265060504f2fe",
+          "current_hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
-          "current_size": 3330455,
+          "current_size": 3331058,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
-              "hash": "634e867fb161a73ce2664d7d86870d51e13cf42661076c65631265060504f2fe",
-              "size": 3330455
+              "hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
+              "size": 3331058
             }
           ],
           "first_upload": "2026-05-11T10:37:55.421025+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -5448,24 +5448,30 @@
               "hash": "634e867fb161a73ce2664d7d86870d51e13cf42661076c65631265060504f2fe",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "a2769af28f4df1726d47381518a8529de53bf838e802d5a26ef5f9e990a858e9",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 19.5.2026_signed.pdf",
-          "current_size": 485687,
+          "current_hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
+          "current_size": 485581,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 19.5.2026_signed.pdf",
-              "hash": "a2769af28f4df1726d47381518a8529de53bf838e802d5a26ef5f9e990a858e9",
-              "size": 485687
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
+              "hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
+              "size": 485581
             }
           ],
           "first_upload": "2026-05-11T10:37:55.421025+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -5478,6 +5484,12 @@
               "time": "2026-05-19T15:33:40.099680+00:00",
               "hash": "a2769af28f4df1726d47381518a8529de53bf838e802d5a26ef5f9e990a858e9",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 19.5.2026_signed.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -5513,16 +5525,16 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
-          "hash": "634e867fb161a73ce2664d7d86870d51e13cf42661076c65631265060504f2fe",
-          "size": 3330455,
+          "hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
+          "size": 3331058,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Carassai 19.5.2026_signed.pdf",
-          "hash": "a2769af28f4df1726d47381518a8529de53bf838e802d5a26ef5f9e990a858e9",
-          "size": 485687,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
+          "hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
+          "size": 485581,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         }
@@ -5797,19 +5809,25 @@
           "zip_hash": "467b612e170b97963b6b198b0e90968c7eec97032404fc16ba9a01f8d71c1d4f",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "8a66d5cdbe87a68a7d26dbecdff1da04aab59a77ed40751c70f89679a2aae698",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "7": {
-      "zip_hash": "b47c1a5e70942759ba31d4ed63ac8ad49e3cdd38c21d85adff52845e88651a21",
-      "content_fingerprint": "5c8202ca45e2c7c5f469e4c5942d11c2cb9cbd15aea17fe16901c2dc871dc287",
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "zip_hash": "50f294fbe7aead7886b8e640a2e047296fcd1551bc58abb833828f0c8e807584",
+      "content_fingerprint": "cce8470400b16821fdeed30bcfc76b7314403ba7e09815e1ee7706af7b62cf98",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "5c64676f4fbb48b0fe2c94e5acaf8dbe467bbefdad32c3d46f15f3c275a29929",
           "current_file": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4864260,
@@ -5843,24 +5861,23 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "cc6abd9eb4c808d50e958edacd1a1066b4196dc60266fbbd6da05ee124aa908d",
+          "status": "received",
+          "current_hash": "d9c1927c8655074bafb50c3d1b812464f54cc18542a8f2a365a9a62cae7b31e9",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama Rev.2.pdf.p7m",
-          "current_size": 3235712,
+          "current_size": 3246533,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama Rev.2.pdf.p7m",
-              "hash": "cc6abd9eb4c808d50e958edacd1a1066b4196dc60266fbbd6da05ee124aa908d",
-              "size": 3235712
+              "hash": "d9c1927c8655074bafb50c3d1b812464f54cc18542a8f2a365a9a62cae7b31e9",
+              "size": 3246533
             }
           ],
           "first_upload": "2026-05-16T09:44:40.050336+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -5886,25 +5903,30 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "d9c1927c8655074bafb50c3d1b812464f54cc18542a8f2a365a9a62cae7b31e9",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "b6606290fcafe58ba7fba200075dec804804c643884939cbf8f4ee81e702ba95",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 19.5.2026_signed.pdf",
-          "current_size": 485758,
+          "status": "received",
+          "current_hash": "695d1fb65a6e3855daa2e6204088bb139612821f706db7e7d1326db36a48404f",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 20.5.2026_signed.pdf",
+          "current_size": 485658,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 19.5.2026_signed.pdf",
-              "hash": "b6606290fcafe58ba7fba200075dec804804c643884939cbf8f4ee81e702ba95",
-              "size": 485758
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 20.5.2026_signed.pdf",
+              "hash": "695d1fb65a6e3855daa2e6204088bb139612821f706db7e7d1326db36a48404f",
+              "size": 485658
             }
           ],
           "first_upload": "2026-05-16T09:44:40.050336+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -5930,9 +5952,14 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "695d1fb65a6e3855daa2e6204088bb139612821f706db7e7d1326db36a48404f",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -6098,6 +6125,30 @@
       },
       "all_files": [
         {
+          "name": "Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castel di Lama Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "5c64676f4fbb48b0fe2c94e5acaf8dbe467bbefdad32c3d46f15f3c275a29929",
+          "size": 4864260,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castel di Lama Rev.2.pdf.p7m",
+          "hash": "d9c1927c8655074bafb50c3d1b812464f54cc18542a8f2a365a9a62cae7b31e9",
+          "size": 3246533,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castel di Lama 20.5.2026_signed.pdf",
+          "hash": "695d1fb65a6e3855daa2e6204088bb139612821f706db7e7d1326db36a48404f",
+          "size": 485658,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029(4).xlsx",
           "hash": "d3e6d66804a73889749006ca131a9ea9d35fac426c55687f86a9807c32c86692",
@@ -6131,12 +6182,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T13:21:28.447967+00:00",
-          "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-02T14:53:03.761572+00:00",
           "zip_hash": "063466cb743f3d83f32d5c46cbbef1be7f56cdb51a4c3bc3aa8aa68e20d84e00",
@@ -6730,6 +6775,12 @@
           "zip_hash": "b47c1a5e70942759ba31d4ed63ac8ad49e3cdd38c21d85adff52845e88651a21",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "50f294fbe7aead7886b8e640a2e047296fcd1551bc58abb833828f0c8e807584",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -6741,13 +6792,13 @@
         "id": 7
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "8": {
-      "zip_hash": "66e44e10ed058d745706fb318dedac7ac92d55fd77566ecc5ad72feeee55e2f3",
-      "content_fingerprint": "81d309b2ad42b53b12c4f74183d6ea39b3326b0d87f35b1ca12e64f906fc6d96",
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
-      "zip_changed": false,
+      "zip_hash": "9ae3e2950703f1665da282c1be428c57df219691d160f039ea668ceec3fb55e2",
+      "content_fingerprint": "c01ed18b7b7800e4b12a93f7e436d6fa95da9106269bb0caf6096b34ed756c78",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -6794,19 +6845,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
+          "current_hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "current_size": 3140470,
+          "current_size": 3151388,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-              "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-              "size": 3140470
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "size": 3151388
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -6838,24 +6889,30 @@
               "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "current_size": 464473,
+          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "current_size": 464299,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-              "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-              "size": 464473
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "size": 464299
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -6886,6 +6943,12 @@
               "time": "2026-05-19T15:33:40.099680+00:00",
               "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
               "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -7005,16 +7068,16 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-          "size": 3140470,
+          "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+          "size": 3151388,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "size": 464473,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "size": 464299,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -7044,12 +7107,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T13:21:28.447967+00:00",
-          "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-02T14:53:03.761572+00:00",
           "zip_hash": "0d67d3153cefd7668c9169b4c9db6fea75c4004ffa0cd84769c8525ae8c11065",
@@ -7643,6 +7700,12 @@
           "zip_hash": "66e44e10ed058d745706fb318dedac7ac92d55fd77566ecc5ad72feeee55e2f3",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "9ae3e2950703f1665da282c1be428c57df219691d160f039ea668ceec3fb55e2",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -7657,13 +7720,13 @@
       "processabile": "si"
     },
     "9": {
-      "zip_hash": "cd909b61f39bb1f2214d6ba5b07a1865d3bac01b92fc400a643b4893c39264ab",
-      "content_fingerprint": "a8855abfde054db2fe5c5c3ee08cf614c32e66dab52066b3506c89ecdeb9b33f",
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "zip_hash": "732274c5c6c48799dce9d897e2cc7a7a4dddf1c244b3219edad7e8a1c04028a8",
+      "content_fingerprint": "8a503c9a65b3546c82a5df8fcd0db16d505cbf741b333791e7bdcd9c9224d0fe",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d6d28564226a412df9abaaad756979d581e8510a7ff0338817bb37d48a1268f9",
           "current_file": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4865903,
@@ -7721,24 +7784,23 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "58a69a756913654288c3ca4dcde8e56366aac93eef4078ae624f28984d64f8a7",
+          "status": "received",
+          "current_hash": "717199302151cd65fa2ad688806f053a5f2dc08b698be8c0c66414821b1ab497",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
-          "current_size": 3407541,
+          "current_size": 3417745,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
-              "hash": "58a69a756913654288c3ca4dcde8e56366aac93eef4078ae624f28984d64f8a7",
-              "size": 3407541
+              "hash": "717199302151cd65fa2ad688806f053a5f2dc08b698be8c0c66414821b1ab497",
+              "size": 3417745
             }
           ],
           "first_upload": "2026-05-11T10:47:53.001618+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -7788,25 +7850,30 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "717199302151cd65fa2ad688806f053a5f2dc08b698be8c0c66414821b1ab497",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "056725da84f934393c351b71284b43c833e4cdf48f76a75f2865691fbf24dd5e",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Castorano 19.5.2026_signed.pdf",
-          "current_size": 465150,
+          "status": "received",
+          "current_hash": "3bdb5dc9b50efec23d99bd68f597c5896cf11981fbf2db638ad10bf5ddaf820f",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Castorano 20.5.2026_signed.pdf",
+          "current_size": 465033,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 19.5.2026_signed.pdf",
-              "hash": "056725da84f934393c351b71284b43c833e4cdf48f76a75f2865691fbf24dd5e",
-              "size": 465150
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 20.5.2026_signed.pdf",
+              "hash": "3bdb5dc9b50efec23d99bd68f597c5896cf11981fbf2db638ad10bf5ddaf820f",
+              "size": 465033
             }
           ],
           "first_upload": "2026-05-11T10:47:53.001618+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -7856,15 +7923,20 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "3bdb5dc9b50efec23d99bd68f597c5896cf11981fbf2db638ad10bf5ddaf820f",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Castorano 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "20250090b36e816dab9fce1fbfec6500eea7baec79212c8333b2dd6e8cdfc2b2",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano_corretto 14.05.xlsx",
           "current_size": 3982433,
@@ -7909,11 +7981,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "1f070e35d331d26a35a7ca70e85bfb500c4178009d229a6544df9069d23b3e98",
           "current_file": "Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
           "current_size": 207122,
@@ -7947,11 +8018,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "fd86c5c107bdbb06fbd6360c5921e70c37cf98c74a9d8dad7de6a761164b5d41",
           "current_file": "Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
           "current_size": 166743,
@@ -7991,8 +8061,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -8004,36 +8073,62 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "d6d28564226a412df9abaaad756979d581e8510a7ff0338817bb37d48a1268f9",
           "size": 4865903,
-          "doc_key": null,
-          "source": "comune"
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
-          "hash": "58a69a756913654288c3ca4dcde8e56366aac93eef4078ae624f28984d64f8a7",
-          "size": 3407541,
-          "doc_key": null,
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
+          "hash": "717199302151cd65fa2ad688806f053a5f2dc08b698be8c0c66414821b1ab497",
+          "size": 3417745,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castorano 20.5.2026_signed.pdf",
+          "hash": "3bdb5dc9b50efec23d99bd68f597c5896cf11981fbf2db638ad10bf5ddaf820f",
+          "size": 465033,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano.xlsx",
+          "hash": "f5c63f01b581800b6d1dfc40c821bf9ce3497170d559e42f268ebc16908b77b3",
+          "size": 3982402,
+          "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 19.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castorano 19.5.2026_signed.pdf",
-          "hash": "056725da84f934393c351b71284b43c833e4cdf48f76a75f2865691fbf24dd5e",
-          "size": 465150,
-          "doc_key": null,
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano_corretto 14.05.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 Castorano_corretto 14.05.xlsx",
+          "hash": "20250090b36e816dab9fce1fbfec6500eea7baec79212c8333b2dd6e8cdfc2b2",
+          "size": 3982433,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_2026-2029_CASTORANO.pdf",
+          "hash": "1f070e35d331d26a35a7ca70e85bfb500c4178009d229a6544df9069d23b3e98",
+          "size": 207122,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_CASTORANO_signed.pdf",
+          "hash": "fd86c5c107bdbb06fbd6360c5921e70c37cf98c74a9d8dad7de6a761164b5d41",
+          "size": 166743,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T13:21:28.447967+00:00",
-          "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-02T14:53:03.761572+00:00",
           "zip_hash": "a9d9c35c5df67d30e248e9c6ddd002aded7279d6c94efb1928cffb7a2feb2557",
@@ -8627,28 +8722,15 @@
           "zip_hash": "cd909b61f39bb1f2214d6ba5b07a1865d3bac01b92fc400a643b4893c39264ab",
           "changed": true,
           "file_count": 3
-        }
-      ],
-      "unclassified_files": [
-        {
-          "name": "Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Castorano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "source": "comune",
-          "size": 4865903
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
-          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Castorano Rev.2.pdf.p7m",
-          "source": "comune",
-          "size": 3407541
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Castorano 19.5.2026_signed.pdf",
-          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Castorano 19.5.2026_signed.pdf",
-          "source": "comune",
-          "size": 465150
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "732274c5c6c48799dce9d897e2cc7a7a4dddf1c244b3219edad7e8a1c04028a8",
+          "changed": true,
+          "file_count": 7
         }
       ],
+      "unclassified_files": [],
       "info": {
         "comune": "Castorano",
         "gestore": "Picenambiente",
@@ -8657,13 +8739,13 @@
         "id": 9
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "si"
     },
     "10": {
-      "zip_hash": "b51d97c863abffd2ceab9b09a3eafe23c1c5b088fd2fa50aa77ae0e42f11511a",
-      "content_fingerprint": "7f997024a6d8588b85355113921ecbf315d0cd76f2562f56b4758d97896a9c83",
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
-      "zip_changed": false,
+      "zip_hash": "a7bb8fcc30c2ec5a62411c6b90e066e3760f30c2ec24daab13deb67ea925e9d3",
+      "content_fingerprint": "7e831d182401c15e628fbd406f44d49a6cc366455c49bf5aa4b690f8b3dc46cd",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -8716,19 +8798,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "277a7d802fd7607c82f41f908234c9836e21f090c09ea8e1430d8a2809d3615b",
+          "current_hash": "16bb318d8e497f17374c69169de8c6d4e7beba0c248ffec8ac476bb28b68c3ee",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Colli del Tronto Rev.2.pdf.p7m",
-          "current_size": 3407348,
+          "current_size": 3417425,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Colli del Tronto Rev.2.pdf.p7m",
-              "hash": "277a7d802fd7607c82f41f908234c9836e21f090c09ea8e1430d8a2809d3615b",
-              "size": 3407348
+              "hash": "16bb318d8e497f17374c69169de8c6d4e7beba0c248ffec8ac476bb28b68c3ee",
+              "size": 3417425
             }
           ],
           "first_upload": "2026-05-11T10:50:01.538385+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -8766,24 +8848,30 @@
               "hash": "277a7d802fd7607c82f41f908234c9836e21f090c09ea8e1430d8a2809d3615b",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Colli del Tronto Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "16bb318d8e497f17374c69169de8c6d4e7beba0c248ffec8ac476bb28b68c3ee",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Colli del Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "0d3410be3ecdaa4894c49afee0165c97eeb23bd8d91ba4f8c7188495aa903d85",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 19.5.2026_signed.pdf",
-          "current_size": 485486,
+          "current_hash": "6718292f49d6ad3058c37e6fba66c122b60917780d0fc07ac4c57c2ab576bb88",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 20.5.2026_signed.pdf",
+          "current_size": 485345,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 19.5.2026_signed.pdf",
-              "hash": "0d3410be3ecdaa4894c49afee0165c97eeb23bd8d91ba4f8c7188495aa903d85",
-              "size": 485486
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 20.5.2026_signed.pdf",
+              "hash": "6718292f49d6ad3058c37e6fba66c122b60917780d0fc07ac4c57c2ab576bb88",
+              "size": 485345
             }
           ],
           "first_upload": "2026-05-11T10:50:01.538385+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -8820,6 +8908,12 @@
               "time": "2026-05-19T15:33:40.099680+00:00",
               "hash": "0d3410be3ecdaa4894c49afee0165c97eeb23bd8d91ba4f8c7188495aa903d85",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 19.5.2026_signed.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "6718292f49d6ad3058c37e6fba66c122b60917780d0fc07ac4c57c2ab576bb88",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 20.5.2026_signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -9002,16 +9096,16 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Colli del Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Colli del Tronto Rev.2.pdf.p7m",
-          "hash": "277a7d802fd7607c82f41f908234c9836e21f090c09ea8e1430d8a2809d3615b",
-          "size": 3407348,
+          "hash": "16bb318d8e497f17374c69169de8c6d4e7beba0c248ffec8ac476bb28b68c3ee",
+          "size": 3417425,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 19.5.2026_signed.pdf",
-          "hash": "0d3410be3ecdaa4894c49afee0165c97eeb23bd8d91ba4f8c7188495aa903d85",
-          "size": 485486,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Colli del Tronto 20.5.2026_signed.pdf",
+          "hash": "6718292f49d6ad3058c37e6fba66c122b60917780d0fc07ac4c57c2ab576bb88",
+          "size": 485345,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -9065,12 +9159,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-02T11:52:32.858606+00:00",
-          "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-02T13:21:28.447967+00:00",
           "zip_hash": "1aac9edc385a2c89ae8a54702ea61b664d5a63218db762316ec814c6ebbf9c8b",
@@ -9663,6 +9751,12 @@
           "time": "2026-05-19T20:46:31.249391+00:00",
           "zip_hash": "b51d97c863abffd2ceab9b09a3eafe23c1c5b088fd2fa50aa77ae0e42f11511a",
           "changed": false,
+          "file_count": 9
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "a7bb8fcc30c2ec5a62411c6b90e066e3760f30c2ec24daab13deb67ea925e9d3",
+          "changed": true,
           "file_count": 9
         }
       ],
@@ -24660,8 +24754,8 @@
   "meta": {
     "last_scan": "2026-05-20T10:55:59.824705+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 4,
+      "scansionati": 10,
+      "aggiornati": 9,
       "invariati": 1,
       "errori": 0,
       "vuoti": 0
