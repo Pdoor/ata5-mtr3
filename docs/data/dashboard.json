@@ -24541,7 +24541,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-20T16:56:38.680550+00:00",
+      "last_scan": "2026-05-20T19:30:39.650226+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -25064,6 +25064,12 @@
         },
         {
           "time": "2026-05-20T16:56:38.680550+00:00",
+          "zip_hash": "db0d7b3861d7475dc8cf379cc17e535355126439de4b7dfe845b15b56db20a49",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-20T19:30:39.650226+00:00",
           "zip_hash": "db0d7b3861d7475dc8cf379cc17e535355126439de4b7dfe845b15b56db20a49",
           "changed": false,
           "file_count": 7
@@ -25652,9 +25658,9 @@
   "meta": {
     "last_scan": "2026-05-20T19:30:39.650226+00:00",
     "results": {
-      "scansionati": 30,
+      "scansionati": 31,
       "aggiornati": 1,
-      "invariati": 29,
+      "invariati": 30,
       "errori": 0,
       "vuoti": 2
     },
