@@ -22314,7 +22314,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -22324,9 +22324,9 @@
         "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
         "id": 31
       },
-      "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
-      "content_fingerprint": "9595ef392e2c1287db975847117b6e60e024d2c02746295462eff4bfa6866422",
-      "zip_changed": false,
+      "zip_hash": "74cfdc180ecdf1af281465c0128ad0ce6ef5dfab7472118e32a3cee5ffef8416",
+      "content_fingerprint": "9bc0b587e56d513c029d3874b14a911c609e8d0b097b18dad6aa70d43284e58b",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -22409,19 +22409,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
+          "current_hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
-          "current_size": 9486816,
+          "current_size": 9494880,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
-              "hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
-              "size": 9486816
+              "hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
+              "size": 9494880
             }
           ],
           "first_upload": "2026-05-06T08:05:44.361219+00:00",
-          "last_upload": "2026-05-19T11:24:32.444869+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -22489,24 +22489,30 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
-          "current_size": 465198,
+          "current_hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "current_size": 465131,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
-              "hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
-              "size": 465198
+              "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+              "hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
+              "size": 465131
             }
           ],
           "first_upload": "2026-05-06T08:05:44.361219+00:00",
-          "last_upload": "2026-05-19T11:24:32.444869+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -22574,6 +22580,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -22788,16 +22800,16 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
-          "hash": "ab3024001417944f4a3d156f38b6d31f37df2a119da0890109df5b9dbc15d9e0",
-          "size": 9486816,
+          "hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
+          "size": 9494880,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 19.05.2026_signed.pdf",
-          "hash": "98502545f82a8f797ccaef386dacdc7e33c356fcbfb7e7105904b9ca4ff44f15",
-          "size": 465198,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
+          "size": 465131,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -23264,19 +23276,25 @@
           "zip_hash": "1934fa2e528767f859e70d1c2a6816b926dd65cbc3aef10118c786c103f3c3b9",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "74cfdc180ecdf1af281465c0128ad0ce6ef5dfab7472118e32a3cee5ffef8416",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "32": {
-      "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-      "content_fingerprint": "6138fa3e6d6268bbb1d2b28563d39f6d58305e746d294378f3ad780811627c2c",
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
+      "content_fingerprint": "250f2c40d3b104ade7d61d2ba1903d74993f4b4529e12a60cd73bb377255eb1e",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "a5017bdc6b9dd79aeab6adad901bf2687f4357789f5afff56de1af7b654622d3",
           "current_file": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4867660,
@@ -23316,24 +23334,23 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
-          "current_hash": "710d24a3aa059f5d6e2f3d2ee5c017977a86f0dacfa5d84c301bde9b1c30a4a9",
+          "status": "received",
+          "current_hash": "9577d444cb5ab9c129e6caa6c110967071a6703fb628aa9097d0a551e8f8f474",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
-          "current_size": 4525841,
+          "current_size": 4536547,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
-              "hash": "710d24a3aa059f5d6e2f3d2ee5c017977a86f0dacfa5d84c301bde9b1c30a4a9",
-              "size": 4525841
+              "hash": "9577d444cb5ab9c129e6caa6c110967071a6703fb628aa9097d0a551e8f8f474",
+              "size": 4536547
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -23365,25 +23382,30 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "9577d444cb5ab9c129e6caa6c110967071a6703fb628aa9097d0a551e8f8f474",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
-          "current_hash": "2cb2afb1d92bada9cdf0f3534593db3a1e7d7bcc19797caa481b45c1a7212fcf",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 19.5.2026_signed.pdf",
-          "current_size": 492926,
+          "status": "received",
+          "current_hash": "e74664a218b20fa98805ddd9b5ef1b6b1548a9b16c208ce1df41a545446dcb36",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 20.5.2026_signed.pdf",
+          "current_size": 492788,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 19.5.2026_signed.pdf",
-              "hash": "2cb2afb1d92bada9cdf0f3534593db3a1e7d7bcc19797caa481b45c1a7212fcf",
-              "size": 492926
+              "name": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 20.5.2026_signed.pdf",
+              "hash": "e74664a218b20fa98805ddd9b5ef1b6b1548a9b16c208ce1df41a545446dcb36",
+              "size": 492788
             }
           ],
           "first_upload": "2026-05-11T11:22:43.881645+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -23415,9 +23437,14 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "e74664a218b20fa98805ddd9b5ef1b6b1548a9b16c208ce1df41a545446dcb36",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 20.5.2026_signed.pdf",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-19T20:46:31.249391+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -23547,6 +23574,30 @@
       },
       "all_files": [
         {
+          "name": "Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Spinetoli Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "a5017bdc6b9dd79aeab6adad901bf2687f4357789f5afff56de1af7b654622d3",
+          "size": 4867660,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Spinetoli Rev.2.pdf.p7m",
+          "hash": "9577d444cb5ab9c129e6caa6c110967071a6703fb628aa9097d0a551e8f8f474",
+          "size": 4536547,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Spinetoli 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Spinetoli 20.5.2026_signed.pdf",
+          "hash": "e74664a218b20fa98805ddd9b5ef1b6b1548a9b16c208ce1df41a545446dcb36",
+          "size": 492788,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
           "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
@@ -23580,12 +23631,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T13:27:02.850695+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-01T15:00:21.039701+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -24179,6 +24224,12 @@
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -24190,11 +24241,11 @@
         "id": 32
       },
       "last_scan_error": false,
-      "processabile": "no",
+      "processabile": "si",
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-19T20:46:31.249391+00:00",
+      "last_scan": "2026-05-20T10:55:59.824705+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -24204,9 +24255,9 @@
         "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg",
         "id": 33
       },
-      "zip_hash": "bf67f35e776c068a6e63c32f5294bc02ff56852595aaf4e3f5ca1259fb4ce595",
-      "content_fingerprint": "7eb9542470590d9be333de41a3967eb051d8274332421aeb90d6afd7d251a329",
-      "zip_changed": false,
+      "zip_hash": "b45a0d166929bec5fe2d9481096e488f5420d80f4ff74e493c9196c079e37758",
+      "content_fingerprint": "bbc59b8bf9b9c9df2b17307f9685ae9529e9a797f770ecbbacd6c19efbcdd964",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -24235,19 +24286,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
+          "current_hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "current_size": 3140470,
+          "current_size": 3151388,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-              "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-              "size": 3140470
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "size": 3151388
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -24261,24 +24312,30 @@
               "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+              "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "current_size": 464473,
+          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "current_size": 464299,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-              "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-              "size": 464473
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "size": 464299
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-05-20T10:55:59.824705+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -24291,6 +24348,12 @@
               "time": "2026-05-19T15:33:40.099680+00:00",
               "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
               "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-20T10:55:59.824705+00:00",
+              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -24392,16 +24455,16 @@
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
           "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Comuni Unione Montana Tronto Rev.2.pdf.p7m",
-          "hash": "726206fd74e7023a082a3f33293f440f7d2e8ef6463ce9d21f9b5ce49aaad230",
-          "size": 3140470,
+          "hash": "2f4729fd96c6d26fc7dfa7842f7028b74df6b78f1fa6b79a318d8c197b2dcf56",
+          "size": 3151388,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 19.5.2026_signed.pdf",
-          "hash": "92d5576323d9b43bd55851ce0b5b0817d00714956cf96d456e047e049499aeb6",
-          "size": 464473,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
+          "size": 464299,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -24663,6 +24726,12 @@
           "time": "2026-05-19T20:46:31.249391+00:00",
           "zip_hash": "bf67f35e776c068a6e63c32f5294bc02ff56852595aaf4e3f5ca1259fb4ce595",
           "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-20T10:55:59.824705+00:00",
+          "zip_hash": "b45a0d166929bec5fe2d9481096e488f5420d80f4ff74e493c9196c079e37758",
+          "changed": true,
           "file_count": 6
         }
       ],
@@ -25224,8 +25293,8 @@
   "meta": {
     "last_scan": "2026-05-20T10:55:59.824705+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 25,
+      "scansionati": 33,
+      "aggiornati": 28,
       "invariati": 5,
       "errori": 0,
       "vuoti": 0
@@ -25236,7 +25305,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
