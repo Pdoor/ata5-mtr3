@@ -23654,7 +23654,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-05-23T09:57:21.840432+00:00",
+      "last_scan": "2026-05-23T11:20:00.815594+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -23664,12 +23664,12 @@
         "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
         "id": 31
       },
-      "zip_hash": "5bed2240da6fd4749e6172aaf22ba1bcfce9d2effae675f526ebf2d3903cc25a",
-      "content_fingerprint": "f44e8df4383c9d3a9c593900deda37dc94561d04543503876156b62ab96c0595",
+      "zip_hash": "74cfdc180ecdf1af281465c0128ad0ce6ef5dfab7472118e32a3cee5ffef8416",
+      "content_fingerprint": "9bc0b587e56d513c029d3874b14a911c609e8d0b097b18dad6aa70d43284e58b",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "ee39bff2c8fe1049de3f8338555445c50d5b277977fa87e3c88cb7408003116a",
           "current_file": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "current_size": 5033317,
@@ -23751,11 +23751,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-23T09:57:21.840432+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
           "current_size": 9494880,
@@ -23849,11 +23848,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-23T09:57:21.840432+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
           "current_size": 465131,
@@ -23947,8 +23945,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-05-23T09:57:21.840432+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -24150,6 +24147,30 @@
         }
       },
       "all_files": [
+        {
+          "name": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "hash": "ee39bff2c8fe1049de3f8338555445c50d5b277977fa87e3c88cb7408003116a",
+          "size": 5033317,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
+          "size": 9494880,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
+          "size": 465131,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
@@ -24697,15 +24718,21 @@
           "zip_hash": "5bed2240da6fd4749e6172aaf22ba1bcfce9d2effae675f526ebf2d3903cc25a",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-23T11:20:00.815594+00:00",
+          "zip_hash": "74cfdc180ecdf1af281465c0128ad0ce6ef5dfab7472118e32a3cee5ffef8416",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "32": {
       "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
       "content_fingerprint": "250f2c40d3b104ade7d61d2ba1903d74993f4b4529e12a60cd73bb377255eb1e",
-      "last_scan": "2026-05-23T09:57:21.840432+00:00",
+      "last_scan": "2026-05-23T11:20:00.815594+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -25046,12 +25073,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-03T13:20:29.695293+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-03T14:52:49.884882+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -25645,6 +25666,12 @@
           "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-23T11:20:00.815594+00:00",
+          "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -25660,7 +25687,7 @@
       "last_scan_empty": true
     },
     "33": {
-      "last_scan": "2026-05-23T09:57:21.840432+00:00",
+      "last_scan": "2026-05-23T11:20:00.815594+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -26249,6 +26276,12 @@
         },
         {
           "time": "2026-05-23T09:57:21.840432+00:00",
+          "zip_hash": "db0d7b3861d7475dc8cf379cc17e535355126439de4b7dfe845b15b56db20a49",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-23T11:20:00.815594+00:00",
           "zip_hash": "db0d7b3861d7475dc8cf379cc17e535355126439de4b7dfe845b15b56db20a49",
           "changed": false,
           "file_count": 7
@@ -26929,9 +26962,9 @@
   "meta": {
     "last_scan": "2026-05-23T11:20:00.815594+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 0,
-      "invariati": 30,
+      "scansionati": 33,
+      "aggiornati": 1,
+      "invariati": 32,
       "errori": 0,
       "vuoti": 0
     },
@@ -26941,7 +26974,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
