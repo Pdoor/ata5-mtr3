@@ -21240,7 +21240,7 @@
     "27": {
       "zip_hash": "f1f3ecdd8bf34715ad74c8d7279a21aae2de425dd8d69f78bff3b46a2d58ed98",
       "content_fingerprint": "caf16df57520478710270419ed0c4712f1b9cf4ab2471f55c9090a2b7de882d9",
-      "last_scan": "2026-05-24T17:07:47.779707+00:00",
+      "last_scan": "2026-05-24T19:22:30.706950+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21556,12 +21556,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-06T10:22:43.825598+00:00",
-          "zip_hash": "7c44d863bc1f57618d71647290c4f617d8f7a0ae8772d249391a21481bb2b665",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-06T12:57:58.535974+00:00",
           "zip_hash": "7c44d863bc1f57618d71647290c4f617d8f7a0ae8772d249391a21481bb2b665",
@@ -22155,6 +22149,12 @@
           "zip_hash": "f1f3ecdd8bf34715ad74c8d7279a21aae2de425dd8d69f78bff3b46a2d58ed98",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-24T19:22:30.706950+00:00",
+          "zip_hash": "f1f3ecdd8bf34715ad74c8d7279a21aae2de425dd8d69f78bff3b46a2d58ed98",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -22169,7 +22169,7 @@
       "processabile": "si"
     },
     "28": {
-      "last_scan": "2026-05-24T17:07:47.779707+00:00",
+      "last_scan": "2026-05-24T19:22:30.706950+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -23158,6 +23158,12 @@
           "zip_hash": "c758615e2867bd9acfc123d877bdb1a00ad60c632b582c8f37e3b7b825cac5d3",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-24T19:22:30.706950+00:00",
+          "zip_hash": "c758615e2867bd9acfc123d877bdb1a00ad60c632b582c8f37e3b7b825cac5d3",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -23171,7 +23177,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-24T17:07:47.779707+00:00",
+      "last_scan": "2026-05-24T19:22:30.706950+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -23811,6 +23817,12 @@
           "zip_hash": "870e3cc6aae7d8549251b0c92cec0a97ca27874ce44918b51e7f4d122993bbef",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-24T19:22:30.706950+00:00",
+          "zip_hash": "870e3cc6aae7d8549251b0c92cec0a97ca27874ce44918b51e7f4d122993bbef",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -23824,7 +23836,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-05-24T17:07:47.779707+00:00",
+      "last_scan": "2026-05-24T19:22:30.706950+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -24480,13 +24492,19 @@
           "zip_hash": "1f6705fc0a89eed4e4011ba10636eb0504a886cbafb1502a4acab5b047c513a9",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-24T19:22:30.706950+00:00",
+          "zip_hash": "1f6705fc0a89eed4e4011ba10636eb0504a886cbafb1502a4acab5b047c513a9",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-05-24T17:07:47.779707+00:00",
+      "last_scan": "2026-05-24T19:22:30.706950+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -24496,12 +24514,12 @@
         "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
         "id": 31
       },
-      "zip_hash": "74cfdc180ecdf1af281465c0128ad0ce6ef5dfab7472118e32a3cee5ffef8416",
-      "content_fingerprint": "9bc0b587e56d513c029d3874b14a911c609e8d0b097b18dad6aa70d43284e58b",
-      "zip_changed": false,
+      "zip_hash": "706ee7b0d1b9ba881db8176e97ce9fd2d740227d2d10b2a096199f8a2b6b2c5c",
+      "content_fingerprint": "94c0d67798fdab5d1dd13b02ac79a9e45a2e7ee42d200251b3d94a7fa6fe6a99",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "ee39bff2c8fe1049de3f8338555445c50d5b277977fa87e3c88cb7408003116a",
           "current_file": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "current_size": 5033317,
@@ -24594,11 +24612,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T19:22:30.706950+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T19:22:30.706950+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
           "current_size": 9494880,
@@ -24703,11 +24728,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T19:22:30.706950+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T19:22:30.706950+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
           "current_size": 465131,
@@ -24812,14 +24844,21 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T19:22:30.706950+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T19:22:30.706950+00:00"
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "b96301dab39da47ca6b21a0d985f120d91cc38bc704abcc097843dfcf43714f2",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 4109103,
@@ -24882,11 +24921,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T19:22:30.706950+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T19:22:30.706950+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "a15f16ef5688f2d849d3a57f5f0de0e750945ba1075fb9015555c34dc01bcc14",
           "current_file": "Allegato_2_Relazione_Accompagnamento.pdf",
           "current_size": 4628499,
@@ -24943,11 +24989,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T19:22:30.706950+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T19:22:30.706950+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "95954e10b513b4c5a6a026f4cbffbedb483eeee5840acd9b5d1bc7ecf27fc200",
           "current_file": "Allegato_3_Dichiarazione_Veridicita_Comune.p7m",
           "current_size": 2233864,
@@ -25004,8 +25057,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T19:22:30.706950+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T19:22:30.706950+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -25017,50 +25077,26 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "hash": "ee39bff2c8fe1049de3f8338555445c50d5b277977fa87e3c88cb7408003116a",
           "size": 5033317,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
           "hash": "87349231acdcf1df1ab0d1c12a179991ec005d7e783c7bf1226d7b9c4c94a994",
           "size": 9494880,
-          "doc_key": "relazione",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
           "hash": "9367728f0006510b00f589235736e2412582ae8eb616ea7ab5a96f8f94c78050",
           "size": 465131,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "hash": "b96301dab39da47ca6b21a0d985f120d91cc38bc704abcc097843dfcf43714f2",
-          "size": 4109103,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_2_Relazione_Accompagnamento.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato_2_Relazione_Accompagnamento.pdf",
-          "hash": "a15f16ef5688f2d849d3a57f5f0de0e750945ba1075fb9015555c34dc01bcc14",
-          "size": 4628499,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_3_Dichiarazione_Veridicita_Comune.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_3_Dichiarazione_Veridicita_Comune.p7m",
-          "hash": "95954e10b513b4c5a6a026f4cbffbedb483eeee5840acd9b5d1bc7ecf27fc200",
-          "size": 2233864,
-          "doc_key": "dich_veridicita_c",
+          "doc_key": null,
           "source": "comune"
         }
       ],
@@ -25646,10 +25682,35 @@
           "zip_hash": "74cfdc180ecdf1af281465c0128ad0ce6ef5dfab7472118e32a3cee5ffef8416",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-24T19:22:30.706950+00:00",
+          "zip_hash": "706ee7b0d1b9ba881db8176e97ce9fd2d740227d2d10b2a096199f8a2b6b2c5c",
+          "changed": true,
+          "file_count": 3
         }
       ],
-      "unclassified_files": [],
-      "processabile": "si"
+      "unclassified_files": [
+        {
+          "name": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
+          "source": "comune",
+          "size": 5033317
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - San Benedetto del Tronto Rev.2.pdf.p7m",
+          "source": "comune",
+          "size": 9494880
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - San Benedetto del Tronto 20.05.2026_signed.pdf",
+          "source": "comune",
+          "size": 465131
+        }
+      ],
+      "processabile": "no"
     },
     "32": {
       "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
@@ -28034,9 +28095,9 @@
   "meta": {
     "last_scan": "2026-05-24T19:22:30.706950+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 0,
-      "invariati": 25,
+      "scansionati": 30,
+      "aggiornati": 1,
+      "invariati": 29,
       "errori": 0,
       "vuoti": 1
     },
