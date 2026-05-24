@@ -13903,7 +13903,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-24T13:43:55.230687+00:00",
+      "last_scan": "2026-05-24T15:08:03.192738+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -14619,13 +14619,19 @@
           "zip_hash": "cd8467c1954198920d0b6f2ec81180e9243d3e77d52f28185143fa78457df915",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-24T15:08:03.192738+00:00",
+          "zip_hash": "cd8467c1954198920d0b6f2ec81180e9243d3e77d52f28185143fa78457df915",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-24T13:43:55.230687+00:00",
+      "last_scan": "2026-05-24T15:08:03.192738+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -15491,13 +15497,19 @@
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-24T15:08:03.192738+00:00",
+          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-24T13:43:55.230687+00:00",
+      "last_scan": "2026-05-24T15:08:03.192738+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -16051,13 +16063,19 @@
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-24T15:08:03.192738+00:00",
+          "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-24T13:43:55.230687+00:00",
+      "last_scan": "2026-05-24T15:08:03.192738+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -16603,6 +16621,12 @@
         },
         {
           "time": "2026-05-24T13:43:55.230687+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-24T15:08:03.192738+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -26975,13 +26999,13 @@
       "processabile": "si"
     },
     "16": {
-      "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
-      "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-05-24T13:43:55.230687+00:00",
-      "zip_changed": false,
+      "zip_hash": "de9c609be11be8a2308a2bf5e57ced288685b575ac7b3a409d035f6eaf5feb15",
+      "content_fingerprint": "25e815b0dae8ef5154160a9e4f17ca5647d7ef09289aa31ce4b8dd63e87c155e",
+      "last_scan": "2026-05-24T15:08:03.192738+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "685974ea5cc9cdeea7b65ac7c641ad247493056edee138a3ffa1ebba1bc5fe7d",
           "current_file": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4874585,
@@ -27008,11 +27032,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-24T15:08:03.192738+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T15:08:03.192738+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "b6de15a78ac5456cff01f4277d804cad6b1c5fa54d1fe341f062df20d6682f95",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
           "current_size": 7094702,
@@ -27051,11 +27082,18 @@
               "hash": "b6de15a78ac5456cff01f4277d804cad6b1c5fa54d1fe341f062df20d6682f95",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-24T15:08:03.192738+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T15:08:03.192738+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "4aebcff60098543742ce6334158aefa093662d6d6184e2ac53ec3cfb6d8151b8",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
           "current_size": 492721,
@@ -27094,14 +27132,21 @@
               "hash": "4aebcff60098543742ce6334158aefa093662d6d6184e2ac53ec3cfb6d8151b8",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-24T15:08:03.192738+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T15:08:03.192738+00:00"
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "4bc455ad9c27dc7dde1ef755b8880503f09542c9afd7eab009d281377b71d121",
           "current_file": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_20-5-26.xlsx",
           "current_size": 3981510,
@@ -27144,11 +27189,18 @@
               "hash": "4bc455ad9c27dc7dde1ef755b8880503f09542c9afd7eab009d281377b71d121",
               "file": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_20-5-26.xlsx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-24T15:08:03.192738+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T15:08:03.192738+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "03628b7ef31e5f6bca806cb12b1b08242bdacfba72126e51c188b352e2b0c2d3",
           "current_file": "Relazione PEF 2026-2029 Gestore Comune Grottammare_V2.pdf",
           "current_size": 464097,
@@ -27186,11 +27238,18 @@
               "hash": "03628b7ef31e5f6bca806cb12b1b08242bdacfba72126e51c188b352e2b0c2d3",
               "file": "Relazione PEF 2026-2029 Gestore Comune Grottammare_V2.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-24T15:08:03.192738+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T15:08:03.192738+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "933a7509ccac8c2168afda2ecde5bd396aaeae7ac2b446b2352d959e14a0cfdc",
           "current_file": "Grottammare_DichiarazioneVeridicitaComuni_v2.pdf.p7m",
           "current_size": 135873,
@@ -27233,8 +27292,15 @@
               "hash": "933a7509ccac8c2168afda2ecde5bd396aaeae7ac2b446b2352d959e14a0cfdc",
               "file": "Grottammare_DichiarazioneVeridicitaComuni_v2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-24T15:08:03.192738+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-24T15:08:03.192738+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -27246,90 +27312,26 @@
       "all_files": [
         {
           "name": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "685974ea5cc9cdeea7b65ac7c641ad247493056edee138a3ffa1ebba1bc5fe7d",
           "size": 4874585,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
           "hash": "b6de15a78ac5456cff01f4277d804cad6b1c5fa54d1fe341f062df20d6682f95",
           "size": 7094702,
-          "doc_key": "relazione",
-          "source": "gestore"
+          "doc_key": null,
+          "source": "comune"
         },
         {
           "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
           "hash": "4aebcff60098543742ce6334158aefa093662d6d6184e2ac53ec3cfb6d8151b8",
           "size": 492721,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
-          "name": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_14-5-26.xlsx",
-          "hash": "10cdd41239318b6c09de163e6e2181d1d8d8c53d75b481e93bf0319e7eb63ea3",
-          "size": 3981426,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_20-5-26.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_20-5-26.xlsx",
-          "hash": "4bc455ad9c27dc7dde1ef755b8880503f09542c9afd7eab009d281377b71d121",
-          "size": 3981510,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_22-5-26.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Grottammare_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_22-5-26.xlsx",
-          "hash": "481414f175ddc563041bec32a955f68f3dcde42bde4adbed689b2e0a90e32ccb",
-          "size": 3981475,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026-2029 Gestore Comune Grottammare.pdf",
-          "hash": "54af11a07a270773bb4c6703a7764a025c03203d9c8b2c10e140a0ead165bdbc",
-          "size": 460113,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Relazione PEF 2026-2029 Gestore Comune Grottammare_V2.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026-2029 Gestore Comune Grottammare_V2.pdf",
-          "hash": "03628b7ef31e5f6bca806cb12b1b08242bdacfba72126e51c188b352e2b0c2d3",
-          "size": 464097,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Grottammare_DichiarazioneVeridicitaComuni_v1.pdf",
-          "hash": "48238ba1cdf0be1a68cb8b7476baa6ae6751a060787a1ffbd794714ff6d3c242",
-          "size": 132599,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "Grottammare_DichiarazioneVeridicitaComuni_v2.pdf.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Grottammare_DichiarazioneVeridicitaComuni_v2.pdf.p7m",
-          "hash": "933a7509ccac8c2168afda2ecde5bd396aaeae7ac2b446b2352d959e14a0cfdc",
-          "size": 135873,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "Grottammare_DichiarazioneVeridicitaComuni_V3.pdf.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Grottammare_DichiarazioneVeridicitaComuni_V3.pdf.p7m",
-          "hash": "b9be01ef617baf1e8ad63bf9fd40b5b701cfe685a28cd209c0af96fd4fce5d9b",
-          "size": 135845,
-          "doc_key": "dich_veridicita_c",
+          "doc_key": null,
           "source": "comune"
         }
       ],
@@ -27663,9 +27665,34 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-24T15:08:03.192738+00:00",
+          "zip_hash": "de9c609be11be8a2308a2bf5e57ced288685b575ac7b3a409d035f6eaf5feb15",
+          "changed": true,
+          "file_count": 3
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "source": "comune",
+          "size": 4874585
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+          "path": "Comune 2026/Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Grottammare Rev.2.pdf.p7m",
+          "source": "comune",
+          "size": 7094702
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
+          "path": "Comune 2026/Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Grottammare 20.5.2026_signed.pdf",
+          "source": "comune",
+          "size": 492721
+        }
+      ],
       "info": {
         "comune": "Grottammare",
         "gestore": "Picenambiente",
@@ -27674,16 +27701,16 @@
         "id": 16
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": true
     }
   },
   "meta": {
     "last_scan": "2026-05-24T15:08:03.192738+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 2,
-      "invariati": 13,
+      "scansionati": 20,
+      "aggiornati": 3,
+      "invariati": 17,
       "errori": 0,
       "vuoti": 0
     },
