@@ -993,9 +993,9 @@
       "last_scan_empty": true
     },
     "1": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Acquasanta Terme",
         "gestore": "Picenambiente",
@@ -1999,9 +1999,9 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Acquaviva Picena",
         "gestore": "Picenambiente",
@@ -3089,7 +3089,7 @@
     "3": {
       "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
       "content_fingerprint": "b6fc042543fb9b47929e7f58cecb605c17de002b8ff95d2fd108d9355a824d63",
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4046,14 +4046,14 @@
         "url": "https://drive.atarifiuti.ap.it/40nen4anvbji",
         "id": 3
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
-      "last_scan_empty": true
+      "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Arquata del Tronto",
         "gestore": "Picenambiente",
@@ -5043,9 +5043,9 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Ascoli Piceno",
         "gestore": "Ascoli Servizi Comunali Surl",
@@ -28099,13 +28099,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-24T19:22:30.706950+00:00",
+    "last_scan": "2026-05-25T11:55:52.734960+00:00",
     "results": {
-      "scansionati": 32,
-      "aggiornati": 1,
-      "invariati": 31,
-      "errori": 0,
-      "vuoti": 1
+      "scansionati": 0,
+      "aggiornati": 0,
+      "invariati": 0,
+      "errori": 5,
+      "vuoti": 0
     },
     "total_comuni": 33,
     "scadenze": {
