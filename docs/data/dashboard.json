@@ -14016,9 +14016,9 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Maltignano",
         "gestore": "Picenambiente",
@@ -14756,9 +14756,9 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Massignano",
         "gestore": "Picenambiente",
@@ -15646,9 +15646,9 @@
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Monsampolo del Tronto",
         "gestore": "Picenambiente",
@@ -16224,9 +16224,9 @@
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Montalto delle Marche",
         "gestore": "La Splendente -> Ecofil",
@@ -27346,7 +27346,7 @@
     "16": {
       "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
       "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -28096,9 +28096,9 @@
         "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6",
         "id": 16
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
-      "last_scan_empty": true
+      "last_scan_empty": false
     }
   },
   "meta": {
@@ -28107,7 +28107,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 15,
+      "errori": 20,
       "vuoti": 0
     },
     "total_comuni": 33,
