@@ -24511,9 +24511,9 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "San Benedetto del Tronto",
         "gestore": "Picenambiente",
@@ -25722,7 +25722,7 @@
     "32": {
       "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
       "content_fingerprint": "250f2c40d3b104ade7d61d2ba1903d74993f4b4529e12a60cd73bb377255eb1e",
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -26672,14 +26672,14 @@
         "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3",
         "id": 32
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
-      "last_scan_empty": true
+      "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-05-24T19:22:30.706950+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Venarotta",
         "gestore": "Picenambiente",
@@ -28111,7 +28111,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 30,
+      "errori": 33,
       "vuoti": 0
     },
     "total_comuni": 33,
@@ -28120,7 +28120,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
