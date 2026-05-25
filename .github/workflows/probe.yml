@@ -1,0 +1,45 @@
+name: Probe dataroom host
+
+# Workflow diagnostico: lanciabile solo manualmente, non parte da cron.
+# Serve a verificare dal runner GitHub Actions se l'host drive.atarifiuti.ap.it
+# risponde correttamente quando lo scanner principale va in timeout su tutti i comuni.
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL specifica da testare (vuoto = solo la home)'
+        required: false
+        default: ''
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: DNS resolution
+        run: |
+          echo "═══ DNS ═══"
+          getent hosts drive.atarifiuti.ap.it || echo "DNS resolution failed"
+
+      - name: HTTPS GET sulla home
+        run: |
+          echo "═══ HTTPS GET https://drive.atarifiuti.ap.it/ ═══"
+          curl -v --max-time 30 https://drive.atarifiuti.ap.it/ || true
+
+      - name: HEAD su URL specifica (se passata in input)
+        if: ${{ github.event.inputs.url != '' }}
+        run: |
+          echo "═══ HEAD su ${{ github.event.inputs.url }} ═══"
+          curl -sI --max-time 30 "${{ github.event.inputs.url }}" || true
+
+      - name: Versione Chrome del runner
+        run: |
+          echo "═══ Chrome installato di default sul runner ═══"
+          google-chrome --version 2>/dev/null || chromium --version 2>/dev/null || echo "Nessun Chrome/Chromium pre-installato"
+
+      - name: Trace di rete (solo se il GET sopra è andato in timeout)
+        run: |
+          echo "═══ traceroute (best effort) ═══"
+          which traceroute >/dev/null && traceroute -m 15 drive.atarifiuti.ap.it 2>&1 | head -25 || echo "traceroute non disponibile"
