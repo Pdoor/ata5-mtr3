@@ -18,6 +18,20 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Info runner (IP pubblico + region Azure)
+        run: |
+          echo "═══ IP pubblico del runner ═══"
+          curl -s --max-time 10 https://ifconfig.me && echo
+          echo
+          echo "═══ Region Azure del runner ═══"
+          curl -sH "Metadata:true" --max-time 3 "http://169.254.169.254/metadata/instance/compute/location?api-version=2021-02-01&format=text" 2>/dev/null || echo "metadata endpoint non raggiungibile (normale fuori da Azure)"
+          echo
+          echo
+          echo "═══ ASN/owner dell'IP ═══"
+          MYIP=$(curl -s --max-time 10 https://ifconfig.me)
+          curl -s --max-time 10 "https://ipinfo.io/${MYIP}/json" || echo "ipinfo non raggiungibile"
+          echo
+
       - name: DNS resolution
         run: |
           echo "═══ DNS ═══"
@@ -33,6 +47,11 @@ jobs:
         run: |
           echo "═══ HEAD su ${{ github.event.inputs.url }} ═══"
           curl -sI --max-time 30 "${{ github.event.inputs.url }}" || true
+
+      - name: Test con IP forzato (esclude problemi DNS/cache)
+        run: |
+          echo "═══ Forzo destinazione 217.64.201.219 (l'IP che il DNS ha risolto) ═══"
+          curl -v --max-time 15 --resolve drive.atarifiuti.ap.it:443:217.64.201.219 https://drive.atarifiuti.ap.it/ || true
 
       - name: Versione Chrome del runner
         run: |
