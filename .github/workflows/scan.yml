@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   scan:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ata5]
     timeout-minutes: 240
 
     env:
