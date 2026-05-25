@@ -14042,8 +14042,8 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Maltignano",
@@ -14052,9 +14052,9 @@
         "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh",
         "id": 17
       },
-      "zip_hash": "cd8467c1954198920d0b6f2ec81180e9243d3e77d52f28185143fa78457df915",
-      "content_fingerprint": "f1599bba475094fd9eaf092cbddd39b5609e11528e0c0987153cc6c21baf7325",
-      "zip_changed": false,
+      "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
+      "content_fingerprint": "f6c53a0efe397b030187a3136c739d4be1e5686ae42d96db6e7aa7ae0e4a9b70",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -14214,20 +14214,20 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "884aafd29f5fd0e6e9a13d41d527329debeebeeb6f08f85267b53c63571d814a",
+          "current_hash": "27d243135e360f1564624211556fa6bfa575489527129b0a1545d6da9f39a551",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3970356,
+          "current_size": 3970427,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "884aafd29f5fd0e6e9a13d41d527329debeebeeb6f08f85267b53c63571d814a",
-              "size": 3970356
+              "hash": "27d243135e360f1564624211556fa6bfa575489527129b0a1545d6da9f39a551",
+              "size": 3970427
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-12T10:36:27.282099+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-25T17:55:56.661470+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-12T10:36:27.282099+00:00",
@@ -14240,25 +14240,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-25T17:55:56.661470+00:00",
+              "hash": "27d243135e360f1564624211556fa6bfa575489527129b0a1545d6da9f39a551",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "e790552ef2d1faf0bdfbf8c5bee3ceb7b2d1ae3a91c551bd721e7c69713c856e",
+          "current_hash": "caa53af27a944d725113b030d45062ff2a3b4d8ae05ed1edbf99ea70bcce6f5e",
           "current_file": "RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
-          "current_size": 1359232,
+          "current_size": 1218460,
           "file_count": 1,
           "all_files": [
             {
               "name": "RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
-              "hash": "e790552ef2d1faf0bdfbf8c5bee3ceb7b2d1ae3a91c551bd721e7c69713c856e",
-              "size": 1359232
+              "hash": "caa53af27a944d725113b030d45062ff2a3b4d8ae05ed1edbf99ea70bcce6f5e",
+              "size": 1218460
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-12T10:36:27.282099+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-25T17:55:56.661470+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-12T10:36:27.282099+00:00",
@@ -14271,25 +14277,31 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-25T17:55:56.661470+00:00",
+              "hash": "caa53af27a944d725113b030d45062ff2a3b4d8ae05ed1edbf99ea70bcce6f5e",
+              "file": "RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "d0ff374da8b68bce273466daeb282d3a2c64d2c4570bcdcd8d1d6ea9ebb91b83",
+          "current_hash": "95b2fea0410d6faa9e601d62f3e285648cdb767da1a37a75aeff3c5f6c62abd6",
           "current_file": "Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
-          "current_size": 546811,
+          "current_size": 406046,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
-              "hash": "d0ff374da8b68bce273466daeb282d3a2c64d2c4570bcdcd8d1d6ea9ebb91b83",
-              "size": 546811
+              "hash": "95b2fea0410d6faa9e601d62f3e285648cdb767da1a37a75aeff3c5f6c62abd6",
+              "size": 406046
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-12T10:36:27.282099+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-25T17:55:56.661470+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-12T10:36:27.282099+00:00",
@@ -14302,6 +14314,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-25T17:55:56.661470+00:00",
+              "hash": "95b2fea0410d6faa9e601d62f3e285648cdb767da1a37a75aeff3c5f6c62abd6",
+              "file": "Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -14340,24 +14358,24 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "884aafd29f5fd0e6e9a13d41d527329debeebeeb6f08f85267b53c63571d814a",
-          "size": 3970356,
+          "hash": "27d243135e360f1564624211556fa6bfa575489527129b0a1545d6da9f39a551",
+          "size": 3970427,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
           "name": "RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/RELAZIONE DI ACCOMPAGNAMENTO PEF 2026-2029 COMUNE DI MALTIGNANO_signed.pdf",
-          "hash": "e790552ef2d1faf0bdfbf8c5bee3ceb7b2d1ae3a91c551bd721e7c69713c856e",
-          "size": 1359232,
+          "hash": "caa53af27a944d725113b030d45062ff2a3b4d8ae05ed1edbf99ea70bcce6f5e",
+          "size": 1218460,
           "doc_key": "relazione_c",
           "source": "comune"
         },
         {
           "name": "Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
           "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato 4 - Dichiarazione_Veridicita_Comune di Maltignano_signed.pdf",
-          "hash": "d0ff374da8b68bce273466daeb282d3a2c64d2c4570bcdcd8d1d6ea9ebb91b83",
-          "size": 546811,
+          "hash": "95b2fea0410d6faa9e601d62f3e285648cdb767da1a37a75aeff3c5f6c62abd6",
+          "size": 406046,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
@@ -14776,14 +14794,20 @@
           "zip_hash": "cd8467c1954198920d0b6f2ec81180e9243d3e77d52f28185143fa78457df915",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Massignano",
@@ -15666,14 +15690,20 @@
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Monsampolo del Tronto",
@@ -16244,14 +16274,20 @@
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Montalto delle Marche",
@@ -16814,6 +16850,12 @@
         },
         {
           "time": "2026-05-24T19:22:30.706950+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -27381,7 +27423,7 @@
     "16": {
       "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
       "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -28121,6 +28163,12 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -28131,7 +28179,7 @@
         "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6",
         "id": 16
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     }
@@ -28139,9 +28187,9 @@
   "meta": {
     "last_scan": "2026-05-25T17:55:56.661470+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 1,
-      "invariati": 14,
+      "scansionati": 20,
+      "aggiornati": 2,
+      "invariati": 18,
       "errori": 0,
       "vuoti": 0
     },
