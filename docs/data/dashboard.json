@@ -10273,8 +10273,8 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Comunanza",
@@ -10432,12 +10432,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-06T10:22:43.825598+00:00",
-          "zip_hash": "de41dd13a1869c8c910a7d01544a0e351503c3a0db2b7762c1597a2de77ec5cc",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-06T12:57:58.535974+00:00",
           "zip_hash": "de41dd13a1869c8c910a7d01544a0e351503c3a0db2b7762c1597a2de77ec5cc",
@@ -11031,6 +11025,12 @@
           "zip_hash": "e063303a6e605eeb81d400f65cba8fccd9ad6a3ef3520a07a7b9efb33b32f244",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "e063303a6e605eeb81d400f65cba8fccd9ad6a3ef3520a07a7b9efb33b32f244",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -11039,7 +11039,7 @@
     "12": {
       "zip_hash": "fcbe6e5ef1259dc566517c713ac70d6666516fc2fb8a2dcecab3969f8b0ebda6",
       "content_fingerprint": "a173716e62e4d587aab9aa7f4a6765e312da25af1598c8cf90ec6a2134b83296",
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11381,12 +11381,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-05T19:27:55.914091+00:00",
-          "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-06T10:22:43.825598+00:00",
           "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
@@ -11980,6 +11974,12 @@
           "zip_hash": "fcbe6e5ef1259dc566517c713ac70d6666516fc2fb8a2dcecab3969f8b0ebda6",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "fcbe6e5ef1259dc566517c713ac70d6666516fc2fb8a2dcecab3969f8b0ebda6",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -11997,13 +11997,13 @@
         "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r",
         "id": 12
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Cupra Marittima",
@@ -12568,14 +12568,20 @@
           "zip_hash": "6e96d90256b7a9957485dd8367d06f612b95a31e0c6e3fac878d8592407488ca",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "6e96d90256b7a9957485dd8367d06f612b95a31e0c6e3fac878d8592407488ca",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Folignano",
@@ -13158,23 +13164,31 @@
           "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-25T11:55:52.734960+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Force",
         "gestore": "Force",
-        "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir"
+        "advisor": "",
+        "url": "https://drive.atarifiuti.ap.it/6pdf2tr6iwir",
+        "id": 15
       },
-      "zip_hash": "10c78431a05e26b7d897f0ad17adfac4806f046f61643400b1002ff3aa26b01a",
-      "content_fingerprint": "6aa1350deaa7bfa9dec5540d4989f583f25002b8a06778de2958679ca352550d",
-      "zip_changed": false,
+      "zip_hash": "408f97969baa90dd65e1d071e2e6e4afe0797d07778c5436c0b563f21ef7accc",
+      "content_fingerprint": "6f9487b42e393f1cf66843e74f8195e473646cec0b5c5fbaf1c4549612589136",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -13369,8 +13383,8 @@
         {
           "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "6c68a995bfcca8ed414bb423880c41a6a558a9e960aa5df31524abde077dfd6b",
-          "size": 4003284,
+          "hash": "08422063bfb67bef29549fe203ab6de573a86e051b0bca69709c4d046a35a695",
+          "size": 4003345,
           "doc_key": null,
           "source": "comune"
         },
@@ -13392,12 +13406,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-03T16:56:28.369927+00:00",
-          "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-03T17:52:37.899219+00:00",
           "zip_hash": "a00dce05501290d2b92e47fe1fad03370317bf3ab6385398428331ca567143e4",
@@ -13991,6 +13999,12 @@
           "zip_hash": "10c78431a05e26b7d897f0ad17adfac4806f046f61643400b1002ff3aa26b01a",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-25T17:55:56.661470+00:00",
+          "zip_hash": "408f97969baa90dd65e1d071e2e6e4afe0797d07778c5436c0b563f21ef7accc",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -14016,7 +14030,7 @@
           "name": "Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Force_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "source": "comune",
-          "size": 4003284
+          "size": 4003345
         },
         {
           "name": "RELAZIONE PEF 2026-2028.pdf",
@@ -28125,9 +28139,9 @@
   "meta": {
     "last_scan": "2026-05-25T17:55:56.661470+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 0,
-      "invariati": 10,
+      "scansionati": 15,
+      "aggiornati": 1,
+      "invariati": 14,
       "errori": 0,
       "vuoti": 0
     },
