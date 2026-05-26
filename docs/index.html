@@ -701,6 +701,57 @@ async function _doSaveOverrideOnline(retries){
   }catch(e){_ovSaving=false;console.warn("saveOverrideOnline:",e);if(retries>0){await new Promise(r=>setTimeout(r,1500));return _doSaveOverrideOnline(retries-1);}return false;}
 }
 
+// ── Sync manuale: rilegge GitHub, fonde con LOCAL_NOTES, ripusha (union per signature) ──
+let _syncingNotes=false;
+function _noteSig(n){return (n?.cat||"")+"|"+(n?.date||"")+"|"+(n?.author||"")+"|"+((n?.text||"").trim());}
+function _mergeNotesArrays(localArr,onlineArr){
+  // Restituisce [merged, addedCount]: parte da online, aggiunge le note local che mancano (per signature),
+  // e fonde ricorsivamente i children. Note esistenti in entrambi vengono prese da online (preservazione).
+  const seen=new Map();
+  let added=0;
+  (onlineArr||[]).forEach(n=>{if(n)seen.set(_noteSig(n),{...n,children:JSON.parse(JSON.stringify(n.children||[]))});});
+  (localArr||[]).forEach(n=>{
+    if(!n)return;
+    const s=_noteSig(n);
+    if(!seen.has(s)){seen.set(s,{...n,children:JSON.parse(JSON.stringify(n.children||[]))});added++;}
+    else{
+      const ex=seen.get(s);
+      const [chMerged,chAdded]=_mergeNotesArrays(n.children||[],ex.children||[]);
+      ex.children=chMerged;added+=chAdded;
+    }
+  });
+  const arr=Array.from(seen.values()).sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  return [arr,added];
+}
+async function _syncNotesNow(){
+  if(_syncingNotes)return;
+  if(!_ghToken){alert("⚠ Token GitHub non configurato. Imposta prima il Token GH.");return;}
+  _syncingNotes=true;render();
+  try{
+    // 1) Rilegge stato online fresco
+    await loadOverrides();
+    if(_notesKey&&_encNotesRaw){try{await _decryptOnlineNotes();}catch(e){console.warn("decrypt:",e);}}
+    // 2) Merge per ogni sid presente in LOCAL o ONLINE
+    const mergedAll={};
+    const allSids=new Set([...Object.keys(LOCAL_NOTES||{}),...Object.keys(ONLINE_NOTES||{})]);
+    let totAdded=0,totNotes=0;
+    for(const sid of allSids){
+      const [arr,added]=_mergeNotesArrays(LOCAL_NOTES[sid]||[],ONLINE_NOTES[sid]||[]);
+      if(arr.length)mergedAll[sid]=arr;
+      totAdded+=added;totNotes+=arr.length;
+    }
+    // 3) Applica
+    ONLINE_NOTES=mergedAll;
+    LOCAL_NOTES=JSON.parse(JSON.stringify(mergedAll));
+    saveNotes();
+    // 4) Push
+    const ok=await saveOverrideOnline();
+    if(ok===false){alert("⚠ Sync: la PUT verso GitHub è fallita. Controlla token e riprova. (Le modifiche restano in localStorage.)");}
+    else{alert("✓ Sync completata.\nNote totali: "+totNotes+"\nNote nuove caricate online: "+totAdded);}
+  }catch(e){alert("Errore durante la sync: "+(e?.message||e));console.error(e);}
+  finally{_syncingNotes=false;render();}
+}
+
 async function loadJSON(){
   for(const url of DATA_URLS){
     try{const r=await fetch(url+"?t="+Date.now());if(r.ok){JDATA=await r.json();return;}}catch(e){}
@@ -951,6 +1002,9 @@ function render(){
         :h("button",{className:"nbtn",style:{borderColor:"var(--pur)",color:"var(--pur)"},onClick:async()=>{await _requireUnlock();}},"🔑 Accedi"),
       _userRole==="admin"
         ?h("button",{className:"nbtn",style:{borderColor:"var(--yd)",color:_ghToken?"#fde68a":"var(--t4)"},title:_ghToken?"Token GitHub configurato":"Configura token GitHub per override condivisi",onClick:setupGhToken},_ghToken?"🔐 Token GH":"⚙ Token GH")
+        :null,
+      _userRole==="admin"&&_ghToken
+        ?h("button",{className:"nbtn",style:{borderColor:"var(--blue)",color:_syncingNotes?"var(--t4)":"#93c5fd"},title:"Forza il merge tra note locali e quelle su GitHub e ripubblica il risultato",onClick:_syncNotesNow,disabled:_syncingNotes},_syncingNotes?"⟳ Sync...":"☁ Sync note")
         :null,
     )
   )));
