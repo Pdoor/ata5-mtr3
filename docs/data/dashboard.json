@@ -10291,8 +10291,8 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-05-25T17:55:56.661470+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-26T07:29:41.153955+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Comunanza",
@@ -11057,7 +11057,7 @@
     "12": {
       "zip_hash": "fcbe6e5ef1259dc566517c713ac70d6666516fc2fb8a2dcecab3969f8b0ebda6",
       "content_fingerprint": "a173716e62e4d587aab9aa7f4a6765e312da25af1598c8cf90ec6a2134b83296",
-      "last_scan": "2026-05-25T17:55:56.661470+00:00",
+      "last_scan": "2026-05-26T07:29:41.153955+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12015,13 +12015,13 @@
         "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r",
         "id": 12
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-05-25T17:55:56.661470+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-26T07:29:41.153955+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Cupra Marittima",
@@ -12598,8 +12598,8 @@
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-25T17:55:56.661470+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-26T07:29:41.153955+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Folignano",
@@ -13194,8 +13194,8 @@
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-25T17:55:56.661470+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-26T07:29:41.153955+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Force",
@@ -28244,7 +28244,7 @@
       "scansionati": 7,
       "aggiornati": 0,
       "invariati": 7,
-      "errori": 3,
+      "errori": 8,
       "vuoti": 0
     },
     "total_comuni": 33,
