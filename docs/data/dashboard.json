@@ -28330,12 +28330,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-26T09:00:19.799843+00:00",
+    "last_scan": "2026-05-26T09:34:01.037397+00:00",
     "results": {
-      "scansionati": 29,
-      "aggiornati": 1,
-      "invariati": 28,
-      "errori": 4,
+      "scansionati": 0,
+      "aggiornati": 0,
+      "invariati": 0,
+      "errori": 0,
       "vuoti": 0
     },
     "total_comuni": 33,
@@ -28344,7 +28344,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
