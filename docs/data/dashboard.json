@@ -3,7 +3,7 @@
     "25": {
       "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
       "content_fingerprint": "9327d1e15351125338106860157465a4c3bd21d187071dbb7fad8d75eba97c28",
-      "last_scan": "2026-05-26T09:00:19.799843+00:00",
+      "last_scan": "2026-05-26T09:35:17.147122+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -379,12 +379,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-06T15:29:51.488291+00:00",
-          "zip_hash": "2f870fb01e02b73aeece926ca75e91b6318cdec491012913cfb16d35f07ebe43",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-05-06T17:45:24.181173+00:00",
           "zip_hash": "f8ce346dfd271a979a62c479ad23d6b8ac3ae072994987cd806c5f53c7c29da9",
@@ -978,6 +972,12 @@
           "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-05-26T09:35:17.147122+00:00",
+          "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
@@ -988,7 +988,7 @@
         "url": "https://drive.atarifiuti.ap.it/32oexo7tpupd",
         "id": 25
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -28330,11 +28330,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-26T09:34:01.037397+00:00",
+    "last_scan": "2026-05-26T09:35:17.147122+00:00",
     "results": {
-      "scansionati": 0,
+      "scansionati": 1,
       "aggiornati": 0,
-      "invariati": 0,
+      "invariati": 1,
       "errori": 0,
       "vuoti": 0
     },
