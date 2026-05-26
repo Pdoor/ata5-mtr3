@@ -4051,7 +4051,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-05-26T09:00:19.799843+00:00",
+      "last_scan": "2026-05-26T09:44:21.269415+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4061,9 +4061,9 @@
         "url": "https://drive.atarifiuti.ap.it/4g5saz8wvr38",
         "id": 4
       },
-      "zip_hash": "0ab4d555c87fce60e31a3c8e9ee6ea2370991e56a0f7ebddcc74686e378465cd",
-      "content_fingerprint": "63869062e6fdb80a641db6cc59b96c0cec4794e1d4778ebe6c519aa6a9ae05f0",
-      "zip_changed": false,
+      "zip_hash": "bbb2da641ab34a5923c9b5d97a513c6f8083f7fce6dcbd2e87a0ce4ed4937672",
+      "content_fingerprint": "d0bf2876aa7535106982d360f1e1469835c41d1e633f46882c038ff31cfab894",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -4312,7 +4312,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
           "current_file": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
           "current_size": 6641674,
@@ -4338,27 +4338,18 @@
               "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
               "file": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-26T09:44:21.269415+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-26T09:44:21.269415+00:00"
         }
       },
       "all_files": [
-        {
-          "name": "Pef 2026_2029_Arquata del Tronto.zip",
-          "path": "Pef Validato 2026/Pef 2026_2029_Arquata del Tronto.zip",
-          "hash": "dbfd85b201610f6ca88353cbe4c771235ccd39887c1a80bf10ff9d766d35a1e8",
-          "size": 6455643,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-          "path": "Pef Validato 2026/PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-          "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-          "size": 6641674,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
         {
           "name": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -4425,12 +4416,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-06T15:29:51.488291+00:00",
-          "zip_hash": "ad02c32831ae5b32675e053402982b5526501b06c39f911e54bed3a2ec543303",
-          "changed": false,
-          "file_count": 1
-        },
         {
           "time": "2026-05-06T17:45:24.181173+00:00",
           "zip_hash": "ad02c32831ae5b32675e053402982b5526501b06c39f911e54bed3a2ec543303",
@@ -5024,6 +5009,12 @@
           "zip_hash": "0ab4d555c87fce60e31a3c8e9ee6ea2370991e56a0f7ebddcc74686e378465cd",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-26T09:44:21.269415+00:00",
+          "zip_hash": "bbb2da641ab34a5923c9b5d97a513c6f8083f7fce6dcbd2e87a0ce4ed4937672",
+          "changed": true,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -28330,11 +28321,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-26T09:35:17.147122+00:00",
+    "last_scan": "2026-05-26T09:44:21.269415+00:00",
     "results": {
       "scansionati": 1,
-      "aggiornati": 0,
-      "invariati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
       "vuoti": 0
     },
