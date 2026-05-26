@@ -338,10 +338,11 @@ function _migrateNotes(obj){
 }
 function _getNotes(id){
   const sid=String(id);
-  const online=ONLINE_NOTES[sid]||[];
-  const local=LOCAL_NOTES[sid]||[];
-  // ONLINE vince se presente, altrimenti LOCAL
-  return Array.isArray(online)&&online.length?online:Array.isArray(local)&&local.length?local:[];
+  const online=Array.isArray(ONLINE_NOTES[sid])?ONLINE_NOTES[sid]:[];
+  const local =Array.isArray(LOCAL_NOTES[sid]) ?LOCAL_NOTES[sid] :[];
+  // ONLINE vince a meno che LOCAL ne abbia di piu' (scritture non ancora sincronizzate)
+  if(local.length>online.length)return local;
+  return online.length?online:local;
 }
 // Ricerca ricorsiva nel testo delle note (incluse children). q già lowercase.
 function _noteTextMatches(notes,q){
