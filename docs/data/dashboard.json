@@ -25964,7 +25964,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -27192,7 +27192,7 @@
     "32": {
       "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
       "content_fingerprint": "250f2c40d3b104ade7d61d2ba1903d74993f4b4529e12a60cd73bb377255eb1e",
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -27533,12 +27533,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-08T17:23:35.096243+00:00",
-          "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-08T19:25:05.508350+00:00",
           "zip_hash": "463ac2d2fe9bccb43bb22fc7725c04c5149c5d1fa8da547d036b4e0fbe547faa",
@@ -28132,6 +28126,12 @@
           "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-30T20:05:38.873897+00:00",
+          "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -28142,12 +28142,12 @@
         "url": "https://drive.atarifiuti.ap.it/57x5mtyjyoz3",
         "id": 32
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -29812,10 +29812,10 @@
   "meta": {
     "last_scan": "2026-05-30T20:05:38.873897+00:00",
     "results": {
-      "scansionati": 8,
+      "scansionati": 9,
       "aggiornati": 0,
-      "invariati": 8,
-      "errori": 22,
+      "invariati": 9,
+      "errori": 24,
       "vuoti": 0
     },
     "total_comuni": 33,
@@ -29824,7 +29824,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
