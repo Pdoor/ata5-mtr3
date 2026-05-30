@@ -5822,7 +5822,7 @@
       "processabile": "si"
     },
     "6": {
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -6522,7 +6522,7 @@
     "7": {
       "zip_hash": "a9c776338329ab122df808906dc6608288b6a3381160bcbeaa0c5262d2a896a4",
       "content_fingerprint": "b1dc3460b5b1321a32664ce558a44cf1acfdec5ae42d5f54dba16ccaa136d7ad",
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7527,7 +7527,7 @@
     "8": {
       "zip_hash": "9ae3e2950703f1665da282c1be428c57df219691d160f039ea668ceec3fb55e2",
       "content_fingerprint": "c01ed18b7b7800e4b12a93f7e436d6fa95da9106269bb0caf6096b34ed756c78",
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8446,14 +8446,14 @@
         "url": "https://drive.atarifiuti.ap.it/6grrc6lri5y2",
         "id": 8
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "9": {
       "zip_hash": "732274c5c6c48799dce9d897e2cc7a7a4dddf1c244b3219edad7e8a1c04028a8",
       "content_fingerprint": "8a503c9a65b3546c82a5df8fcd0db16d505cbf741b333791e7bdcd9c9224d0fe",
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9476,7 +9476,7 @@
     "10": {
       "zip_hash": "a7bb8fcc30c2ec5a62411c6b90e066e3760f30c2ec24daab13deb67ea925e9d3",
       "content_fingerprint": "7e831d182401c15e628fbd406f44d49a6cc366455c49bf5aa4b690f8b3dc46cd",
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10500,7 +10500,7 @@
         "url": "https://drive.atarifiuti.ap.it/4erjsosymi1a",
         "id": 10
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -29749,7 +29749,7 @@
       "scansionati": 1,
       "aggiornati": 0,
       "invariati": 1,
-      "errori": 4,
+      "errori": 9,
       "vuoti": 0
     },
     "total_comuni": 33,
