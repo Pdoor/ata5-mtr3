@@ -21302,7 +21302,7 @@
     "26": {
       "zip_hash": "ce08c77c4764b28cb20175c293c6841bb1d04a11063ed6f92107c6d4da19cae1",
       "content_fingerprint": "8272a77a0c20532c54d54e80b03d944a3308db1ddaeaed31a6cd394e03d498f8",
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22338,14 +22338,14 @@
         "url": "https://drive.atarifiuti.ap.it/5ucvjuighfmo",
         "id": 26
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "27": {
       "zip_hash": "be16aead5adf5ecdd4767c1606474d3877df468ccddc098ddb7700534b433b54",
       "content_fingerprint": "29f7179707680a13fe779edf5525559c8e3693c1981defb4f8bb6efb84d97274",
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22667,12 +22667,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-09T13:25:30.799740+00:00",
-          "zip_hash": "7c44d863bc1f57618d71647290c4f617d8f7a0ae8772d249391a21481bb2b665",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-09T14:56:05.871949+00:00",
           "zip_hash": "7c44d863bc1f57618d71647290c4f617d8f7a0ae8772d249391a21481bb2b665",
@@ -23266,6 +23260,12 @@
           "zip_hash": "be16aead5adf5ecdd4767c1606474d3877df468ccddc098ddb7700534b433b54",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-30T11:16:31.207339+00:00",
+          "zip_hash": "be16aead5adf5ecdd4767c1606474d3877df468ccddc098ddb7700534b433b54",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23276,13 +23276,13 @@
         "url": "https://drive.atarifiuti.ap.it/1jtt30ncwd1x",
         "id": 27
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Ripatransone",
@@ -23695,12 +23695,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-08T15:46:26.661632+00:00",
-          "zip_hash": "13453cb50bc36f7e608e2f15d99d9c465ee0a3f339f6939e7b51436b03974822",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-08T17:23:35.096243+00:00",
           "zip_hash": "13453cb50bc36f7e608e2f15d99d9c465ee0a3f339f6939e7b51436b03974822",
@@ -24294,6 +24288,12 @@
           "zip_hash": "c758615e2867bd9acfc123d877bdb1a00ad60c632b582c8f37e3b7b825cac5d3",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-30T11:16:31.207339+00:00",
+          "zip_hash": "c758615e2867bd9acfc123d877bdb1a00ad60c632b582c8f37e3b7b825cac5d3",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -24307,8 +24307,8 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Roccafluvione",
@@ -25061,6 +25061,12 @@
           "zip_hash": "870e3cc6aae7d8549251b0c92cec0a97ca27874ce44918b51e7f4d122993bbef",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-30T11:16:31.207339+00:00",
+          "zip_hash": "870e3cc6aae7d8549251b0c92cec0a97ca27874ce44918b51e7f4d122993bbef",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -25074,8 +25080,8 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Rotella",
@@ -29704,10 +29710,10 @@
   "meta": {
     "last_scan": "2026-05-30T11:16:31.207339+00:00",
     "results": {
-      "scansionati": 3,
+      "scansionati": 6,
       "aggiornati": 0,
-      "invariati": 3,
-      "errori": 22,
+      "invariati": 6,
+      "errori": 24,
       "vuoti": 0
     },
     "total_comuni": 33,
