@@ -10499,8 +10499,8 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Comunanza",
@@ -11265,7 +11265,7 @@
     "12": {
       "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
       "content_fingerprint": "f4ababa5adaaa8a1283370318c948d2760bb7cc80c1386b2916edfb3dc18a872",
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12242,13 +12242,13 @@
         "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r",
         "id": 12
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Cupra Marittima",
@@ -12927,9 +12927,9 @@
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Folignano",
         "gestore": "Picenambiente",
@@ -13619,9 +13619,9 @@
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Force",
         "gestore": "Force",
@@ -29677,7 +29677,7 @@
       "scansionati": 1,
       "aggiornati": 0,
       "invariati": 1,
-      "errori": 9,
+      "errori": 14,
       "vuoti": 0
     },
     "total_comuni": 33,
