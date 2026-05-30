@@ -25862,7 +25862,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -27090,7 +27090,7 @@
     "32": {
       "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
       "content_fingerprint": "250f2c40d3b104ade7d61d2ba1903d74993f4b4529e12a60cd73bb377255eb1e",
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -28045,7 +28045,7 @@
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -29713,7 +29713,7 @@
       "scansionati": 6,
       "aggiornati": 0,
       "invariati": 6,
-      "errori": 24,
+      "errori": 27,
       "vuoti": 0
     },
     "total_comuni": 33,
@@ -29722,7 +29722,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
