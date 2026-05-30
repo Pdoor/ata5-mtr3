@@ -10499,7 +10499,7 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -11265,7 +11265,7 @@
     "12": {
       "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
       "content_fingerprint": "f4ababa5adaaa8a1283370318c948d2760bb7cc80c1386b2916edfb3dc18a872",
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11626,12 +11626,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-09T11:01:05.204924+00:00",
-          "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-09T13:25:30.799740+00:00",
           "zip_hash": "1375db0f0108ac1f320c35725f729617092e9966364d5fed9bb58556b905f255",
@@ -12225,6 +12219,12 @@
           "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-30T11:16:31.207339+00:00",
+          "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -12242,12 +12242,12 @@
         "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r",
         "id": 12
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -12927,8 +12927,8 @@
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Folignano",
@@ -13613,13 +13613,19 @@
           "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-30T11:16:31.207339+00:00",
+          "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -29692,10 +29698,10 @@
   "meta": {
     "last_scan": "2026-05-30T11:16:31.207339+00:00",
     "results": {
-      "scansionati": 0,
+      "scansionati": 2,
       "aggiornati": 0,
-      "invariati": 0,
-      "errori": 10,
+      "invariati": 2,
+      "errori": 13,
       "vuoti": 0
     },
     "total_comuni": 33,
