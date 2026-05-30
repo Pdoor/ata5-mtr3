@@ -10499,7 +10499,7 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-05-30T13:16:45.835265+00:00",
+      "last_scan": "2026-05-30T15:02:34.987182+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -11265,7 +11265,7 @@
     "12": {
       "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
       "content_fingerprint": "f4ababa5adaaa8a1283370318c948d2760bb7cc80c1386b2916edfb3dc18a872",
-      "last_scan": "2026-05-30T13:16:45.835265+00:00",
+      "last_scan": "2026-05-30T15:02:34.987182+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12247,7 +12247,7 @@
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-05-30T13:16:45.835265+00:00",
+      "last_scan": "2026-05-30T15:02:34.987182+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -12927,8 +12927,8 @@
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-05-30T13:16:45.835265+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Folignano",
@@ -13619,13 +13619,19 @@
           "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-30T15:02:34.987182+00:00",
+          "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-05-30T13:16:45.835265+00:00",
+      "last_scan": "2026-05-30T15:02:34.987182+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -29716,10 +29722,10 @@
   "meta": {
     "last_scan": "2026-05-30T15:02:34.987182+00:00",
     "results": {
-      "scansionati": 2,
+      "scansionati": 3,
       "aggiornati": 0,
-      "invariati": 2,
-      "errori": 8,
+      "invariati": 3,
+      "errori": 12,
       "vuoti": 0
     },
     "total_comuni": 33,
