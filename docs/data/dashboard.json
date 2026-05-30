@@ -993,8 +993,8 @@
       "last_scan_empty": false
     },
     "1": {
-      "last_scan": "2026-05-30T11:16:31.207339+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T13:16:45.835265+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Acquasanta Terme",
@@ -1381,12 +1381,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-09T14:56:05.871949+00:00",
-          "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
-          "changed": false,
-          "file_count": 1
-        },
         {
           "time": "2026-05-09T15:58:15.513146+00:00",
           "zip_hash": "451361b08a748243cb728f4d5d7b9ccdb03db62b160d5129590edbd1868eabae",
@@ -1980,6 +1974,12 @@
           "zip_hash": "1b8ee76a63d62677e45218205bdabc296bea88b782970fb3dfab358012489b00",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-30T13:16:45.835265+00:00",
+          "zip_hash": "1b8ee76a63d62677e45218205bdabc296bea88b782970fb3dfab358012489b00",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -1999,7 +1999,7 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan": "2026-05-30T13:16:45.835265+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -3101,7 +3101,7 @@
     "3": {
       "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
       "content_fingerprint": "b6fc042543fb9b47929e7f58cecb605c17de002b8ff95d2fd108d9355a824d63",
-      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan": "2026-05-30T13:16:45.835265+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4063,7 +4063,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan": "2026-05-30T13:16:45.835265+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -5046,7 +5046,7 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan": "2026-05-30T13:16:45.835265+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -29708,12 +29708,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-30T11:16:31.207339+00:00",
+    "last_scan": "2026-05-30T13:16:45.835265+00:00",
     "results": {
-      "scansionati": 6,
+      "scansionati": 1,
       "aggiornati": 0,
-      "invariati": 6,
-      "errori": 27,
+      "invariati": 1,
+      "errori": 4,
       "vuoti": 0
     },
     "total_comuni": 33,
@@ -29722,7 +29722,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
