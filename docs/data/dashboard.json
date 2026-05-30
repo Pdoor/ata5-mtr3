@@ -993,7 +993,7 @@
       "last_scan_empty": false
     },
     "1": {
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -1999,7 +1999,7 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -3101,7 +3101,7 @@
     "3": {
       "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
       "content_fingerprint": "b6fc042543fb9b47929e7f58cecb605c17de002b8ff95d2fd108d9355a824d63",
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4063,7 +4063,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -5046,8 +5046,8 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-05-30T15:02:34.987182+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T16:56:51.881341+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Ascoli Piceno",
@@ -5800,6 +5800,12 @@
         },
         {
           "time": "2026-05-29T21:09:02.976521+00:00",
+          "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-05-30T16:56:51.881341+00:00",
           "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
           "changed": false,
           "file_count": 10
@@ -29738,12 +29744,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-30T15:02:34.987182+00:00",
+    "last_scan": "2026-05-30T16:56:51.881341+00:00",
     "results": {
-      "scansionati": 8,
+      "scansionati": 1,
       "aggiornati": 0,
-      "invariati": 8,
-      "errori": 25,
+      "invariati": 1,
+      "errori": 4,
       "vuoti": 0
     },
     "total_comuni": 33,
@@ -29752,7 +29758,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
