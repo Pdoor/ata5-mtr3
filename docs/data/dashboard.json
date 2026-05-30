@@ -21296,7 +21296,7 @@
     "26": {
       "zip_hash": "ce08c77c4764b28cb20175c293c6841bb1d04a11063ed6f92107c6d4da19cae1",
       "content_fingerprint": "8272a77a0c20532c54d54e80b03d944a3308db1ddaeaed31a6cd394e03d498f8",
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21723,12 +21723,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-09T11:01:05.204924+00:00",
-          "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-09T13:25:30.799740+00:00",
           "zip_hash": "1dfb60832af44d5e2e6199459c167796f29a452168e8cf911bb6bde24b4b80b9",
@@ -22322,6 +22316,12 @@
           "zip_hash": "ce08c77c4764b28cb20175c293c6841bb1d04a11063ed6f92107c6d4da19cae1",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-30T09:54:37.258858+00:00",
+          "zip_hash": "ce08c77c4764b28cb20175c293c6841bb1d04a11063ed6f92107c6d4da19cae1",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -22339,7 +22339,7 @@
     "27": {
       "zip_hash": "be16aead5adf5ecdd4767c1606474d3877df468ccddc098ddb7700534b433b54",
       "content_fingerprint": "29f7179707680a13fe779edf5525559c8e3693c1981defb4f8bb6efb84d97274",
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23270,13 +23270,13 @@
         "url": "https://drive.atarifiuti.ap.it/1jtt30ncwd1x",
         "id": 27
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Ripatransone",
@@ -24301,8 +24301,8 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Roccafluvione",
@@ -25068,7 +25068,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-05-29T21:09:02.976521+00:00",
+      "last_scan": "2026-05-30T09:54:37.258858+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25835,6 +25835,12 @@
         },
         {
           "time": "2026-05-29T21:09:02.976521+00:00",
+          "zip_hash": "1f6705fc0a89eed4e4011ba10636eb0504a886cbafb1502a4acab5b047c513a9",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-05-30T09:54:37.258858+00:00",
           "zip_hash": "1f6705fc0a89eed4e4011ba10636eb0504a886cbafb1502a4acab5b047c513a9",
           "changed": false,
           "file_count": 6
@@ -29686,10 +29692,10 @@
   "meta": {
     "last_scan": "2026-05-30T09:54:37.258858+00:00",
     "results": {
-      "scansionati": 4,
+      "scansionati": 6,
       "aggiornati": 0,
-      "invariati": 4,
-      "errori": 21,
+      "invariati": 6,
+      "errori": 24,
       "vuoti": 0
     },
     "total_comuni": 33,
