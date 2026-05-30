@@ -14491,7 +14491,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -15357,8 +15357,8 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Massignano",
@@ -16361,7 +16361,7 @@
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -17047,7 +17047,7 @@
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -28814,7 +28814,7 @@
     "16": {
       "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
       "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-05-30T09:54:37.258858+00:00",
+      "last_scan": "2026-05-30T11:16:31.207339+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -29680,6 +29680,12 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-30T11:16:31.207339+00:00",
+          "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -29690,7 +29696,7 @@
         "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6",
         "id": 16
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     }
@@ -29698,10 +29704,10 @@
   "meta": {
     "last_scan": "2026-05-30T11:16:31.207339+00:00",
     "results": {
-      "scansionati": 2,
+      "scansionati": 3,
       "aggiornati": 0,
-      "invariati": 2,
-      "errori": 13,
+      "invariati": 3,
+      "errori": 17,
       "vuoti": 0
     },
     "total_comuni": 33,
