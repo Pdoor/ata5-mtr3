@@ -14515,8 +14515,8 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Maltignano",
@@ -15393,8 +15393,8 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Massignano",
@@ -16391,13 +16391,19 @@
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-30T20:05:38.873897+00:00",
+          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
       "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
@@ -17089,8 +17095,8 @@
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Montalto delle Marche",
@@ -17767,6 +17773,12 @@
         },
         {
           "time": "2026-05-30T15:02:34.987182+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-30T20:05:38.873897+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -28904,7 +28916,7 @@
     "16": {
       "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
       "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-05-30T18:02:26.552106+00:00",
+      "last_scan": "2026-05-30T20:05:38.873897+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -29794,10 +29806,10 @@
   "meta": {
     "last_scan": "2026-05-30T20:05:38.873897+00:00",
     "results": {
-      "scansionati": 3,
+      "scansionati": 5,
       "aggiornati": 0,
-      "invariati": 3,
-      "errori": 12,
+      "invariati": 5,
+      "errori": 15,
       "vuoti": 0
     },
     "total_comuni": 33,
