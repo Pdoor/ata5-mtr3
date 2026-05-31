@@ -14539,8 +14539,8 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-30T20:05:38.873897+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-31T10:10:42.498673+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Maltignano",
@@ -15411,13 +15411,19 @@
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-31T10:10:42.498673+00:00",
+          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-05-30T20:05:38.873897+00:00",
+      "last_scan": "2026-05-31T10:10:42.498673+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -16421,14 +16427,20 @@
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-31T10:10:42.498673+00:00",
+          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-05-30T20:05:38.873897+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-31T10:10:42.498673+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Monsampolo del Tronto",
@@ -17113,13 +17125,19 @@
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-31T10:10:42.498673+00:00",
+          "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "20": {
-      "last_scan": "2026-05-30T20:05:38.873897+00:00",
+      "last_scan": "2026-05-31T10:10:42.498673+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17803,6 +17821,12 @@
         },
         {
           "time": "2026-05-30T20:05:38.873897+00:00",
+          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-31T10:10:42.498673+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
           "file_count": 7
@@ -28946,7 +28970,7 @@
     "16": {
       "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
       "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-05-30T20:05:38.873897+00:00",
+      "last_scan": "2026-05-31T10:10:42.498673+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -29818,6 +29842,12 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-05-31T10:10:42.498673+00:00",
+          "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -29828,7 +29858,7 @@
         "url": "https://drive.atarifiuti.ap.it/48cxe2jovjd6",
         "id": 16
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     }
@@ -29836,9 +29866,9 @@
   "meta": {
     "last_scan": "2026-05-31T10:10:42.498673+00:00",
     "results": {
-      "scansionati": 15,
+      "scansionati": 20,
       "aggiornati": 0,
-      "invariati": 15,
+      "invariati": 20,
       "errori": 0,
       "vuoti": 0
     },
