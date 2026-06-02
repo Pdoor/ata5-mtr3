@@ -10613,15 +10613,13 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "last_scan_error": false,
-      "last_scan_empty": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Comunanza",
         "gestore": "Soeco -> Ecofil",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/12jvbbmux0ln",
-        "id": 11
+        "url": "https://drive.atarifiuti.ap.it/12jvbbmux0ln"
       },
       "zip_hash": "e063303a6e605eeb81d400f65cba8fccd9ad6a3ef3520a07a7b9efb33b32f244",
       "content_fingerprint": "0bc54d53088f8a0b340d3afd5ae85c0623c746d1a1e83deff7c7a9a173d5135e",
@@ -11379,7 +11377,7 @@
     "12": {
       "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
       "content_fingerprint": "f4ababa5adaaa8a1283370318c948d2760bb7cc80c1386b2916edfb3dc18a872",
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12352,24 +12350,20 @@
       "info": {
         "comune": "Cossignano",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r",
-        "id": 12
+        "url": "https://drive.atarifiuti.ap.it/4tnw5kqz3z5r"
       },
       "last_scan_error": false,
       "processabile": "si",
-      "last_scan_empty": false
+      "last_scan_empty": true
     },
     "13": {
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "last_scan_error": false,
-      "last_scan_empty": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Cupra Marittima",
         "gestore": "Picenambiente",
-        "advisor": "",
-        "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr",
-        "id": 13
+        "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr"
       },
       "zip_hash": "6e96d90256b7a9957485dd8367d06f612b95a31e0c6e3fac878d8592407488ca",
       "content_fingerprint": "f7a97fb52c59b59cade202d1d6004c0bbea84c4638ddc7902341c6649f2aeac9",
@@ -13089,8 +13083,8 @@
       "processabile": "no"
     },
     "14": {
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Folignano",
@@ -13841,7 +13835,7 @@
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14071,12 +14065,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-08T17:23:35.096243+00:00",
-          "zip_hash": "934a685fc2b0921a397ec76e67e9ff860ff54a76b4f84825b637b595fc10cf8d",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-05-08T19:25:05.508350+00:00",
           "zip_hash": "934a685fc2b0921a397ec76e67e9ff860ff54a76b4f84825b637b595fc10cf8d",
@@ -14670,6 +14658,12 @@
           "zip_hash": "408f97969baa90dd65e1d071e2e6e4afe0797d07778c5436c0b563f21ef7accc",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-02T12:01:08.042221+00:00",
+          "zip_hash": "408f97969baa90dd65e1d071e2e6e4afe0797d07778c5436c0b563f21ef7accc",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -14707,7 +14701,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15627,13 +15621,19 @@
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-02T12:01:08.042221+00:00",
+          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -16682,6 +16682,12 @@
         },
         {
           "time": "2026-06-01T19:18:11.621056+00:00",
+          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-06-02T12:01:08.042221+00:00",
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
           "file_count": 6
@@ -29498,7 +29504,7 @@
     "16": {
       "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
       "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-06-01T19:18:11.621056+00:00",
+      "last_scan": "2026-06-02T12:01:08.042221+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -30418,6 +30424,12 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-06-02T12:01:08.042221+00:00",
+          "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -30436,11 +30448,11 @@
   "meta": {
     "last_scan": "2026-06-02T12:01:08.042221+00:00",
     "results": {
-      "scansionati": 10,
+      "scansionati": 14,
       "aggiornati": 0,
-      "invariati": 10,
-      "errori": 0,
-      "vuoti": 0
+      "invariati": 14,
+      "errori": 1,
+      "vuoti": 3
     },
     "total_comuni": 33,
     "scadenze": {
