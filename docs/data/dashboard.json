@@ -26812,7 +26812,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -27434,12 +27434,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-10T19:10:54.384260+00:00",
-          "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-05-11T11:22:43.881645+00:00",
           "zip_hash": "18b82c1eef32026d1643b728daf4d4df06e5fd2b9559912fb55dd5b910345d09",
           "changed": false,
@@ -28032,6 +28026,12 @@
           "zip_hash": "f7e18f833333f15ba0c605b3d421b2ff82bd8c847863380a18e5a32fa2e318c8",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "f7e18f833333f15ba0c605b3d421b2ff82bd8c847863380a18e5a32fa2e318c8",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -28040,7 +28040,7 @@
     "32": {
       "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
       "content_fingerprint": "250f2c40d3b104ade7d61d2ba1903d74993f4b4529e12a60cd73bb377255eb1e",
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -28381,12 +28381,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-11T11:22:43.881645+00:00",
-          "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
-          "changed": true,
-          "file_count": 7
-        },
         {
           "time": "2026-05-11T15:20:12.561434+00:00",
           "zip_hash": "e391701c376baaaebca0e9cacc84fd0ab5fbb8efa44408ea2f2ba2ba033d50b0",
@@ -28980,6 +28974,12 @@
           "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -28995,7 +28995,7 @@
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -29005,9 +29005,9 @@
         "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg",
         "id": 33
       },
-      "zip_hash": "db0d7b3861d7475dc8cf379cc17e535355126439de4b7dfe845b15b56db20a49",
-      "content_fingerprint": "ba183b472ac57110a49b4a6bd8edc58dc0b7956c4bd8d39677168b3c2846c978",
-      "zip_changed": false,
+      "zip_hash": "96a25565eb8f9ee49b7d922b79dc99a2e9185ee22b51234e2970320969487cab",
+      "content_fingerprint": "deb0be002e7e1dee3e7df717564eb07153d93b301d7e2c72f47d32519e134f6a",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -29113,19 +29113,19 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "ff02933a9f0611a0151c03d464356248a90f5a7ce36ffb823dfa7861ca2ca9d9",
-          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "current_size": 3980536,
+          "current_hash": "2de99b308adf456a9ebeaa90b030bf5f14105e3b7d3a2d2a19cd66f599f6d235",
+          "current_file": "Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4865850,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-              "hash": "ff02933a9f0611a0151c03d464356248a90f5a7ce36ffb823dfa7861ca2ca9d9",
-              "size": 3980536
+              "name": "Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "2de99b308adf456a9ebeaa90b030bf5f14105e3b7d3a2d2a19cd66f599f6d235",
+              "size": 4865850
             }
           ],
           "first_upload": "2026-05-13T10:33:25.719465+00:00",
-          "last_upload": "2026-05-20T13:43:57.065033+00:00",
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -29138,6 +29138,12 @@
               "time": "2026-05-20T13:43:57.065033+00:00",
               "hash": "ff02933a9f0611a0151c03d464356248a90f5a7ce36ffb823dfa7861ca2ca9d9",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "2de99b308adf456a9ebeaa90b030bf5f14105e3b7d3a2d2a19cd66f599f6d235",
+              "file": "Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "sostituzione"
             }
           ]
@@ -29175,19 +29181,19 @@
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "c199bac5b24906f3b33af615c550280add9b57d8e784b85db562ea9449afe20a",
-          "current_file": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
-          "current_size": 175111,
+          "current_hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "current_size": 464633,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
-              "hash": "c199bac5b24906f3b33af615c550280add9b57d8e784b85db562ea9449afe20a",
-              "size": 175111
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "size": 464633
             }
           ],
           "first_upload": "2026-05-13T10:33:25.719465+00:00",
-          "last_upload": "2026-05-20T13:43:57.065033+00:00",
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -29200,6 +29206,12 @@
               "time": "2026-05-20T13:43:57.065033+00:00",
               "hash": "c199bac5b24906f3b33af615c550280add9b57d8e784b85db562ea9449afe20a",
               "file": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -29237,10 +29249,10 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "hash": "ff02933a9f0611a0151c03d464356248a90f5a7ce36ffb823dfa7861ca2ca9d9",
-          "size": 3980536,
+          "name": "Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "2de99b308adf456a9ebeaa90b030bf5f14105e3b7d3a2d2a19cd66f599f6d235",
+          "size": 4865850,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -29253,10 +29265,10 @@
           "source": "comune"
         },
         {
-          "name": "Allegato4_DichiarazioneVeridicitaComuni.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni.pdf",
-          "hash": "c199bac5b24906f3b33af615c550280add9b57d8e784b85db562ea9449afe20a",
-          "size": 175111,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "size": 464633,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -29838,6 +29850,12 @@
           "time": "2026-06-03T21:19:10.723727+00:00",
           "zip_hash": "db0d7b3861d7475dc8cf379cc17e535355126439de4b7dfe845b15b56db20a49",
           "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "96a25565eb8f9ee49b7d922b79dc99a2e9185ee22b51234e2970320969487cab",
+          "changed": true,
           "file_count": 7
         }
       ],
@@ -30834,9 +30852,9 @@
   "meta": {
     "last_scan": "2026-06-04T09:24:58.357584+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 7,
-      "invariati": 23,
+      "scansionati": 33,
+      "aggiornati": 8,
+      "invariati": 25,
       "errori": 0,
       "vuoti": 0
     },
@@ -30846,7 +30864,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
