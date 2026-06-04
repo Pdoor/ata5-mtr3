@@ -993,7 +993,7 @@
       "last_scan_empty": false
     },
     "1": {
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -1003,26 +1003,26 @@
         "url": "https://drive.atarifiuti.ap.it/31vxgad4m5f4",
         "id": 1
       },
-      "zip_hash": "1b8ee76a63d62677e45218205bdabc296bea88b782970fb3dfab358012489b00",
-      "content_fingerprint": "51de9f6a04a386bc8abf92058767cfb618a433b978a3c0c095626872b2d7e503",
-      "zip_changed": false,
+      "zip_hash": "0188a73aa9f83c1bf26ad29c0c6180ffb6fa04e9fc2e752e4798688514e9b8e5",
+      "content_fingerprint": "f32b254b4faf20b5830e47df08d9e4f133139549ff345113d1e530d13d5a081e",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "eec20d51000885efb34fc0585401df20d637521ef1540190ad84030fb0ed11a5",
+          "current_hash": "60a61d0cbd730fc18f6fc5c46a683d34683c0ca9f7b53196bf3c7c3fe7fd46bc",
           "current_file": "Allegato_1_-_ Acquasanta Terme Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4865249,
+          "current_size": 4865288,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_ Acquasanta Terme Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "eec20d51000885efb34fc0585401df20d637521ef1540190ad84030fb0ed11a5",
-              "size": 4865249
+              "hash": "60a61d0cbd730fc18f6fc5c46a683d34683c0ca9f7b53196bf3c7c3fe7fd46bc",
+              "size": 4865288
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-12T10:36:27.282099+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-12T10:36:27.282099+00:00",
@@ -1047,6 +1047,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "60a61d0cbd730fc18f6fc5c46a683d34683c0ca9f7b53196bf3c7c3fe7fd46bc",
+              "file": "Allegato_1_-_ Acquasanta Terme Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -1107,19 +1113,19 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "current_size": 464299,
+          "current_hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "current_size": 464633,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-              "size": 464299
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "size": 464633
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-20T10:55:59.824705+00:00",
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -1156,6 +1162,12 @@
               "time": "2026-05-20T10:55:59.824705+00:00",
               "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
               "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -1294,8 +1306,8 @@
         {
           "name": "Allegato_1_-_ Acquasanta Terme Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Acquasanta Terme Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "eec20d51000885efb34fc0585401df20d637521ef1540190ad84030fb0ed11a5",
-          "size": 4865249,
+          "hash": "60a61d0cbd730fc18f6fc5c46a683d34683c0ca9f7b53196bf3c7c3fe7fd46bc",
+          "size": 4865288,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -1308,10 +1320,10 @@
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-          "size": 464299,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "size": 464633,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -1381,12 +1393,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-12T10:36:27.282099+00:00",
-          "zip_hash": "e4a3dae8c9c9617766ee1eb3a65773fefe20fcd9724a8065ab00804ad6745315",
-          "changed": true,
-          "file_count": 4
-        },
         {
           "time": "2026-05-12T13:06:51.062270+00:00",
           "zip_hash": "e4a3dae8c9c9617766ee1eb3a65773fefe20fcd9724a8065ab00804ad6745315",
@@ -1980,6 +1986,12 @@
           "zip_hash": "1b8ee76a63d62677e45218205bdabc296bea88b782970fb3dfab358012489b00",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "0188a73aa9f83c1bf26ad29c0c6180ffb6fa04e9fc2e752e4798688514e9b8e5",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -1999,7 +2011,7 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -2494,12 +2506,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-11T19:59:54.742499+00:00",
-          "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-12T10:36:27.282099+00:00",
           "zip_hash": "8211f540e971174f95325e74bc548ea6d4cd4750c35c9d1f8a95cca6610fefdd",
@@ -3093,33 +3099,39 @@
           "zip_hash": "0090e5eac780f1cb57d6391a4fae6e3c10c531eac775177af44f5e412e74bdcf",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "0090e5eac780f1cb57d6391a4fae6e3c10c531eac775177af44f5e412e74bdcf",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "3": {
-      "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
-      "content_fingerprint": "b6fc042543fb9b47929e7f58cecb605c17de002b8ff95d2fd108d9355a824d63",
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
-      "zip_changed": false,
+      "zip_hash": "507335696a8e5c79301c097f2a66c79569fc01f591dd7cd4ba03b7dbc8f2819c",
+      "content_fingerprint": "997720fe1d50095c2b2043297e00a4d1c3715fe73626a1d1ea3dbd87c0645c6a",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "91ca5fb32919a4efcdc66c50889540256848090b104f31ea2f301e3f4a5d39ad",
+          "current_hash": "593b4595783f536eedca935f11908b22a49346cd080328fad1c19422bd7b0def",
           "current_file": "Allegato_1_-_ Appignano del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4862779,
+          "current_size": 4862610,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_ Appignano del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "91ca5fb32919a4efcdc66c50889540256848090b104f31ea2f301e3f4a5d39ad",
-              "size": 4862779
+              "hash": "593b4595783f536eedca935f11908b22a49346cd080328fad1c19422bd7b0def",
+              "size": 4862610
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-12T10:36:27.282099+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-12T10:36:27.282099+00:00",
@@ -3138,6 +3150,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "593b4595783f536eedca935f11908b22a49346cd080328fad1c19422bd7b0def",
+              "file": "Allegato_1_-_ Appignano del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -3192,19 +3210,19 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "current_size": 464299,
+          "current_hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "current_size": 464633,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-              "size": 464299
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "size": 464633
             }
           ],
           "first_upload": "2026-05-12T10:36:27.282099+00:00",
-          "last_upload": "2026-05-20T10:55:59.824705+00:00",
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -3236,6 +3254,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -3351,8 +3375,8 @@
         {
           "name": "Allegato_1_-_ Appignano del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Appignano del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "91ca5fb32919a4efcdc66c50889540256848090b104f31ea2f301e3f4a5d39ad",
-          "size": 4862779,
+          "hash": "593b4595783f536eedca935f11908b22a49346cd080328fad1c19422bd7b0def",
+          "size": 4862610,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -3365,10 +3389,10 @@
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-          "size": 464299,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "size": 464633,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -3430,12 +3454,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-11T19:59:54.742499+00:00",
-          "zip_hash": "6c7813f7d2c26fe1d25203dd95b0731f79d5a7118a9e99c46b073e566509c729",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-12T10:36:27.282099+00:00",
           "zip_hash": "f8f92d1b4b0aa2d58ddc06f231d576499b593afcc420c2e200cd3cfc48351fc5",
@@ -4029,6 +4047,12 @@
           "zip_hash": "69484201b914b0d2cdd485b4464376e70c60d59d1a59a5635053845087040f89",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "507335696a8e5c79301c097f2a66c79569fc01f591dd7cd4ba03b7dbc8f2819c",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -4063,7 +4087,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -4073,26 +4097,26 @@
         "url": "https://drive.atarifiuti.ap.it/4g5saz8wvr38",
         "id": 4
       },
-      "zip_hash": "bbb2da641ab34a5923c9b5d97a513c6f8083f7fce6dcbd2e87a0ce4ed4937672",
-      "content_fingerprint": "d0bf2876aa7535106982d360f1e1469835c41d1e633f46882c038ff31cfab894",
-      "zip_changed": false,
+      "zip_hash": "b4a371c4baeb6c3e329643ea02095611fd453aca2ae0b38b3ebc9d39a24c85a9",
+      "content_fingerprint": "c624bafaf956ef1a54f387b26484fe4fd07d128d01829b2012e636f2b428ddd7",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "b1da63c6b95208d2c72aec7dc48f3615ea2bbe85293ade063a9823854d644ac7",
+          "current_hash": "84090a34ea945d4c92c27b24f95b8098f8e3e5fea74ece957b543210af4e688f",
           "current_file": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 4865568,
+          "current_size": 4865405,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "b1da63c6b95208d2c72aec7dc48f3615ea2bbe85293ade063a9823854d644ac7",
-              "size": 4865568
+              "hash": "84090a34ea945d4c92c27b24f95b8098f8e3e5fea74ece957b543210af4e688f",
+              "size": 4865405
             }
           ],
           "first_upload": "2026-05-16T19:11:24.493426+00:00",
-          "last_upload": "2026-05-16T19:11:24.493426+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-16T19:11:24.493426+00:00",
@@ -4111,6 +4135,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "84090a34ea945d4c92c27b24f95b8098f8e3e5fea74ece957b543210af4e688f",
+              "file": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -4165,19 +4195,19 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "current_size": 464299,
+          "current_hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "current_file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "current_size": 464633,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-              "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-              "size": 464299
+              "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "size": 464633
             }
           ],
           "first_upload": "2026-05-16T19:11:24.493426+00:00",
-          "last_upload": "2026-05-20T10:55:59.824705+00:00",
+          "last_upload": "2026-06-04T09:24:58.357584+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -4209,6 +4239,12 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-06-04T09:24:58.357584+00:00",
+              "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+              "file": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -4324,49 +4360,15 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
-          "current_hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-          "current_file": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-          "current_size": 6641674,
-          "file_count": 2,
-          "all_files": [
-            {
-              "name": "Pef 2026_2029_Arquata del Tronto.zip",
-              "hash": "dbfd85b201610f6ca88353cbe4c771235ccd39887c1a80bf10ff9d766d35a1e8",
-              "size": 6455643
-            },
-            {
-              "name": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-              "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-              "size": 6641674
-            }
-          ],
-          "first_upload": "2026-05-24T17:07:47.779707+00:00",
-          "last_upload": "2026-05-24T17:07:47.779707+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-24T17:07:47.779707+00:00",
-              "hash": "fcd887fe5da886bba01ad9411ddc64c726004279a58d6b5b96c846b907acd78f",
-              "file": "PEF 2026_2029 )2° invio a sostizione del 1°.zip",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-26T09:44:21.269415+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-26T09:44:21.269415+00:00"
+          "status": "missing"
         }
       },
       "all_files": [
         {
           "name": "Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Arquata del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "b1da63c6b95208d2c72aec7dc48f3615ea2bbe85293ade063a9823854d644ac7",
-          "size": 4865568,
+          "hash": "84090a34ea945d4c92c27b24f95b8098f8e3e5fea74ece957b543210af4e688f",
+          "size": 4865405,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -4379,10 +4381,10 @@
           "source": "gestore"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 20.5.2026_signed.pdf",
-          "hash": "1050c3563c07db06b0a019f6ca54c8b1cbce2bbd9cac7592dffb84fa82636707",
-          "size": 464299,
+          "name": "Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - UMT x 8 Comuni 04.6.2026_signed.pdf",
+          "hash": "08a4c6ae5ee865bd0fc6697c02750e6684a1e65d28bca09d22ce27aa435c185f",
+          "size": 464633,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -4428,12 +4430,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-11T17:58:23.441050+00:00",
-          "zip_hash": "6e6ff68c6556930d612fee9fa3c40c164d9ba780f5b42655e2e44a9d514430da",
-          "changed": false,
-          "file_count": 2
-        },
         {
           "time": "2026-05-11T19:59:54.742499+00:00",
           "zip_hash": "6e6ff68c6556930d612fee9fa3c40c164d9ba780f5b42655e2e44a9d514430da",
@@ -5027,6 +5023,12 @@
           "zip_hash": "bbb2da641ab34a5923c9b5d97a513c6f8083f7fce6dcbd2e87a0ce4ed4937672",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
+          "zip_hash": "b4a371c4baeb6c3e329643ea02095611fd453aca2ae0b38b3ebc9d39a24c85a9",
+          "changed": true,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -5046,7 +5048,7 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-06-03T21:19:10.723727+00:00",
+      "last_scan": "2026-06-04T09:24:58.357584+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -5890,6 +5892,12 @@
         },
         {
           "time": "2026-06-03T21:19:10.723727+00:00",
+          "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-06-04T09:24:58.357584+00:00",
           "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
           "changed": false,
           "file_count": 10
@@ -30758,11 +30766,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-03T21:19:10.723727+00:00",
+    "last_scan": "2026-06-04T09:24:58.357584+00:00",
     "results": {
-      "scansionati": 33,
-      "aggiornati": 0,
-      "invariati": 33,
+      "scansionati": 5,
+      "aggiornati": 3,
+      "invariati": 2,
       "errori": 0,
       "vuoti": 0
     },
@@ -30772,7 +30780,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
