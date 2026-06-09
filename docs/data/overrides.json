@@ -1178,7 +1178,15 @@
             "date": "2026-06-08",
             "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: lunedì 8 giugno 2026 19:21\nA: tributi@comune.castorano.ap.it; 'Dott. Luzi Loretino Comune di Castorano' <ufficio.ragioneria@comune.castorano.ap.it>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: Re: ATA5: Comune di Castorano- trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\na seguito della comunicazione ricevuta dal gestore, si trasmette una nuova simulaizone che tiene conto della rinuncia comunicata.\nSi specifica che permane uno sforamento di € 22.760 sul 2026.\nSaluti\nGabriele Nardi",
             "author": "GM",
-            "children": []
+            "children": [
+              {
+                "cat": "pef",
+                "date": "2026-06-09",
+                "text": "Buongiorno si confermano i dati della nuova simulazione. L’importo di € 22.760 verrà inserito nei Pef successivi al 2027. Attendiamo il decreto per la presa d’atto in Consiglio. Cordiali Saluti",
+                "author": "GM",
+                "children": []
+              }
+            ]
           }
         ]
       },
