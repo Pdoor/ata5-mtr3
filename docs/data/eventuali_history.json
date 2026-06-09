@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 1,
-    "last_update": "2026-06-09T11:16:15.979813+00:00",
-    "dashboard_last_scan": "2026-06-09T10:56:32.951641+00:00",
-    "files_tracked": 19
+    "last_update": "2026-06-09T13:08:04.617316+00:00",
+    "dashboard_last_scan": "2026-06-09T13:05:21.184816+00:00",
+    "files_tracked": 18
   },
   "comuni": {
     "1": {
@@ -539,14 +539,19 @@
           "current_size": 34074,
           "first_seen": "2026-06-09T10:56:32.951641+00:00",
           "last_seen": "2026-06-09T10:56:32.951641+00:00",
-          "status": "presente",
-          "removed_at": null,
+          "status": "rimosso",
+          "removed_at": "2026-06-09T13:05:21.184816+00:00",
           "history": [
             {
               "event": "primo_caricamento",
               "time": "2026-06-09T10:56:32.951641+00:00",
               "hash": "babb158988b96edde425dce96b28df9774e196e70d7d94511e86576b4d48d60e",
               "size": 34074
+            },
+            {
+              "event": "rimosso",
+              "time": "2026-06-09T13:05:21.184816+00:00",
+              "previous_hash": "babb158988b96edde425dce96b28df9774e196e70d7d94511e86576b4d48d60e"
             }
           ]
         }
