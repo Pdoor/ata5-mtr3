@@ -1282,7 +1282,15 @@
                 "date": "2026-06-05",
                 "text": "Il 05/06/2026 11:26, Mail Ragioneria ha scritto:\nBuongiorno, si invia documentazione riguardante l' oggetto.\nCordiali saluti.\nUMBERTA ROSELLI",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "pef",
+                    "date": "2026-06-08",
+                    "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: lunedì 8 giugno 2026 15:28\nA: Mail Ragioneria <ragioneria@comune.force.ap.it>\nCc: 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>; 'Claudio Carducci' <direttoreata@gmail.com>\nOggetto: Re: Comune di Force - Bozza schema Pef Tari 2026-2029\n\nBuonasera,\nin allegato si trasmette lo schema di Pef rielaborato sulla base delle vs. indicazioni.\nSaluti",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
