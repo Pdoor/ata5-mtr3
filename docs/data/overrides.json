@@ -974,6 +974,11 @@
       "date": "2026-05-26",
       "by": "GM",
       "at": "2026-06-09T13:38:35.352Z"
+    },
+    "9_wf_conferma_com": {
+      "date": "2026-06-09",
+      "by": "GM",
+      "at": "2026-06-09T13:49:28.432Z"
     }
   },
   "scadenze": {},
@@ -1067,29 +1072,6 @@
     ],
     "5": [
       {
-        "cat": "pef",
-        "date": "2026-05-27",
-        "text": "________________________________________\nDa: \"Supporto Pef Tari ATA5\" <pef.ata5@centrostudientilocali.net> \nA: \"undefined\" <cristinam@comune.ascolipiceno.it> \nCc: \"'Claudio Carducci'\" <direttoreata@gmail.com>, \"'ATA Ascoli Piceno'\" <ata.ascolipiceno@provincia.ap.it>\nInviato: mercoledì 27 maggio 2026 18:20 \nOggetto: ATA5: Comune di Ascoli Piceno - trasmissione bozza schema Pef Tari 2026-2029 \nBuonasera,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche \n \nIl Pef rispetta il limite di crescita in tutte le annualità del quadriennio.\n \nSi specifica che per quanto concerne i parametri del limite di crescita sono stati inseriti i coefficimenti massimi previsti dal Mtr-3, valorizzando il coefficiente K sulla base delle informazioni contenute nella relazione del gestore circa la valutazione degli obiettivi in termini di qualità del servizio erogato.\n \n \nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata.ascolipiceno@provincia.ap.it e pef.ata5@centrostudientilocali.net\n\nSaluti\n \n-- \nArea Gestione e Riscossione delle Entrate Locali",
-        "author": "GM",
-        "children": [
-          {
-            "cat": "pef",
-            "date": "2026-06-08",
-            "text": "Saluti\nIl 08/06/2026 13:44, Cristina Mattioli ha scritto:\nGent.mi\nIn allegato si trasmette lo schema di PEF Tari 2026-2029, oggetto di revisione e condiviso con il gestore, Ascoli Servizi Comunali.\nSi rimane in attesa di conoscere le eventuali attività da porre in essere sia da parte di questo Ente che da parte del gestore per procedere nei termini all’approvazione definitiva del documento.\n \n\nCristina Mattioli\nDIRIGENTE SETTORE 4\nSettore 4\nTel: 0736/298746\nMobile: 3204342593",
-            "author": "GM",
-            "children": [
-              {
-                "cat": "pef",
-                "date": "2026-06-09",
-                "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: lunedì 8 giugno 2026 19:12\nA: Cristina Mattioli <c.mattioli@comune.ap.it>\nCc: ATA Ascoli Piceno <ata.ascolipiceno@provincia.ap.it>; 'Claudio Carducci' <direttoreata@gmail.com>\nOggetto: Re: ATA5: Comune di Ascoli Piceno - trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\nverificando le modifiche apportate, le stesse sono riconducibili a:\n1) rinuncia, da parte di Ascoli Servizi Comunali, di una quota pari ad Euro 100.000 della componente CSL nell'anno 2026;\n2) revisione, da parte del Comune, della quota della componente ACC per entrambe le annualità.\n\nPer concludere le operazioni prodromiche all'approvazione del Pef, occorre che:\n1) Ascoli Servizi Comunali, anche a mezzo mail, formalizzi la rinuncia indicata nel tool;\n2) il Comune trasmessa nuovamente tutto il data set aggiornato sulla base del nuovo dato della componente ACC.\n\nPer qualsiasi necessità rimaniamo a disposizione.\nSaluti",
-                "author": "GM",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
         "cat": "gestore",
         "date": "2026-05-26",
         "text": "Da: Claudio Carducci <direttoreata@gmail.com> \nInviato: martedì 26 maggio 2026 10:03\nA: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net>\nOggetto: Fwd: Integrazione richiesta - PEF grezzo\n\nVi inoltro quanto pervenuto dalla Soc. ASC srl\nSaluti\nATA- ATO 5 AP\nIl Direttore  \nDott. Geol. Claudio CARDUCCI\n\n---------- Forwarded message ---------\nDa: <segreteria@ascoliservizi.it>\nDate: mar 26 mag 2026 alle ore 09:41\nSubject: Integrazione richiesta - PEF grezzo\nTo: <direttoreata@gmail.com>\n\nBuongiorno,\nsi invia in allegato, ns. nota di riscontro, prot. n.488 e relativi allegati.\nLa suddetta documentazione è già stata inviata via pec.\nCordiali saluti.",
@@ -1172,21 +1154,6 @@
             "text": "Da: Amministratore Delegato - Picenambiente <collina@picenambiente.it> \nInviato: giovedì 4 giugno 2026 17:50\nA: 'Dott. Luzi Loretino Comune di Castorano' <ufficio.ragioneria@comune.castorano.ap.it>; tributi@comune.castorano.ap.it; 'Supporto Pef Tari ATA5' <pef.ata5@centrostudientilocali.net>; 'Claudio Carducci' <direttoreata@gmail.com>\nOggetto: Comune di Castorano - trasmissione bozza schema Pef Tari 2026-2029. Comunicazioni PicenAmbiente detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025\n\nSpett.le ATA \nSpett.le Comune di Castorano\n\nLa presente a specificazione di quanto già anticipato dal Comune di Castorano, in esito ad una riunione di coordinamento effettuata in data odierna con l’amministrazione Comunale durante la quale si sono congiuntamente esaminate le risultanze anticipate del PEF 2026/2027.\nIl gestore PicenAmbiente Spa, a fronte di diverso riconoscimento d detti importi da parte dell’amministrazione comunale nelle modalità, ai sensi di legge, in via di definizione, dichiara di rinunciare (quale detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025) per quanto di sua spettanza e competenza:\nSolo per l’anno 2026 PEF 2026 LE RINUNCE DI 30.375 €, da DETRARRE ai 41.377 € dovuti, tale per cui si assente all’inserimento dell’importo residuale di 11.002 € alla seguente voce (41.377 € - 30.375 €) \n \n\nDistinti saluti\n____________________________________________________\nDr Leonardo Collina\namministratore delegato\ndirettore esecutivo \nPicenAmbiente Spa\nContatti: Tel. 0735/757077– email: collina@picenambiente.it\n\nLe informazioni contenute nella presente comunicazione e i relativi allegati possono essere riservate e sono, comunque, destinate esclusivamente alle persone o alla Societá sopraindicati. La diffusione, distribuzione e/o copiatura del documento trasmesso da parte di qualsiasi soggetto diverso dal destinatario é proibita, sia ai sensi dell´art. 616 c.p., che ai sensi del GDPR 2016/679 e del D.Lgs. n. 196/2003. Se avete ricevuto questo messaggio per errore, vi preghiamo di distruggerlo e di informarci immediatamente per telefono allo 0735-757077 o inviando un messaggio all´indirizzo e-mail collina@picenambiente.it. \n \nPrima di stampare questa mail verificate, sotto la vostra responsabilità, la sua reale necessità.",
             "author": "GM",
             "children": []
-          },
-          {
-            "cat": "pef",
-            "date": "2026-06-08",
-            "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: lunedì 8 giugno 2026 19:21\nA: tributi@comune.castorano.ap.it; 'Dott. Luzi Loretino Comune di Castorano' <ufficio.ragioneria@comune.castorano.ap.it>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: Re: ATA5: Comune di Castorano- trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\na seguito della comunicazione ricevuta dal gestore, si trasmette una nuova simulaizone che tiene conto della rinuncia comunicata.\nSi specifica che permane uno sforamento di € 22.760 sul 2026.\nSaluti\nGabriele Nardi",
-            "author": "GM",
-            "children": [
-              {
-                "cat": "pef",
-                "date": "2026-06-09",
-                "text": "Buongiorno si confermano i dati della nuova simulazione. L’importo di € 22.760 verrà inserito nei Pef successivi al 2027. Attendiamo il decreto per la presa d’atto in Consiglio. Cordiali Saluti",
-                "author": "GM",
-                "children": []
-              }
-            ]
           }
         ]
       },
