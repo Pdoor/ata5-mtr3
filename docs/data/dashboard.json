@@ -5048,7 +5048,7 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-06-09T19:10:27.197858+00:00",
+      "last_scan": "2026-06-10T08:56:19.462478+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -5058,9 +5058,9 @@
         "url": "https://drive.atarifiuti.ap.it/6wyxwu6hv08g",
         "id": 5
       },
-      "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
-      "content_fingerprint": "e9d3a440bfbfca070a88602a18923c380e7b06d37b097d9b58c316f01f33b256",
-      "zip_changed": false,
+      "zip_hash": "222ffed7c06eed06964a3a69a93113e3b58a406582f3810a6897b1e89063ea9d",
+      "content_fingerprint": "1fbe710759fa02f869d61c30eb9f7371055aec2a4116e7662e00d2ed89abc7be",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -5145,7 +5145,7 @@
           "current_hash": "9753cb052c99f4f8bcaf57077455f58fe909c61df33c7e418c618031c23c8334",
           "current_file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1.xlsx",
           "current_size": 3979103,
-          "file_count": 2,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1.xlsx",
@@ -5156,6 +5156,11 @@
               "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_2.0.xlsx",
               "hash": "070cbae651f5ac64a572cdad6cdbc276a220ca83c7a88aa93ef575c274309e08",
               "size": 3971495
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_B vers 03.06.xlsx",
+              "hash": "26e5163946e94dcdbb56356ffdbdce012fe783f19cf4a7742b80aadf8f978995",
+              "size": 3968703
             }
           ],
           "first_upload": "2026-05-13T13:16:55.056760+00:00",
@@ -5172,10 +5177,10 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "9cc22e01bec8855def134f96bd5661ea349b8bd4a69f2e3be0e8f349f9805511",
-          "current_file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_2.0.pdf",
-          "current_size": 486194,
-          "file_count": 2,
+          "current_hash": "dddab240da9c6836665e392c32ecf8e478e864ac56e705f3e3d6faa6170ee8ce",
+          "current_file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
+          "current_size": 486206,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2.pdf",
@@ -5186,10 +5191,15 @@
               "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_2.0.pdf",
               "hash": "9cc22e01bec8855def134f96bd5661ea349b8bd4a69f2e3be0e8f349f9805511",
               "size": 486194
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
+              "hash": "dddab240da9c6836665e392c32ecf8e478e864ac56e705f3e3d6faa6170ee8ce",
+              "size": 486206
             }
           ],
           "first_upload": "2026-05-13T13:16:55.056760+00:00",
-          "last_upload": "2026-05-19T15:33:40.099680+00:00",
+          "last_upload": "2026-06-10T08:56:19.462478+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -5203,6 +5213,12 @@
               "hash": "9cc22e01bec8855def134f96bd5661ea349b8bd4a69f2e3be0e8f349f9805511",
               "file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_2.0.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-06-10T08:56:19.462478+00:00",
+              "hash": "dddab240da9c6836665e392c32ecf8e478e864ac56e705f3e3d6faa6170ee8ce",
+              "file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -5211,7 +5227,7 @@
           "current_hash": "21a205a80b595eaee46f643fa33ed3131659cad07fcc43c799bd1457d336a143",
           "current_file": "dichiarazione di verificità_Comuni_signed.pdf",
           "current_size": 334861,
-          "file_count": 2,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Allegato_3_Dichiarazione_Veridicita_signed.pdf",
@@ -5222,6 +5238,11 @@
               "name": "dichiarazione di verificità_Comuni_signed.pdf",
               "hash": "21a205a80b595eaee46f643fa33ed3131659cad07fcc43c799bd1457d336a143",
               "size": 334861
+            },
+            {
+              "name": "dichiarazione di verificità_Allegato 3_signed.pdf",
+              "hash": "252b4461d83e433f58a057d48dd397f5311456011b7f8724d4188bcb2a36fb25",
+              "size": 334772
             }
           ],
           "first_upload": "2026-05-13T13:16:55.056760+00:00",
@@ -5299,6 +5320,14 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_B vers 03.06.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_B vers 03.06.xlsx",
+          "hash": "26e5163946e94dcdbb56356ffdbdce012fe783f19cf4a7742b80aadf8f978995",
+          "size": 3968703,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2.pdf",
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2.pdf",
           "hash": "04ef703fabe9f3d622fc1f802095bbcedbd1b32121b9afcc72c96faf44557e00",
@@ -5311,6 +5340,14 @@
           "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_2.0.pdf",
           "hash": "9cc22e01bec8855def134f96bd5661ea349b8bd4a69f2e3be0e8f349f9805511",
           "size": 486194,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
+          "hash": "dddab240da9c6836665e392c32ecf8e478e864ac56e705f3e3d6faa6170ee8ce",
+          "size": 486206,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -5329,15 +5366,17 @@
           "size": 334861,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "dichiarazione di verificità_Allegato 3_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/dichiarazione di verificità_Allegato 3_signed.pdf",
+          "hash": "252b4461d83e433f58a057d48dd397f5311456011b7f8724d4188bcb2a36fb25",
+          "size": 334772,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T13:39:41.131439+00:00",
-          "zip_hash": "62ec7e012142ebb3d579e9b68a96e49f0a1b8c409173a6e282cd87306a57e6ce",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-17T15:00:28.530426+00:00",
           "zip_hash": "62ec7e012142ebb3d579e9b68a96e49f0a1b8c409173a6e282cd87306a57e6ce",
@@ -5931,6 +5970,12 @@
           "zip_hash": "d08c71c831b76ba4faa2db5807f5d906f585780934f371604628705feeb5bf74",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-10T08:56:19.462478+00:00",
+          "zip_hash": "222ffed7c06eed06964a3a69a93113e3b58a406582f3810a6897b1e89063ea9d",
+          "changed": true,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -31138,11 +31183,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-09T19:10:27.197858+00:00",
+    "last_scan": "2026-06-10T08:56:19.462478+00:00",
     "results": {
-      "scansionati": 33,
-      "aggiornati": 0,
-      "invariati": 33,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
       "vuoti": 0
     },
@@ -31152,7 +31197,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
