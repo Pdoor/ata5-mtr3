@@ -1448,7 +1448,15 @@
         "date": "2026-05-19",
         "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: martedì 19 maggio 2026 22:32\nA: protocollo@comunemontemonaco.it\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: ATA5: Richiesta chiarimenti Pef Tari 2026-2029 - MONTEMONACO\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA5, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) per quanto riguarda la componente COAL, l'importo inserito nel tool per l'anno 2024 non risulta coerente con quanto indicato all'interno della relazione di accompagnamento;\n2) per quanto riguarda la componente CTS, i valori inseriti all'interno del tool non sono coerenti rispetto agli importi fatturati da ATA. Si richiede di verificare e di inserire il dettaglio della determinazione di tale componente all'interno della specifica tabella del foglio IN_CTS_CTR;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità. \n\nA disposizione per eventuali chiarimenti.",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-06-10",
+            "text": "Spett.le ATA5\n\nsi comunica di aver provveduto a sistemare quanto da Voi evidenziato caricando il nuovo tool sul drive.\nRimanendo a disposizione si inviano distinti saluti.\n\nIl Responsabile del Servizio Tributi - fto Dott. Ippoliti Francesco\n\nComune di Montemonaco \nPiazza Risorgimento, 5 \n63088 - Montemonaco (AP)\n+39 0736/856141\nE-mail:protocollo@comunemontemonaco.it\nPEC:comunemontemonaco.protocollo@pec.it \nIBAN: IT63V0760103200001058745504 \nC/CP n.15230634 \nCODICE UNIVOCO: UFJ1IZ\nC.F./P.I. 00357080449\nSITO: www.comune.montemonaco.ap.it\n\n \n\n\nDa \"Supporto Pef Tari ATA5\" pef.ata5@centrostudientilocali.net\nA protocollo@comunemontemonaco.it\nCc \"Claudio Carducci\" direttoreata@gmail.com\nData Tue, 9 Jun 2026 22:20:38 +0200\nOggetto Re: ATA5: Richiesta chiarimenti Pef Tari 2026-2029 - MONTEMONACO\n\nBuonasera,\nil punto 1 segnalato in precedenza è stato corretto ma il punto 2 risulta ancora non modificato, in quanto l’importo per l’anno 2025 è diverso tra relazione e tool ( nella relazione 22048 e nel tool 22045), inoltre non risulta inserita nella tabella “IN_CTS_CTR” la specificazione richiesta.\nPregasi verificare.\nSaluti\nIl 05/06/2026 17:59, protocollo@comunemontemonaco.it ha scritto:\nSpett.le ATA5\nfacendo seguito alla Vs. email con la presente si comunica di aver provveduto a sistemare le incongruenze rilevate caricando il relativo materiale aggiornato sul drive.\nRimanendo a disposizione si inviano distinti saluti.\n\nIl Responsabile del Servizio Tributi - fto Dott. Ippoliti Francesco\n\nComune di Montemonaco \nPiazza Risorgimento, 5 \n63088 - Montemonaco (AP)\n+39 0736/856141\nE-mail:protocollo@comunemontemonaco.it\nPEC:comunemontemonaco.protocollo@pec.it \nIBAN: IT63V0760103200001058745504 \nC/CP n.15230634 \nCODICE UNIVOCO: UFJ1IZ\nC.F./P.I. 00357080449\nSITO: www.comune.montemonaco.ap.it",
+            "author": "GM",
+            "children": []
+          }
+        ]
       }
     ],
     "25": [
