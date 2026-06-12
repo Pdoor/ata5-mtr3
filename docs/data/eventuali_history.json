@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": 1,
-    "last_update": "2026-06-11T19:51:15.817358+00:00",
-    "dashboard_last_scan": "2026-06-11T19:31:41.456759+00:00",
+    "last_update": "2026-06-12T12:00:34.759458+00:00",
+    "dashboard_last_scan": "2026-06-12T11:40:47.850963+00:00",
     "files_tracked": 19
   },
   "comuni": {
@@ -14,7 +14,7 @@
           "current_hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
           "current_size": 8846,
           "first_seen": "2026-04-27T10:28:04.083304+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -70,7 +70,7 @@
           "current_hash": "df11b539f4372dabd8cf74275e67654db14d9b9c3f1977bc47c9a025db2ddcf7",
           "current_size": 115915,
           "first_seen": "2026-05-18T11:48:02.293681+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -93,7 +93,7 @@
           "current_hash": "fc4c22f054759e5bc28129be3425131e334fd171b3c8493a69595fbc06146e21",
           "current_size": 19728,
           "first_seen": "2026-04-27T10:28:04.083304+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -111,7 +111,7 @@
           "current_hash": "b883b6b991abdc3ef282a1ce83173993f09a0be099fcaaa587305fe00001426e",
           "current_size": 3543965,
           "first_seen": "2026-04-27T10:28:04.083304+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -129,7 +129,7 @@
           "current_hash": "99accfe87e81c092c342078d399dd9d46dddc3cbe62f818798730514a1ca7792",
           "current_size": 34405,
           "first_seen": "2026-05-20T10:55:59.824705+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -152,7 +152,7 @@
           "current_hash": "2ce3d7608eb28af57b83c15bbe4d8970fc433e3b0a9da54e5980c8f6aeeed12f",
           "current_size": 5498402,
           "first_seen": "2026-04-29T10:10:15.919936+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -234,7 +234,7 @@
           "current_hash": "c38ae82bf3e6ce10c1858f8683e7c5382c95459481e0b1dfaa0356d7002d3e6f",
           "current_size": 1977579,
           "first_seen": "2026-05-07T08:24:17.847480+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -252,7 +252,7 @@
           "current_hash": "5cbe87511a3ea97e87691e7fcb903cbd09e1e520d10924c14103fc3ec03e2fc2",
           "current_size": 6045588,
           "first_seen": "2026-05-07T08:24:17.847480+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -275,7 +275,7 @@
           "current_hash": "5036e4edfeeecada4f6486e2eb071d4402bd452e022f6f65de104a92d393cb8d",
           "current_size": 4596638,
           "first_seen": "2026-05-07T08:24:17.847480+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -346,7 +346,7 @@
           "current_hash": "179d641e530f5a5ec774ce48d07046680ffd9d6469ab00383dc6ce271a9bc554",
           "current_size": 16740,
           "first_seen": "2026-05-11T15:20:12.561434+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -364,7 +364,7 @@
           "current_hash": "a640aa3b26dd38ba93e6e456086d6949d734388f95d3067cd44d87506d515479",
           "current_size": 356579,
           "first_seen": "2026-05-11T15:20:12.561434+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -382,7 +382,7 @@
           "current_hash": "c6d83dc53f73d351def182f341b6deb71fd2ae7243412c3c5cce3c8e48e3e4df",
           "current_size": 26129,
           "first_seen": "2026-05-11T15:20:12.561434+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -405,7 +405,7 @@
           "current_hash": "b46dd3d3c53916f86326a777420bf6c0d416400845d09d175f0f03ad80f2ea1b",
           "current_size": 4052996,
           "first_seen": "2026-05-13T08:21:13.491406+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -423,7 +423,7 @@
           "current_hash": "99accfe87e81c092c342078d399dd9d46dddc3cbe62f818798730514a1ca7792",
           "current_size": 34405,
           "first_seen": "2026-05-20T10:55:59.824705+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -445,7 +445,7 @@
           "current_hash": "fc5d882bada616dff36bfae486ece066ea2462686a1ee8d69d905d134a02160c",
           "current_size": 842285,
           "first_seen": "2026-05-15T10:28:37.121138+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -469,7 +469,7 @@
           "current_hash": "59cf9a106af8a7b6bb6fbdc94972ec427d8b1822f6f27e690dee771b41e57e3f",
           "current_size": 102978,
           "first_seen": "2026-05-18T11:48:02.293681+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -492,7 +492,7 @@
           "current_hash": "99accfe87e81c092c342078d399dd9d46dddc3cbe62f818798730514a1ca7792",
           "current_size": 34405,
           "first_seen": "2026-05-20T13:43:57.065033+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -515,7 +515,7 @@
           "current_hash": "756f9aba64bcdd0acee576cd0d005551d02eb7ce49b33a5642551e38b1ad416c",
           "current_size": 5201949,
           "first_seen": "2026-05-21T15:37:07.860622+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -538,7 +538,7 @@
           "current_hash": "babb158988b96edde425dce96b28df9774e196e70d7d94511e86576b4d48d60e",
           "current_size": 34074,
           "first_seen": "2026-06-09T10:56:32.951641+00:00",
-          "last_seen": "2026-06-11T19:31:41.456759+00:00",
+          "last_seen": "2026-06-12T11:40:47.850963+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
