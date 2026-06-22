@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 1,
-    "last_update": "2026-06-21T19:42:53.694725+00:00",
-    "dashboard_last_scan": "2026-06-21T19:22:53.818753+00:00",
-    "files_tracked": 19
+    "last_update": "2026-06-22T09:17:07.211106+00:00",
+    "dashboard_last_scan": "2026-06-22T09:16:29.097910+00:00",
+    "files_tracked": 20
   },
   "comuni": {
     "1": {
@@ -559,6 +559,29 @@
               "hash": "babb158988b96edde425dce96b28df9774e196e70d7d94511e86576b4d48d60e",
               "size": 34074,
               "previous_hash": "babb158988b96edde425dce96b28df9774e196e70d7d94511e86576b4d48d60e"
+            }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "Re_ ATA5_ Comune di Rotella - trasmissione bozza schema Pef Tari 2026-2029.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Re_ ATA5_ Comune di Rotella - trasmissione bozza schema Pef Tari 2026-2029.pdf",
+          "current_hash": "73a70134ef88a2efd1f3b29b461e67bf60f446d2f49c1ba2fa7b16186643e905",
+          "current_size": 148517,
+          "first_seen": "2026-06-22T09:16:29.097910+00:00",
+          "last_seen": "2026-06-22T09:16:29.097910+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-06-22T09:16:29.097910+00:00",
+              "hash": "73a70134ef88a2efd1f3b29b461e67bf60f446d2f49c1ba2fa7b16186643e905",
+              "size": 148517
             }
           ]
         }
