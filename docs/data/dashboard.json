@@ -15780,7 +15780,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -16137,12 +16137,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-04T17:41:31.204042+00:00",
-          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-04T19:58:26.456361+00:00",
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
@@ -16736,13 +16730,19 @@
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
+          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17214,12 +17214,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-05T11:22:53.785588+00:00",
-          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-05T14:37:35.368550+00:00",
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
@@ -17812,13 +17806,19 @@
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
+          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17828,9 +17828,9 @@
         "url": "https://drive.atarifiuti.ap.it/5hq88fqxu1de",
         "id": 19
       },
-      "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
-      "content_fingerprint": "06dc74752533876838a16c6d67f52b7791c4bbe1d18dda5c6dda22a01f4218d8",
-      "zip_changed": false,
+      "zip_hash": "8afd539118e612674a624bfe6cf5585e9ca42320041278cc2b0f6c4c139c876d",
+      "content_fingerprint": "009ebabab7a4973fd7ac9dcb3b6a130fca1005ee6b8afd789b1a34a5324e9205",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -17941,13 +17941,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "0849ec49d5bfff77bbadc85f5cb6f5ad8ec5d930c07adb3731246c95ed43bc4b",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+          "current_size": 3982926,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+              "hash": "0849ec49d5bfff77bbadc85f5cb6f5ad8ec5d930c07adb3731246c95ed43bc4b",
+              "size": 3982926
+            }
+          ],
+          "first_upload": "2026-06-29T12:27:11.066386+00:00",
+          "last_upload": "2026-06-29T12:27:11.066386+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-29T12:27:11.066386+00:00",
+              "hash": "0849ec49d5bfff77bbadc85f5cb6f5ad8ec5d930c07adb3731246c95ed43bc4b",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "15e134e843f5207cb43ac45bfb3b2b2e0e2e9790934f56f07ff6e190b3f35bbb",
+          "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+          "current_size": 266297,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+              "hash": "15e134e843f5207cb43ac45bfb3b2b2e0e2e9790934f56f07ff6e190b3f35bbb",
+              "size": 266297
+            }
+          ],
+          "first_upload": "2026-06-29T12:27:11.066386+00:00",
+          "last_upload": "2026-06-29T12:27:11.066386+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-29T12:27:11.066386+00:00",
+              "hash": "15e134e843f5207cb43ac45bfb3b2b2e0e2e9790934f56f07ff6e190b3f35bbb",
+              "file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "36720d718bc76119f45e933f16d3428059348cd70b776aa030cf73315b912415",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+          "current_size": 185576,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+              "hash": "36720d718bc76119f45e933f16d3428059348cd70b776aa030cf73315b912415",
+              "size": 185576
+            }
+          ],
+          "first_upload": "2026-06-29T12:27:11.066386+00:00",
+          "last_upload": "2026-06-29T12:27:11.066386+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-29T12:27:11.066386+00:00",
+              "hash": "36720d718bc76119f45e933f16d3428059348cd70b776aa030cf73315b912415",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -17980,15 +18046,33 @@
           "size": 465219,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+          "hash": "0849ec49d5bfff77bbadc85f5cb6f5ad8ec5d930c07adb3731246c95ed43bc4b",
+          "size": 3982926,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+          "hash": "15e134e843f5207cb43ac45bfb3b2b2e0e2e9790934f56f07ff6e190b3f35bbb",
+          "size": 266297,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+          "hash": "36720d718bc76119f45e933f16d3428059348cd70b776aa030cf73315b912415",
+          "size": 185576,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-05T11:22:53.785588+00:00",
-          "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-06-05T14:37:35.368550+00:00",
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
@@ -18582,13 +18666,19 @@
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
+          "zip_hash": "8afd539118e612674a624bfe6cf5585e9ca42320041278cc2b0f6c4c139c876d",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18858,12 +18948,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-05T11:22:53.785588+00:00",
-          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-05T14:37:35.368550+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
@@ -19454,6 +19538,12 @@
         },
         {
           "time": "2026-06-28T20:09:06.068491+00:00",
+          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
           "changed": false,
           "file_count": 11
@@ -31293,7 +31383,7 @@
     "16": {
       "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
       "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -31772,12 +31862,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-05T11:22:53.785588+00:00",
-          "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-06-05T14:37:35.368550+00:00",
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
@@ -32371,6 +32455,12 @@
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -32389,9 +32479,9 @@
   "meta": {
     "last_scan": "2026-06-29T12:27:11.066386+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 1,
+      "invariati": 19,
       "errori": 0,
       "vuoti": 0
     },
