@@ -28189,7 +28189,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -28199,9 +28199,9 @@
         "url": "https://drive.atarifiuti.ap.it/1gz5q9rif938",
         "id": 31
       },
-      "zip_hash": "b4a794affdfbe388e5fc1c78e013f9ee7d963822937079c3f78a0436b844187a",
-      "content_fingerprint": "e96ed3d92e2e7520e494b92e840955c39314943dbc676d9f078b351628bd01c0",
-      "zip_changed": false,
+      "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
+      "content_fingerprint": "5f6b7a35ab88a9de80b3fd9e3a80b9bdaa0ec095652ff821c693eb8aed575d19",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -28768,10 +28768,66 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "6456ac5b35fcf39a30a17091749b26bedeb44f4723209b6561fed96460c456cc",
+          "current_file": "SAN BENEDETTO DEL TRONTO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "current_size": 9533948,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "SAN BENEDETTO DEL TRONTO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+              "hash": "6456ac5b35fcf39a30a17091749b26bedeb44f4723209b6561fed96460c456cc",
+              "size": 9533948
+            },
+            {
+              "name": "SAN BENEDETTO DEL TRONTO - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+              "hash": "3fc62edd0177c84e35f44eb8919c35878ced62a7d5adc80459d0b27536652236",
+              "size": 7647516
+            },
+            {
+              "name": "SAN BENEDETTO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "7903b12feadd9e589a807c3e0c4e182ce38d52bd5634ce40866e2e0c211ccfb1",
+              "size": 6758878
+            }
+          ],
+          "first_upload": "2026-06-29T12:27:11.066386+00:00",
+          "last_upload": "2026-06-29T12:27:11.066386+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-29T12:27:11.066386+00:00",
+              "hash": "6456ac5b35fcf39a30a17091749b26bedeb44f4723209b6561fed96460c456cc",
+              "file": "SAN BENEDETTO DEL TRONTO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "SAN BENEDETTO DEL TRONTO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/SAN BENEDETTO DEL TRONTO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "hash": "6456ac5b35fcf39a30a17091749b26bedeb44f4723209b6561fed96460c456cc",
+          "size": 9533948,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "SAN BENEDETTO DEL TRONTO - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/SAN BENEDETTO DEL TRONTO - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "hash": "3fc62edd0177c84e35f44eb8919c35878ced62a7d5adc80459d0b27536652236",
+          "size": 7647516,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "SAN BENEDETTO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/SAN BENEDETTO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "7903b12feadd9e589a807c3e0c4e182ce38d52bd5634ce40866e2e0c211ccfb1",
+          "size": 6758878,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ San Benedetto del Tronto Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
@@ -28822,12 +28878,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-05T11:22:53.785588+00:00",
-          "zip_hash": "f7e18f833333f15ba0c605b3d421b2ff82bd8c847863380a18e5a32fa2e318c8",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-05T14:37:35.368550+00:00",
           "zip_hash": "f7e18f833333f15ba0c605b3d421b2ff82bd8c847863380a18e5a32fa2e318c8",
@@ -29421,6 +29471,12 @@
           "zip_hash": "b4a794affdfbe388e5fc1c78e013f9ee7d963822937079c3f78a0436b844187a",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
+          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -29429,7 +29485,7 @@
     "32": {
       "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
       "content_fingerprint": "4fa47aa8a980da051ab135dca6f3d10203e4c28d79524dec431a0d3bbf912061",
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -29844,12 +29900,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-05T14:37:35.368550+00:00",
-          "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-05T17:11:52.635468+00:00",
           "zip_hash": "1f863cf193e570be80ea9c1cd16a8b49f9da12e6e00059f843402695ea9da347",
@@ -30443,6 +30493,12 @@
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
+          "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -30458,7 +30514,7 @@
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-06-28T20:09:06.068491+00:00",
+      "last_scan": "2026-06-29T12:27:11.066386+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -30769,12 +30825,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-05T14:03:07.063480+00:00",
-          "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-05T14:37:35.368550+00:00",
           "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
@@ -31365,6 +31415,12 @@
         },
         {
           "time": "2026-06-28T20:09:06.068491+00:00",
+          "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-06-29T12:27:11.066386+00:00",
           "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
           "changed": false,
           "file_count": 7
@@ -32479,9 +32535,9 @@
   "meta": {
     "last_scan": "2026-06-29T12:27:11.066386+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 1,
-      "invariati": 29,
+      "scansionati": 33,
+      "aggiornati": 2,
+      "invariati": 31,
       "errori": 0,
       "vuoti": 0
     },
@@ -32491,7 +32547,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
