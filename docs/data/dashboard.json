@@ -3,7 +3,7 @@
     "25": {
       "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
       "content_fingerprint": "7d6674c58fa7c84434c2325beaaca2864c4f6659ec7c2fef82924503d7b70ea1",
-      "last_scan": "2026-07-07T16:25:02.376629+00:00",
+      "last_scan": "2026-07-07T18:58:17.810017+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -453,12 +453,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-14T15:08:03.934045+00:00",
-          "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-06-14T17:14:52.918099+00:00",
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
@@ -1049,6 +1043,12 @@
         },
         {
           "time": "2026-07-07T16:25:02.376629+00:00",
+          "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
+          "changed": false,
+          "file_count": 15
+        },
+        {
+          "time": "2026-07-07T18:58:17.810017+00:00",
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
           "changed": false,
           "file_count": 15
@@ -19746,7 +19746,7 @@
     "21": {
       "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
       "content_fingerprint": "59a15788cf75cf5a2a9d56cd2cb520e8cbcec4b4d87b48a00a13be2b17f119f6",
-      "last_scan": "2026-07-07T16:25:02.376629+00:00",
+      "last_scan": "2026-07-07T18:58:17.810017+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -20160,12 +20160,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-14T12:58:38.049220+00:00",
-          "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-14T15:08:03.934045+00:00",
           "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
@@ -20759,6 +20753,12 @@
           "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-07T18:58:17.810017+00:00",
+          "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -20774,7 +20774,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-07-07T16:25:02.376629+00:00",
+      "last_scan": "2026-07-07T18:58:17.810017+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20784,8 +20784,8 @@
         "url": "https://drive.atarifiuti.ap.it/62u8dymude0p",
         "id": 22
       },
-      "zip_hash": "fa955a35e0bc53955da9300648ff171bb3bfd291c278ff1fe0d391cd9a62e78f",
-      "content_fingerprint": "5853445d3bd6ffe360fbb932f4107e78d0e07c3c0ae68e5354275d651adaddf6",
+      "zip_hash": "3f9bdff251784d73817671a24d1b93aaee4628b195e3a4ac6187beb6f0978e61",
+      "content_fingerprint": "fd9bbc5e940522618c6827a9a0bb8b95cd17478165df0e1265a0b80a4bba98ee",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -20867,7 +20867,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "e5a5c13acd4fcfe8e5af75fd41d1bfe9b16a228758675b2d8e1b7deea18bf2f9",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 3984858,
@@ -20895,11 +20895,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-07T16:25:02.376629+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "680275a75f5b4fad7b789f23331c4b86b080168cae2cc3c539184f65d47c5a88",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-1.pdf",
           "current_size": 850101,
@@ -20927,11 +20926,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-07T16:25:02.376629+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "2c7a70ab7afb4ce62bbb7d9d0f8c2ecbb2ceea39164df64316a4c6b7e026a13f",
           "current_file": "C.I.E. SINDACO CIARROCCHI NAZZARENO.pdf",
           "current_size": 82977,
@@ -20964,8 +20962,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-07T16:25:02.376629+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -21022,15 +21019,57 @@
           "size": 378813,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "e5a5c13acd4fcfe8e5af75fd41d1bfe9b16a228758675b2d8e1b7deea18bf2f9",
+          "size": 3984858,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-1.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029-1.pdf",
+          "hash": "680275a75f5b4fad7b789f23331c4b86b080168cae2cc3c539184f65d47c5a88",
+          "size": 850101,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "S25C-1i26050510030.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/S25C-1i26050510030.pdf",
+          "hash": "962ab53471c2a03adc56d342fa0daec014ab6e006a13d81f0ff4b6ac67e73466",
+          "size": 73628,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "C.I.E. SINDACO CIARROCCHI NAZZARENO.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/C.I.E. SINDACO CIARROCCHI NAZZARENO.pdf",
+          "hash": "2c7a70ab7afb4ce62bbb7d9d0f8c2ecbb2ceea39164df64316a4c6b7e026a13f",
+          "size": 82977,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
+          "hash": "c38ae82bf3e6ce10c1858f8683e7c5382c95459481e0b1dfaa0356d7002d3e6f",
+          "size": 1977579,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "PEF GREZZO PER ATA.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/PEF GREZZO PER ATA.rar",
+          "hash": "5cbe87511a3ea97e87691e7fcb903cbd09e1e520d10924c14103fc3ec03e2fc2",
+          "size": 6045588,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-14T12:58:38.049220+00:00",
-          "zip_hash": "a1f1f69ed184e8b0ed4217766fb51b00a7faa5d32d7c34725a65a29445e18faf",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-14T15:08:03.934045+00:00",
           "zip_hash": "a1f1f69ed184e8b0ed4217766fb51b00a7faa5d32d7c34725a65a29445e18faf",
@@ -21624,6 +21663,12 @@
           "zip_hash": "fa955a35e0bc53955da9300648ff171bb3bfd291c278ff1fe0d391cd9a62e78f",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-07T18:58:17.810017+00:00",
+          "zip_hash": "3f9bdff251784d73817671a24d1b93aaee4628b195e3a4ac6187beb6f0978e61",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -21644,14 +21689,26 @@
           "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/Registro Beni ammortizzabili_ECOFIL_2025.pdf",
           "source": "comune",
           "size": 378813
+        },
+        {
+          "name": "Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
+          "source": "comune",
+          "size": 1977579
+        },
+        {
+          "name": "PEF GREZZO PER ATA.rar",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/PEF GREZZO PER ATA.rar",
+          "source": "comune",
+          "size": 6045588
         }
       ],
-      "processabile": "no"
+      "processabile": "si"
     },
     "23": {
       "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
       "content_fingerprint": "1f2eb1b476fff4d92f0ec907188228347f0bab7362df786f8e01befbfdcee6b8",
-      "last_scan": "2026-07-07T16:25:02.376629+00:00",
+      "last_scan": "2026-07-07T18:58:17.810017+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21991,12 +22048,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-14T12:58:38.049220+00:00",
-          "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-14T15:08:03.934045+00:00",
           "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
@@ -22590,6 +22641,12 @@
           "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-07T18:58:17.810017+00:00",
+          "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -22605,7 +22662,7 @@
       "last_scan_empty": false
     },
     "24": {
-      "last_scan": "2026-07-07T16:25:02.376629+00:00",
+      "last_scan": "2026-07-07T18:58:17.810017+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22970,12 +23027,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-14T12:58:38.049220+00:00",
-          "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
-          "changed": false,
-          "file_count": 12
-        },
-        {
           "time": "2026-06-14T15:08:03.934045+00:00",
           "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
           "changed": false,
@@ -23565,6 +23616,12 @@
         },
         {
           "time": "2026-07-07T16:25:02.376629+00:00",
+          "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
+          "changed": false,
+          "file_count": 12
+        },
+        {
+          "time": "2026-07-07T18:58:17.810017+00:00",
           "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
           "changed": false,
           "file_count": 12
@@ -32818,9 +32875,9 @@
   "meta": {
     "last_scan": "2026-07-07T18:58:17.810017+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 0,
-      "invariati": 20,
+      "scansionati": 25,
+      "aggiornati": 1,
+      "invariati": 24,
       "errori": 0,
       "vuoti": 0
     },
