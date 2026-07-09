@@ -283,7 +283,7 @@ const EV_STYLE={
 const LS_NOTES="ata5_notes_v1";
 let LOCAL_NOTES={};
 try{const n=localStorage.getItem(LS_NOTES);if(n)LOCAL_NOTES=_migrateNotes(JSON.parse(n));}catch(e){}
-function saveNotes(){try{localStorage.setItem(LS_NOTES,JSON.stringify(LOCAL_NOTES));}catch(e){}}
+function saveNotes(){try{localStorage.setItem(LS_NOTES,JSON.stringify(LOCAL_NOTES));}catch(e){}_lastNoteMutation=Date.now();}
 
 // ── Scadenze locali (localStorage) ──
 const LS_SCADENZE="ata5_scadenze_v1";
@@ -309,6 +309,7 @@ let editingOv=null;        // {id, key} del documento in modifica
 let editingWf=null;        // {id, key} step workflow in modifica
 let _ovSaving=false;       // flag UI durante salvataggio remoto
 let _notesSaveTimer=null;  // debounce timer per salvataggio note online
+let _lastNoteMutation=0;   // timestamp ultima scrittura note (per skip setInterval refresh dopo edit)
 let editingNote=null;      // {comuneId, idx} nota in modifica, oppure {comuneId, idx:-1} per nuova
 const NOTE_CATS=[
   {key:"comune",  label:"Comune",         cls:"cat-comune"},
@@ -726,11 +727,35 @@ function _mergeNotesArrays(localArr,onlineArr){
 async function _syncNotesNow(){
   if(_syncingNotes)return;
   if(!_ghToken){alert("⚠ Token GitHub non configurato. Imposta prima il Token GH.");return;}
-  _syncingNotes=true;render();
+  _syncingNotes=true;_lastNoteMutation=Date.now();render();
   try{
-    // 1) Rilegge stato online fresco
-    await loadOverrides();
-    if(_notesKey&&_encNotesRaw){try{await _decryptOnlineNotes();}catch(e){console.warn("decrypt:",e);}}
+    // 1) Rilegge stato online FRESH via API GitHub (bypassa CDN Pages che ha lag 30-60s)
+    const apiUrl="https://api.github.com/repos/"+GH_REPO.owner+"/"+GH_REPO.repo+"/contents/"+GH_REPO.path;
+    const headers={Authorization:"token "+_ghToken,Accept:"application/vnd.github.v3+json"};
+    let _apiOk=false;
+    try{
+      const r=await fetch(apiUrl,{headers});
+      if(r.ok){
+        const d=await r.json();
+        try{
+          const content=JSON.parse(decodeURIComponent(escape(atob((d.content||"").replace(/\n/g,'')))));
+          ONLINE_OVERRIDES=content.docs||{};
+          ONLINE_SCADENZE=content.scadenze||{};
+          if(content.notes_encrypted){
+            _encNotesRaw=content.notes_encrypted;
+            if(_notesKey)await _decryptOnlineNotes();
+          }else if(content.notes){
+            ONLINE_NOTES=_migrateNotes(content.notes);
+          }
+          _apiOk=true;
+        }catch(e){console.warn("Sync parse API:",e);}
+      }
+    }catch(e){console.warn("Sync GET API:",e);}
+    // Fallback su Pages CDN solo se API ha fallito
+    if(!_apiOk){
+      await loadOverrides();
+      if(_notesKey&&_encNotesRaw){try{await _decryptOnlineNotes();}catch(e){console.warn("decrypt:",e);}}
+    }
     // 2) Merge per ogni sid presente in LOCAL o ONLINE
     const mergedAll={};
     const allSids=new Set([...Object.keys(LOCAL_NOTES||{}),...Object.keys(ONLINE_NOTES||{})]);
@@ -1823,7 +1848,7 @@ function renderTable(fil){
   await _tryAutoLogin();
   render();                                          // aggiorna con i dati reali + override condivisi + sessione
 })();
-setInterval(async()=>{await Promise.all([loadJSON(),loadOverrides(),loadEventualiHistory()]);render();},180000); // refresh ogni 3 minuti
+setInterval(async()=>{if(Date.now()-_lastNoteMutation<60000)return;await Promise.all([loadJSON(),loadOverrides(),loadEventualiHistory()]);render();},180000); // refresh ogni 3 minuti (skippa se scrittura note negli ultimi 60s)
 </script>
 </body>
 </html>
