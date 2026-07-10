@@ -15877,7 +15877,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-07-09T20:43:13.493568+00:00",
+      "last_scan": "2026-07-10T10:47:58.549889+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15887,9 +15887,9 @@
         "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh",
         "id": 17
       },
-      "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-      "content_fingerprint": "f6c53a0efe397b030187a3136c739d4be1e5686ae42d96db6e7aa7ae0e4a9b70",
-      "zip_changed": false,
+      "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+      "content_fingerprint": "4b7135bb3c72faade2a4ec0e04f4c6d99aa5cd86e880ff9c17c57178ada88dd0",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -16198,10 +16198,66 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
+          "current_file": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 6559950,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "09d9c7098fe73b9ac716fa6e2445f1a6509674a5b5847b622898725f00d3a459",
+              "size": 3914104
+            },
+            {
+              "name": "MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "2a0fb7713824daeca2a8bffc130c29219c08ea52f17b549490e22c0d33005df0",
+              "size": 1435906
+            },
+            {
+              "name": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
+              "size": 6559950
+            }
+          ],
+          "first_upload": "2026-07-10T10:47:58.549889+00:00",
+          "last_upload": "2026-07-10T10:47:58.549889+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-10T10:47:58.549889+00:00",
+              "hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
+              "file": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "09d9c7098fe73b9ac716fa6e2445f1a6509674a5b5847b622898725f00d3a459",
+          "size": 3914104,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "2a0fb7713824daeca2a8bffc130c29219c08ea52f17b549490e22c0d33005df0",
+          "size": 1435906,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
+          "size": 6559950,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -16252,12 +16308,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-17T19:21:52.550522+00:00",
-          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-18T11:47:27.270606+00:00",
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
@@ -16851,13 +16901,19 @@
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-10T10:47:58.549889+00:00",
+          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-09T20:43:13.493568+00:00",
+      "last_scan": "2026-07-10T10:47:58.549889+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17361,12 +17417,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-17T19:21:52.550522+00:00",
-          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-18T11:47:27.270606+00:00",
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
           "changed": false,
@@ -17959,13 +18009,19 @@
           "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-10T10:47:58.549889+00:00",
+          "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-07-09T20:43:13.493568+00:00",
+      "last_scan": "2026-07-10T10:47:58.549889+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18221,12 +18277,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-17T19:21:52.550522+00:00",
-          "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-06-18T11:47:27.270606+00:00",
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
           "changed": false,
@@ -18819,13 +18869,19 @@
           "zip_hash": "8afd539118e612674a624bfe6cf5585e9ca42320041278cc2b0f6c4c139c876d",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-10T10:47:58.549889+00:00",
+          "zip_hash": "8afd539118e612674a624bfe6cf5585e9ca42320041278cc2b0f6c4c139c876d",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-07-09T20:43:13.493568+00:00",
+      "last_scan": "2026-07-10T10:47:58.549889+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -19096,12 +19152,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-17T19:21:52.550522+00:00",
-          "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-18T11:47:27.270606+00:00",
           "zip_hash": "3c210336aa2584d7e2c4d7bae20d3c3325b6bfe9484c92c7996e2fdf2bd9887b",
           "changed": false,
@@ -19691,6 +19741,12 @@
         },
         {
           "time": "2026-07-09T20:43:13.493568+00:00",
+          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-10T10:47:58.549889+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
           "changed": false,
           "file_count": 11
@@ -31810,7 +31866,7 @@
     "16": {
       "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
       "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
-      "last_scan": "2026-07-09T20:43:13.493568+00:00",
+      "last_scan": "2026-07-10T10:47:58.549889+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -32295,12 +32351,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-17T19:21:52.550522+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-06-18T11:47:27.270606+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -32894,6 +32944,12 @@
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-07-10T10:47:58.549889+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -32912,9 +32968,9 @@
   "meta": {
     "last_scan": "2026-07-10T10:47:58.549889+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 2,
-      "invariati": 13,
+      "scansionati": 20,
+      "aggiornati": 3,
+      "invariati": 17,
       "errori": 0,
       "vuoti": 0
     },
