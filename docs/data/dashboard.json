@@ -11609,7 +11609,7 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-07-15T13:24:14.709808+00:00",
+      "last_scan": "2026-07-15T15:22:45.066908+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11902,12 +11902,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-27T17:04:24.932887+00:00",
-          "zip_hash": "49b7d58b6a7e3790dfadf7910b09edd8a1525a0d740554493597715465c8d382",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-27T19:12:29.799038+00:00",
           "zip_hash": "49b7d58b6a7e3790dfadf7910b09edd8a1525a0d740554493597715465c8d382",
@@ -12501,6 +12495,12 @@
           "zip_hash": "1d5503d37808fc89d5fe8f37d6e00df224ec006cfdfe4edbd3daa8ea8f258fbb",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-15T15:22:45.066908+00:00",
+          "zip_hash": "1d5503d37808fc89d5fe8f37d6e00df224ec006cfdfe4edbd3daa8ea8f258fbb",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -12516,7 +12516,7 @@
     "12": {
       "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
       "content_fingerprint": "f4ababa5adaaa8a1283370318c948d2760bb7cc80c1386b2916edfb3dc18a872",
-      "last_scan": "2026-07-15T13:24:14.709808+00:00",
+      "last_scan": "2026-07-15T15:22:45.066908+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12895,12 +12895,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-27T17:04:24.932887+00:00",
-          "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-27T19:12:29.799038+00:00",
           "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
@@ -13494,6 +13488,12 @@
           "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-15T15:22:45.066908+00:00",
+          "zip_hash": "737b90c274476cdf7dff423f34f0503b9d581696160d85209a49fcdfeedf0b44",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -13516,7 +13516,7 @@
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-07-15T13:24:14.709808+00:00",
+      "last_scan": "2026-07-15T15:22:45.066908+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13526,9 +13526,9 @@
         "url": "https://drive.atarifiuti.ap.it/2qudpjf8dcpr",
         "id": 13
       },
-      "zip_hash": "cdbce5fb76c6194eb1001149081bf19dfffdd89bc0b25c89e9511a72c9d7acd9",
-      "content_fingerprint": "8d6b1f853a98a5c0dea5962b8a967034de2c40ab62be81ef0ab03dfff78e6324",
-      "zip_changed": false,
+      "zip_hash": "b7a13d57fb8bc6c3e615a841256ba82c82c1aaf92df5dee1f5cb20baa2c4619b",
+      "content_fingerprint": "a44a6326d4041e79445fe91f1f40654f77094a2fc5d7be1f2f63d57f2bf097b8",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -13719,10 +13719,66 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "3e4f1d9d109590c2cfec7a4ae5fa338c6f637d68fb4453216bdcb81d41b6d0df",
+          "current_file": "CUPRA MARITTIMA - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 6382500,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "CUPRA MARITTIMA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "378929ca7dc8bfaddaff4ad20915b818ca44747189eaf090e7723a9fc9945f78",
+              "size": 4369255
+            },
+            {
+              "name": "CUPRA MARITTIMA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "4a346f840dd4dfc21add3cc6e2f763af7db6ae538ac95d6e7a5aaf51a6665df1",
+              "size": 77368
+            },
+            {
+              "name": "CUPRA MARITTIMA - PEF TARI MTR3 2026-2029.zip",
+              "hash": "3e4f1d9d109590c2cfec7a4ae5fa338c6f637d68fb4453216bdcb81d41b6d0df",
+              "size": 6382500
+            }
+          ],
+          "first_upload": "2026-07-15T15:22:45.066908+00:00",
+          "last_upload": "2026-07-15T15:22:45.066908+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-15T15:22:45.066908+00:00",
+              "hash": "3e4f1d9d109590c2cfec7a4ae5fa338c6f637d68fb4453216bdcb81d41b6d0df",
+              "file": "CUPRA MARITTIMA - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "CUPRA MARITTIMA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/CUPRA MARITTIMA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "378929ca7dc8bfaddaff4ad20915b818ca44747189eaf090e7723a9fc9945f78",
+          "size": 4369255,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "CUPRA MARITTIMA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/CUPRA MARITTIMA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "4a346f840dd4dfc21add3cc6e2f763af7db6ae538ac95d6e7a5aaf51a6665df1",
+          "size": 77368,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "CUPRA MARITTIMA - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/CUPRA MARITTIMA - PEF TARI MTR3 2026-2029.zip",
+          "hash": "3e4f1d9d109590c2cfec7a4ae5fa338c6f637d68fb4453216bdcb81d41b6d0df",
+          "size": 6382500,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Cupra Marittima Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Cupra Marittima Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -13773,12 +13829,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-27T17:04:24.932887+00:00",
-          "zip_hash": "cdbce5fb76c6194eb1001149081bf19dfffdd89bc0b25c89e9511a72c9d7acd9",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-27T19:12:29.799038+00:00",
           "zip_hash": "cdbce5fb76c6194eb1001149081bf19dfffdd89bc0b25c89e9511a72c9d7acd9",
@@ -14372,6 +14422,12 @@
           "zip_hash": "cdbce5fb76c6194eb1001149081bf19dfffdd89bc0b25c89e9511a72c9d7acd9",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-15T15:22:45.066908+00:00",
+          "zip_hash": "b7a13d57fb8bc6c3e615a841256ba82c82c1aaf92df5dee1f5cb20baa2c4619b",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -14385,7 +14441,7 @@
       "processabile": "si_riserva"
     },
     "14": {
-      "last_scan": "2026-07-15T13:24:14.709808+00:00",
+      "last_scan": "2026-07-15T15:22:45.066908+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -14532,12 +14588,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-27T17:04:24.932887+00:00",
-          "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-06-27T19:12:29.799038+00:00",
           "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
@@ -15131,13 +15181,19 @@
           "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-07-15T15:22:45.066908+00:00",
+          "zip_hash": "f65cb45011c93c073548e2dfd923c6ccfa701f0e2106742185eda9c9e1759e63",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-07-15T13:24:14.709808+00:00",
+      "last_scan": "2026-07-15T15:22:45.066908+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15411,12 +15467,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-27T17:04:24.932887+00:00",
-          "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
-          "changed": false,
-          "file_count": 12
-        },
-        {
           "time": "2026-06-27T19:12:29.799038+00:00",
           "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
           "changed": false,
@@ -16006,6 +16056,12 @@
         },
         {
           "time": "2026-07-15T13:24:14.709808+00:00",
+          "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
+          "changed": false,
+          "file_count": 12
+        },
+        {
+          "time": "2026-07-15T15:22:45.066908+00:00",
           "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
           "changed": false,
           "file_count": 12
@@ -33242,9 +33298,9 @@
   "meta": {
     "last_scan": "2026-07-15T15:22:45.066908+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 1,
-      "invariati": 9,
+      "scansionati": 15,
+      "aggiornati": 2,
+      "invariati": 13,
       "errori": 0,
       "vuoti": 0
     },
