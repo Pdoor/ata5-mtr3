@@ -16120,7 +16120,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-07-16T12:16:57.939847+00:00",
+      "last_scan": "2026-07-16T14:55:54.192891+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -16557,12 +16557,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-28T16:06:20.900832+00:00",
-          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-28T18:01:20.676158+00:00",
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
@@ -17156,13 +17150,19 @@
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-16T14:55:54.192891+00:00",
+          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-16T12:16:57.939847+00:00",
+      "last_scan": "2026-07-16T14:55:54.192891+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17172,8 +17172,8 @@
         "url": "https://drive.atarifiuti.ap.it/54cx0eyho8d7",
         "id": 18
       },
-      "zip_hash": "53309f6b840a63ba3f59797061c0329dcce175bed1de4103f8546e39bd5249e2",
-      "content_fingerprint": "3a80189bb761f0762cd2205be0d821e0006ca860166e626b40c7591d86a929e6",
+      "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
+      "content_fingerprint": "a2d3f51a958e444e0b9730c7cd1979566c28a080556f22fc3e82e24464e462ef",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -17411,7 +17411,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "9f84a2a24a7c773f57b8507ebc0692896c6d25beb088fc3db4053e329ef80226",
           "current_file": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029rev.xlsx",
           "current_size": 3996587,
@@ -17480,11 +17480,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-16T12:16:57.939847+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "dd2e9bd501449c32bd217ab98d4a2c0cb5980794b1d0b20419ed7f521123aa34",
           "current_file": "Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
           "current_size": 669430,
@@ -17547,11 +17546,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-16T12:16:57.939847+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "eae2ad764751469da8dcc3ec0711a4fcdf50886a623f5f0dfcc18c2bd1a3fa7c",
           "current_file": "Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
           "current_size": 339998,
@@ -17609,8 +17607,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-16T12:16:57.939847+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -17643,15 +17640,49 @@
           "size": 464935,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "9ec992c01c4679cc0fd1343aa64324529b63e8e49e650e1e1e6b6b3678ed78af",
+          "size": 3953756,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029rev.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Massignano_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029rev.xlsx",
+          "hash": "9f84a2a24a7c773f57b8507ebc0692896c6d25beb088fc3db4053e329ef80226",
+          "size": 3996587,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato 2 Relazione PEF 2026 Gestore Comune  Massignano.pdf",
+          "hash": "dd2e9bd501449c32bd217ab98d4a2c0cb5980794b1d0b20419ed7f521123aa34",
+          "size": 669430,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato 2 Relazione PEF 2026 Gestore Comune Massignano rev.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato 2 Relazione PEF 2026 Gestore Comune Massignano rev.pdf",
+          "hash": "86253e9baf5b8840128c38a3017417096329991857f90fad377287687aec4098",
+          "size": 623220,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_dichiarazionediveridicitàcomuni.pdf.p7m",
+          "hash": "eae2ad764751469da8dcc3ec0711a4fcdf50886a623f5f0dfcc18c2bd1a3fa7c",
+          "size": 339998,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-28T16:06:20.900832+00:00",
-          "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-28T18:01:20.676158+00:00",
           "zip_hash": "ee37399d6139d978cabc59f45db8f9212fa6bf1d4486e4d8a25462287eabf967",
@@ -18245,13 +18276,19 @@
           "zip_hash": "53309f6b840a63ba3f59797061c0329dcce175bed1de4103f8546e39bd5249e2",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-07-16T14:55:54.192891+00:00",
+          "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
+          "changed": true,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-07-16T12:16:57.939847+00:00",
+      "last_scan": "2026-07-16T14:55:54.192891+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18558,12 +18595,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-28T16:06:20.900832+00:00",
-          "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-06-28T18:01:20.676158+00:00",
           "zip_hash": "78646b49252766ce51e76869b6dfdf9ac5a53564aa53a069978bb9a20c4d3fe1",
           "changed": false,
@@ -19156,13 +19187,19 @@
           "zip_hash": "642c2374fdb40c11f1895e7961a7a69094728698f2410be7f5a99babf46074c1",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-16T14:55:54.192891+00:00",
+          "zip_hash": "642c2374fdb40c11f1895e7961a7a69094728698f2410be7f5a99babf46074c1",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-07-16T12:16:57.939847+00:00",
+      "last_scan": "2026-07-16T14:55:54.192891+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -19433,12 +19470,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-28T16:06:20.900832+00:00",
-          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
-          "changed": false,
-          "file_count": 11
-        },
-        {
           "time": "2026-06-28T18:01:20.676158+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
           "changed": false,
@@ -20028,6 +20059,12 @@
         },
         {
           "time": "2026-07-16T12:16:57.939847+00:00",
+          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-16T14:55:54.192891+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
           "changed": false,
           "file_count": 11
@@ -32198,7 +32235,7 @@
     "16": {
       "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
       "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
-      "last_scan": "2026-07-16T12:16:57.939847+00:00",
+      "last_scan": "2026-07-16T14:55:54.192891+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -32683,12 +32720,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-28T16:06:20.900832+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-06-28T18:01:20.676158+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -33282,6 +33313,12 @@
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-07-16T14:55:54.192891+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -33300,9 +33337,9 @@
   "meta": {
     "last_scan": "2026-07-16T14:55:54.192891+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 1,
+      "invariati": 19,
       "errori": 0,
       "vuoti": 0
     },
