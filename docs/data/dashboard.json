@@ -6449,7 +6449,7 @@
       "processabile": "si"
     },
     "6": {
-      "last_scan": "2026-07-17T15:09:26.691315+00:00",
+      "last_scan": "2026-07-17T17:06:39.730193+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6773,12 +6773,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-30T16:21:15.765280+00:00",
-          "zip_hash": "39258340f5f61bbab21ef40c0bf0c50f3766a0fcfe13a05d8f2a7719238dead5",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-30T18:53:18.644835+00:00",
           "zip_hash": "39258340f5f61bbab21ef40c0bf0c50f3766a0fcfe13a05d8f2a7719238dead5",
@@ -7372,6 +7366,12 @@
           "zip_hash": "39258340f5f61bbab21ef40c0bf0c50f3766a0fcfe13a05d8f2a7719238dead5",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-17T17:06:39.730193+00:00",
+          "zip_hash": "39258340f5f61bbab21ef40c0bf0c50f3766a0fcfe13a05d8f2a7719238dead5",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -7380,7 +7380,7 @@
     "7": {
       "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
       "content_fingerprint": "97eefb167ad536bdedd2bb19de14f4d94bef481fc2844e0d6726636b37a70a4f",
-      "last_scan": "2026-07-17T15:09:26.691315+00:00",
+      "last_scan": "2026-07-17T17:06:39.730193+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7782,12 +7782,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-30T16:21:15.765280+00:00",
-          "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-30T18:53:18.644835+00:00",
           "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
           "changed": false,
@@ -8380,6 +8374,12 @@
           "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-17T17:06:39.730193+00:00",
+          "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -8397,7 +8397,7 @@
     "8": {
       "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
       "content_fingerprint": "aed0f6e98d8f09d984e6b8ffe4f9900ce82c1a161d07599a2530969f8182c85e",
-      "last_scan": "2026-07-17T15:09:26.691315+00:00",
+      "last_scan": "2026-07-17T17:06:39.730193+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8823,12 +8823,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-30T16:21:15.765280+00:00",
-          "zip_hash": "c07dcc1753bca6bb9e97fb563e3b9deaee7b1b72047a8375e60c6b4131eb2ff4",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-30T18:53:18.644835+00:00",
           "zip_hash": "c07dcc1753bca6bb9e97fb563e3b9deaee7b1b72047a8375e60c6b4131eb2ff4",
@@ -9422,6 +9416,12 @@
           "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-17T17:06:39.730193+00:00",
+          "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -9439,7 +9439,7 @@
     "9": {
       "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
       "content_fingerprint": "8b3aa392faba71e02fa9aa4dffca058d5823808342a852ebad7392bc4b4240d0",
-      "last_scan": "2026-07-17T15:09:26.691315+00:00",
+      "last_scan": "2026-07-17T17:06:39.730193+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9926,12 +9926,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-30T16:21:15.765280+00:00",
-          "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-30T18:53:18.644835+00:00",
           "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
@@ -10525,6 +10519,12 @@
           "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-17T17:06:39.730193+00:00",
+          "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -10540,10 +10540,10 @@
       "last_scan_empty": false
     },
     "10": {
-      "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
-      "content_fingerprint": "07c72a8e37f43ccdf78d6dec1365d1a8fc6ccca76e51619524d0ff843f1cb87a",
-      "last_scan": "2026-07-17T15:09:26.691315+00:00",
-      "zip_changed": false,
+      "zip_hash": "e3feea824bc344877e08c91db857f0f0d48150d1a79bf818020d6b9e4a4a1e66",
+      "content_fingerprint": "e105097c48d31f2b716eb1c2ea22c56af8c448709c0ee15781515e5b00226cd6",
+      "last_scan": "2026-07-17T17:06:39.730193+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -10720,7 +10720,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "103826745a66e47477e224ffb53e93c743e131742c2752a7a7d8614a7fca8af4",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
           "current_size": 3981890,
@@ -10770,11 +10770,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-07-17T17:06:39.730193+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-07-17T17:06:39.730193+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "8148faeed2219299d253728b45bf7baf9900c3ef3c759722b21e7c50bcdab88d",
           "current_file": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO_corretta 14_05.pdf",
           "current_size": 281261,
@@ -10830,11 +10837,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-07-17T17:06:39.730193+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-07-17T17:06:39.730193+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "041a161ad5e215282a0295a08b91cf6cc6b07249f2624fee7e88d453421b5fdc",
           "current_file": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto_corretta14_05_signed(1).pdf",
           "current_size": 201390,
@@ -10890,8 +10904,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-07-17T17:06:39.730193+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-07-17T17:06:39.730193+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -10980,63 +11001,9 @@
           "size": 485345,
           "doc_key": "dich_veridicita",
           "source": "gestore"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO.xlsx",
-          "hash": "103826745a66e47477e224ffb53e93c743e131742c2752a7a7d8614a7fca8af4",
-          "size": 3981890,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO_corretto_14_05.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_COLLI DEL TRONTO_corretto_14_05.xlsx",
-          "hash": "bece26ec09c2e8e14b8417d4080ff2038cfb58e0c4dafb806c4711db73241ffd",
-          "size": 3981667,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO.pdf",
-          "hash": "6b6eb1bd096084407869bfec860dcca41151784ee2a095be72da290aa981c285",
-          "size": 281190,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO_corretta 14_05.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_2026_2029_COLLIDELTRONTO_corretta 14_05.pdf",
-          "hash": "8148faeed2219299d253728b45bf7baf9900c3ef3c759722b21e7c50bcdab88d",
-          "size": 281261,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto.docx.p7m",
-          "hash": "016cf99546334f2fd24bc0960bf45372a5634593421272b9ad7445121c77ec41",
-          "size": 31166,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto_corretta14_05_signed(1).pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_Colli del Tronto_corretta14_05_signed(1).pdf",
-          "hash": "041a161ad5e215282a0295a08b91cf6cc6b07249f2624fee7e88d453421b5fdc",
-          "size": 201390,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-30T16:21:15.765280+00:00",
-          "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
-          "changed": false,
-          "file_count": 12
-        },
         {
           "time": "2026-06-30T18:53:18.644835+00:00",
           "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
@@ -11630,6 +11597,12 @@
           "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-17T17:06:39.730193+00:00",
+          "zip_hash": "e3feea824bc344877e08c91db857f0f0d48150d1a79bf818020d6b9e4a4a1e66",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -11641,7 +11614,7 @@
         "id": 10
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": false
     },
     "11": {
@@ -33466,9 +33439,9 @@
   "meta": {
     "last_scan": "2026-07-17T17:06:39.730193+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 1,
+      "invariati": 9,
       "errori": 0,
       "vuoti": 0
     },
