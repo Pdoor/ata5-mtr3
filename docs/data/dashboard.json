@@ -29448,7 +29448,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-07-20T15:46:42.454517+00:00",
+      "last_scan": "2026-07-20T17:55:11.210897+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -30150,12 +30150,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-05T14:27:20.873866+00:00",
-          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-07-05T16:02:15.553096+00:00",
           "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
           "changed": false,
@@ -30748,6 +30742,12 @@
           "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-20T17:55:11.210897+00:00",
+          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -30756,7 +30756,7 @@
     "32": {
       "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
       "content_fingerprint": "4fa47aa8a980da051ab135dca6f3d10203e4c28d79524dec431a0d3bbf912061",
-      "last_scan": "2026-07-20T15:46:42.454517+00:00",
+      "last_scan": "2026-07-20T17:55:11.210897+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -31184,12 +31184,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-05T14:27:20.873866+00:00",
-          "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-07-05T16:02:15.553096+00:00",
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
           "changed": false,
@@ -31782,6 +31776,12 @@
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-20T17:55:11.210897+00:00",
+          "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -31797,7 +31797,7 @@
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-07-20T15:46:42.454517+00:00",
+      "last_scan": "2026-07-20T17:55:11.210897+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -32109,12 +32109,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-05T14:27:20.873866+00:00",
-          "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-07-05T16:02:15.553096+00:00",
           "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
           "changed": false,
@@ -32704,6 +32698,12 @@
         },
         {
           "time": "2026-07-20T15:46:42.454517+00:00",
+          "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-20T17:55:11.210897+00:00",
           "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
           "changed": false,
           "file_count": 7
@@ -33830,9 +33830,9 @@
   "meta": {
     "last_scan": "2026-07-20T17:55:11.210897+00:00",
     "results": {
-      "scansionati": 30,
+      "scansionati": 33,
       "aggiornati": 0,
-      "invariati": 30,
+      "invariati": 33,
       "errori": 0,
       "vuoti": 0
     },
@@ -33842,7 +33842,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
