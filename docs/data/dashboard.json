@@ -1,9 +1,9 @@
 {
   "comuni": {
     "25": {
-      "zip_hash": "bd77a4f2eb389497ba00381449b75923035e21cdff868ac6c10f6bb33b0b7992",
-      "content_fingerprint": "e218867e45e1447c3e7df3c283dac7d64262514ee968fafd7abd5b56f42c6729",
-      "last_scan": "2026-07-20T10:45:42.501088+00:00",
+      "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
+      "content_fingerprint": "7d6674c58fa7c84434c2325beaaca2864c4f6659ec7c2fef82924503d7b70ea1",
+      "last_scan": "2026-07-20T13:01:46.190236+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -181,7 +181,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
           "current_size": 3990511,
@@ -214,11 +214,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-20T10:45:42.501088+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d5e9a8c36ad932d321e76b4b30c96191314a5754b84cbf1bde3ec5ce0acf8ea0",
           "current_file": "Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
           "current_size": 294416,
@@ -257,11 +256,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-20T10:45:42.501088+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
           "current_file": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
           "current_size": 307435,
@@ -309,8 +307,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-20T10:45:42.501088+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -399,15 +396,81 @@
           "size": 468135,
           "doc_key": "dich_veridicita",
           "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone.xlsx",
+          "hash": "ce8d9bc6414bbf1c8407e9e2b4ded3691e33db33768f0fbd0577ca2ad325df95",
+          "size": 3990511,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone ver.2.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 - dati Comune di Monteprandone ver.2.xlsx",
+          "hash": "8f05b485addea1ee0b84eb17f49671032ecc23c468b470bc8492efc5de401503",
+          "size": 3985963,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026 Comune di Monteprandone 12.03.2026.pdf",
+          "hash": "9ab15d66176e718d6e3ce29e2d52cc24a0c7801a1d1d2fbb8089d2021dff623c",
+          "size": 260457,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Relazione PEF 2026 Comune di Monteprandone 13.05.2026.pdf",
+          "hash": "d5e9a8c36ad932d321e76b4b30c96191314a5754b84cbf1bde3ec5ce0acf8ea0",
+          "size": 294416,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 12.03.2026.pdf.p7m",
+          "hash": "008382d356e112127661b6bcc71baeb7c644df325588a6bc408b000186249d66",
+          "size": 230613,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Carta_Didentità_Sindaco_Sergio_Loggi.pdf",
+          "hash": "f779e06491c161f52568986a295923532b42bd4003df8f03a04b81a5e3da57b6",
+          "size": 307435,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 12.03.2026.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 12.03.2026.pdf",
+          "hash": "87bf30129eb9e8a1543ca60b27ec361442faed08df7dd4c39bbed1dffec39650",
+          "size": 227816,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 13.05.2026.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 13.05.2026.pdf",
+          "hash": "e75419dd576c1bc951b8e48dce51a1861389639456d413217c55fc0150f03eb1",
+          "size": 229467,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità 13.05.2026.pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità 13.05.2026.pdf.p7m",
+          "hash": "27828f1e4962f72ad4c06fef4f8af92fa9688ca443ed603c67fd9600d2f30712",
+          "size": 232264,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-05T10:06:31.569415+00:00",
-          "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-07-05T12:11:15.902420+00:00",
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
@@ -1001,6 +1064,12 @@
           "zip_hash": "bd77a4f2eb389497ba00381449b75923035e21cdff868ac6c10f6bb33b0b7992",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-20T13:01:46.190236+00:00",
+          "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
+          "changed": true,
+          "file_count": 15
         }
       ],
       "unclassified_files": [],
@@ -1012,7 +1081,7 @@
         "id": 25
       },
       "last_scan_error": false,
-      "processabile": "no",
+      "processabile": "si",
       "last_scan_empty": false
     },
     "1": {
@@ -20206,7 +20275,7 @@
     "21": {
       "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
       "content_fingerprint": "59a15788cf75cf5a2a9d56cd2cb520e8cbcec4b4d87b48a00a13be2b17f119f6",
-      "last_scan": "2026-07-20T10:45:42.501088+00:00",
+      "last_scan": "2026-07-20T13:01:46.190236+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -20620,12 +20689,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-05T10:06:31.569415+00:00",
-          "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-05T12:11:15.902420+00:00",
           "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
@@ -21219,6 +21282,12 @@
           "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-20T13:01:46.190236+00:00",
+          "zip_hash": "9081690dd77c67f13d4eeb79bd78f760e9879ac43f31b27db90a8033cf275476",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -21234,7 +21303,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-07-20T10:45:42.501088+00:00",
+      "last_scan": "2026-07-20T13:01:46.190236+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -21548,12 +21617,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-05T10:06:31.569415+00:00",
-          "zip_hash": "3f9bdff251784d73817671a24d1b93aaee4628b195e3a4ac6187beb6f0978e61",
-          "changed": false,
-          "file_count": 12
-        },
         {
           "time": "2026-07-05T12:11:15.902420+00:00",
           "zip_hash": "3f9bdff251784d73817671a24d1b93aaee4628b195e3a4ac6187beb6f0978e61",
@@ -22147,6 +22210,12 @@
           "zip_hash": "3f9bdff251784d73817671a24d1b93aaee4628b195e3a4ac6187beb6f0978e61",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-20T13:01:46.190236+00:00",
+          "zip_hash": "3f9bdff251784d73817671a24d1b93aaee4628b195e3a4ac6187beb6f0978e61",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -22186,7 +22255,7 @@
     "23": {
       "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
       "content_fingerprint": "1f2eb1b476fff4d92f0ec907188228347f0bab7362df786f8e01befbfdcee6b8",
-      "last_scan": "2026-07-20T10:45:42.501088+00:00",
+      "last_scan": "2026-07-20T13:01:46.190236+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22526,12 +22595,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-05T10:06:31.569415+00:00",
-          "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-07-05T12:11:15.902420+00:00",
           "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
@@ -23125,6 +23188,12 @@
           "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-20T13:01:46.190236+00:00",
+          "zip_hash": "915a300b1c7cf3d663626c8103f89f15cfac0110cf39cf60c812b93e98999a76",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23140,7 +23209,7 @@
       "last_scan_empty": false
     },
     "24": {
-      "last_scan": "2026-07-20T10:45:42.501088+00:00",
+      "last_scan": "2026-07-20T13:01:46.190236+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23505,12 +23574,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-05T10:06:31.569415+00:00",
-          "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
-          "changed": false,
-          "file_count": 12
-        },
-        {
           "time": "2026-07-05T12:11:15.902420+00:00",
           "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
           "changed": false,
@@ -24100,6 +24163,12 @@
         },
         {
           "time": "2026-07-20T10:45:42.501088+00:00",
+          "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
+          "changed": false,
+          "file_count": 12
+        },
+        {
+          "time": "2026-07-20T13:01:46.190236+00:00",
           "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
           "changed": false,
           "file_count": 12
@@ -33481,9 +33550,9 @@
   "meta": {
     "last_scan": "2026-07-20T13:01:46.190236+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 0,
-      "invariati": 20,
+      "scansionati": 25,
+      "aggiornati": 1,
+      "invariati": 24,
       "errori": 0,
       "vuoti": 0
     },
