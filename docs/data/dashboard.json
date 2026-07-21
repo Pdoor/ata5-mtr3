@@ -33828,11 +33828,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-07-20T19:37:29.536305+00:00",
+    "last_scan": "2026-07-21T08:21:56.962286+00:00",
     "results": {
-      "scansionati": 33,
+      "scansionati": 0,
       "aggiornati": 0,
-      "invariati": 33,
+      "invariati": 0,
       "errori": 0,
       "vuoti": 0
     },
@@ -33842,7 +33842,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
