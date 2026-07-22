@@ -2079,7 +2079,15 @@
         "date": "2026-05-12",
         "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: martedì 12 maggio 2026 18:02\nA: Ufficio Ragioneria M.Fiore Aso <ragioneria@comune.montefioredellaso.ap.it>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: ATA5: Richiesta chiarimenti Pef Tari 2026-2029 - MONTEFIORE DELL'ASO\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA5, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno del tool di calcolo si desume che i dati di costo dell'anno 2025 risultano essere i medesimi dell'anno 2024, sulla scorta di quanto prevede Arera con riferimento alla possibilità di utilizzare i dati dell'anno a-2 anche per l'anno a-1. Di tale scelta all'interno della relazione di accompagnamento non viene data alcuna indicazione. Si richiede pertanto di inserire un piccolo paragrafo in tal senso;\n3) gli importi indicati nei fogli IN_BIL_COM_24 e IN_BIL_COM_25 non è presente la voce di costo COAL, non dettagliata neppure all'interno della relazione di accompagnamento;\n4) all'interno dei fogli IN_BIL_COM_24 e _IN_BIL_COM_25 l'importo relativo all'accantonamento Fcde deve essere inserito nella colonna \"ACC RELATIVI AI CREDITI\", riga B10D e non B12;\n5)  l'importo dell'iva indetraibile indicata nel foglio \"IN_COexp-RC-T\" non comprende quella relativa alle fatture del gestore;\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità. \n\nSaluti",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-07-22",
+            "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: mercoledì 22 luglio 2026 09:05\nA: Ufficio Ragioneria M.Fiore Aso <ragioneria@comune.montefioredellaso.ap.it>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: Re: ATA5: Richiesta chiarimenti Pef Tari 2026-2029 - MONTEFIORE DELL'ASO\n\nBuongiorno,\nnon ci risultano pervenuti riscontri in merito alla richiesta di chiarimenti avanzate con la mail in calce.\nAttendiamo urgentemente i dati corretti al fine di elaborare il Pef unitario alla luce dei nuovi dati comunicati dalla società Ecofil.\nSaluti",
+            "author": "GM",
+            "children": []
+          }
+        ]
       }
     ],
     "23": [
