@@ -2505,7 +2505,15 @@
                 "date": "2026-07-21",
                 "text": "Da: Segreteria <segreteria@comune.venarotta.ap.it> \nInviato: martedì 21 luglio 2026 17:21\nA: pef.ata5@centrostudientilocali.net\nOggetto: Prot. N.6702 del 21-07-2026 - Re: Prot. N.6381 del 13-07-2026 - Re: ATA5: Comune di Venarotta - trasmissione bozza schema Pef Tari 2026-2029\n\nCon riferimento alla bozza del PEF 2026-2029 sottoposta al nostro esame, si richiede di procedere alla riduzione dei costi CARC per un importo pari a € 6.120,00, al fine di garantire il rispetto del limite massimo previsto dalla regolazione vigente.\nLa suddetta riduzione è stata conseguentemente recepita mediante imputazione nelle voci IN_Detr. 4-5.\nRestiamo in attesa di validazione.\nCordiali Saluti \n\n \nTesto e-mail inviata da pef.ata5@centrostudientilocali.net a segreteria@comune.venarotta.ap.it il 13-07-2026 alle 22:13 \nprotocollata con il n.6416 del 14-07-2026 \n \n \nBuonasera,\nin allegato si traasmette il tool con la correzione effettuata.\nSaluti\nIl 13/07/2026 11:49, Segreteria ha scritto:\n \nBuongiorno,\ndall'analisi del PEF trasmesso si rileva  che, nelle voci relative all'IVA della parte variabile e della parte fissa (colonna \"Comune\"), non risulta inserita l'IVA del Gestore Picenambiente.\nCome evidenziato nella relazione del Comune, era stato richiesto di inserire tale importo a seguito del PEF grezzo presentato dal gestore, al fine di garantire una corretta allocazione dei costi tra parte variabile e parte fissa.\nSi chiede pertanto all'ETC – ATA di provvedere alla correzione del PEF, inserendo l'IVA del Gestore Picenambiente secondo quanto sopra indicato.\nAttendo nuovo PEF.\nCordiali saluti",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "pef",
+                    "date": "2026-07-21",
+                    "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: martedì 21 luglio 2026 18:11\nA: Segreteria <segreteria@comune.venarotta.ap.it>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: Re: Prot. N.6702 del 21-07-2026 - Re: Prot. N.6381 del 13-07-2026 - Re: ATA5: Comune di Venarotta - trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\nsi allega lo schema di Pef aggiornato come da vs. indicazioni.\nRimaniamo in attesa di vs. riscontri in merito.\nSaluti",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
