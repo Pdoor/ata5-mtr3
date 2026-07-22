@@ -1454,6 +1454,11 @@
       "status": "received",
       "date": "2026-07-21",
       "note": ""
+    },
+    "29_wf_delibera": {
+      "date": "2026-07-21",
+      "by": "GM",
+      "at": "2026-07-22T09:26:49.452Z"
     }
   },
   "scadenze": {},
