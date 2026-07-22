@@ -2506,7 +2506,15 @@
                             "date": "2026-07-21",
                             "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: martedì 21 luglio 2026 18:08\nA: Diana Di Salvatore <ragioneria@comunerotella.net>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: Re: ATA5: Comune di Rotella - trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\nfacendo seguito al riscontro fornito dal gestore (che per comodità si allega) in riferimento alla rideterminazione degli extra-cap, abbiamo aggiornato lo schema di Pef, anche alla luce di quanto da voi comunicato con riferimento alla componente CARC.\nIl Pef riporta comunuque un extra-cap sull'anno 2026.\n \nRimaniamo in attesa di vs. indicazioni in merito.\nSaluti\nIl 13/06/2026 11:53, Diana Di Salvatore ha scritto:\nBuongiorno.\ncon riferimento alla bozza di PEF trasmessa, il Comune ritiene opportuno formulare le seguenti proposte di rimodulazione:\n•\trideterminazione dell’extra cap in € 9.500,00 per l’anno 2026 ed € 3.600,00 per l’anno 2027, in luogo dell’importo complessivo originariamente previsto di 13.100,00;\n•\triduzione della voce CARC relativa al costo del personale per un importo pari a € 14.951,00, limitatamente all’anno 2024.\nQualora il Gestore PicenAmbiente concordi con le suddette proposte, si invita a procedere ai conseguenti adeguamenti del PEF, trasmettendo la relativa documentazione aggiornata.\nDistinti saluti.",
                             "author": "GM",
-                            "children": []
+                            "children": [
+                              {
+                                "cat": "pef",
+                                "date": "2026-07-22",
+                                "text": "-----Messaggio originale-----\nDa: Diana Di Salvatore <ragioneria@comunerotella.net> \nInviato: mercoledì 22 luglio 2026 15:31\nA: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net>\nOggetto: Re: ATA5: Comune di Rotella - trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\n\nnon vi sono ulteriori osservazioni.\n\n\nIl 22/07/2026 15:29, Supporto Pef Tari ATA5 ha scritto:\n>\n> Buonasera,\n>\n> confermiamo la possibilità di inserire la rinuncia da voi proposta. Se \n> non ci sono ulteriori osservazioni al Pef l'ATA procederà con la \n> validazione.\n>\n> Saluti\n>\n> Il 22/07/2026 15:19, Diana Di Salvatore ha scritto:\n>> Buonasera,\n>>\n>>\n>> Si allega alla presente il tool PEF 2026-2029 con le rinunce inserite \n>> dal Comune nel file*IN_DETR_4.5*.\n>>\n>> Si resta in attesa dell'approvazione del PEF, al fine di consentire \n>> l'approvazione delle tariffe nei tempi previsti dalla normativa vigente.\n>>\n>>\n>> Saluti.\n>>\n>> Diana Di Salvatore\n>>\n>>",
+                                "author": "GM",
+                                "children": []
+                              }
+                            ]
                           }
                         ]
                       }
