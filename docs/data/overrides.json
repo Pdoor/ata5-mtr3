@@ -2175,7 +2175,15 @@
                 "date": "2026-07-22",
                 "text": "Da: Claudio Carducci <direttoreata@gmail.com> \nInviato: martedì 21 luglio 2026 13:41\nA: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net>\nOggetto: Fwd: PEF 2026 gestore\n\n\n\nATA- ATO 5 AP\nIl Direttore  \nDott. Geol. Claudio CARDUCCI\n\n---------- Forwarded message ---------\nDa: Comune di Montalto delle Marche Ragioneria <ragioneria@comune.montaltodellemarche.ap.it>\nDate: Mar 21 Lug 2026, 13:26\nSubject: PEF 2026 gestore\nTo: Ecofil Srl <amministrazione@ecofil.it>, ATA Ascoli Piceno <ata.ascolipiceno@provincia.ap.it>, Claudio Carducci <direttoreata@gmail.com>\n\n\nBuongiorno,\n\nad integrazione della nostra precedente nota e a seguito di una lettura \npiù approfondita,\n\nsegnaliamo che l'importo inserito nel rigo CTS relativamente all'anno \n2026 (€ 28.668) non corrisponde all'importo previsto dal PEF di gara (€ \n39.675,81)\n\nInfine si sottolinea a fermamente si ribadisce che il PEF di gara \ncostituisce il limite massimo di spesa riconosciuto al Gestore escluso \nla voce CTS (228583,03- 39675,81)\n\nsi resta in attesa di cortese e sollecito riscontro.\n\n\n-- \n<Dott.ssa Anna Marconi>\nResponsabile Area Amministrativa Contabile\nComune di Montalto delle Marche\nViale dei Tigli 39 - 63068\n0736/828015 int.3\nEmail: ragionera@comune.montaltodellemarche.ap.it\nPec: com.montalto.ap.emarche.it",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "comune",
+                    "date": "2026-07-23",
+                    "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: giovedì 23 luglio 2026 11:44\nA: ufficiotecnico@comune.montaltodellemarche.ap.it\nCc: ata.ascolipiceno ata.ascolipiceno <ata.ascolipiceno@provincia.ap.it>; 'Claudio Carducci' <direttoreata@gmail.com>\nOggetto: Re: Fwd: Errata corrige richiesta modifica dati CTS\n\nBuongiorno,\nposto che il dato che si intende verificare attiene a dei dati comunicati dall'Ente con l'invio della documentazione obbligatoria richiesta da arera (schema di pef grezzo, relazione, dichiarazione di veridicità), occorre aggiornare la documentazione e caricarla sul Drive dell'ATA, la quale non può procedere d'ufficio a correggere tali dati.\nSaluti\nIl 23/07/2026 10:31, ata.ascolipiceno ata.ascolipiceno ha scritto:\n\n---------- Forwarded message ---------\nDa: Ufficio Tecnico <ufficiotecnico@comune.montaltodellemarche.ap.it>\nDate: gio 23 lug 2026 alle ore 10:29\nSubject: Errata corrige richiesta modifica dati CTS\nTo: <ata.ascolipiceno@provincia.ap.it>\n\nBuongiorno,\nrelativamente ai costi comunicati per l’anno 2024, da una lettura più attenta dei dati, si chiede di correggere il dato inserito nel CTS sottraendo l’importo della fattura n. 16 del 12-01-2024 emessa per i conferimenti relativi alla mensilità di Dicembre 2023 (€ 4.560,17 + IVA 10% 456,02 = 5.016,19)",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
