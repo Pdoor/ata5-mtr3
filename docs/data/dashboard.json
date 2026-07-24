@@ -16714,7 +16714,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-07-24T10:11:40.119515+00:00",
+      "last_scan": "2026-07-24T12:15:59.126207+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17157,12 +17157,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-09T16:24:22.007760+00:00",
-          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-07-09T18:47:00.246625+00:00",
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
@@ -17756,13 +17750,19 @@
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-24T12:15:59.126207+00:00",
+          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-24T10:11:40.119515+00:00",
+      "last_scan": "2026-07-24T12:15:59.126207+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18283,12 +18283,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-09T16:24:22.007760+00:00",
-          "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-09T18:47:00.246625+00:00",
           "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
@@ -18882,13 +18876,19 @@
           "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-24T12:15:59.126207+00:00",
+          "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-07-24T10:11:40.119515+00:00",
+      "last_scan": "2026-07-24T12:15:59.126207+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18898,9 +18898,9 @@
         "url": "https://drive.atarifiuti.ap.it/5hq88fqxu1de",
         "id": 19
       },
-      "zip_hash": "b391228f315e30773c10d32f8afc5625f45180459c514b133cbc0f8335a9bc30",
-      "content_fingerprint": "0d0c0082762d474fc024437dcb9078873122c8820cd57ba95b56380572ba0612",
-      "zip_changed": false,
+      "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
+      "content_fingerprint": "6c0bd98b6cc47b1fd0f736232aa3219cef55fa0835ae0a49461a0c6301828768",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -19126,10 +19126,66 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "296532e63eab49584753517483459c6a4040bf29e30319413962746f85308b2c",
+          "current_file": "MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 5435477,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "296532e63eab49584753517483459c6a4040bf29e30319413962746f85308b2c",
+              "size": 5435477
+            },
+            {
+              "name": "MONSAMPOLO DEL TRONTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "9986663871012b0fd16b0dc9238fe4d12108f277ce0d209f308e10b2c946afd7",
+              "size": 3531765
+            },
+            {
+              "name": "MONSAMPOLO DEL TRONTO -ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "0842e4816ec093bfd26b55e03be044265612d9e99df0fc31e5fe8f5a6a0c6300",
+              "size": 397269
+            }
+          ],
+          "first_upload": "2026-07-24T12:15:59.126207+00:00",
+          "last_upload": "2026-07-24T12:15:59.126207+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-24T12:15:59.126207+00:00",
+              "hash": "296532e63eab49584753517483459c6a4040bf29e30319413962746f85308b2c",
+              "file": "MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "296532e63eab49584753517483459c6a4040bf29e30319413962746f85308b2c",
+          "size": 5435477,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MONSAMPOLO DEL TRONTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/MONSAMPOLO DEL TRONTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "9986663871012b0fd16b0dc9238fe4d12108f277ce0d209f308e10b2c946afd7",
+          "size": 3531765,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MONSAMPOLO DEL TRONTO -ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/MONSAMPOLO DEL TRONTO -ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "0842e4816ec093bfd26b55e03be044265612d9e99df0fc31e5fe8f5a6a0c6300",
+          "size": 397269,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -19220,12 +19276,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-09T16:24:22.007760+00:00",
-          "zip_hash": "8afd539118e612674a624bfe6cf5585e9ca42320041278cc2b0f6c4c139c876d",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-07-09T18:47:00.246625+00:00",
           "zip_hash": "8afd539118e612674a624bfe6cf5585e9ca42320041278cc2b0f6c4c139c876d",
@@ -19819,13 +19869,19 @@
           "zip_hash": "b391228f315e30773c10d32f8afc5625f45180459c514b133cbc0f8335a9bc30",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-24T12:15:59.126207+00:00",
+          "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
+          "changed": true,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-07-24T10:11:40.119515+00:00",
+      "last_scan": "2026-07-24T12:15:59.126207+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20114,12 +20170,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-09T16:24:22.007760+00:00",
-          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
-          "changed": false,
-          "file_count": 11
-        },
-        {
           "time": "2026-07-09T18:47:00.246625+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
           "changed": false,
@@ -20709,6 +20759,12 @@
         },
         {
           "time": "2026-07-24T10:11:40.119515+00:00",
+          "zip_hash": "9a601a2fa0dd017d43a4cb521c73c25762844b9c9a512f3fc4d450425c18eb3f",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-24T12:15:59.126207+00:00",
           "zip_hash": "9a601a2fa0dd017d43a4cb521c73c25762844b9c9a512f3fc4d450425c18eb3f",
           "changed": false,
           "file_count": 11
@@ -33408,7 +33464,7 @@
     "16": {
       "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
       "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
-      "last_scan": "2026-07-24T10:11:40.119515+00:00",
+      "last_scan": "2026-07-24T12:15:59.126207+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -33899,12 +33955,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-09T16:24:22.007760+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-07-09T18:47:00.246625+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -34498,6 +34548,12 @@
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-07-24T12:15:59.126207+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -34516,9 +34572,9 @@
   "meta": {
     "last_scan": "2026-07-24T12:15:59.126207+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 2,
-      "invariati": 13,
+      "scansionati": 20,
+      "aggiornati": 3,
+      "invariati": 17,
       "errori": 0,
       "vuoti": 0
     },
