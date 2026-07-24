@@ -29960,7 +29960,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-07-23T19:05:59.069125+00:00",
+      "last_scan": "2026-07-24T10:11:40.119515+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -30668,12 +30668,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-09T13:45:13.017816+00:00",
-          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-07-09T16:24:22.007760+00:00",
           "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
           "changed": false,
@@ -31266,6 +31260,12 @@
           "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-24T10:11:40.119515+00:00",
+          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -31274,7 +31274,7 @@
     "32": {
       "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
       "content_fingerprint": "4fa47aa8a980da051ab135dca6f3d10203e4c28d79524dec431a0d3bbf912061",
-      "last_scan": "2026-07-23T19:05:59.069125+00:00",
+      "last_scan": "2026-07-24T10:11:40.119515+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -31702,12 +31702,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-09T13:45:13.017816+00:00",
-          "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-07-09T16:24:22.007760+00:00",
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
           "changed": false,
@@ -32300,6 +32294,12 @@
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-24T10:11:40.119515+00:00",
+          "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -32315,7 +32315,7 @@
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-07-23T19:05:59.069125+00:00",
+      "last_scan": "2026-07-24T10:11:40.119515+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -32325,9 +32325,9 @@
         "url": "https://drive.atarifiuti.ap.it/789myhtwbtjg",
         "id": 33
       },
-      "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
-      "content_fingerprint": "f801e7c32a4fd5f01b715136517940bda73e7664e8be49ddcc3ac1218ec34a47",
-      "zip_changed": false,
+      "zip_hash": "8931d6071b754fa8f4bdebe0574295b62da3abe71d0bc5255a8afc73be978aa6",
+      "content_fingerprint": "8e0241f0cec1c9a8698ec512530eda2f0fd1a45f15761918fcfb06319569333a",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -32564,10 +32564,66 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "839b83ae206e2d8806007135e55ef5bd0d988ebe139b3e89d04f043c994871fe",
+          "current_file": "VENAROTTA - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 5441696,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "VENAROTTA - PEF TARI MTR3 2026-2029.zip",
+              "hash": "839b83ae206e2d8806007135e55ef5bd0d988ebe139b3e89d04f043c994871fe",
+              "size": 5441696
+            },
+            {
+              "name": "VENAROTTA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "c274d0f349631bb548ed28fa7c6fde4a2b09e65e100acf0ddb24a8d240cf0a89",
+              "size": 3254768
+            },
+            {
+              "name": "VENAROTTA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "1898240693028dc9f5ebaf245f63f5d7078abd81eff57a6eb1cefbc38e2b5a20",
+              "size": 728238
+            }
+          ],
+          "first_upload": "2026-07-24T10:11:40.119515+00:00",
+          "last_upload": "2026-07-24T10:11:40.119515+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-24T10:11:40.119515+00:00",
+              "hash": "839b83ae206e2d8806007135e55ef5bd0d988ebe139b3e89d04f043c994871fe",
+              "file": "VENAROTTA - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "VENAROTTA - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/VENAROTTA - PEF TARI MTR3 2026-2029.zip",
+          "hash": "839b83ae206e2d8806007135e55ef5bd0d988ebe139b3e89d04f043c994871fe",
+          "size": 5441696,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "VENAROTTA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/VENAROTTA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "c274d0f349631bb548ed28fa7c6fde4a2b09e65e100acf0ddb24a8d240cf0a89",
+          "size": 3254768,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "VENAROTTA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/VENAROTTA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "1898240693028dc9f5ebaf245f63f5d7078abd81eff57a6eb1cefbc38e2b5a20",
+          "size": 728238,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Venarotta Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -32626,12 +32682,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-09T13:45:13.017816+00:00",
-          "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-07-09T16:24:22.007760+00:00",
           "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
@@ -33225,6 +33275,12 @@
           "zip_hash": "252291b60a215be4cf332269e878da9bc05d02bc451718168ee699e9099976e9",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-24T10:11:40.119515+00:00",
+          "zip_hash": "8931d6071b754fa8f4bdebe0574295b62da3abe71d0bc5255a8afc73be978aa6",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -34348,9 +34404,9 @@
   "meta": {
     "last_scan": "2026-07-24T10:11:40.119515+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 3,
-      "invariati": 27,
+      "scansionati": 33,
+      "aggiornati": 4,
+      "invariati": 29,
       "errori": 0,
       "vuoti": 0
     },
@@ -34360,7 +34416,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
