@@ -2191,7 +2191,15 @@
                 "date": "2026-07-24",
                 "text": "Da: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net> \nInviato: giovedì 23 luglio 2026 21:48\nA: Comune di Montalto delle Marche Ragioneria <ragioneria@comune.montaltodellemarche.ap.it>\nCc: 'Claudio Carducci' <direttoreata@gmail.com>; 'ATA Ascoli Piceno' <ata.ascolipiceno@provincia.ap.it>\nOggetto: Re: ATA5: Comune di Montalto delle Marche - trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\ni CTS da voi comunicati per l'anno 2024, sulla base di quanto indicato in relazione, sono così determinati:\n \nper cui, sulla base di quanto da voi indicato il costo complessivo è determinato dai costi di smaltimento derivanti dalle fatture dell'ATA e dagli altri costi per ingombranti e rimozione e smaltimento ramaglie. \nI precedenti scambi di mail vertevano sulla quota dell'ATA. Se il costo degli ingombranti, ecc, rientra tra quelli traslati nella gestione ECOFIL allora può essere tolto, attendiamo vs. conferma per l'invio dello schema aggiornato.\nSaluti\nIl 23/07/2026 16:24, Comune di Montalto delle Marche Ragioneria ha scritto:\nBuongiorno,\nseguendo le vostre indicazioni, peraltro seguite anche dall'Ente per il 2025, nella voce CTS 2026 dovrebbe essere riportato l'importo di € 60.329,31 (l'IVA risulta corretta).\nSi attende PEf corretto per le conseguenti valutazioni.",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "pef",
+                    "date": "2026-07-24",
+                    "text": "Da: Comune di Montalto delle Marche Ragioneria <ragioneria@comune.montaltodellemarche.ap.it> \nInviato: venerdì 24 luglio 2026 13:27\nA: Supporto Pef Tari ATA5 <pef.ata5@centrostudientilocali.net>\nOggetto: Re: ATA5: Comune di Montalto delle Marche - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\nSi chiede di procedere all'approvazione accordando le correzioni apportate\nSaluti\nIl 24/07/2026 12:57, Supporto Pef Tari ATA5 ha scritto:\nBuongiorno,\nle rinunce vanno bene.\nMentre per quanto riguarda le rimodulazioni, il foglio IN_RIMD risulta compilato erroneamente in quanto risulterebbe una rimodulazione che viene dai Pef precedenti ma in realtà in Pef precedenti non le riportavano. Si allega, per comodità, la correzione effettuata.\nRimaniamo in attesa di vs. riscontri in merito.\nSaluti\nIl 24/07/2026 11:52, Comune di Montalto delle Marche Ragioneria ha scritto:\nbuongiorno\nSi allega proposta di Pef 2026-2029 da approvare con le rinunce apportate e il rinvio costi ad esercizi successivi.\nsi resta in attesa di riscontro",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
