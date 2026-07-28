@@ -16780,7 +16780,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-07-28T17:22:16.022362+00:00",
+      "last_scan": "2026-07-28T19:15:21.888799+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17223,12 +17223,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-13T16:26:26.075638+00:00",
-          "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-          "changed": true,
-          "file_count": 6
-        },
         {
           "time": "2026-07-13T18:29:14.843723+00:00",
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
@@ -17822,13 +17816,19 @@
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-28T19:15:21.888799+00:00",
+          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-28T17:22:16.022362+00:00",
+      "last_scan": "2026-07-28T19:15:21.888799+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18418,12 +18418,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-13T16:26:26.075638+00:00",
-          "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-13T18:29:14.843723+00:00",
           "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
@@ -19017,13 +19011,19 @@
           "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-28T19:15:21.888799+00:00",
+          "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-07-28T17:22:16.022362+00:00",
+      "last_scan": "2026-07-28T19:15:21.888799+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -19412,12 +19412,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-13T16:26:26.075638+00:00",
-          "zip_hash": "642c2374fdb40c11f1895e7961a7a69094728698f2410be7f5a99babf46074c1",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-07-13T18:29:14.843723+00:00",
           "zip_hash": "642c2374fdb40c11f1895e7961a7a69094728698f2410be7f5a99babf46074c1",
           "changed": false,
@@ -20010,13 +20004,19 @@
           "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-07-28T19:15:21.888799+00:00",
+          "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-07-28T17:22:16.022362+00:00",
+      "last_scan": "2026-07-28T19:15:21.888799+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20361,12 +20361,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-13T16:26:26.075638+00:00",
-          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
-          "changed": false,
-          "file_count": 11
-        },
-        {
           "time": "2026-07-13T18:29:14.843723+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
           "changed": false,
@@ -20956,6 +20950,12 @@
         },
         {
           "time": "2026-07-28T17:22:16.022362+00:00",
+          "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
+          "changed": false,
+          "file_count": 14
+        },
+        {
+          "time": "2026-07-28T19:15:21.888799+00:00",
           "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
           "changed": false,
           "file_count": 14
@@ -33707,9 +33707,9 @@
       "processabile": "si"
     },
     "16": {
-      "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
-      "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-07-28T17:22:16.022362+00:00",
+      "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+      "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
+      "last_scan": "2026-07-28T19:15:21.888799+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -34026,7 +34026,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "c75a114f110dc2901e559c35e15698172c74fd603a69abf036f3f90dbd586004",
           "current_file": "GROTTAMMARE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
           "current_size": 7729111,
@@ -34094,11 +34094,34 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-28T17:22:16.022362+00:00"
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "GROTTAMMARE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/GROTTAMMARE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "hash": "c75a114f110dc2901e559c35e15698172c74fd603a69abf036f3f90dbd586004",
+          "size": 7729111,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "GROTTAMMARE - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/GROTTAMMARE - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "hash": "99f177778ab6235cd068525f6628031e8a3016c84175d6ec716d68218f51bb57",
+          "size": 7176799,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "GROTTAMMARE - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/GROTTAMMARE - PEF TARI MTR3 2026-2029.zip",
+          "hash": "4d28f0276b81bc9ad10332808270968fa540d68b483c384444438fd6a46a8901",
+          "size": 6012495,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -34189,12 +34212,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-13T16:26:26.075638+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-07-13T18:29:14.843723+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -34788,6 +34805,12 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": true,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-28T19:15:21.888799+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": true,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -34806,9 +34829,9 @@
   "meta": {
     "last_scan": "2026-07-28T19:15:21.888799+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 1,
+      "invariati": 19,
       "errori": 0,
       "vuoti": 0
     },
