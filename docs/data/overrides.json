@@ -1549,6 +1549,11 @@
       "date": "2026-07-29",
       "by": "GM",
       "at": "2026-07-29T10:15:41.432Z"
+    },
+    "11_pef_validato": {
+      "status": "received",
+      "date": "",
+      "note": ""
     }
   },
   "scadenze": {},
