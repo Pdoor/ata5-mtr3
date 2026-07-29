@@ -16848,7 +16848,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-07-29T17:09:00.753651+00:00",
+      "last_scan": "2026-07-29T19:05:13.596492+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17291,12 +17291,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-14T13:20:50.236711+00:00",
-          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-07-14T15:19:50.760262+00:00",
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
@@ -17890,13 +17884,19 @@
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-29T19:05:13.596492+00:00",
+          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-29T17:09:00.753651+00:00",
+      "last_scan": "2026-07-29T19:05:13.596492+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18486,12 +18486,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-14T13:20:50.236711+00:00",
-          "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-14T15:19:50.760262+00:00",
           "zip_hash": "633c3c2630cf81bd2f2435ff3b66a770f651f8c7ee24df036b8022f8e14ae3c4",
@@ -19085,13 +19079,19 @@
           "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-29T19:05:13.596492+00:00",
+          "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-07-29T17:09:00.753651+00:00",
+      "last_scan": "2026-07-29T19:05:13.596492+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -19101,12 +19101,12 @@
         "url": "https://drive.atarifiuti.ap.it/5hq88fqxu1de",
         "id": 19
       },
-      "zip_hash": "28c55176accb6db722c57d0dd00a737770f412f562deb5496b2b175e2e18062b",
-      "content_fingerprint": "636fad44daaa427fc23903334a34b4ed6ccce172706115647ee8214ffcb0beae",
+      "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
+      "content_fingerprint": "6c0bd98b6cc47b1fd0f736232aa3219cef55fa0835ae0a49461a0c6301828768",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "2934014ff97443411e954e5d28584b30ad2cda9cbb5b2377e10d908e3f114924",
           "current_file": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4872976,
@@ -19140,11 +19140,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-29T17:09:00.753651+00:00"
+          ]
         },
         "relazione": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "efed4024761b77e11cae344e5c3ad07dacf17973c3947efbc56ad0b1fab60285",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
           "current_size": 3406061,
@@ -19184,11 +19183,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-29T17:09:00.753651+00:00"
+          ]
         },
         "dich_veridicita": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "707403ea02d22246e441c63e1122ce63eb48c56d5972d35c76cc36981ff8f63f",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 20.5.2026_signed.pdf",
           "current_size": 465219,
@@ -19228,14 +19226,13 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-29T17:09:00.753651+00:00"
+          ]
         },
         "altre_com": {
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "0849ec49d5bfff77bbadc85f5cb6f5ad8ec5d930c07adb3731246c95ed43bc4b",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
           "current_size": 3982926,
@@ -19273,11 +19270,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-29T17:09:00.753651+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d8ac9a6be46f1d80ef44ba2983f2c573dc4d23e1c5c86a83f3ae892173d973d4",
           "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed(1).pdf",
           "current_size": 285123,
@@ -19316,11 +19312,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-29T17:09:00.753651+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "f677dc53c842411ab8ce16f3424c977910dbdb36388741c9e4bf0712cc14fdfd",
           "current_file": "Allegato_3_-_Dichiarazione_Veridicita_signed(1).pdf",
           "current_size": 188390,
@@ -19364,8 +19359,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-07-29T17:09:00.753651+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -19430,15 +19424,97 @@
           "size": 397269,
           "doc_key": "pef_validato",
           "source": "ata5"
+        },
+        {
+          "name": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "2934014ff97443411e954e5d28584b30ad2cda9cbb5b2377e10d908e3f114924",
+          "size": 4872976,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Monsampolo del Tronto Rev.2.pdf.p7m",
+          "hash": "efed4024761b77e11cae344e5c3ad07dacf17973c3947efbc56ad0b1fab60285",
+          "size": 3406061,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 20.5.2026_signed.pdf",
+          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Monsampolo del Tronto 20.5.2026_signed.pdf",
+          "hash": "707403ea02d22246e441c63e1122ce63eb48c56d5972d35c76cc36981ff8f63f",
+          "size": 465219,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO.xlsx",
+          "hash": "0849ec49d5bfff77bbadc85f5cb6f5ad8ec5d930c07adb3731246c95ed43bc4b",
+          "size": 3982926,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO AGGIORNATO.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO AGGIORNATO.xlsx",
+          "hash": "c8af53a57f771410c9a6bce01e24c2028742b54ed1bcbbb850beb758d90356a7",
+          "size": 3982664,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO AGGIORNATO_22072026.xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMUNE DI MONSAMPOLO DEL TRONTO AGGIORNATO_22072026.xlsx",
+          "hash": "2ffc61ce1fd8b8db55a51da2196c1980531c9b7e37fe06c416a43efb1d495c1c",
+          "size": 3982833,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed.pdf",
+          "hash": "40b99a0c971b92b4a139f9a42437b9699ba301a205f1b15d56fe5098d9e0f6a1",
+          "size": 266332,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed(1).pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029_COMUNE DI MONSAMPOLO DEL TRONTO_signed(1).pdf",
+          "hash": "d8ac9a6be46f1d80ef44ba2983f2c573dc4d23e1c5c86a83f3ae892173d973d4",
+          "size": 285123,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_3_-_Dichiarazione_Veridicita (1)_signed.pdf",
+          "hash": "36720d718bc76119f45e933f16d3428059348cd70b776aa030cf73315b912415",
+          "size": 185576,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita_signed(1).pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_3_-_Dichiarazione_Veridicita_signed(1).pdf",
+          "hash": "f677dc53c842411ab8ce16f3424c977910dbdb36388741c9e4bf0712cc14fdfd",
+          "size": 188390,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita_signed.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_3_-_Dichiarazione_Veridicita_signed.pdf",
+          "hash": "2013caeb612a27691a347ee027bcf0aa0d5f1c5b9c9d08bf8bb838984e194bb2",
+          "size": 184997,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-14T13:20:50.236711+00:00",
-          "zip_hash": "642c2374fdb40c11f1895e7961a7a69094728698f2410be7f5a99babf46074c1",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-07-14T15:19:50.760262+00:00",
           "zip_hash": "642c2374fdb40c11f1895e7961a7a69094728698f2410be7f5a99babf46074c1",
@@ -20032,13 +20108,19 @@
           "zip_hash": "28c55176accb6db722c57d0dd00a737770f412f562deb5496b2b175e2e18062b",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-07-29T19:05:13.596492+00:00",
+          "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
+          "changed": true,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-07-29T17:09:00.753651+00:00",
+      "last_scan": "2026-07-29T19:05:13.596492+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20382,12 +20464,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-14T13:20:50.236711+00:00",
-          "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-07-14T15:19:50.760262+00:00",
           "zip_hash": "5ecb304bc099a20a078fa06aeb2d15d4b5e61e352d0aa35dda4accae4173e71d",
@@ -20978,6 +21054,12 @@
         },
         {
           "time": "2026-07-29T17:09:00.753651+00:00",
+          "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
+          "changed": false,
+          "file_count": 14
+        },
+        {
+          "time": "2026-07-29T19:05:13.596492+00:00",
           "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
           "changed": false,
           "file_count": 14
@@ -33749,7 +33831,7 @@
     "16": {
       "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
       "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
-      "last_scan": "2026-07-29T17:09:00.753651+00:00",
+      "last_scan": "2026-07-29T19:05:13.596492+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -34252,12 +34334,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-14T13:20:50.236711+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-07-14T15:19:50.760262+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -34851,6 +34927,12 @@
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-07-29T19:05:13.596492+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -34869,9 +34951,9 @@
   "meta": {
     "last_scan": "2026-07-29T19:05:13.596492+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 1,
+      "invariati": 19,
       "errori": 0,
       "vuoti": 0
     },
