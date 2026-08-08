@@ -6723,7 +6723,7 @@
       "processabile": "si"
     },
     "6": {
-      "last_scan": "2026-08-08T16:25:56.051536+00:00",
+      "last_scan": "2026-08-08T17:23:32.028873+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6733,12 +6733,12 @@
         "url": "https://drive.atarifiuti.ap.it/fcu3h2oxyfg",
         "id": 6
       },
-      "zip_hash": "e5110ed67dfac0411a7f9bcb8bd40a8034eb8b32943346c2691bee22ee30877f",
-      "content_fingerprint": "f102ece97ac3c669b41ecc9d0fd389b42de72b211fde62c007795ac134bde119",
-      "zip_changed": false,
+      "zip_hash": "cc72d271fe6b71daf64927a3244c810c070c50a16875c26811e38808ab01c36c",
+      "content_fingerprint": "d33a41eebe2c7820fce91ace5b7ff4c7f710597f644d86fe2a35361ceffd203e",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
           "current_file": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "current_size": 4862168,
@@ -6759,11 +6759,18 @@
               "hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
               "file": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-08-08T17:23:32.028873+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-08T17:23:32.028873+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
           "current_size": 3331058,
@@ -6796,11 +6803,18 @@
               "hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
               "file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-08-08T17:23:32.028873+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-08T17:23:32.028873+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
           "current_size": 485581,
@@ -6833,8 +6847,15 @@
               "hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
               "file": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-08-08T17:23:32.028873+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-08T17:23:32.028873+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -7036,30 +7057,6 @@
           "source": "ata5"
         },
         {
-          "name": "Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Carassai Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
-          "hash": "25e30ef3b6c2978d9621dd725cb9eddd092b9fddfaea6a7172bbad8c325ae9cb",
-          "size": 4862168,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Carassai Rev.2.pdf.p7m",
-          "hash": "4c134d1525421373dcbab5b73422b4c9f4646efd437e69fdded59a9c444f6eed",
-          "size": 3331058,
-          "doc_key": "relazione",
-          "source": "gestore"
-        },
-        {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Carassai 20.5.2026_signed.pdf",
-          "hash": "d2fe1f98240e7162b6021e89c8c22a2f6ea6f3df5cc2a496d5881e2843fc0ca0",
-          "size": 485581,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
           "name": "Carassai_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Carassai_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "hash": "c0e784e1b2b45b0cb22e85c4ab7cd2bb3cd799d225c6dcd44f6f0d228119117e",
@@ -7109,12 +7106,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-23T19:05:59.069125+00:00",
-          "zip_hash": "39258340f5f61bbab21ef40c0bf0c50f3766a0fcfe13a05d8f2a7719238dead5",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-07-24T10:11:40.119515+00:00",
           "zip_hash": "e5110ed67dfac0411a7f9bcb8bd40a8034eb8b32943346c2691bee22ee30877f",
@@ -7708,15 +7699,21 @@
           "zip_hash": "e5110ed67dfac0411a7f9bcb8bd40a8034eb8b32943346c2691bee22ee30877f",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-08-08T17:23:32.028873+00:00",
+          "zip_hash": "cc72d271fe6b71daf64927a3244c810c070c50a16875c26811e38808ab01c36c",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
-      "processabile": "si"
+      "processabile": "no"
     },
     "7": {
       "zip_hash": "bae20aeb2e76a4aeadfe89854144d02f1f3068728e284176504285270b212887",
       "content_fingerprint": "bbedc9bd4fbe19d7ee0e7ccf506b1e601aad8fd5d338514eb8e169307a11c7de",
-      "last_scan": "2026-08-08T16:25:56.051536+00:00",
+      "last_scan": "2026-08-08T17:23:32.028873+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8210,12 +8207,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-23T19:05:59.069125+00:00",
-          "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-07-24T10:11:40.119515+00:00",
           "zip_hash": "2ea1b4b12b56aa8852e7f3a1233b14603c5f729f7dd32419ea9fb3c6ad34e62a",
           "changed": false,
@@ -8808,6 +8799,12 @@
           "zip_hash": "bae20aeb2e76a4aeadfe89854144d02f1f3068728e284176504285270b212887",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-08-08T17:23:32.028873+00:00",
+          "zip_hash": "bae20aeb2e76a4aeadfe89854144d02f1f3068728e284176504285270b212887",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -8825,7 +8822,7 @@
     "8": {
       "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
       "content_fingerprint": "aed0f6e98d8f09d984e6b8ffe4f9900ce82c1a161d07599a2530969f8182c85e",
-      "last_scan": "2026-08-08T16:25:56.051536+00:00",
+      "last_scan": "2026-08-08T17:23:32.028873+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9269,12 +9266,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-23T17:14:23.144693+00:00",
-          "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-07-23T19:05:59.069125+00:00",
           "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
@@ -9868,6 +9859,12 @@
           "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-08-08T17:23:32.028873+00:00",
+          "zip_hash": "6efb469c5a88f68215ea8059869655c14b6def7f95e0f02b8d85caeb9b8f6d8a",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -9885,7 +9882,7 @@
     "9": {
       "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
       "content_fingerprint": "8b3aa392faba71e02fa9aa4dffca058d5823808342a852ebad7392bc4b4240d0",
-      "last_scan": "2026-08-08T16:25:56.051536+00:00",
+      "last_scan": "2026-08-08T17:23:32.028873+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10408,12 +10405,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-23T19:05:59.069125+00:00",
-          "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-07-24T10:11:40.119515+00:00",
           "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
@@ -11007,6 +10998,12 @@
           "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-08-08T17:23:32.028873+00:00",
+          "zip_hash": "a4e59017db0bdb1e2b7e86c918be329170757b6275f55d3f1517c92b2d481cc0",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -11024,7 +11021,7 @@
     "10": {
       "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
       "content_fingerprint": "07c72a8e37f43ccdf78d6dec1365d1a8fc6ccca76e51619524d0ff843f1cb87a",
-      "last_scan": "2026-08-08T16:25:56.051536+00:00",
+      "last_scan": "2026-08-08T17:23:32.028873+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11537,12 +11534,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-23T19:05:59.069125+00:00",
-          "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
-          "changed": false,
-          "file_count": 12
-        },
         {
           "time": "2026-07-24T10:11:40.119515+00:00",
           "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
@@ -12133,6 +12124,12 @@
         },
         {
           "time": "2026-08-08T16:25:56.051536+00:00",
+          "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
+          "changed": false,
+          "file_count": 12
+        },
+        {
+          "time": "2026-08-08T17:23:32.028873+00:00",
           "zip_hash": "6b78630968431bf88dbc915b9133a240e8c2d560a03e96d7ecc1215af8030add",
           "changed": false,
           "file_count": 12
@@ -35414,9 +35411,9 @@
   "meta": {
     "last_scan": "2026-08-08T17:23:32.028873+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 1,
-      "invariati": 4,
+      "scansionati": 10,
+      "aggiornati": 2,
+      "invariati": 8,
       "errori": 0,
       "vuoti": 0
     },
