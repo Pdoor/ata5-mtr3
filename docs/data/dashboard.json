@@ -1115,7 +1115,7 @@
       "last_scan_empty": false
     },
     "1": {
-      "last_scan": "2026-08-12T10:56:00.397842+00:00",
+      "last_scan": "2026-08-12T11:42:21.424358+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -1589,12 +1589,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-30T10:18:58.927349+00:00",
-          "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-07-30T12:26:08.059243+00:00",
           "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
@@ -2188,6 +2182,12 @@
           "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-08-12T11:42:21.424358+00:00",
+          "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [
@@ -2207,7 +2207,7 @@
       "processabile": "si"
     },
     "2": {
-      "last_scan": "2026-08-12T10:56:00.397842+00:00",
+      "last_scan": "2026-08-12T11:42:21.424358+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -2849,12 +2849,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-30T10:18:58.927349+00:00",
-          "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-07-30T12:26:08.059243+00:00",
           "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
           "changed": false,
@@ -3447,6 +3441,12 @@
           "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-08-12T11:42:21.424358+00:00",
+          "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -3455,7 +3455,7 @@
     "3": {
       "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
       "content_fingerprint": "b5903a65677b3d6dbb1590f64e7dc4286421144736ac54d0dba99ad1e299b65a",
-      "last_scan": "2026-08-12T10:56:00.397842+00:00",
+      "last_scan": "2026-08-12T11:42:21.424358+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3924,12 +3924,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-30T10:18:58.927349+00:00",
-          "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-07-30T12:26:08.059243+00:00",
           "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
@@ -4523,6 +4517,12 @@
           "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-08-12T11:42:21.424358+00:00",
+          "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -4557,7 +4557,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-08-12T10:56:00.397842+00:00",
+      "last_scan": "2026-08-12T11:42:21.424358+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -5016,12 +5016,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-30T10:18:58.927349+00:00",
-          "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-07-30T12:26:08.059243+00:00",
           "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
@@ -5615,6 +5609,12 @@
           "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-08-12T11:42:21.424358+00:00",
+          "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -5634,7 +5634,7 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-08-12T10:56:00.397842+00:00",
+      "last_scan": "2026-08-12T11:42:21.424358+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -5644,9 +5644,9 @@
         "url": "https://drive.atarifiuti.ap.it/6wyxwu6hv08g",
         "id": 5
       },
-      "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
-      "content_fingerprint": "2f2a9ccd0ad1d5de12992a17cf17e5855b2569eb7eaedb754fdc6e253b0a0b63",
-      "zip_changed": false,
+      "zip_hash": "981cc664245336693fcdad916b07881d86e36aff332a0d870735e0b663bc3a3c",
+      "content_fingerprint": "2e7ba9a9ccb836f76edc142a4ff684a17110d517df25674b503295b935ce4a9d",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -5785,7 +5785,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "9753cb052c99f4f8bcaf57077455f58fe909c61df33c7e418c618031c23c8334",
           "current_file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1.xlsx",
           "current_size": 3979103,
@@ -5828,11 +5828,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-12T11:42:21.424358+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-12T11:42:21.424358+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "dddab240da9c6836665e392c32ecf8e478e864ac56e705f3e3d6faa6170ee8ce",
           "current_file": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
           "current_size": 486206,
@@ -5887,11 +5894,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-12T11:42:21.424358+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-12T11:42:21.424358+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "21a205a80b595eaee46f643fa33ed3131659cad07fcc43c799bd1457d336a143",
           "current_file": "dichiarazione di verificità_Comuni_signed.pdf",
           "current_size": 334861,
@@ -5940,8 +5954,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-12T11:42:21.424358+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-12T11:42:21.424358+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -6072,87 +6093,9 @@
           "size": 842285,
           "doc_key": null,
           "source": "comune"
-        },
-        {
-          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1.xlsx",
-          "hash": "9753cb052c99f4f8bcaf57077455f58fe909c61df33c7e418c618031c23c8334",
-          "size": 3979103,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_2.0.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_2.0.xlsx",
-          "hash": "070cbae651f5ac64a572cdad6cdbc276a220ca83c7a88aa93ef575c274309e08",
-          "size": 3971495,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_B vers 03.06.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 1_B vers 03.06.xlsx",
-          "hash": "26e5163946e94dcdbb56356ffdbdce012fe783f19cf4a7742b80aadf8f978995",
-          "size": 3968703,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2.pdf",
-          "hash": "04ef703fabe9f3d622fc1f802095bbcedbd1b32121b9afcc72c96faf44557e00",
-          "size": 486191,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_2.0.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_2.0.pdf",
-          "hash": "9cc22e01bec8855def134f96bd5661ea349b8bd4a69f2e3be0e8f349f9805511",
-          "size": 486194,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Predisposizione PEF grezzo Comune di Ascoli Piceno_2026-2029_Allegato 2_B vers 03.06.pdf",
-          "hash": "dddab240da9c6836665e392c32ecf8e478e864ac56e705f3e3d6faa6170ee8ce",
-          "size": 486206,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_3_Dichiarazione_Veridicita_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_3_Dichiarazione_Veridicita_signed.pdf",
-          "hash": "c5ba5e74e6250818f86e475f32853d87b681cf5d03cbf6f88f64a992e24fc8ce",
-          "size": 332926,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "dichiarazione di verificità_Comuni_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/dichiarazione di verificità_Comuni_signed.pdf",
-          "hash": "21a205a80b595eaee46f643fa33ed3131659cad07fcc43c799bd1457d336a143",
-          "size": 334861,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "dichiarazione di verificità_Allegato 3_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/dichiarazione di verificità_Allegato 3_signed.pdf",
-          "hash": "252b4461d83e433f58a057d48dd397f5311456011b7f8724d4188bcb2a36fb25",
-          "size": 334772,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-30T10:18:58.927349+00:00",
-          "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
-          "changed": false,
-          "file_count": 18
-        },
         {
           "time": "2026-07-30T12:26:08.059243+00:00",
           "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
@@ -6746,6 +6689,12 @@
           "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
           "changed": false,
           "file_count": 18
+        },
+        {
+          "time": "2026-08-12T11:42:21.424358+00:00",
+          "zip_hash": "981cc664245336693fcdad916b07881d86e36aff332a0d870735e0b663bc3a3c",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -6756,7 +6705,7 @@
           "size": 842285
         }
       ],
-      "processabile": "si"
+      "processabile": "no"
     },
     "6": {
       "last_scan": "2026-08-12T10:56:00.397842+00:00",
@@ -35615,11 +35564,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-08-12T10:56:00.397842+00:00",
+    "last_scan": "2026-08-12T11:42:21.424358+00:00",
     "results": {
-      "scansionati": 33,
-      "aggiornati": 0,
-      "invariati": 33,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
@@ -35629,7 +35578,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
