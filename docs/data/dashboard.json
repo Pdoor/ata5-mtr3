@@ -31143,7 +31143,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-08-12T16:51:43.669715+00:00",
+      "last_scan": "2026-08-12T17:54:11.104007+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -31863,12 +31863,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-07-31T10:33:05.990853+00:00",
-          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-07-31T12:52:24.148921+00:00",
           "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
           "changed": false,
@@ -32461,16 +32455,22 @@
           "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-08-12T17:54:11.104007+00:00",
+          "zip_hash": "a9a335f43f7a675d76c83e1f2eeb82999cd96b5bdc0bc6b611c7610003dca57e",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "32": {
-      "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
-      "content_fingerprint": "4fa47aa8a980da051ab135dca6f3d10203e4c28d79524dec431a0d3bbf912061",
-      "last_scan": "2026-08-12T16:51:43.669715+00:00",
-      "zip_changed": false,
+      "zip_hash": "2f2f967e5aa05ba1841d85f62d6ce922d6e009d332d79388cda4b3a610620c4f",
+      "content_fingerprint": "cc7a3103d0a1832b64273166d5e10373a75c37af451274720889e65f46d92655",
+      "last_scan": "2026-08-12T17:54:11.104007+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -32647,7 +32647,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
           "current_size": 3978594,
@@ -32680,11 +32680,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-12T17:54:11.104007+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-12T17:54:11.104007+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
           "current_size": 239742,
@@ -32717,11 +32724,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-12T17:54:11.104007+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-12T17:54:11.104007+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
           "current_file": "DOCUMENTO SINDACO.pdf",
           "current_size": 8210218,
@@ -32759,8 +32773,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-12T17:54:11.104007+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-12T17:54:11.104007+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -32873,47 +32894,9 @@
           "size": 492788,
           "doc_key": "dich_veridicita",
           "source": "gestore"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_SPINETOLI.xlsx",
-          "hash": "cb7257450d738b1c6b644c69f80fddf69f499c64c53b655eeff53977522d2d65",
-          "size": 3978594,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029_Spinetoli.pdf",
-          "hash": "0b1b8d9e65e2f18a3fa5b07364789b222db1b6082b99fed0603c2d4788e90261",
-          "size": 239742,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_SPINETOLI.pdf.p7m",
-          "hash": "7e89b26584dc5d300dfb938f2b7b68b5f0e9eba2c4f39d7a54b622501e746343",
-          "size": 73965,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "DOCUMENTO SINDACO.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/DOCUMENTO SINDACO.pdf",
-          "hash": "e76fe74d4f04228733882883f3dac134fffebbbf8df9129214aa541a08fe9956",
-          "size": 8210218,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-31T10:33:05.990853+00:00",
-          "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-07-31T12:52:24.148921+00:00",
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
@@ -33507,6 +33490,12 @@
           "zip_hash": "ec4c10b43d74ffa2cb1ac7ac3e91105448c9a1a4344d2fe2a71901827de4ea3c",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-08-12T17:54:11.104007+00:00",
+          "zip_hash": "2f2f967e5aa05ba1841d85f62d6ce922d6e009d332d79388cda4b3a610620c4f",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -33518,11 +33507,11 @@
         "id": 32
       },
       "last_scan_error": false,
-      "processabile": "si",
+      "processabile": "no",
       "last_scan_empty": false
     },
     "33": {
-      "last_scan": "2026-08-12T16:51:43.669715+00:00",
+      "last_scan": "2026-08-12T17:54:11.104007+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -33907,12 +33896,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-30T19:16:42.957659+00:00",
-          "zip_hash": "8931d6071b754fa8f4bdebe0574295b62da3abe71d0bc5255a8afc73be978aa6",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-07-31T10:33:05.990853+00:00",
           "zip_hash": "8931d6071b754fa8f4bdebe0574295b62da3abe71d0bc5255a8afc73be978aa6",
@@ -34503,6 +34486,12 @@
         },
         {
           "time": "2026-08-12T16:51:43.669715+00:00",
+          "zip_hash": "8931d6071b754fa8f4bdebe0574295b62da3abe71d0bc5255a8afc73be978aa6",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-08-12T17:54:11.104007+00:00",
           "zip_hash": "8931d6071b754fa8f4bdebe0574295b62da3abe71d0bc5255a8afc73be978aa6",
           "changed": false,
           "file_count": 10
@@ -35665,9 +35654,9 @@
   "meta": {
     "last_scan": "2026-08-12T17:54:11.104007+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 1,
-      "invariati": 29,
+      "scansionati": 33,
+      "aggiornati": 2,
+      "invariati": 31,
       "errori": 0,
       "vuoti": 0
     },
@@ -35677,7 +35666,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
