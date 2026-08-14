@@ -1121,7 +1121,7 @@
       "last_scan_empty": false
     },
     "1": {
-      "last_scan": "2026-08-14T18:44:33.139527+00:00",
+      "last_scan": "2026-08-14T19:43:39.161251+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -1131,9 +1131,9 @@
         "url": "https://drive.atarifiuti.ap.it/31vxgad4m5f4",
         "id": 1
       },
-      "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
-      "content_fingerprint": "5b87f9822b202b07348293285b84cc3868cd19dacca7ffee545803e9cd9029d4",
-      "zip_changed": false,
+      "zip_hash": "86b18e355a3e948f5972d19371c9517323fc14b7538d122f3e3b2058152851a0",
+      "content_fingerprint": "7b39387bca66b164ff49f37ac31bf6d9d954f48fcdb62872e8df085ca5e82a98",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -1322,7 +1322,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "20ae8d213a949cd4f8133bd401376149a548891ba3c7b81eb3c85bc4dc48d5ae",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 3981754,
@@ -1354,11 +1354,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-14T19:43:39.161251+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-14T19:43:39.161251+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
           "current_size": 805869,
@@ -1402,11 +1409,18 @@
               "hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
               "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-08-14T19:43:39.161251+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-14T19:43:39.161251+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "a64f8a7421b6c181d5b358c51e00519bc7f2441071ad773cc43b7e9abbb6a5e1",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
           "current_size": 129216,
@@ -1438,8 +1452,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-14T19:43:39.161251+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-14T19:43:39.161251+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -1542,71 +1563,9 @@
           "size": 8846,
           "doc_key": null,
           "source": "comune"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "hash": "20ae8d213a949cd4f8133bd401376149a548891ba3c7b81eb3c85bc4dc48d5ae",
-          "size": 3981754,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 RETTIFICATO.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 RETTIFICATO.xlsx",
-          "hash": "dba22aa46a3c1296da98f40d172d3efcfde03dccb621f0040c2178964134f909",
-          "size": 3981479,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 def.pdf.p7m",
-          "hash": "ac5a42499266e6ac5969214d3be7b429cbdc8904154d5089f527081a88d9f94f",
-          "size": 805833,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 RETTIFICATA DEFINITIVA.pdf.p7m",
-          "hash": "04d1218625d39f57e643f0465efe0b89521b7fbb4056de0911d644382d1b753c",
-          "size": 805869,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni compilata.pdf.p7m",
-          "hash": "a64f8a7421b6c181d5b358c51e00519bc7f2441071ad773cc43b7e9abbb6a5e1",
-          "size": 129216,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni RETTIFICATA.pdf.p7m",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni RETTIFICATA.pdf.p7m",
-          "hash": "5daeec04e744759acd945f71f1023e19bec5bef6eec93884fd73888a9b8b7d1f",
-          "size": 128989,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "dati macro indicatori R1 e R2 da Picenambiente.pdf",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/dati macro indicatori R1 e R2 da Picenambiente.pdf",
-          "hash": "df11b539f4372dabd8cf74275e67654db14d9b9c3f1977bc47c9a025db2ddcf7",
-          "size": 115915,
-          "doc_key": null,
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-03T17:06:12.174020+00:00",
-          "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-03T19:23:17.265001+00:00",
           "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
@@ -2200,6 +2159,12 @@
           "zip_hash": "4bece774079d0558a738aceb9b885715bda8e8ce91310d5ab1cc83d5a99e4abe",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-08-14T19:43:39.161251+00:00",
+          "zip_hash": "86b18e355a3e948f5972d19371c9517323fc14b7538d122f3e3b2058152851a0",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -2208,18 +2173,12 @@
           "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/test.xlsx",
           "source": "comune",
           "size": 8846
-        },
-        {
-          "name": "dati macro indicatori R1 e R2 da Picenambiente.pdf",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/dati macro indicatori R1 e R2 da Picenambiente.pdf",
-          "source": "comune",
-          "size": 115915
         }
       ],
-      "processabile": "si"
+      "processabile": "no"
     },
     "2": {
-      "last_scan": "2026-08-14T18:44:33.139527+00:00",
+      "last_scan": "2026-08-14T19:43:39.161251+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -2861,12 +2820,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-08-03T17:06:12.174020+00:00",
-          "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
-          "changed": true,
-          "file_count": 9
-        },
-        {
           "time": "2026-08-03T19:23:17.265001+00:00",
           "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
           "changed": false,
@@ -3459,6 +3412,12 @@
           "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-08-14T19:43:39.161251+00:00",
+          "zip_hash": "f26eeef09433dbfaa3d3099a00447e711bdee805699782f0fb98df167788a0e4",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -3467,7 +3426,7 @@
     "3": {
       "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
       "content_fingerprint": "b5903a65677b3d6dbb1590f64e7dc4286421144736ac54d0dba99ad1e299b65a",
-      "last_scan": "2026-08-14T18:44:33.139527+00:00",
+      "last_scan": "2026-08-14T19:43:39.161251+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3936,12 +3895,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-03T17:06:12.174020+00:00",
-          "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-08-03T19:23:17.265001+00:00",
           "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
@@ -4535,6 +4488,12 @@
           "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-08-14T19:43:39.161251+00:00",
+          "zip_hash": "0794fac594ca8ccfd0c037356c3eb5ee8f63e64de9c4e617120cb1011c7b2c41",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -4569,7 +4528,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-08-14T18:44:33.139527+00:00",
+      "last_scan": "2026-08-14T19:43:39.161251+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4581,7 +4540,7 @@
       },
       "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
       "content_fingerprint": "48df0ab746cb735bef6dd6089fbd87049899c3c542fd2658ff97595b31d62198",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -5046,12 +5005,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-03T17:06:12.174020+00:00",
-          "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-08-03T19:23:17.265001+00:00",
           "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
@@ -5645,6 +5598,12 @@
           "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
           "changed": true,
           "file_count": 11
+        },
+        {
+          "time": "2026-08-14T19:43:39.161251+00:00",
+          "zip_hash": "9df6b74694928e6b4f0edb2d6a2a996fcb21f2de7fa2196ace51e828ef4f8b26",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -5664,7 +5623,7 @@
       "processabile": "si"
     },
     "5": {
-      "last_scan": "2026-08-14T18:44:33.139527+00:00",
+      "last_scan": "2026-08-14T19:43:39.161251+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6195,12 +6154,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-03T17:06:12.174020+00:00",
-          "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
-          "changed": false,
-          "file_count": 18
-        },
         {
           "time": "2026-08-03T19:23:17.265001+00:00",
           "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
@@ -6791,6 +6744,12 @@
         },
         {
           "time": "2026-08-14T18:44:33.139527+00:00",
+          "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
+          "changed": false,
+          "file_count": 18
+        },
+        {
+          "time": "2026-08-14T19:43:39.161251+00:00",
           "zip_hash": "0ed15d76d4147a2cb5e2482943b171d270b65ba2d7a6f4afbd670e6d5c5781bc",
           "changed": false,
           "file_count": 18
@@ -35801,11 +35760,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-08-14T18:44:33.139527+00:00",
+    "last_scan": "2026-08-14T19:43:39.161251+00:00",
     "results": {
-      "scansionati": 33,
+      "scansionati": 5,
       "aggiornati": 1,
-      "invariati": 32,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
@@ -35815,7 +35774,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
