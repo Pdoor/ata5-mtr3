@@ -1,10 +1,10 @@
 {
   "comuni": {
     "25": {
-      "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
-      "content_fingerprint": "7d6674c58fa7c84434c2325beaaca2864c4f6659ec7c2fef82924503d7b70ea1",
-      "last_scan": "2026-08-24T16:29:23.109230+00:00",
-      "zip_changed": false,
+      "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
+      "content_fingerprint": "9327d1e15351125338106860157465a4c3bd21d187071dbb7fad8d75eba97c28",
+      "last_scan": "2026-08-24T17:25:23.577887+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -349,7 +349,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "dd9354981fa106f914c855eaeee4002c0ee58835954141f4584c848f3642bb2a",
           "current_file": "MONTEPRANDONE - PEF TARI MTR3 2026-2029.zip",
           "current_size": 5892443,
@@ -410,35 +410,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-08-24T17:25:23.577887+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-24T17:25:23.577887+00:00"
         }
       },
       "all_files": [
-        {
-          "name": "MONTEPRANDONE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
-          "path": "Pef Validato 2026/MONTEPRANDONE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
-          "hash": "052ebb83218bb36ecf7054f93becbf491153e8ac74e6518b7823b66b3d6b82d1",
-          "size": 4556189,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "MONTEPRANDONE - ALLEGATI 2-3 MTR3 2026-2029 GESTORE.zip",
-          "path": "Pef Validato 2026/MONTEPRANDONE - ALLEGATI 2-3 MTR3 2026-2029 GESTORE.zip",
-          "hash": "55b75a4a13faed0387b3e8461c2261147dc0e090e9c2d36e185a57d8e8166cf7",
-          "size": 4739029,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "MONTEPRANDONE - PEF TARI MTR3 2026-2029.zip",
-          "path": "Pef Validato 2026/MONTEPRANDONE - PEF TARI MTR3 2026-2029.zip",
-          "hash": "dd9354981fa106f914c855eaeee4002c0ee58835954141f4584c848f3642bb2a",
-          "size": 5892443,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
         {
           "name": "Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
@@ -537,12 +520,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-16T10:16:46.248757+00:00",
-          "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-08-16T11:14:30.637653+00:00",
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
@@ -1136,6 +1113,12 @@
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-08-24T17:25:23.577887+00:00",
+          "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
@@ -22050,7 +22033,7 @@
     "21": {
       "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
       "content_fingerprint": "a5bc2cb9c22b37c1c14813bee5c021d8008e28c1190044656bca01ab955476d0",
-      "last_scan": "2026-08-24T16:29:23.109230+00:00",
+      "last_scan": "2026-08-24T17:25:23.577887+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22551,12 +22534,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-08-16T10:16:46.248757+00:00",
-          "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
-          "changed": false,
-          "file_count": 11
-        },
-        {
           "time": "2026-08-16T11:14:30.637653+00:00",
           "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
           "changed": false,
@@ -23149,6 +23126,12 @@
           "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-08-24T17:25:23.577887+00:00",
+          "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -23164,7 +23147,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-08-24T16:29:23.109230+00:00",
+      "last_scan": "2026-08-24T17:25:23.577887+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23577,12 +23560,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-08-16T10:16:46.248757+00:00",
-          "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
-          "changed": false,
-          "file_count": 15
-        },
-        {
           "time": "2026-08-16T11:14:30.637653+00:00",
           "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
           "changed": false,
@@ -24175,6 +24152,12 @@
           "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-08-24T17:25:23.577887+00:00",
+          "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
+          "changed": false,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -24214,7 +24197,7 @@
     "23": {
       "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
       "content_fingerprint": "99e73d4a4757ff170743d09f5be59e3790628f8fed09006d5583400d624b4f24",
-      "last_scan": "2026-08-24T16:29:23.109230+00:00",
+      "last_scan": "2026-08-24T17:25:23.577887+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24629,12 +24612,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-08-16T10:16:46.248757+00:00",
-          "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-08-16T11:14:30.637653+00:00",
           "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
           "changed": false,
@@ -25227,6 +25204,12 @@
           "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-08-24T17:25:23.577887+00:00",
+          "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -25242,7 +25225,7 @@
       "last_scan_empty": false
     },
     "24": {
-      "last_scan": "2026-08-24T16:29:23.109230+00:00",
+      "last_scan": "2026-08-24T17:25:23.577887+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25252,9 +25235,9 @@
         "url": "https://drive.atarifiuti.ap.it/5yfcar6bd5g9",
         "id": 24
       },
-      "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
-      "content_fingerprint": "f57b97dea4ddcad14501069d02726e84fccf1473329c821db1ea69da1d15e1c6",
-      "zip_changed": false,
+      "zip_hash": "58d99ba9729c5e1b7c2f6bee4034f0f1c8fe567bad0df07c982ad0950dca45e4",
+      "content_fingerprint": "b054f8de7bcce6fe9cc7e5d55e7f2e7b2b2aabfb08db4bee0fef78707e306519",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -25395,7 +25378,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "8024ab083c870caab28af7119cfc0b041afe990e01131e0664f4246a3f3d61d7",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO_RETT_2.xlsx",
           "current_size": 3980378,
@@ -25438,11 +25421,18 @@
               "hash": "8024ab083c870caab28af7119cfc0b041afe990e01131e0664f4246a3f3d61d7",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO_RETT_2.xlsx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-08-24T17:25:23.577887+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-24T17:25:23.577887+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "41e6df43d231faa3bc9030b6866be3b8ac082435afab4838aaf34032a17f1393",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO_rett_signed.pdf",
           "current_size": 879643,
@@ -25479,11 +25469,18 @@
               "hash": "41e6df43d231faa3bc9030b6866be3b8ac082435afab4838aaf34032a17f1393",
               "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO_rett_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-08-24T17:25:23.577887+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-24T17:25:23.577887+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "74aeb7b3c9c53fd818b34bef4088e765cd8fe83bbbde2d64bf80c135c172591a",
           "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni MONTEMONACO COMPILATA_rett_signed.pdf",
           "current_size": 503022,
@@ -25515,8 +25512,15 @@
               "hash": "74aeb7b3c9c53fd818b34bef4088e765cd8fe83bbbde2d64bf80c135c172591a",
               "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni MONTEMONACO COMPILATA_rett_signed.pdf",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-08-24T17:25:23.577887+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-08-24T17:25:23.577887+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -25629,87 +25633,9 @@
           "size": 464870,
           "doc_key": "dich_veridicita",
           "source": "gestore"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO.xlsx",
-          "hash": "3b1cf160b9e81f4d49459356274a6118fd027e877664b6e671dda458dad9cbfe",
-          "size": 3980244,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO_RETT.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO_RETT.xlsx",
-          "hash": "d90aa77c59f8d094e76a04ab54c89e8d2796fd59ea6db18957447428b4dcdf27",
-          "size": 3980268,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO_RETT_2.xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 COMPILATO MONTEMONACO_RETT_2.xlsx",
-          "hash": "8024ab083c870caab28af7119cfc0b041afe990e01131e0664f4246a3f3d61d7",
-          "size": 3980378,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO.pdf.p7m",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO.pdf.p7m",
-          "hash": "78574b5b6de171906a7622f8a0091cb9c3212957cd597f4ba7a9c1bb5a0c4f00",
-          "size": 845508,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO_rett.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO_rett.pdf",
-          "hash": "2a99667718c6b34a8eaae7aba17aee381e17dc14926d05988fb5e8029eaae454",
-          "size": 838455,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO_rett_signed.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029 MONTEMONACO_rett_signed.pdf",
-          "hash": "41e6df43d231faa3bc9030b6866be3b8ac082435afab4838aaf34032a17f1393",
-          "size": 879643,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni MONTEMONACO COMPILATA_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni MONTEMONACO COMPILATA_signed.pdf",
-          "hash": "6e6b8b1aac471d956c2de076af882865380e365340d9920869035a8921710611",
-          "size": 162502,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni MONTEMONACO COMPILATA_rett_signed.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni MONTEMONACO COMPILATA_rett_signed.pdf",
-          "hash": "74aeb7b3c9c53fd818b34bef4088e765cd8fe83bbbde2d64bf80c135c172591a",
-          "size": 503022,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "indicatori R1 e R2 da Picenambiente.pdf",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/indicatori R1 e R2 da Picenambiente.pdf",
-          "hash": "59cf9a106af8a7b6bb6fbdc94972ec427d8b1822f6f27e690dee771b41e57e3f",
-          "size": 102978,
-          "doc_key": null,
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-16T10:16:46.248757+00:00",
-          "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-08-16T11:14:30.637653+00:00",
           "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
@@ -26303,17 +26229,16 @@
           "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
           "changed": false,
           "file_count": 15
-        }
-      ],
-      "unclassified_files": [
+        },
         {
-          "name": "indicatori R1 e R2 da Picenambiente.pdf",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/indicatori R1 e R2 da Picenambiente.pdf",
-          "source": "comune",
-          "size": 102978
+          "time": "2026-08-24T17:25:23.577887+00:00",
+          "zip_hash": "58d99ba9729c5e1b7c2f6bee4034f0f1c8fe567bad0df07c982ad0950dca45e4",
+          "changed": true,
+          "file_count": 6
         }
       ],
-      "processabile": "si"
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "26": {
       "zip_hash": "34a424bd8d6d517c2aa864758f990980cdf72d224b8016ec531d791c0e9b5e52",
@@ -36349,9 +36274,9 @@
   "meta": {
     "last_scan": "2026-08-24T17:25:23.577887+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 0,
-      "invariati": 20,
+      "scansionati": 25,
+      "aggiornati": 2,
+      "invariati": 23,
       "errori": 0,
       "vuoti": 0
     },
