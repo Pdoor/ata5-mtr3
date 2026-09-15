@@ -1,10 +1,10 @@
 {
   "comuni": {
     "25": {
-      "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
-      "content_fingerprint": "7d6674c58fa7c84434c2325beaaca2864c4f6659ec7c2fef82924503d7b70ea1",
-      "last_scan": "2026-09-14T19:42:15.117629+00:00",
-      "zip_changed": false,
+      "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
+      "content_fingerprint": "9327d1e15351125338106860157465a4c3bd21d187071dbb7fad8d75eba97c28",
+      "last_scan": "2026-09-15T13:03:41.883439+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -349,7 +349,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "dd9354981fa106f914c855eaeee4002c0ee58835954141f4584c848f3642bb2a",
           "current_file": "MONTEPRANDONE - PEF TARI MTR3 2026-2029.zip",
           "current_size": 5892443,
@@ -428,35 +428,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-15T13:03:41.883439+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-15T13:03:41.883439+00:00"
         }
       },
       "all_files": [
-        {
-          "name": "MONTEPRANDONE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
-          "path": "Pef Validato 2026/MONTEPRANDONE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
-          "hash": "052ebb83218bb36ecf7054f93becbf491153e8ac74e6518b7823b66b3d6b82d1",
-          "size": 4556189,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "MONTEPRANDONE - ALLEGATI 2-3 MTR3 2026-2029 GESTORE.zip",
-          "path": "Pef Validato 2026/MONTEPRANDONE - ALLEGATI 2-3 MTR3 2026-2029 GESTORE.zip",
-          "hash": "55b75a4a13faed0387b3e8461c2261147dc0e090e9c2d36e185a57d8e8166cf7",
-          "size": 4739029,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "MONTEPRANDONE - PEF TARI MTR3 2026-2029.zip",
-          "path": "Pef Validato 2026/MONTEPRANDONE - PEF TARI MTR3 2026-2029.zip",
-          "hash": "dd9354981fa106f914c855eaeee4002c0ee58835954141f4584c848f3642bb2a",
-          "size": 5892443,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
         {
           "name": "Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monteprandone Tool_di_calcolo_MTR-3_2026-2029 - ANAG BIL CTS CESP 343.xlsx",
@@ -555,12 +538,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T09:21:30.675514+00:00",
-          "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-08-23T10:17:10.477647+00:00",
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
@@ -1154,6 +1131,12 @@
           "zip_hash": "8bba4993a26b00b1e24bd74f7b4d8f78c019ecf03a3ba969a1f2e2d2a271ca0f",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-09-15T13:03:41.883439+00:00",
+          "zip_hash": "a9deb093a436c7c3c7bd7a1c8cd4609b84ddf7417f340870eb8162a569e71565",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
@@ -22281,8 +22264,8 @@
     "21": {
       "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
       "content_fingerprint": "a5bc2cb9c22b37c1c14813bee5c021d8008e28c1190044656bca01ab955476d0",
-      "last_scan": "2026-09-14T19:42:15.117629+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-09-15T13:03:41.883439+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -22805,12 +22788,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T09:21:30.675514+00:00",
-          "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-08-23T10:17:10.477647+00:00",
           "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
@@ -23404,6 +23381,12 @@
           "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
           "changed": true,
           "file_count": 11
+        },
+        {
+          "time": "2026-09-15T13:03:41.883439+00:00",
+          "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -23419,7 +23402,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-09-14T19:42:15.117629+00:00",
+      "last_scan": "2026-09-15T13:03:41.883439+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23429,9 +23412,9 @@
         "url": "https://drive.atarifiuti.ap.it/62u8dymude0p",
         "id": 22
       },
-      "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
-      "content_fingerprint": "ef1bfe6a7b95de88984fd6836f37f77d5a71194dbe592b50be04528e39dc66f1",
-      "zip_changed": false,
+      "zip_hash": "8484922b247df470173a94300ec4dfb0eec2db570bd9a51c5cff459ef1fe4739",
+      "content_fingerprint": "f1e22b16ae62cc971b56dff2998fa7d3f43c59ad39913800bab5848ef8493a31",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -23566,7 +23549,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "e5a5c13acd4fcfe8e5af75fd41d1bfe9b16a228758675b2d8e1b7deea18bf2f9",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 3984858,
@@ -23593,11 +23576,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-15T13:03:41.883439+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-15T13:03:41.883439+00:00"
         },
         "relazione_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "680275a75f5b4fad7b789f23331c4b86b080168cae2cc3c539184f65d47c5a88",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-1.pdf",
           "current_size": 850101,
@@ -23624,11 +23614,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-15T13:03:41.883439+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-15T13:03:41.883439+00:00"
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "2c7a70ab7afb4ce62bbb7d9d0f8c2ecbb2ceea39164df64316a4c6b7e026a13f",
           "current_file": "C.I.E. SINDACO CIARROCCHI NAZZARENO.pdf",
           "current_size": 82977,
@@ -23660,8 +23657,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-15T13:03:41.883439+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-15T13:03:41.883439+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -23780,63 +23784,9 @@
           "size": 378813,
           "doc_key": null,
           "source": "comune"
-        },
-        {
-          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
-          "hash": "e5a5c13acd4fcfe8e5af75fd41d1bfe9b16a228758675b2d8e1b7deea18bf2f9",
-          "size": 3984858,
-          "doc_key": "tool_mtr3_c",
-          "source": "comune"
-        },
-        {
-          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029-1.pdf",
-          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029-1.pdf",
-          "hash": "680275a75f5b4fad7b789f23331c4b86b080168cae2cc3c539184f65d47c5a88",
-          "size": 850101,
-          "doc_key": "relazione_c",
-          "source": "comune"
-        },
-        {
-          "name": "S25C-1i26050510030.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/S25C-1i26050510030.pdf",
-          "hash": "962ab53471c2a03adc56d342fa0daec014ab6e006a13d81f0ff4b6ac67e73466",
-          "size": 73628,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "C.I.E. SINDACO CIARROCCHI NAZZARENO.pdf",
-          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/C.I.E. SINDACO CIARROCCHI NAZZARENO.pdf",
-          "hash": "2c7a70ab7afb4ce62bbb7d9d0f8c2ecbb2ceea39164df64316a4c6b7e026a13f",
-          "size": 82977,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
-        },
-        {
-          "name": "Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
-          "hash": "c38ae82bf3e6ce10c1858f8683e7c5382c95459481e0b1dfaa0356d7002d3e6f",
-          "size": 1977579,
-          "doc_key": null,
-          "source": "comune"
-        },
-        {
-          "name": "PEF GREZZO PER ATA.rar",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/PEF GREZZO PER ATA.rar",
-          "hash": "5cbe87511a3ea97e87691e7fcb903cbd09e1e520d10924c14103fc3ec03e2fc2",
-          "size": 6045588,
-          "doc_key": null,
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T09:21:30.675514+00:00",
-          "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-08-23T10:17:10.477647+00:00",
           "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
@@ -24430,6 +24380,12 @@
           "zip_hash": "46a77c9f17bd9ebbc206f5e3a1060a37745276d9b12776123e3f76a566a15319",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-09-15T13:03:41.883439+00:00",
+          "zip_hash": "8484922b247df470173a94300ec4dfb0eec2db570bd9a51c5cff459ef1fe4739",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -24450,26 +24406,14 @@
           "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/Registro Beni ammortizzabili_ECOFIL_2025.pdf",
           "source": "comune",
           "size": 378813
-        },
-        {
-          "name": "Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Fabbisogni Standard Rifiuti Anno 2026 (comma 653 L.147_2013).pdf",
-          "source": "comune",
-          "size": 1977579
-        },
-        {
-          "name": "PEF GREZZO PER ATA.rar",
-          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/PEF GREZZO PER ATA.rar",
-          "source": "comune",
-          "size": 6045588
         }
       ],
-      "processabile": "si"
+      "processabile": "no"
     },
     "23": {
       "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
       "content_fingerprint": "99e73d4a4757ff170743d09f5be59e3790628f8fed09006d5583400d624b4f24",
-      "last_scan": "2026-09-14T19:42:15.117629+00:00",
+      "last_scan": "2026-09-15T13:03:41.883439+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24907,12 +24851,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T09:21:30.675514+00:00",
-          "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-08-23T10:17:10.477647+00:00",
           "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
@@ -25506,6 +25444,12 @@
           "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-09-15T13:03:41.883439+00:00",
+          "zip_hash": "4837a97b39272da356cfc0ae34cd31a8c0a0662cc115094b98363f81c79e003f",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -25521,7 +25465,7 @@
       "last_scan_empty": false
     },
     "24": {
-      "last_scan": "2026-09-14T19:42:15.117629+00:00",
+      "last_scan": "2026-09-15T13:03:41.883439+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25531,8 +25475,8 @@
         "url": "https://drive.atarifiuti.ap.it/5yfcar6bd5g9",
         "id": 24
       },
-      "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
-      "content_fingerprint": "fb2e55074e74ff24d81eb8bd2bf3be4552ddfd7758e6d9d6165d17aeb90ce5d2",
+      "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
+      "content_fingerprint": "f57b97dea4ddcad14501069d02726e84fccf1473329c821db1ea69da1d15e1c6",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -25837,7 +25781,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "1b0e9ff20da02cfcd3e216b1912db6586dba88c326effb9d5ee554012378d6ca",
           "current_file": "MONTEMONACO - PEF TARI MTR3 2026-2029.zip",
           "current_size": 5482451,
@@ -25905,11 +25849,34 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-14T19:42:15.117629+00:00"
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "MONTEMONACO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/MONTEMONACO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "1b0e9ff20da02cfcd3e216b1912db6586dba88c326effb9d5ee554012378d6ca",
+          "size": 5482451,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MONTEMONACO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/MONTEMONACO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "065517b897884840cdfe57c46f1bc12775f3a8a8db74ca6e8d739294b836fb4e",
+          "size": 3924224,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MONTEMONACO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/MONTEMONACO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "e6a8d7d51146f50a6fc204de281f3bd0be38e3f747047682be11e35215ab3e1d",
+          "size": 1226830,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Montemonaco Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -26008,12 +25975,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T09:21:30.675514+00:00",
-          "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
-          "changed": false,
-          "file_count": 15
-        },
         {
           "time": "2026-08-23T10:17:10.477647+00:00",
           "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
@@ -26607,6 +26568,12 @@
           "zip_hash": "0bef7b0dc86fd7e3c7a3b7dde9e212482d12f8c66cf52776d0d969c2a37db103",
           "changed": true,
           "file_count": 12
+        },
+        {
+          "time": "2026-09-15T13:03:41.883439+00:00",
+          "zip_hash": "e13b54a82cb701af974bc0b45d501be6d325d4be258d7f0b8a2e89fd1a53f46d",
+          "changed": true,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -36734,9 +36701,9 @@
   "meta": {
     "last_scan": "2026-09-15T13:03:41.883439+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 5,
-      "invariati": 15,
+      "scansionati": 25,
+      "aggiornati": 8,
+      "invariati": 17,
       "errori": 0,
       "vuoti": 0
     },
