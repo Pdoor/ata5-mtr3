@@ -17966,7 +17966,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-09-16T17:53:49.257411+00:00",
+      "last_scan": "2026-09-16T20:45:55.981948+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -17976,8 +17976,8 @@
         "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh",
         "id": 17
       },
-      "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-      "content_fingerprint": "f6c53a0efe397b030187a3136c739d4be1e5686ae42d96db6e7aa7ae0e4a9b70",
+      "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+      "content_fingerprint": "4b7135bb3c72faade2a4ec0e04f4c6d99aa5cd86e880ff9c17c57178ada88dd0",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -18287,7 +18287,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
           "current_file": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
           "current_size": 6559950,
@@ -18355,11 +18355,34 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-16T17:53:49.257411+00:00"
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "09d9c7098fe73b9ac716fa6e2445f1a6509674a5b5847b622898725f00d3a459",
+          "size": 3914104,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "2a0fb7713824daeca2a8bffc130c29219c08ea52f17b549490e22c0d33005df0",
+          "size": 1435906,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
+          "size": 6559950,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -18410,12 +18433,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T14:17:12.607675+00:00",
-          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-08-23T15:15:54.795292+00:00",
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
@@ -19009,13 +19026,19 @@
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-09-16T20:45:55.981948+00:00",
+          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-09-16T17:53:49.257411+00:00",
+      "last_scan": "2026-09-16T20:45:55.981948+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -19690,12 +19713,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-08-23T14:17:12.607675+00:00",
-          "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
-          "changed": false,
-          "file_count": 12
-        },
-        {
           "time": "2026-08-23T15:15:54.795292+00:00",
           "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
           "changed": false,
@@ -20288,13 +20305,19 @@
           "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-09-16T20:45:55.981948+00:00",
+          "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-09-16T17:53:49.257411+00:00",
+      "last_scan": "2026-09-16T20:45:55.981948+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20304,9 +20327,9 @@
         "url": "https://drive.atarifiuti.ap.it/5hq88fqxu1de",
         "id": 19
       },
-      "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
-      "content_fingerprint": "6c0bd98b6cc47b1fd0f736232aa3219cef55fa0835ae0a49461a0c6301828768",
-      "zip_changed": false,
+      "zip_hash": "b391228f315e30773c10d32f8afc5625f45180459c514b133cbc0f8335a9bc30",
+      "content_fingerprint": "0d0c0082762d474fc024437dcb9078873122c8820cd57ba95b56380572ba0612",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -20604,7 +20627,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "296532e63eab49584753517483459c6a4040bf29e30319413962746f85308b2c",
           "current_file": "MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
           "current_size": 5435477,
@@ -20647,35 +20670,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-16T20:45:55.981948+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-16T20:45:55.981948+00:00"
         }
       },
       "all_files": [
-        {
-          "name": "MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
-          "path": "Pef Validato 2026/MONSAMPOLO DEL TRONTO - PEF TARI MTR3 2026-2029.zip",
-          "hash": "296532e63eab49584753517483459c6a4040bf29e30319413962746f85308b2c",
-          "size": 5435477,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "MONSAMPOLO DEL TRONTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
-          "path": "Pef Validato 2026/MONSAMPOLO DEL TRONTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
-          "hash": "9986663871012b0fd16b0dc9238fe4d12108f277ce0d209f308e10b2c946afd7",
-          "size": 3531765,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "MONSAMPOLO DEL TRONTO -ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
-          "path": "Pef Validato 2026/MONSAMPOLO DEL TRONTO -ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
-          "hash": "0842e4816ec093bfd26b55e03be044265612d9e99df0fc31e5fe8f5a6a0c6300",
-          "size": 397269,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
         {
           "name": "Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Monsampolo del Tronto Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -20766,12 +20772,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T14:17:12.607675+00:00",
-          "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-23T15:15:54.795292+00:00",
           "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
@@ -21365,13 +21365,19 @@
           "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-09-16T20:45:55.981948+00:00",
+          "zip_hash": "b391228f315e30773c10d32f8afc5625f45180459c514b133cbc0f8335a9bc30",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-09-16T17:53:49.257411+00:00",
+      "last_scan": "2026-09-16T20:45:55.981948+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -21381,8 +21387,8 @@
         "url": "https://drive.atarifiuti.ap.it/2swti7h6yfbe",
         "id": 20
       },
-      "zip_hash": "3f5c94385422758c905f0d0f488ca9dc75e94bde8f99d86a93360fea373b9917",
-      "content_fingerprint": "aee199f3f19f5eca829bf434df56debd8a20561c7792c6112b752cebb80ef737",
+      "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
+      "content_fingerprint": "9bdba14f06810f04a69830ad76e7f27124d479edddcd1fc615f59fbfecebd592",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -21482,7 +21488,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "3cc4bb1c507c5355648030468cf08d233bb9df457629931992bc81ccaf6309c2",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
           "current_size": 4699159,
@@ -21510,11 +21516,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-16T17:53:49.257411+00:00"
+          ]
         },
         "relazione_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "a464a70749b972010c2a751e8a0a95d42d439737d251fddf5ab1e11ae1fa139b",
           "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029..pdf",
           "current_size": 1916684,
@@ -21542,11 +21547,10 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-16T17:53:49.257411+00:00"
+          ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "cf7e8d1880b31495b5228a83fa77dc2eb15098b40c8514e7ff7940dd2ab6931f",
           "current_file": "Allegato4_DichiarazioneVeridicitaComuni montaltomarche..pdf.p7m",
           "current_size": 324463,
@@ -21579,8 +21583,7 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-16T17:53:49.257411+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -21683,15 +21686,65 @@
           "size": 690122,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune 2026/Allegato 1  - Tool MTR 2 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "3cc4bb1c507c5355648030468cf08d233bb9df457629931992bc81ccaf6309c2",
+          "size": 4699159,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029..pdf",
+          "path": "Comune 2026/Allegato 2  - Relazione di Accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029..pdf",
+          "hash": "a464a70749b972010c2a751e8a0a95d42d439737d251fddf5ab1e11ae1fa139b",
+          "size": 1916684,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni montaltomarche..pdf.p7m",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni montaltomarche..pdf.p7m",
+          "hash": "cf7e8d1880b31495b5228a83fa77dc2eb15098b40c8514e7ff7940dd2ab6931f",
+          "size": 324463,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Doc. Identita Marconi Anna.pdf",
+          "path": "Comune 2026/Allegato 3  - Dichiarazione di veridicità - Comune/Doc. Identita Marconi Anna.pdf",
+          "hash": "10d90c578dd31cf7dd6468b3a4b8e0822605630a92d77ee83bc2a51822388ac4",
+          "size": 68502,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "CAP. 1574-2 DETTAGLIO COSTI 2024.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/CAP. 1574-2 DETTAGLIO COSTI 2024.xlsx",
+          "hash": "179d641e530f5a5ec774ce48d07046680ffd9d6469ab00383dc6ce271a9bc554",
+          "size": 16740,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "pef tari 2024-2025_montalto delle marche.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/pef tari 2024-2025_montalto delle marche.pdf",
+          "hash": "a640aa3b26dd38ba93e6e456086d6949d734388f95d3067cd44d87506d515479",
+          "size": 356579,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Richiesta costi 2024_ PEF 2026 2029_Montalto delle Marche.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Richiesta costi 2024_ PEF 2026 2029_Montalto delle Marche.xlsx",
+          "hash": "c6d83dc53f73d351def182f341b6deb71fd2ae7243412c3c5cce3c8e48e3e4df",
+          "size": 26129,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T14:17:12.607675+00:00",
-          "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-23T15:15:54.795292+00:00",
           "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
@@ -22285,6 +22338,12 @@
           "zip_hash": "3f5c94385422758c905f0d0f488ca9dc75e94bde8f99d86a93360fea373b9917",
           "changed": true,
           "file_count": 7
+        },
+        {
+          "time": "2026-09-16T20:45:55.981948+00:00",
+          "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
+          "changed": true,
+          "file_count": 14
         }
       ],
       "unclassified_files": [
@@ -22293,9 +22352,27 @@
           "path": "Gestore 2026/Eventuali - Comunicazioni supplementari/PEF Comunanza CIG 9718097B55.xlsx",
           "source": "comune",
           "size": 690122
+        },
+        {
+          "name": "CAP. 1574-2 DETTAGLIO COSTI 2024.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/CAP. 1574-2 DETTAGLIO COSTI 2024.xlsx",
+          "source": "comune",
+          "size": 16740
+        },
+        {
+          "name": "pef tari 2024-2025_montalto delle marche.pdf",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/pef tari 2024-2025_montalto delle marche.pdf",
+          "source": "comune",
+          "size": 356579
+        },
+        {
+          "name": "Richiesta costi 2024_ PEF 2026 2029_Montalto delle Marche.xlsx",
+          "path": "Comune 2026/Eventuali - Comunicazioni supplementari/Richiesta costi 2024_ PEF 2026 2029_Montalto delle Marche.xlsx",
+          "source": "comune",
+          "size": 26129
         }
       ],
-      "processabile": "no"
+      "processabile": "si"
     },
     "21": {
       "zip_hash": "df5fa9b159e85a758d4c7f419f26e7a4922531f77d6dd0fbef29ae81a0e1696e",
@@ -35678,7 +35755,7 @@
     "16": {
       "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
       "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
-      "last_scan": "2026-09-16T17:53:49.257411+00:00",
+      "last_scan": "2026-09-16T20:45:55.981948+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -36259,12 +36336,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T14:17:12.607675+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-23T15:15:54.795292+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -36858,6 +36929,12 @@
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-09-16T20:45:55.981948+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -36876,9 +36953,9 @@
   "meta": {
     "last_scan": "2026-09-16T20:45:55.981948+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 6,
-      "invariati": 9,
+      "scansionati": 20,
+      "aggiornati": 9,
+      "invariati": 11,
       "errori": 0,
       "vuoti": 0
     },
