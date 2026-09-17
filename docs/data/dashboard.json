@@ -13004,7 +13004,7 @@
       "last_scan_empty": false
     },
     "11": {
-      "last_scan": "2026-09-17T17:30:03.521977+00:00",
+      "last_scan": "2026-09-17T20:51:33.941100+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13014,9 +13014,9 @@
         "url": "https://drive.atarifiuti.ap.it/12jvbbmux0ln",
         "id": 11
       },
-      "zip_hash": "8df480f2e463214638e92414c8bb01f670a60773c0a2cd5d6144228b12353fd3",
-      "content_fingerprint": "272f5a1c3f2ce0084d8025c98c78aa42db54fa6687caf7978ea1ee5a93faad1c",
-      "zip_changed": false,
+      "zip_hash": "eed04fe5ced7d76f42842ffb7a4a412161286bf3932d6e2278ae2105299de2f8",
+      "content_fingerprint": "0edec6e3dfbfd53ccc9e89d3d5e8c0a0c687394ca290f2c1dfa7c8b90786d7f1",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -13307,7 +13307,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "ade50540869967075da9ef6fb8ff9a3ab28e3e8ce8682aeb2b2a7272c858fad0",
           "current_file": "COMUNANZA - PEF TARI MTR3 2026-2029.zip",
           "current_size": 3696335,
@@ -13350,35 +13350,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-17T20:51:33.941100+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-17T20:51:33.941100+00:00"
         }
       },
       "all_files": [
-        {
-          "name": "COMUNANZA - PEF TARI MTR3 2026-2029.zip",
-          "path": "Pef Validato 2026/COMUNANZA - PEF TARI MTR3 2026-2029.zip",
-          "hash": "ade50540869967075da9ef6fb8ff9a3ab28e3e8ce8682aeb2b2a7272c858fad0",
-          "size": 3696335,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "COMUNANZA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
-          "path": "Pef Validato 2026/COMUNANZA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
-          "hash": "cb27dd79df2376d5116a6bb82fb0e9ad5a15b87660b94234907dbf5ce190c163",
-          "size": 587186,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
-        {
-          "name": "COMUNANZA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
-          "path": "Pef Validato 2026/COMUNANZA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
-          "hash": "28891c6df7f67c7f4ac4d736d7b365c811538d5406798a75b70500d73c4fe07b",
-          "size": 991828,
-          "doc_key": "pef_validato",
-          "source": "ata5"
-        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_V2.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_V2.xlsx",
@@ -13437,12 +13420,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T17:15:04.935045+00:00",
-          "zip_hash": "8df480f2e463214638e92414c8bb01f670a60773c0a2cd5d6144228b12353fd3",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-08-23T18:20:16.691831+00:00",
           "zip_hash": "8df480f2e463214638e92414c8bb01f670a60773c0a2cd5d6144228b12353fd3",
@@ -14036,6 +14013,12 @@
           "zip_hash": "8df480f2e463214638e92414c8bb01f670a60773c0a2cd5d6144228b12353fd3",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-09-17T20:51:33.941100+00:00",
+          "zip_hash": "eed04fe5ced7d76f42842ffb7a4a412161286bf3932d6e2278ae2105299de2f8",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [
@@ -14051,8 +14034,8 @@
     "12": {
       "zip_hash": "41400228a6b85b98982be265f3997173d9a5b2807354e18383027a287626052b",
       "content_fingerprint": "121037d8ea418eb2383d7163fc7ccf1fe7c3b43b4840cfbf2930bccd7fe5ffc4",
-      "last_scan": "2026-09-17T17:30:03.521977+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-09-17T20:51:33.941100+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -14642,12 +14625,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T17:15:04.935045+00:00",
-          "zip_hash": "41400228a6b85b98982be265f3997173d9a5b2807354e18383027a287626052b",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-08-23T18:20:16.691831+00:00",
           "zip_hash": "41400228a6b85b98982be265f3997173d9a5b2807354e18383027a287626052b",
@@ -15241,6 +15218,12 @@
           "zip_hash": "41400228a6b85b98982be265f3997173d9a5b2807354e18383027a287626052b",
           "changed": true,
           "file_count": 11
+        },
+        {
+          "time": "2026-09-17T20:51:33.941100+00:00",
+          "zip_hash": "41400228a6b85b98982be265f3997173d9a5b2807354e18383027a287626052b",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -15263,7 +15246,7 @@
       "last_scan_empty": false
     },
     "13": {
-      "last_scan": "2026-09-17T17:30:03.521977+00:00",
+      "last_scan": "2026-09-17T20:51:33.941100+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -15606,12 +15589,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T17:15:04.935045+00:00",
-          "zip_hash": "b7a13d57fb8bc6c3e615a841256ba82c82c1aaf92df5dee1f5cb20baa2c4619b",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-08-23T18:20:16.691831+00:00",
           "zip_hash": "b7a13d57fb8bc6c3e615a841256ba82c82c1aaf92df5dee1f5cb20baa2c4619b",
@@ -16205,6 +16182,12 @@
           "zip_hash": "b7a13d57fb8bc6c3e615a841256ba82c82c1aaf92df5dee1f5cb20baa2c4619b",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-09-17T20:51:33.941100+00:00",
+          "zip_hash": "b7a13d57fb8bc6c3e615a841256ba82c82c1aaf92df5dee1f5cb20baa2c4619b",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -16218,7 +16201,7 @@
       "processabile": "si_riserva"
     },
     "14": {
-      "last_scan": "2026-09-17T17:30:03.521977+00:00",
+      "last_scan": "2026-09-17T20:51:33.941100+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -16228,8 +16211,8 @@
         "url": "https://drive.atarifiuti.ap.it/4ovv7a5f2dzk",
         "id": 14
       },
-      "zip_hash": "df5167587f276f51c386778fa43e490331da3de5cb465c09c983a41e15bc5938",
-      "content_fingerprint": "bfa35bf5ad77e8654237ef55239c35bf99c2b3c82de458652b80d5b2f00aff4b",
+      "zip_hash": "7d22e9eff5cdcd57957a074146b72a5c182a8d0f1651e9a434005530f7450a2c",
+      "content_fingerprint": "a1cb9003a3f14e24074384643ae1f408983045915d87c3a133fe0aae75953576",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -16467,7 +16450,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "308464cc3aac816148a4b75e5882a249f4ccbede0aa159badead02a4e11876af",
           "current_file": "FOLIGNANO - PEF TARI MTR3 2026-2029.zip",
           "current_size": 9182652,
@@ -16529,11 +16512,34 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-17T17:30:03.521977+00:00"
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "FOLIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/FOLIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "308464cc3aac816148a4b75e5882a249f4ccbede0aa159badead02a4e11876af",
+          "size": 9182652,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "FOLIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/FOLIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "28cb000cd0a33ad2a2fef4850737d9904ce9841378f21424b9aa7f2fb26b8e9a",
+          "size": 3756929,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "FOLIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/FOLIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "4fae102ea9b2e0f58af1de8d06101e944281630bb7fc6c70a79c380250c15ed7",
+          "size": 765281,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Folignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -16584,12 +16590,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T17:15:04.935045+00:00",
-          "zip_hash": "7d22e9eff5cdcd57957a074146b72a5c182a8d0f1651e9a434005530f7450a2c",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-08-23T18:20:16.691831+00:00",
           "zip_hash": "7d22e9eff5cdcd57957a074146b72a5c182a8d0f1651e9a434005530f7450a2c",
@@ -17183,13 +17183,19 @@
           "zip_hash": "df5167587f276f51c386778fa43e490331da3de5cb465c09c983a41e15bc5938",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-09-17T20:51:33.941100+00:00",
+          "zip_hash": "7d22e9eff5cdcd57957a074146b72a5c182a8d0f1651e9a434005530f7450a2c",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "15": {
-      "last_scan": "2026-09-17T17:30:03.521977+00:00",
+      "last_scan": "2026-09-17T20:51:33.941100+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -17201,7 +17207,7 @@
       },
       "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
       "content_fingerprint": "c426fa8035629a497c71c83963ffa7fa0d1d7ef2d8451fb624d98343876b4dfd",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -17552,12 +17558,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-23T17:15:04.935045+00:00",
-          "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
-          "changed": false,
-          "file_count": 12
-        },
         {
           "time": "2026-08-23T18:20:16.691831+00:00",
           "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
@@ -18150,6 +18150,12 @@
           "time": "2026-09-17T17:30:03.521977+00:00",
           "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
           "changed": true,
+          "file_count": 12
+        },
+        {
+          "time": "2026-09-17T20:51:33.941100+00:00",
+          "zip_hash": "82f611aa49b1e7cc93239bcea6345b7f090dcffb7595c737430d616fe9199b6d",
+          "changed": false,
           "file_count": 12
         }
       ],
@@ -37305,9 +37311,9 @@
   "meta": {
     "last_scan": "2026-09-17T20:51:33.941100+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 1,
-      "invariati": 9,
+      "scansionati": 15,
+      "aggiornati": 3,
+      "invariati": 12,
       "errori": 0,
       "vuoti": 0
     },
