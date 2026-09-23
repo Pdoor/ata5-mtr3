@@ -18512,7 +18512,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-09-23T13:14:50.786262+00:00",
+      "last_scan": "2026-09-23T18:09:52.952156+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -18522,12 +18522,12 @@
         "url": "https://drive.atarifiuti.ap.it/5hlzt8h43rzh",
         "id": 17
       },
-      "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
-      "content_fingerprint": "f6c53a0efe397b030187a3136c739d4be1e5686ae42d96db6e7aa7ae0e4a9b70",
+      "zip_hash": "b84ac26bd6aa73199545084a51c4a5809d6114591dd04fba79faadca570dc4ab",
+      "content_fingerprint": "c505b51ffa1c9ee8dd6a7f3e2d947a6a8460ade570e0f8f77ba53c9711b75baf",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "61a5c0b43a2f85af3e1414a41ee6ce09b6c0b834feaca91337a669cf572ebe33",
           "current_file": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 4864416,
@@ -18578,11 +18578,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-23T18:09:52.952156+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-23T18:09:52.952156+00:00"
         },
         "relazione": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "bd6320231d36097b2e3fa9cd3769fc9277f78d9c87fe70d8a291499a1ab431f5",
           "current_file": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
           "current_size": 3752607,
@@ -18645,11 +18652,18 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-23T18:09:52.952156+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-23T18:09:52.952156+00:00"
         },
         "dich_veridicita": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "b861be8e73faebe1917035dde2b674f3f8c0ace8b7de5b328dff4b2b794c0c9f",
           "current_file": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 20.5.2026_signed.pdf",
           "current_size": 492863,
@@ -18712,8 +18726,15 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-09-23T18:09:52.952156+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-09-23T18:09:52.952156+00:00"
         },
         "altre_com": {
           "status": "missing"
@@ -18833,7 +18854,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
           "current_file": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
           "current_size": 6559950,
@@ -18919,34 +18940,33 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-23T13:14:50.786262+00:00"
+          ]
         }
       },
       "all_files": [
         {
-          "name": "Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Maltignano Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "61a5c0b43a2f85af3e1414a41ee6ce09b6c0b834feaca91337a669cf572ebe33",
-          "size": 4864416,
-          "doc_key": "tool_mtr3",
-          "source": "gestore"
+          "name": "MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "09d9c7098fe73b9ac716fa6e2445f1a6509674a5b5847b622898725f00d3a459",
+          "size": 3914104,
+          "doc_key": "pef_validato",
+          "source": "ata5"
         },
         {
-          "name": "Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
-          "path": "Gestore 2026/Allegato 2  - Relazione di Accompagnamento - Gestore/Relazione PEF 2026-2027 Gestore PicenAmbiente Spa - Maltignano Rev.2.pdf.p7m",
-          "hash": "bd6320231d36097b2e3fa9cd3769fc9277f78d9c87fe70d8a291499a1ab431f5",
-          "size": 3752607,
-          "doc_key": "relazione",
-          "source": "gestore"
+          "name": "MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "2a0fb7713824daeca2a8bffc130c29219c08ea52f17b549490e22c0d33005df0",
+          "size": 1435906,
+          "doc_key": "pef_validato",
+          "source": "ata5"
         },
         {
-          "name": "Dichiarazione veridicità PEF 2026-2029 - Maltignano 20.5.2026_signed.pdf",
-          "path": "Gestore 2026/Allegato 3  - Dichiarazione di veridicità - Gestore/Dichiarazione veridicità PEF 2026-2029 - Maltignano 20.5.2026_signed.pdf",
-          "hash": "b861be8e73faebe1917035dde2b674f3f8c0ace8b7de5b328dff4b2b794c0c9f",
-          "size": 492863,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
+          "name": "MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/MALTIGNANO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "d23010b5361a64f31e1e8e929cc210d407b1d2a8719ef2834ef2daf4a7c0dc67",
+          "size": 6559950,
+          "doc_key": "pef_validato",
+          "source": "ata5"
         },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -18974,12 +18994,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-25T09:29:13.355778+00:00",
-          "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-08-25T10:24:54.958858+00:00",
           "zip_hash": "16d447666ccadb365d9707cd6657f84bff17a43387c257320e5efeb9c31e0070",
@@ -19573,13 +19587,19 @@
           "zip_hash": "c16ec83c08c1a4a04e281fe83abaeb098dd3333c975d34814c1cb47cadaeda76",
           "changed": true,
           "file_count": 6
+        },
+        {
+          "time": "2026-09-23T18:09:52.952156+00:00",
+          "zip_hash": "b84ac26bd6aa73199545084a51c4a5809d6114591dd04fba79faadca570dc4ab",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "si"
+      "processabile": "no"
     },
     "18": {
-      "last_scan": "2026-09-23T13:14:50.786262+00:00",
+      "last_scan": "2026-09-23T18:09:52.952156+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20254,12 +20274,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-08-25T09:29:13.355778+00:00",
-          "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
-          "changed": false,
-          "file_count": 12
-        },
-        {
           "time": "2026-08-25T10:24:54.958858+00:00",
           "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
           "changed": false,
@@ -20852,13 +20866,19 @@
           "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-09-23T18:09:52.952156+00:00",
+          "zip_hash": "05101b024d358d7eafcc3793fbeaf6d4f0bad7977a8be975ac2a8dfc0d9f0426",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "19": {
-      "last_scan": "2026-09-23T13:14:50.786262+00:00",
+      "last_scan": "2026-09-23T18:09:52.952156+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -21342,12 +21362,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-25T09:29:13.355778+00:00",
-          "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-25T10:24:54.958858+00:00",
           "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
@@ -21941,13 +21955,19 @@
           "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-09-23T18:09:52.952156+00:00",
+          "zip_hash": "6f0ea11527c4c57fed6e42c47565a18e10bf516e3eacb0c90baaf0edaf016ece",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "20": {
-      "last_scan": "2026-09-23T13:14:50.786262+00:00",
+      "last_scan": "2026-09-23T18:09:52.952156+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22321,12 +22341,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-25T09:29:13.355778+00:00",
-          "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-25T10:24:54.958858+00:00",
           "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
@@ -22917,6 +22931,12 @@
         },
         {
           "time": "2026-09-23T13:14:50.786262+00:00",
+          "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
+          "changed": false,
+          "file_count": 14
+        },
+        {
+          "time": "2026-09-23T18:09:52.952156+00:00",
           "zip_hash": "8545ea2a1fee116834954b55204f12121b8cdd91ad978b9e06236eb4062007e9",
           "changed": false,
           "file_count": 14
@@ -36576,9 +36596,9 @@
       "processabile": "si"
     },
     "16": {
-      "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
-      "content_fingerprint": "d576811cb6645c2d33e3e2d7508b05973d618e71eafdb8619d4ae7192a614397",
-      "last_scan": "2026-09-23T13:14:50.786262+00:00",
+      "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+      "content_fingerprint": "6ba67bc4d2f1b74c2ed70f1ecf2f7fea5c8e9857ac13d39a9e0d68a135764939",
+      "last_scan": "2026-09-23T18:09:52.952156+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -37003,7 +37023,7 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "removed",
+          "status": "received",
           "current_hash": "c75a114f110dc2901e559c35e15698172c74fd603a69abf036f3f90dbd586004",
           "current_file": "GROTTAMMARE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
           "current_size": 7729111,
@@ -37113,11 +37133,34 @@
               "file": null,
               "event": "rimosso"
             }
-          ],
-          "removed_at": "2026-09-23T13:14:50.786262+00:00"
+          ]
         }
       },
       "all_files": [
+        {
+          "name": "GROTTAMMARE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "path": "Pef Validato 2026/GROTTAMMARE - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "hash": "c75a114f110dc2901e559c35e15698172c74fd603a69abf036f3f90dbd586004",
+          "size": 7729111,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "GROTTAMMARE - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "path": "Pef Validato 2026/GROTTAMMARE - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "hash": "99f177778ab6235cd068525f6628031e8a3016c84175d6ec716d68218f51bb57",
+          "size": 7176799,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
+        {
+          "name": "GROTTAMMARE - PEF TARI MTR3 2026-2029.zip",
+          "path": "Pef Validato 2026/GROTTAMMARE - PEF TARI MTR3 2026-2029.zip",
+          "hash": "4d28f0276b81bc9ad10332808270968fa540d68b483c384444438fd6a46a8901",
+          "size": 6012495,
+          "doc_key": "pef_validato",
+          "source": "ata5"
+        },
         {
           "name": "Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore 2026/Allegato 1  - Tool MTR 2 - Gestore/Allegato_1_-_ Grottammare Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -37208,12 +37251,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-08-25T09:29:13.355778+00:00",
-          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-08-25T10:24:54.958858+00:00",
           "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
@@ -37807,6 +37844,12 @@
           "zip_hash": "c66547443c79dd98e855ebb0a6e4a69d2df215f88eea6e4f677c8da59d60fc8a",
           "changed": true,
           "file_count": 11
+        },
+        {
+          "time": "2026-09-23T18:09:52.952156+00:00",
+          "zip_hash": "73a696ac4237e5a314b3f314b5fb3ff2b3f92f830f9d621c87d8eba6d1787015",
+          "changed": true,
+          "file_count": 14
         }
       ],
       "unclassified_files": [],
@@ -37825,9 +37868,9 @@
   "meta": {
     "last_scan": "2026-09-23T18:09:52.952156+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 3,
-      "invariati": 12,
+      "scansionati": 20,
+      "aggiornati": 5,
+      "invariati": 15,
       "errori": 0,
       "vuoti": 0
     },
